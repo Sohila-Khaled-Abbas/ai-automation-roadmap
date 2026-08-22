@@ -72,3 +72,6 @@
 - [x] Implement the highest-value researched improvements without regressing authenticated learner flows or the visual roadmap.
 - [x] Re-run quality, link, responsive, and production checks after the final improvement pass.
 - [x] Re-validate representative official and public learning-resource URLs after the final improvement pass and record the results.
+- [x] Extract the spreadsheet’s embedded source URLs and classify direct permalinks versus search or collection links.
+- [x] Reconcile the spreadsheet rows against the imported n8n Mastery records and prepare direct-link replacements without duplicates.
+- [x] Document the supplied spreadsheet’s no-op reconciliation outcome and retain the exact source-link upgrade as a source-data dependency.

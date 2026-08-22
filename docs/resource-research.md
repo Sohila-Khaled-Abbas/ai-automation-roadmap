@@ -59,3 +59,16 @@ Two early curriculum entries originally sent learners to the generic `learn.n8n.
 ### Post-improvement validation
 
 On the final validation pass, the direct n8n quickstart and Code-node pages returned HTTP 200. The N8N102 Academy entry initially returned 404 because the stored URL had a trailing slash; the canonical URL without that trailing slash returned HTTP 200 and replaced the persisted record. The direct Gemini Notebook YouTube video was rate-limited by YouTube during automated checking (HTTP 429), so it remains in the library as a verified direct source rather than being treated as broken.
+
+## Spreadsheet Reconciliation — August 2026
+
+The supplied `n8n-mastery-sources-catalogue.xlsx` was parsed from its embedded Excel hyperlinks, not the visible **“View Docs”** labels. Its **217 rows contain 217 unique URLs**: 206 YouTube search-result URLs and 11 external technical-reference URLs. It contains **no** `youtube.com/watch` or `youtu.be` item-level video permalinks.
+
+| Reconciliation measure | Result | Import decision |
+|---|---:|---|
+| Spreadsheet rows | 217 | Fully extracted to `docs/n8n-mastery-xlsx-extracted.json`. |
+| Unique spreadsheet URLs already in prior catalogue | 217 of 217 | No new source destination is available for insertion. |
+| Direct video permalinks | 0 | No YouTube search-result card may be replaced from this file. |
+| Current n8n Mastery collection | 216 records | Retained unchanged; one source was already represented elsewhere in the library during the original deduplicated import. |
+
+The workbook therefore confirms and strengthens the existing provenance record, but it cannot complete the exact-video-link replacement. A copied list of specific video pages (`youtube.com/watch?v=…` or `youtu.be/…`) or a Notebook item-level export containing those pages is still required before the 206 search-result links can be upgraded.
