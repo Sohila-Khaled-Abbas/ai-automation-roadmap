@@ -145,3 +145,26 @@ button:not(:disabled):active, a[href]:active { transform: scale(.975); }
   body, main { background: #fff !important; color: #111 !important; }
   .print-dark { background: #fff !important; color: #111 !important; }
 }
+
+/* n8n brand-palette adaptation: Signature Pink #EA4B71 with Brand Dark #040506 and White. */
+:root { --n8n-pink: #ea4b71; --n8n-pink-light: #ff9bb1; --n8n-dark: #040506; --n8n-surface: #121216; }
+.bg-\[\#08131a\] { background-color: var(--n8n-dark) !important; }
+.bg-\[\#0d202a\] { background-color: var(--n8n-surface) !important; }
+.bg-\[\#e7b463\], .bg-\[\#f07c2d\] { background-color: var(--n8n-pink) !important; }
+.bg-\[\#82d2c4\] { background-color: var(--n8n-pink-light) !important; }
+.bg-\[\#dd6e56\] { background-color: #c92f55 !important; }
+.bg-\[\#f5f1e7\] { background-color: #ffffff !important; }
+.bg-\[\#e6e3da\] { background-color: #f5f5f6 !important; }
+.bg-\[\#102229\] { background-color: #15151a !important; }
+.text-\[\#e7b463\], .text-\[\#f0cf93\] { color: var(--n8n-pink-light) !important; }
+.text-\[\#82d2c4\], .text-\[\#9be1d5\] { color: #ffb4c5 !important; }
+.text-\[\#dd6e56\], .text-\[\#f09279\] { color: var(--n8n-pink) !important; }
+.border-\[\#e7b463\]\/30, .border-\[\#82d2c4\]\/30, .border-\[\#dd6e56\]\/30 { border-color: rgb(234 75 113 / 42%) !important; }
+.bg-\[\#e7b463\]\/10, .bg-\[\#82d2c4\]\/10, .bg-\[\#dd6e56\]\/10 { background-color: rgb(234 75 113 / 13%) !important; }
+.hover\:bg-\[\#f0cf93\]:hover, .hover\:bg-\[\#a3e5da\]:hover, .hover\:bg-\[\#ed8b75\]:hover { background-color: #ff9bb1 !important; }
+.hover\:text-\[\#f0cf93\]:hover, .hover\:text-\[\#9be1d5\]:hover { color: #ffb4c5 !important; }
+.ink-grid { background-color: var(--n8n-dark); background-image: linear-gradient(rgb(234 75 113 / 4%) 1px, transparent 1px), linear-gradient(90deg, rgb(234 75 113 / 4%) 1px, transparent 1px), radial-gradient(circle at 70% 8%, rgb(234 75 113 / 19%), transparent 25rem); }
+.paper-grain { background-color: #ffffff; }
+.route-line, .route-node::before { border-color: var(--n8n-pink); }
+.route-node::before { box-shadow: 0 0 0 5px var(--n8n-dark); }
+.route-node.route-node-done::before { background: var(--n8n-pink); }
