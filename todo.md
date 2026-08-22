@@ -30,4 +30,4 @@
 - [x] Research and curate additional authoritative resources for foundations, data handling, AI agents, deployment, observability, and portfolio work.
 - [x] Expand the roadmap into a fuller learning process with preparation, skill-building, project milestones, and capstone guidance.
 - [x] Add the new resource set to the persistent learning library with accurate source labels and type filters.
-- [ ] Validate the expanded curriculum, resource library, GitHub synchronization, and Vercel release.
+- [x] Validate the expanded curriculum, resource library, GitHub synchronization, and Vercel release.
