@@ -26,3 +26,8 @@
 - [x] Add resource-type filters for videos, guides/articles, notebook selections, courses, templates, and references.
 - [x] Build a responsive submission form with client and server validation plus success and error feedback.
 - [x] Test the resource filtering and submission flows, synchronize GitHub, and verify the Vercel deployment.
+- [x] Assess the current curriculum and identify the missing stages of a complete AI automation learning process.
+- [x] Research and curate additional authoritative resources for foundations, data handling, AI agents, deployment, observability, and portfolio work.
+- [x] Expand the roadmap into a fuller learning process with preparation, skill-building, project milestones, and capstone guidance.
+- [x] Add the new resource set to the persistent learning library with accurate source labels and type filters.
+- [ ] Validate the expanded curriculum, resource library, GitHub synchronization, and Vercel release.

@@ -13,6 +13,19 @@ export type RoadmapModule = {
 
 export const roadmapModules: RoadmapModule[] = [
   {
+    id: "prepare",
+    route: "00 / Prepare",
+    title: "Set up a practice system that lasts",
+    duration: "Week 0",
+    tone: "mint",
+    summary:
+      "Create the working environment for deliberate practice: a learning log, a safe test workspace, a weekly build rhythm, and one real process you can observe without rushing to automate it.",
+    skills: ["Learning design", "Tool setup", "Problem selection"],
+    deliverable: "A personal automation learning brief, build folder, and two-hour weekly practice calendar.",
+    tools: ["n8n", "Notion", "GitHub"],
+    prompt: "Choose one process that matters to you. What makes it safe enough to learn on, and what evidence would prove the automation is better?",
+  },
+  {
     id: "orient",
     route: "01 / Orient",
     title: "See the work worth automating",
@@ -52,6 +65,19 @@ export const roadmapModules: RoadmapModule[] = [
     prompt: "Build the happy path first. Then list the three ways the workflow could receive incomplete, duplicate, or unexpected data.",
   },
   {
+    id: "shape",
+    route: "04 / Shape",
+    title: "Make messy data safe to use",
+    duration: "Week 4",
+    tone: "mint",
+    summary:
+      "Work with real workflow data deliberately. Inspect items, map useful values, transform only what needs changing, and use small code steps when the built-in nodes are not enough.",
+    skills: ["Data mapping", "Expressions", "Transformation"],
+    deliverable: "A normalized data contract with before-and-after examples and field-level validation rules.",
+    tools: ["Edit Fields", "Code", "JSON"],
+    prompt: "Which fields must be present, which can be repaired, and which should halt the workflow before they reach another system?",
+  },
+  {
     id: "augment",
     route: "04 / Augment",
     title: "Add AI without adding ambiguity",
@@ -77,14 +103,40 @@ export const roadmapModules: RoadmapModule[] = [
     tools: ["n8n", "Slack", "Notion"],
     prompt: "If this workflow fails on a Friday afternoon, what information would a teammate need to restore it safely?",
   },
+  {
+    id: "agents",
+    route: "06 / Agent",
+    title: "Design context-aware AI systems",
+    duration: "Week 7",
+    tone: "coral",
+    summary:
+      "Move beyond a single prompt. Decide when an AI system needs memory, what context it may retain, how it should use tools, and when its output needs review or evaluation.",
+    skills: ["Memory design", "Tool boundaries", "Evaluation"],
+    deliverable: "An AI agent flow with a context policy, tool contract, and human escalation rule.",
+    tools: ["n8n AI Agent", "Memory", "Evaluations"],
+    prompt: "What information should persist between interactions, and which information must never be retained or used without review?",
+  },
+  {
+    id: "capstone",
+    route: "07 / Capstone",
+    title: "Deploy, document, and prove the value",
+    duration: "Weeks 8–10",
+    tone: "amber",
+    summary:
+      "Turn one workflow into a credible portfolio case study. Choose a deployment approach, test with representative runs, document operations, and show a measurable before-and-after outcome.",
+    skills: ["Deployment", "Debugging", "Portfolio narrative"],
+    deliverable: "A deployed or demo-ready capstone with runbook, architecture map, and case-study write-up.",
+    tools: ["n8n", "GitHub", "Loom"],
+    prompt: "What business or team outcome improved, how will you measure it, and what would a reviewer need to recreate your reasoning?",
+  },
 ];
 
 export const featuredProducts = [
   {
     name: "n8n Automation Path",
     eyebrow: "Featured roadmap",
-    description: "A six-week project route from first trigger to dependable workflow.",
-    meta: "06 weeks · Builder track",
+    description: "A ten-week project route from first trigger to portfolio-ready workflow.",
+    meta: "10 weeks · Builder track",
     accent: "amber",
   },
   {
