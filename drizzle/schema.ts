@@ -73,7 +73,30 @@ export const learnerSubmissions = mysqlTable("learnerSubmissions", {
   createdAt: timestamp("createdAt").defaultNow().notNull(),
 });
 
+export const roadmapProjects = mysqlTable(
+  "roadmapProjects",
+  {
+    id: int("id").autoincrement().primaryKey(),
+    slug: varchar("slug", { length: 96 }).notNull(),
+    moduleId: varchar("moduleId", { length: 64 }).notNull(),
+    route: varchar("route", { length: 64 }).notNull(),
+    level: varchar("level", { length: 96 }).notNull(),
+    title: varchar("title", { length: 255 }).notNull(),
+    summary: text("summary").notNull(),
+    recipeJson: text("recipeJson").notNull(),
+    proof: text("proof").notNull(),
+    templateLabel: varchar("templateLabel", { length: 255 }).notNull(),
+    templateUrl: varchar("templateUrl", { length: 1024 }).notNull(),
+    provider: varchar("provider", { length: 160 }).notNull(),
+    source: varchar("source", { length: 160 }).notNull(),
+    sortOrder: int("sortOrder").notNull(),
+    createdAt: timestamp("createdAt").defaultNow().notNull(),
+  },
+  (table) => [uniqueIndex("roadmapProjects_slug_unique").on(table.slug)],
+);
+
 export type LearnerProgress = typeof learnerProgress.$inferSelect;
 export type LearningResource = typeof learningResources.$inferSelect;
 export type LearnerFile = typeof learnerFiles.$inferSelect;
 export type LearnerSubmission = typeof learnerSubmissions.$inferSelect;
+export type RoadmapProject = typeof roadmapProjects.$inferSelect;

@@ -28,7 +28,7 @@ var decodeOAuthState = (state) => {
 import { z as z3 } from "zod";
 
 // server/db.ts
-import { and, desc, eq } from "drizzle-orm";
+import { and, asc, desc, eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
 
 // drizzle/schema.ts
@@ -93,6 +93,27 @@ var learnerSubmissions = mysqlTable("learnerSubmissions", {
   status: mysqlEnum("status", ["pending", "reviewed", "accepted", "declined"]).default("pending").notNull(),
   createdAt: timestamp("createdAt").defaultNow().notNull()
 });
+var roadmapProjects = mysqlTable(
+  "roadmapProjects",
+  {
+    id: int("id").autoincrement().primaryKey(),
+    slug: varchar("slug", { length: 96 }).notNull(),
+    moduleId: varchar("moduleId", { length: 64 }).notNull(),
+    route: varchar("route", { length: 64 }).notNull(),
+    level: varchar("level", { length: 96 }).notNull(),
+    title: varchar("title", { length: 255 }).notNull(),
+    summary: text("summary").notNull(),
+    recipeJson: text("recipeJson").notNull(),
+    proof: text("proof").notNull(),
+    templateLabel: varchar("templateLabel", { length: 255 }).notNull(),
+    templateUrl: varchar("templateUrl", { length: 1024 }).notNull(),
+    provider: varchar("provider", { length: 160 }).notNull(),
+    source: varchar("source", { length: 160 }).notNull(),
+    sortOrder: int("sortOrder").notNull(),
+    createdAt: timestamp("createdAt").defaultNow().notNull()
+  },
+  (table) => [uniqueIndex("roadmapProjects_slug_unique").on(table.slug)]
+);
 
 // server/_core/env.ts
 var ENV = {
@@ -197,6 +218,11 @@ async function getLearningResources(moduleId) {
   const query = db.select().from(learningResources);
   const rows = moduleId ? await query.where(eq(learningResources.moduleId, moduleId)) : await query;
   return rows.sort((first, second) => first.moduleId.localeCompare(second.moduleId) || first.id - second.id);
+}
+async function getRoadmapProjects() {
+  const db = await getDb();
+  if (!db) return [];
+  return db.select().from(roadmapProjects).orderBy(asc(roadmapProjects.sortOrder));
 }
 async function listLearnerFiles(userId) {
   const db = await getDb();
@@ -478,6 +504,9 @@ var appRouter = router({
   }),
   resources: router({
     list: publicProcedure.input(z3.object({ moduleId: z3.string().min(3).max(64).optional() }).optional()).query(({ input }) => getLearningResources(input?.moduleId))
+  }),
+  projects: router({
+    list: publicProcedure.query(() => getRoadmapProjects())
   }),
   files: router({
     list: protectedProcedure.query(({ ctx }) => listLearnerFiles(ctx.user.id)),

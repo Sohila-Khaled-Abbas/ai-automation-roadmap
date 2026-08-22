@@ -24,6 +24,12 @@ The desktop diagram uses a nine-stop **alternating upper/lower rail**, which giv
 
 The optional AI feature is intentionally not part of this release. The associated Hugging Face assessment identifies a future, bounded “workflow brief reviewer” or “next-stage planner” as the appropriate scope only after a deployable credential and retention policy are chosen.
 
+## Redesign Validation — August 2026
+
+The redesigned route canvas was reviewed at **1440 × 1000** and **390 × 844**. Desktop preserves the non-linear connected nine-stage canvas, persistent route navigator, selected-stage detail, build studio, resource index, vault, and contribution route as a continuous learning instrument. Mobile replaces the wide canvas with a numbered vertical connection path; every stage remains selectable and the stage-detail handoff remains reachable. The horizontally scrollable build studio is intentionally retained on small screens so individual challenge cards stay readable rather than collapsing into an unreadable multi-column grid.
+
+The review confirmed strong visual hierarchy, consistent dark-ink/pale-paper section transitions, visible progress states, and no apparent clipping. The existing n8n-pink palette was retained to respect the established product colors; public roadmap patterns informed information hierarchy and interaction only, not copied design assets or code.
+
 ## References
 
 [1]: https://roadmap.sh/roadmaps "roadmap.sh — Developer Roadmaps"

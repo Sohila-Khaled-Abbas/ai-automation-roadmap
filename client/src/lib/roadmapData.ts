@@ -175,3 +175,105 @@ export const featuredBuilds = [
     note: "Webhook → normalize → score → CRM → owner alert",
   },
 ];
+
+export type BuildChallenge = {
+  id: string;
+  moduleId: string;
+  route: string;
+  level: string;
+  title: string;
+  summary: string;
+  recipe: string[];
+  proof: string;
+  templateLabel: string;
+  templateUrl: string;
+  provider?: string;
+  source?: string;
+};
+
+export const buildChallenges: BuildChallenge[] = [
+  {
+    id: "signal-inbox",
+    moduleId: "connect",
+    route: "02 / Connect",
+    level: "Foundation build",
+    title: "Signal inbox",
+    summary: "Capture one recurring request, validate it at the edge, and turn it into a clean row your team can inspect.",
+    recipe: ["Webhook or form trigger", "Field validation", "Normalized sheet row"],
+    proof: "Ten test submissions arrive with consistent fields and a visible failure path.",
+    templateLabel: "Browse workflow templates",
+    templateUrl: "https://n8n.io/workflows/",
+  },
+  {
+    id: "handoff-router",
+    moduleId: "orchestrate",
+    route: "03 / Build",
+    level: "System build",
+    title: "Human-aware handoff router",
+    summary: "Route incoming work by a transparent rule set, while preserving an intentional fallback for the cases rules cannot answer.",
+    recipe: ["Trigger and filter", "Branch logic", "Slack or email handoff"],
+    proof: "A teammate can explain each branch and recover an incomplete request without editing the workflow.",
+    templateLabel: "Browse workflow templates",
+    templateUrl: "https://n8n.io/workflows/",
+  },
+  {
+    id: "brief-lab",
+    moduleId: "shape",
+    route: "04 / Shape",
+    level: "Data build",
+    title: "Brief from messy inputs",
+    summary: "Transform an inconsistent submission into a short, traceable operational brief with a known data contract.",
+    recipe: ["Map input fields", "Repair safe omissions", "Create a structured brief"],
+    proof: "Before-and-after examples and rejected-field rules are stored with the workflow.",
+    templateLabel: "Browse workflow templates",
+    templateUrl: "https://n8n.io/workflows/",
+  },
+  {
+    id: "approval-desk",
+    moduleId: "augment",
+    route: "05 / Augment",
+    level: "AI-assisted build",
+    title: "Approval-first reply desk",
+    summary: "Use an AI step to classify or draft, then let a human decide what can leave the system.",
+    recipe: ["Bounded prompt contract", "Structured AI output", "Approval queue"],
+    proof: "Every automated suggestion retains context, a confidence cue, and a review decision.",
+    templateLabel: "Explore AI templates",
+    templateUrl: "https://n8n.io/workflows/categories/ai/",
+  },
+  {
+    id: "workflow-watch",
+    moduleId: "operate",
+    route: "06 / Operate",
+    level: "Reliability build",
+    title: "Workflow watchtower",
+    summary: "Make a workflow observable with a compact runbook, an error alert, and a recovery trail.",
+    recipe: ["Error trigger", "Operator alert", "Exception log"],
+    proof: "A failed test run produces an actionable alert and a clear next action for a teammate.",
+    templateLabel: "Browse IT Ops templates",
+    templateUrl: "https://n8n.io/workflows/",
+  },
+  {
+    id: "evidence-agent",
+    moduleId: "agents",
+    route: "07 / Agent",
+    level: "Agent build",
+    title: "Evidence-grounded helper",
+    summary: "Build a small agent that retrieves from an approved source set, operates within tool limits, and escalates uncertainty.",
+    recipe: ["Context source", "Tool boundary", "Review and evaluation rule"],
+    proof: "The agent states its evidence source, defers safely when it cannot answer, and records an evaluation sample.",
+    templateLabel: "Open AI agent guide",
+    templateUrl: "https://n8n.io/ai-agents/",
+  },
+  {
+    id: "operating-system",
+    moduleId: "capstone",
+    route: "08 / Capstone",
+    level: "Portfolio build",
+    title: "Automation operating system",
+    summary: "Package one useful automation as a case study with an architecture view, testing evidence, owner handoff, and a measured outcome.",
+    recipe: ["Reusable workflow JSON", "Runbook and owner", "Before-and-after outcome"],
+    proof: "A reviewer can understand the problem, run the demo safely, and see the operational decision behind every key node.",
+    templateLabel: "Open AI agent chat template",
+    templateUrl: "https://n8n.io/workflows/1954-ai-agent-chat/",
+  },
+];

@@ -1,6 +1,6 @@
 import { COOKIE_NAME } from "@shared/const";
 import { z } from "zod";
-import { createLearnerFile, createLearnerSubmission, getLearnerProgress, getLearningResources, listLearnerFiles, setLearnerProgress } from "./db";
+import { createLearnerFile, createLearnerSubmission, getLearnerProgress, getLearningResources, getRoadmapProjects, listLearnerFiles, setLearnerProgress } from "./db";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { protectedProcedure, publicProcedure, router } from "./_core/trpc";
@@ -31,6 +31,9 @@ export const appRouter = router({
     list: publicProcedure
       .input(z.object({ moduleId: z.string().min(3).max(64).optional() }).optional())
       .query(({ input }) => getLearningResources(input?.moduleId)),
+  }),
+  projects: router({
+    list: publicProcedure.query(() => getRoadmapProjects()),
   }),
   files: router({
     list: protectedProcedure.query(({ ctx }) => listLearnerFiles(ctx.user.id)),

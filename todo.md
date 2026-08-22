@@ -94,3 +94,9 @@
 - [x] Verify representative direct-video resource rows and their source labels, then validate the upgraded cards and links through the learner-library flow.
 - [x] Publish the infographic refinement and verify its production homepage, current JavaScript asset, and authentication API endpoint on Vercel.
 - [ ] Continue public exact-title playlist recovery in small verified batches, leaving all uncertain search fallbacks unchanged.
+- [x] Research current public roadmap interaction patterns, official n8n templates, and credible build-project sources without copying third-party design assets or code.
+- [x] Redesign the primary learning experience into an original, immersive infographic roadmap with connected prerequisites, visual progress signals, and focused stage detail.
+- [x] Curate and persist stage-mapped n8n project ideas and official/public template resources with transparent provider and source labels.
+- [ ] Validate the redesigned journey at desktop and mobile breakpoints, run quality checks, and verify the GitHub Actions and Vercel release.
+- [x] Persist curated build challenges in a durable database table with source/provider metadata and expose them through a public tRPC query.
+- [x] Re-validate the build studio after it reads persisted project challenges rather than frontend-only constants.

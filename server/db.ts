@@ -1,6 +1,6 @@
 import { and, asc, desc, eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { learnerFiles, learnerProgress, learnerSubmissions, learningResources, InsertUser, users } from "../drizzle/schema";
+import { learnerFiles, learnerProgress, learnerSubmissions, learningResources, roadmapProjects, InsertUser, users } from "../drizzle/schema";
 import { ENV } from './_core/env';
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -114,6 +114,12 @@ export async function getLearningResources(moduleId?: string) {
   const query = db.select().from(learningResources);
   const rows = moduleId ? await query.where(eq(learningResources.moduleId, moduleId)) : await query;
   return rows.sort((first, second) => first.moduleId.localeCompare(second.moduleId) || first.id - second.id);
+}
+
+export async function getRoadmapProjects() {
+  const db = await getDb();
+  if (!db) return [];
+  return db.select().from(roadmapProjects).orderBy(asc(roadmapProjects.sortOrder));
 }
 
 export async function listLearnerFiles(userId: number) {
