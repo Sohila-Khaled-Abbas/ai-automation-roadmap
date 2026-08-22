@@ -11,7 +11,7 @@
 - [x] Add a software-engineering README with architecture, setup, data model, testing, deployment, and contribution guidance.
 - [x] Add repository hygiene for automated checks and clean project configuration.
 - [x] Connect the existing GitHub repository to Vercel for automatic branch deployments.
-- [ ] Verify the GitHub-to-Vercel deployment path and document the ongoing edit workflow.
+- [x] Verify the GitHub-to-Vercel deployment path and document the ongoing edit workflow.
 - [x] Research and add vetted YouTube videos for each learning-roadmap phase.
 - [x] Import accessible Gemini Notebook links into the persistent resource library with source labels.
 - [x] Research and curate credible online learning resources for each AI automation roadmap phase.
