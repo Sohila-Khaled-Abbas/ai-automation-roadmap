@@ -9,7 +9,6 @@ from data_api import ApiClient
 
 OUTPUT_PATH = Path(__file__).resolve().parents[1] / "docs" / "ux-benchmark-similarweb.json"
 DOMAINS = ["roadmap.sh", "codecademy.com"]
-DATE_QUERY = {"country": "world", "granularity": "monthly", "start_date": "2026-05", "end_date": "2026-07"}
 
 
 def main() -> None:
@@ -17,20 +16,14 @@ def main() -> None:
     result: dict[str, object] = {
         "purpose": "Directional public learning-platform comparison only; not first-party analytics.",
         "domains": {},
-        "dateQuery": DATE_QUERY,
+        "metrics": ["globalRank"],
     }
 
     for domain in DOMAINS:
         domain_result: dict[str, object] = {}
-        for name, endpoint in {
-            "visits": "SimilarWeb/get_visits_total",
-            "bounceRate": "SimilarWeb/get_bounce_rate",
-            "trafficSourcesDesktop": "SimilarWeb/get_traffic_sources_desktop",
-            "trafficByCountry": "SimilarWeb/get_total_traffic_by_country",
-        }.items():
+        for name, endpoint in {"globalRank": "SimilarWeb/get_global_rank"}.items():
             try:
-                query = DATE_QUERY if name != "trafficByCountry" else {"start_date": "2026-05", "end_date": "2026-07", "limit": "10"}
-                domain_result[name] = client.call_api(endpoint, path_params={"domain": domain}, query=query)
+                domain_result[name] = client.call_api(endpoint, path_params={"domain": domain})
             except Exception as error:  # Keep partial retrieval evidence when a provider response is unavailable.
                 domain_result[name] = {"error": str(error)}
         result["domains"][domain] = domain_result

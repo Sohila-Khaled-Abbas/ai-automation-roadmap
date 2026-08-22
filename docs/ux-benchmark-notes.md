@@ -14,7 +14,12 @@ The roadmap redesign uses general interaction patterns observed on [roadmap.sh](
 
 ## SimilarWeb Limitation
 
-The planned SimilarWeb comparison for `roadmap.sh` and `codecademy.com` could not be retrieved in this session because the external data call reached a credit-terminal state before responses could be saved. No traffic, engagement, or ranking claims are made from unavailable data. The implementation therefore uses publicly observable navigation patterns and the documented product requirements rather than unverified analytics.
+The planned SimilarWeb comparison returned no usable rank, visit, engagement, or source data for either comparator in this session. The raw provider responses are retained in `docs/ux-benchmark-similarweb.json`; no external traffic claim is made from unavailable data. The implementation therefore uses publicly observable navigation patterns and the documented product requirements rather than unverified analytics.
+
+| Comparator | Requested directional metric | Returned usable SimilarWeb data | UX decision basis |
+|---|---|---:|---|
+| `roadmap.sh` | Global rank | No | Publicly observable ordered-path, progressive-disclosure, and stage-detail patterns. |
+| `codecademy.com` | Global rank | No | General learning-platform conventions; no ranking or traffic inference applied. |
 
 ## Accessibility and Performance Improvements — August 2026
 

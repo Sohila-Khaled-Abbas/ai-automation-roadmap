@@ -55,3 +55,7 @@ The source audit also retains a visible distinction between direct authoritative
 ## Generic Academy Link Remediation — August 2026
 
 Two early curriculum entries originally sent learners to the generic `learn.n8n.io/courses` landing page. They have been remapped to direct stage-appropriate sources: the **Orient** quickstart now uses [Build your first workflow](https://docs.n8n.io/build-your-first-workflow/), which covers triggers, credentials, data, logic, expressions, testing, and publishing; the **Connect** course now uses [N8N102 Integrations: APIs & Connected Workflows](https://learn.n8n.io/courses/course-v1:n8n+N8N102+2026H2/about/), which directly teaches API requests, webhooks, authentication, credentials, data handling, and flow control. These replacements make the route-specific cards more useful than a generic catalogue page while preserving official n8n provenance.
+
+### Post-improvement validation
+
+On the final validation pass, the direct n8n quickstart and Code-node pages returned HTTP 200. The N8N102 Academy entry initially returned 404 because the stored URL had a trailing slash; the canonical URL without that trailing slash returned HTTP 200 and replaced the persisted record. The direct Gemini Notebook YouTube video was rate-limited by YouTube during automated checking (HTTP 429), so it remains in the library as a verified direct source rather than being treated as broken.

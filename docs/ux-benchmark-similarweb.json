@@ -1,0 +1,20 @@
+{
+  "purpose": "Directional public learning-platform comparison only; not first-party analytics.",
+  "domains": {
+    "roadmap.sh": {
+      "globalRank": {
+        "code": "failed_precondition",
+        "message": "Credit check passed but current user has insufficient Manus credits. Request was stooped before API call."
+      }
+    },
+    "codecademy.com": {
+      "globalRank": {
+        "code": "failed_precondition",
+        "message": "Credit check passed but current user has insufficient Manus credits. Request was stooped before API call."
+      }
+    }
+  },
+  "metrics": [
+    "globalRank"
+  ]
+}
