@@ -15,6 +15,18 @@ const toneByModule: Record<RoadmapModule["tone"], { accent: string; wash: string
   coral: { accent: "#ea4b71", wash: "rgba(201,47,85,.17)", line: "rgba(201,47,85,.64)" },
 };
 
+const diagramLabelByModule: Record<string, string> = {
+  prepare: "Prepare",
+  orient: "Orient",
+  connect: "Connect",
+  orchestrate: "Build",
+  shape: "Shape",
+  augment: "Augment",
+  operate: "Operate",
+  agents: "Agents",
+  capstone: "Capstone",
+};
+
 export function RoadmapPathMap({ modules, activeModuleId, completedModuleIds, resourceCounts, onSelect }: RoadmapPathMapProps) {
   return (
     <nav aria-label="AI Automation learning path" className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-[#0b0b10] p-4 shadow-[0_28px_80px_rgba(0,0,0,.35)] sm:p-7">
@@ -26,6 +38,36 @@ export function RoadmapPathMap({ modules, activeModuleId, completedModuleIds, re
         </div>
         <p className="max-w-xs text-xs leading-5 text-[#a6a6b1]">Choose a stage to open its skills, build outcome, and selected resources.</p>
       </div>
+
+      <figure className="relative mt-6 overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-4 sm:p-5">
+        <div className="pointer-events-none absolute left-[8%] right-[8%] top-[3.35rem] hidden h-px bg-gradient-to-r from-[#ff9bb1]/20 via-[#ea4b71] to-[#ff9bb1]/20 md:block" aria-hidden="true" />
+        <div className="relative grid grid-cols-3 gap-x-2 gap-y-4 md:grid-cols-9">
+          {modules.map((module) => {
+            const isActive = module.id === activeModuleId;
+            const isDone = completedModuleIds.includes(module.id);
+            const tone = toneByModule[module.tone];
+            return (
+              <button
+                key={module.id}
+                type="button"
+                onClick={() => onSelect(module.id)}
+                aria-current={isActive ? "step" : undefined}
+                aria-controls="stage-detail"
+                className="group z-10 flex min-h-20 flex-col items-center rounded-xl px-1 py-2 text-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ff9bb1]"
+              >
+                <span className="flex size-10 items-center justify-center rounded-full border-2 text-[10px] font-extrabold shadow-[0_0_0_5px_rgba(4,5,6,.9)] transition-transform duration-200 group-hover:scale-110" style={{ borderColor: isActive ? "#ea4b71" : tone.line, background: isDone ? tone.accent : "#121216", color: isDone ? "#040506" : tone.accent }}>
+                  {isDone ? <Check className="size-4" strokeWidth={3} /> : module.route.split(" ")[0]}
+                </span>
+                <span className={`mt-2 text-[10px] font-bold leading-3 ${isActive ? "text-white" : "text-[#b9b9c3]"}`}>{diagramLabelByModule[module.id] ?? module.title}</span>
+              </button>
+            );
+          })}
+        </div>
+        <figcaption className="mt-4 flex flex-wrap items-center justify-between gap-2 border-t border-white/10 pt-3 mono text-[9px] font-semibold uppercase tracking-[.14em] text-[#858590]">
+          <span>Foundation → workflow craft → AI systems → operational proof</span>
+          <span>9 connected capability checkpoints</span>
+        </figcaption>
+      </figure>
 
       <div className="relative mt-6 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
         {modules.map((module, index) => {

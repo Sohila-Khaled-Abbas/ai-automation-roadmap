@@ -75,3 +75,9 @@
 - [x] Extract the spreadsheet’s embedded source URLs and classify direct permalinks versus search or collection links.
 - [x] Reconcile the spreadsheet rows against the imported n8n Mastery records and prepare direct-link replacements without duplicates.
 - [x] Document the supplied spreadsheet’s no-op reconciliation outcome and retain the exact source-link upgrade as a source-data dependency.
+- [ ] Inspect the shared Gemini Notebook for item-level source links and export options in smaller stable batches.
+- [ ] Search targeted catalogue titles for candidate direct YouTube permalinks and retain only title-and-provider matches.
+- [ ] Apply high-confidence direct-link replacements, document unresolved entries, and validate the upgraded resource library.
+- [x] Design and implement an original visual AI Automation learning diagram inspired by roadmap-style path maps.
+- [x] Audit and resolve actionable code-health, type, test, build, and live-runtime issues without weakening checks.
+- [ ] Verify the final GitHub Actions quality gate and Vercel production homepage, assets, and API after the diagram release.
