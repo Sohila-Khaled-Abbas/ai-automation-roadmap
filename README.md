@@ -1,37 +1,102 @@
-# AI Automation Roadmap
+<div align="center">
 
-AI Automation Roadmap is a full-stack learning product for building useful, reliable n8n automations. It combines a public, project-led curriculum with a signed-in learner workspace for persisted progress and private workflow resources.
+# The Data Tea · AI Automation Roadmap
 
-## Product scope
+### A full-stack n8n learning product for building useful, reliable AI workflows
 
-The application organizes learning into practical route stops, with n8n as the core automation platform. Learners can browse curated documentation and videos, mark route stops as complete, and save their own workflow briefs, exports, and handover material to a private file vault.
+[![Production](https://img.shields.io/badge/Production-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-automation-roadmap-git-main-sohila-khaled-abbas-projects.vercel.app)
+[![Main CI](https://github.com/Sohila-Khaled-Abbas/ai-automation-roadmap/actions/workflows/ci.yml/badge.svg?branch=main&style=for-the-badge)](https://github.com/Sohila-Khaled-Abbas/ai-automation-roadmap/actions/workflows/ci.yml)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![n8n](https://img.shields.io/badge/n8n-Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)](https://n8n.io/)
 
-| Capability | Implementation |
-| --- | --- |
-| Public learning path | React 19, TypeScript, Tailwind CSS, and Wouter |
-| API boundary | Express and tRPC with end-to-end typed contracts |
-| Authentication | Manus OAuth session flow |
-| Persistence | Drizzle ORM with MySQL/TiDB-compatible schema |
-| File storage | Secure object storage; database stores metadata and object keys only |
-| Resource library | Curated n8n, MDN, OpenAI, YouTube, and Gemini Notebook references |
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=111827)](https://react.dev/)
+[![tRPC](https://img.shields.io/badge/tRPC-End--to--end%20types-398CCB?style=flat-square&logo=trpc&logoColor=white)](https://trpc.io/)
+[![Drizzle](https://img.shields.io/badge/Drizzle-ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=111827)](https://orm.drizzle.team/)
+[![MySQL](https://img.shields.io/badge/MySQL-Persistence-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![License](https://img.shields.io/badge/License-MIT-7C3AED?style=flat-square)](./LICENSE)
+
+<p>
+  <a href="#learning-experience">Learning experience</a> ·
+  <a href="#architecture">Architecture</a> ·
+  <a href="#local-development">Local development</a> ·
+  <a href="#quality-and-delivery">Quality & delivery</a> ·
+  <a href="#contributing">Contributing</a>
+</p>
+
+</div>
+
+> **Make AI automation useful.** The Data Tea turns n8n learning into a practical, end-to-end process: learners prepare a workspace, understand automation opportunities, connect data, build reliable systems, add bounded AI, design agents, and ship a portfolio-ready capstone.
+
+## Project status
+
+| Signal | Current state | What it means |
+| --- | --- | --- |
+| **Production** | [Vercel deployment](https://ai-automation-roadmap-git-main-sohila-khaled-abbas-projects.vercel.app) | Pushes to `main` are deployed automatically. |
+| **Quality gate** | Type check · Vitest · production build | Every release runs the same verification workflow before deployment. |
+| **Curriculum** | 10-week process · 8 stages | The route spans preparation through capstone delivery. |
+| **Learning library** | 28 curated resources | Public n8n, MDN, OpenAI, YouTube, and Gemini Notebook references. |
+| **Learner workspace** | Authenticated | Progress, private file metadata, and community suggestions are scoped to the signed-in learner. |
+
+## Learning experience
+
+The roadmap is deliberately project-led. Each stage pairs a measurable deliverable with source-labeled learning resources, so learners can move from understanding a process to showing a credible automation outcome.
+
+| Stage | Focus | Learner artifact |
+| --- | --- | --- |
+| `00 / Prepare` | Practice system, safe workspace, problem selection | Learning brief and build rhythm |
+| `01 / Orient` | Automation opportunities and process maps | Automation opportunity map |
+| `02 / Connect` | APIs, webhooks, credentials, structured data | Webhook-to-sheet intake |
+| `03 / Build` | Nodes, branches, error paths, reuse | Multi-step n8n workflow |
+| `04 / Shape` | Data mapping, expressions, transformations | Data contract and validation rules |
+| `05 / Augment` | Bounded AI and human review | AI-assisted workflow with review gate |
+| `06 / Agent` | Memory, tools, evaluation, escalation | Context-aware agent design |
+| `07 / Capstone` | Deployment, debugging, evidence, portfolio | Demo-ready workflow and case study |
+
+<details open>
+<summary><strong>What learners can do</strong></summary>
+
+Learners can filter the public library by type, including videos, guides, Notebook selections, courses, templates, and references. Signed-in learners can save route-stop progress, keep private workflow briefs and exports in a secure vault, and submit proposed n8n projects or learning resources for review.
+
+</details>
 
 ## Architecture
 
-```text
-client/                  React UI, pages, components, styles
-server/                  tRPC procedures, database access, storage helpers
-drizzle/                 Versioned database schema and migrations
-shared/                  Cross-boundary constants and types
-docs/                    Research and engineering notes
+```mermaid
+flowchart LR
+  L["Learner"] --> UI["React 19 · Tailwind UI"]
+  UI --> RPC["tRPC API boundary"]
+  RPC --> AUTH["OAuth session"]
+  RPC --> DB["Drizzle · MySQL / TiDB"]
+  RPC --> STORE["Secure object storage"]
+  DB --> PROGRESS["Learner progress"]
+  DB --> RESOURCES["Curated resource metadata"]
+  DB --> SUBMISSIONS["Community suggestions"]
+  STORE --> FILES["Private workflow files"]
 ```
 
-The frontend communicates only through typed tRPC procedures. Route progress and learner files are protected by authenticated procedures, while curated learning resources are intentionally public. The database retains resource metadata and learner records; binary file contents stay in object storage.
+| Layer | Responsibility | Key locations |
+| --- | --- | --- |
+| **Client** | Learning route, library filters, learner workspace, accessible interactions | `client/src/` |
+| **API** | Typed public and protected procedures | `server/routers.ts` |
+| **Domain logic** | Isolated validation and learning-route helpers | `server/*.ts` |
+| **Persistence** | Schema, migrations, learner data, resource records | `drizzle/`, `server/db.ts` |
+| **Storage** | Learner-owned file upload metadata and secure object keys | `server/storage.ts` |
+| **Documentation** | Resource provenance, validation notes, contribution standards | `docs/`, `CONTRIBUTING.md` |
+
+## Technology toolkit
+
+<p align="center">
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=111827" alt="React 19" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-Strict-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" /></a>
+  <a href="https://trpc.io/"><img src="https://img.shields.io/badge/tRPC-Typed_API-398CCB?style=for-the-badge&logo=trpc&logoColor=white" alt="tRPC" /></a>
+  <a href="https://orm.drizzle.team/"><img src="https://img.shields.io/badge/Drizzle-ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=111827" alt="Drizzle ORM" /></a>
+  <a href="https://vitest.dev/"><img src="https://img.shields.io/badge/Vitest-Tested-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest" /></a>
+</p>
 
 ## Local development
 
-### Prerequisites
-
-Use Node.js 22+ and pnpm 10+. The managed deployment environment supplies the database, OAuth, and storage environment variables; do not commit `.env` files or production credentials.
+Use **Node.js 22+** and **pnpm 10+**. Managed runtime variables provide the database, OAuth, and storage configuration. Do not commit `.env` files, credentials, or learner data.
 
 ```bash
 pnpm install
@@ -40,38 +105,57 @@ pnpm dev
 
 | Command | Purpose |
 | --- | --- |
-| `pnpm dev` | Start the local development server with watch mode. |
+| `pnpm dev` | Start the full-stack development server with watch mode. |
 | `pnpm check` | Run the TypeScript compiler without emitting files. |
 | `pnpm test` | Run the Vitest suite. |
-| `pnpm build` | Create the production client and server build. |
+| `pnpm build` | Create the production client and server bundles. |
+| `pnpm run quality` | Run type checks, tests, and the production build together. |
 | `pnpm format` | Apply Prettier formatting. |
-| `pnpm format:check` | Verify formatting in CI without modifying files. |
-| `pnpm run quality` | Run type, test, and production-build quality gates. |
+| `pnpm format:check` | Verify formatting without modifying files. |
 
-## Database workflow
+## Database and storage discipline
 
-Schema changes are deliberate and migration-first. Update `drizzle/schema.ts`, generate a migration, review the generated SQL, and apply it through the deployment environment’s migration workflow. Never manually change a production table without first keeping the Drizzle schema and migration history aligned.
+> **Schema-first principle:** update `drizzle/schema.ts`, generate and review migration SQL, apply it through the managed migration workflow, and keep the schema, migration history, and deployed database aligned.
 
-```bash
-pnpm drizzle-kit generate
+The database stores learner progress, curated resource metadata, file metadata, and community suggestions. Private workflow files stay in secure object storage; the database stores only object keys and safe metadata. Never store file bytes in database columns or expose one learner’s resources to another learner.
+
+## Quality and delivery
+
+The repository uses GitHub Actions as its quality baseline. The continuous-delivery path is intentionally simple and auditable:
+
+```mermaid
+sequenceDiagram
+  participant Dev as Contributor
+  participant GH as GitHub main
+  participant CI as Actions quality gate
+  participant V as Vercel production
+  Dev->>GH: Push a focused, tested change
+  GH->>CI: Type check + tests + build
+  CI-->>GH: Required checks pass
+  GH->>V: Automatic production deployment
+  V-->>Dev: Ready deployment and inspection record
 ```
 
-The core data model contains `users`, `learnerProgress`, `learningResources`, and `learnerFiles`. Resource files are never stored as database blobs.
+The project is connected to Vercel with `main` as the production branch. Each synchronized main-branch checkpoint becomes a GitHub commit and triggers an automatic Vercel production build.
 
-## Engineering standards
+## Contribution contract
 
-The repository treats `server/routers.ts` as a stable API contract and keeps database queries in `server/db.ts`. New backend behavior should use an explicit input schema, an appropriate public or protected access boundary, and an accompanying test when logic can be isolated. UI changes should preserve keyboard access, visible focus states, responsive behavior, clear loading and error messaging, and meaningful empty states.
+Read [CONTRIBUTING.md](./CONTRIBUTING.md) before changing the application. Keep changes small and reviewable, write tests for isolated server behavior, preserve responsive and keyboard-friendly UI patterns, and run `pnpm run quality` before opening a pull request.
 
-Keep secrets in managed configuration, retain learner-file authorization boundaries, and prefer explicit source labels for curated learning links. Never add fabricated reviews, ratings, testimonials, or learner activity.
+Curated resources must retain a clear provider and source label. Never add fabricated reviews, ratings, testimonials, learner activity, or unverified outcome claims.
 
-## Continuous delivery
+## Resource provenance
 
-The repository includes a GitHub Actions quality gate. Connect this repository to Vercel with `main` as the production branch: pushes to `main` deploy production automatically and pull requests receive preview deployments. The active application workflow uses project checkpoints to synchronize the GitHub `main` branch, so completed edits flow through the same checked, versioned path.
+The public library combines official n8n documentation, MDN and OpenAI references, curated YouTube lessons, and selected Gemini Notebook sources. The research trail is available in [resource research notes](./docs/resource-research.md) and [learning-process research](./docs/learning-process-research.md).
 
-## Contributing
+---
 
-Read [CONTRIBUTING.md](./CONTRIBUTING.md) before changing the application. Keep pull requests focused, include tests for changed server behavior, use meaningful commit messages, and do not merge a branch that fails `pnpm run quality`.
+<div align="center">
 
-## Learning-resource provenance
+**Built as a project-led learning experience for practical automation builders.**
 
-Resource records retain a provider and source label. The current library includes official n8n documentation and Academy material, MDN and OpenAI references, curated YouTube videos, and selected links from the shared Gemini Notebook. See [resource research notes](./docs/resource-research.md) for the discovery record.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sohila%20Khaled-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sohilakabbas)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Case%20Studies-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://sohilakhaled-portfolio.lovable.app)
+[![Email](https://img.shields.io/badge/Email-Contact-7C3AED?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sohila.k.data@gmail.com)
+
+</div>

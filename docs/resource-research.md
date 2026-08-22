@@ -2,7 +2,7 @@
 
 ## Gemini Notebook
 
-The shared public notebook, **“n8n Mastery: From Basic Automation to Advanced AI Agents,”** contains 217 grouped sources. Its visible source groups include AI Agents, API and Integration, Business Automation Cases, Data Handling, Deployment and Hosting, Introduction and Tutorials, LLM Models, MCP and Multi-Agents, n8n Career and Business, n8n Core Nodes, and RAG and Vectors.
+The shared public notebook, **“n8n Mastery: From Basic Automation to Advanced AI Agents,”** contains **217 sources** grouped into AI Agents, API and Integration, Business Automation Cases, Data Handling, Deployment and Hosting, Introduction and Tutorials, LLM Models, MCP and Multi-Agents, Miscellaneous, n8n Career and Business, n8n Core Nodes, and RAG and Vectors. The Notebook itself states that the source collection comes from a video tutorial series by Karim Nabil focused on business-driven n8n automation, triggers, nodes, actions, application connections, local Docker setup, JSON, and APIs.
 
 The Introduction and Tutorials group visibly includes these learner-facing sources:
 
