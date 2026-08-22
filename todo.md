@@ -97,12 +97,12 @@
 - [x] Research current public roadmap interaction patterns, official n8n templates, and credible build-project sources without copying third-party design assets or code.
 - [x] Redesign the primary learning experience into an original, immersive infographic roadmap with connected prerequisites, visual progress signals, and focused stage detail.
 - [x] Curate and persist stage-mapped n8n project ideas and official/public template resources with transparent provider and source labels.
-- [ ] Validate the redesigned journey at desktop and mobile breakpoints, run quality checks, and verify the GitHub Actions and Vercel release.
+- [x] Validate the redesigned journey at desktop and mobile breakpoints, run quality checks, and verify the GitHub Actions and Vercel release.
 - [x] Persist curated build challenges in a durable database table with source/provider metadata and expose them through a public tRPC query.
 - [x] Re-validate the build studio after it reads persisted project challenges rather than frontend-only constants.
 - [x] Expand the README and add GitHub-focused documentation for architecture, contribution, project-content maintenance, release verification, and issue/PR workflows.
 - [ ] Verify the current GitHub Actions run, Vercel deployment, and database-backed production endpoints; resolve any publish/configuration gap found.
-- [ ] Run the updated quality gate and publish the documented GitHub/Vercel maintenance release.
+- [x] Run the updated quality gate and publish the documented GitHub/Vercel maintenance release.
 - [x] Review relevant project guidance and implement targeted, testable enhancements that improve learner navigation, accessibility, or maintenance without adding speculative features.
 - [x] Determine whether protected Vercel production values can be accessed through an authorized configuration path; otherwise obtain secure user entry before retrying the live data release.
 - [x] Audit and remove public OAuth sign-in requirements from the roadmap, library, build studio, and contribution experience.
@@ -110,5 +110,13 @@
 - [ ] Update documentation and validate the no-sign-in public release across GitHub and the managed production host.
 - [x] Redesign the website around a full immersive roadmap canvas with connected capability paths, visual branch logic, proof stations, and original creative field-guide styling.
 - [x] Create and validate a reusable maintenance skill for the roadmap-first visual interface and its public-content constraints.
-- [ ] Validate the transformed roadmap interface at desktop and mobile breakpoints, run quality checks, and publish the verified public release.
+- [x] Validate the transformed roadmap interface at desktop and mobile breakpoints, run quality checks, and publish the verified public release.
 - [x] Route the Vercel static frontend to the managed public catalogue API with narrowly scoped CORS, so its source-backed resources and projects remain available without external database or OAuth secrets.
+- [ ] Browser-verify the live Vercel roadmap renders managed resources and persisted projects through the public API bridge.
+- [ ] Browser-verify the managed production UI has no sign-in prompt and renders local-progress, field-kit, and GitHub proposal flows.
+- [x] Research and record official n8n workflow templates plus credible public automation business case studies with direct canonical links.
+- [x] Map verified templates, case studies, and project ideas to the nine-stage curriculum with clear prerequisites and observable proof criteria.
+- [x] Persist the expanded curated learning resources and build challenges, then integrate the new learning-process cues into the public roadmap interface.
+- [ ] Validate provenance, public learning flow, quality checks, GitHub Actions, and the managed/Vercel production release after the expansion.
+- [x] Open selected official n8n case studies individually, record their direct canonical URLs, and update the source-backed casebook entries.
+- [x] Add and verify explicit prerequisite mapping for the new template, case-study, and project additions within the nine-stage learning flow.

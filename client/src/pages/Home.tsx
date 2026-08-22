@@ -6,6 +6,7 @@ import { useEffect, useMemo, useState } from "react";
 import { ArrowDownRight, ArrowRight, BookOpen, ClipboardList, Compass, Download, ExternalLink, Github, Menu, Printer, ShieldCheck, X } from "lucide-react";
 import { toast } from "sonner";
 import { BuildChallengeRail } from "@/components/BuildChallengeRail";
+import { CaseStudyLens } from "@/components/CaseStudyLens";
 import { RoadmapPathMap } from "@/components/RoadmapPathMap";
 import { StageDetailPanel } from "@/components/StageDetailPanel";
 import { normalizeLocalProgress, toggleLocalProgress } from "@/lib/localRoadmapProgress";
@@ -121,7 +122,7 @@ export default function Home() {
     URL.revokeObjectURL(link.href);
   };
 
-  const navigation = [["Roadmap", "roadmap"], ["Build studio", "builds"], ["Resource index", "library"], ["Field kit", "field-kit"], ["Contribute", "suggestions"]] as const;
+  const navigation = [["Roadmap", "roadmap"], ["Build studio", "builds"], ["Casebook", "casebook"], ["Resource index", "library"], ["Field kit", "field-kit"], ["Contribute", "suggestions"]] as const;
 
   return (
     <main id="main-content" className="min-h-screen overflow-x-hidden bg-[#09080b] text-white">
@@ -146,7 +147,7 @@ export default function Home() {
             <h1 className="display mt-7 max-w-4xl text-[3.8rem] leading-[.84] tracking-[-.055em] text-white sm:text-[6rem]">A roadmap for <em className="text-[#ff9bb1]">automation</em> that survives contact with work.</h1>
             <p className="mt-7 max-w-2xl text-base leading-7 text-[#cfc7ce] sm:text-lg">Map a real process. Connect the data. Build a workflow. Add AI where it helps. Leave behind proof another person can understand and operate.</p>
             <div className="mt-9 flex flex-wrap gap-3"><button type="button" onClick={() => { setActiveModuleId("prepare"); scrollToId("roadmap"); }} className="inline-flex items-center gap-2 rounded-full bg-[#ea4b71] px-6 py-3.5 text-sm font-extrabold text-white transition hover:bg-[#ff7795]">Explore the route <ArrowDownRight className="size-4" /></button><button type="button" onClick={() => scrollToId("builds")} className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/[.04] px-6 py-3.5 text-sm font-bold text-white transition hover:border-[#ff9bb1]/60">See build challenges <ArrowRight className="size-4" /></button></div>
-            <div className="mt-12 grid max-w-2xl grid-cols-3 gap-3 border-t border-white/[.12] pt-5 text-xs text-[#aaa2aa]"><span><strong className="block text-lg text-white">09</strong>connected stages</span><span><strong className="block text-lg text-white">07</strong>build challenges</span><span><strong className="block text-lg text-white">{libraryMetric}</strong>learning index</span></div>
+            <div className="mt-12 grid max-w-2xl grid-cols-3 gap-3 border-t border-white/[.12] pt-5 text-xs text-[#aaa2aa]"><span><strong className="block text-lg text-white">09</strong>connected stages</span><span><strong className="block text-lg text-white">{roadmapProjects.isLoading ? "—" : String(buildChallenges.length).padStart(2, "0")}</strong>build challenges</span><span><strong className="block text-lg text-white">{libraryMetric}</strong>learning index</span></div>
           </div>
           <aside className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-[#110f14]/90 p-5 shadow-[0_28px_80px_rgba(0,0,0,.35)] sm:p-7">
             <div className="absolute right-0 top-0 h-44 w-44 rounded-full bg-[#ea4b71]/15 blur-2xl" />
@@ -163,6 +164,8 @@ export default function Home() {
       <StageDetailPanel module={activeModule} resources={resourcesByModule[activeModule.id] ?? []} isComplete={completeIds.includes(activeModule.id)} onToggleComplete={() => toggleComplete(activeModule.id)} onBrowseAll={browseStageResources} />
 
       {roadmapProjects.isLoading ? <section id="builds" className="bg-[#f4eee9] px-5 py-16 text-[#19171c] sm:px-8 lg:px-10"><div className="mx-auto max-w-[1480px] animate-pulse rounded-[1.5rem] border border-black/10 bg-white p-8"><div className="h-5 w-32 rounded bg-[#eadde0]" /><div className="mt-5 h-14 max-w-xl rounded bg-[#f0e7e3]" /><div className="mt-8 h-72 rounded-xl bg-[#f0e7e3]" /></div></section> : <BuildChallengeRail challenges={buildChallenges} activeModuleId={activeModuleId} onSelectModule={selectModule} />}
+
+      <CaseStudyLens activeModuleId={activeModuleId} onSelectModule={selectModule} />
 
       <section id="library" className="scroll-mt-16 bg-[#fffaf6] text-[#19161b]"><div className="mx-auto max-w-[1480px] px-5 py-16 sm:px-8 lg:px-10 lg:py-28"><div className="grid gap-8 border-b border-black/10 pb-8 lg:grid-cols-[.9fr_1.1fr] lg:items-end"><div><p className="mono text-[10px] font-bold uppercase tracking-[.18em] text-[#c92f55]">Resource index</p><h2 className="display mt-5 text-5xl leading-[.9] tracking-[-.045em] sm:text-6xl">Choose the next <em>useful reference.</em></h2></div><div><p className="max-w-xl text-sm leading-7 text-[#615b62]">Public guides, templates, courses, videos, and source-labelled collections are filtered against the exact route coordinate you are building.</p><label className="relative mt-5 block max-w-xl"><BookOpen className="pointer-events-none absolute left-4 top-1/2 size-4 -translate-y-1/2 text-[#c92f55]" /><input value={resourceQuery} onChange={(event) => setResourceQuery(event.target.value)} placeholder="Search a tool, concept, or source" className="w-full rounded-full border border-black/15 bg-white py-3 pl-11 pr-4 text-sm outline-none transition placeholder:text-[#898188] focus:border-[#ea4b71]" /></label></div></div>
         <div className="mt-6 grid gap-4 rounded-2xl border border-black/10 bg-white p-4 lg:grid-cols-[1fr_auto] lg:items-center"><div className="flex flex-wrap items-center gap-2" aria-label="Filter learning resources by type">{resourceFilters.map((filter) => <button key={filter.id} type="button" onClick={() => setResourceFilter(filter.id)} aria-pressed={resourceFilter === filter.id} className={`rounded-full border px-3.5 py-2 text-xs font-extrabold transition ${resourceFilter === filter.id ? "border-[#ea4b71] bg-[#ea4b71] text-white" : "border-black/15 bg-white text-[#524b52] hover:border-[#ea4b71]/60"}`}>{filter.label}</button>)}</div><div className="flex flex-wrap items-center gap-3"><label className="text-xs font-bold text-[#504a50]">Route stage <select value={libraryStage} onChange={(event) => setLibraryStage(event.target.value)} className="ml-2 rounded-full border border-black/15 bg-white px-3 py-2 text-xs outline-none focus:border-[#ea4b71]"><option value="all">All stages</option>{roadmapModules.map((module) => <option key={module.id} value={module.id}>{module.route} · {module.title}</option>)}</select></label><span className="mono text-[9px] uppercase tracking-[.12em] text-[#847b83]">{templateCount} templates</span></div></div>

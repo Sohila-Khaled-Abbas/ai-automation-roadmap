@@ -1,5 +1,6 @@
 import { ArrowRight, Check, ExternalLink, Sparkles, Waypoints } from "lucide-react";
 import type { RoadmapModule } from "@/lib/roadmapData";
+import { getLearningSequenceGuide } from "@/lib/learningSequence";
 
 type LearningResourcePreview = {
   id: number;
@@ -22,6 +23,7 @@ type StageDetailPanelProps = {
 
 export function StageDetailPanel({ module, resources, isComplete, onToggleComplete, onBrowseAll }: StageDetailPanelProps) {
   const previewResources = resources.slice(0, 6);
+  const sequenceGuide = getLearningSequenceGuide(module.id);
   return (
     <section id="stage-detail" className="scroll-mt-24 border-y border-white/10 bg-[#111117] py-12 sm:py-16">
       <div className="mx-auto grid max-w-[1480px] gap-8 px-5 sm:px-8 lg:grid-cols-[.86fr_1.14fr] lg:px-10">
@@ -30,6 +32,10 @@ export function StageDetailPanel({ module, resources, isComplete, onToggleComple
           <h2 className="display mt-4 text-4xl leading-[.95] text-white sm:text-5xl">{module.title}</h2>
           <p className="mt-5 max-w-xl text-sm leading-7 text-[#c5c5ce]">{module.summary}</p>
           <div className="mt-6 flex flex-wrap gap-2">{module.skills.map((skill) => <span key={skill} className="rounded-full border border-[#ea4b71]/30 bg-[#ea4b71]/10 px-3 py-1.5 text-xs font-bold text-[#ffb4c5]">{skill}</span>)}</div>
+          <div className="mt-7 rounded-2xl border border-[#ea4b71]/25 bg-[#ea4b71]/[.06] p-4">
+            <p className="mono text-[9px] font-bold uppercase tracking-[.14em] text-[#ffb4c5]">Learning handoff</p>
+            <div className="mt-3 grid gap-4 sm:grid-cols-2"><div><p className="mono text-[8px] uppercase tracking-[.12em] text-[#a99da7]">Bring forward</p><p className="mt-1.5 text-xs font-semibold leading-5 text-white">{sequenceGuide.prerequisite}</p></div><div><p className="mono text-[8px] uppercase tracking-[.12em] text-[#a99da7]">New source focus</p><p className="mt-1.5 text-xs font-semibold leading-5 text-white">{sequenceGuide.sourceFocus}</p></div></div>
+          </div>
           <div className="mt-7 grid gap-4 border-t border-white/10 pt-6 sm:grid-cols-2">
             <div><p className="mono text-[10px] uppercase tracking-[.14em] text-[#ffb4c5]">Field deliverable</p><p className="mt-2 text-sm font-bold leading-6 text-white">{module.deliverable}</p></div>
             <div><p className="mono text-[10px] uppercase tracking-[.14em] text-[#ffb4c5]">Builder prompt</p><p className="mt-2 text-sm italic leading-6 text-[#c1c1cb]">“{module.prompt}”</p></div>

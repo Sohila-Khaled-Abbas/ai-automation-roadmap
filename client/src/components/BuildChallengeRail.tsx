@@ -20,7 +20,7 @@ export function BuildChallengeRail({ challenges, activeModuleId, onSelectModule 
         </div>
 
         <div className="mt-8 overflow-x-auto pb-3 [scrollbar-color:rgba(201,47,85,.55)_transparent] [scrollbar-width:thin]">
-          <div className="grid min-w-[1120px] grid-cols-7 gap-3">
+          <div className="grid min-w-max grid-flow-col auto-cols-[minmax(285px,1fr)] gap-3">
             {challenges.map((challenge) => {
               const isActive = challenge.moduleId === activeModuleId;
               return (
