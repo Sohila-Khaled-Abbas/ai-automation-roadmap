@@ -21,3 +21,8 @@
 - [x] Re-theme the website with the n8n logo’s signature pink and complementary dark-neutral palette.
 - [x] Add file-vault loading and error states plus client-side upload validation.
 - [x] Add a no-results state and reset action to the resource-library search.
+- [x] Inspect the current learning-resource schema and UI before adding the new learner-facing features.
+- [x] Add persisted submission records and a secure API for suggested automation projects and learning resources.
+- [x] Add resource-type filters for videos, guides/articles, notebook selections, courses, templates, and references.
+- [x] Build a responsive submission form with client and server validation plus success and error feedback.
+- [ ] Test the resource filtering and submission flows, synchronize GitHub, and verify the Vercel deployment.

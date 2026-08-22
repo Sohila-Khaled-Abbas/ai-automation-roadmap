@@ -1,6 +1,6 @@
 import { and, asc, desc, eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { learnerFiles, learnerProgress, learningResources, InsertUser, users } from "../drizzle/schema";
+import { learnerFiles, learnerProgress, learnerSubmissions, learningResources, InsertUser, users } from "../drizzle/schema";
 import { ENV } from './_core/env';
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -128,4 +128,12 @@ export async function createLearnerFile(input: typeof learnerFiles.$inferInsert)
   await db.insert(learnerFiles).values(input);
   const [file] = await db.select().from(learnerFiles).where(eq(learnerFiles.fileKey, input.fileKey)).orderBy(desc(learnerFiles.id)).limit(1);
   return file;
+}
+
+export async function createLearnerSubmission(input: typeof learnerSubmissions.$inferInsert) {
+  const db = await getDb();
+  if (!db) throw new Error("Database is not available");
+  await db.insert(learnerSubmissions).values(input);
+  const [submission] = await db.select().from(learnerSubmissions).where(eq(learnerSubmissions.userId, input.userId)).orderBy(desc(learnerSubmissions.id)).limit(1);
+  return submission;
 }

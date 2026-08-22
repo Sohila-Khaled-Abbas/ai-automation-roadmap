@@ -61,6 +61,19 @@ export const learnerFiles = mysqlTable("learnerFiles", {
   createdAt: timestamp("createdAt").defaultNow().notNull(),
 });
 
+export const learnerSubmissions = mysqlTable("learnerSubmissions", {
+  id: int("id").autoincrement().primaryKey(),
+  userId: int("userId").notNull().references(() => users.id, { onDelete: "cascade" }),
+  submissionType: mysqlEnum("submissionType", ["project", "resource"]).notNull(),
+  title: varchar("title", { length: 255 }).notNull(),
+  description: text("description").notNull(),
+  url: varchar("url", { length: 1024 }),
+  moduleId: varchar("moduleId", { length: 64 }),
+  status: mysqlEnum("status", ["pending", "reviewed", "accepted", "declined"]).default("pending").notNull(),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+});
+
 export type LearnerProgress = typeof learnerProgress.$inferSelect;
 export type LearningResource = typeof learningResources.$inferSelect;
 export type LearnerFile = typeof learnerFiles.$inferSelect;
+export type LearnerSubmission = typeof learnerSubmissions.$inferSelect;

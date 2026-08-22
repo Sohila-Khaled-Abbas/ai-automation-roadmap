@@ -2,7 +2,7 @@
  * Design system: n8n learning field guide — Brand Dark #040506, n8n Pink #EA4B71, and white learning surfaces.
  * The public route remains editorial; authenticated actions add persistent progress and a private resource vault.
  */
-import { useEffect, useMemo, useRef, useState, type ChangeEvent } from "react";
+import { useEffect, useMemo, useRef, useState, type ChangeEvent, type FormEvent } from "react";
 import {
   ArrowDownRight,
   ArrowRight,
@@ -16,6 +16,7 @@ import {
   LogOut,
   Menu,
   Printer,
+  Send,
   Sparkles,
   Upload,
   Waypoints,
@@ -41,6 +42,18 @@ type LearningResource = {
 
 const MAX_CLIENT_UPLOAD_BYTES = 8 * 1024 * 1024;
 const ALLOWED_CLIENT_UPLOADS = new Set(["application/json", "application/pdf", "application/zip", "text/markdown", "text/plain"]);
+
+const resourceFilters = [
+  { id: "all", label: "All" },
+  { id: "video", label: "Video" },
+  { id: "guide", label: "Articles & guides" },
+  { id: "notebook", label: "Notebook picks" },
+  { id: "course", label: "Courses" },
+  { id: "template", label: "Templates" },
+  { id: "reference", label: "References" },
+] as const;
+
+type ResourceFilter = (typeof resourceFilters)[number]["id"];
 
 const toneStyles = {
   amber: { accent: "#ff9bb1", chip: "border-[#ea4b71]/35 bg-[#ea4b71]/10 text-[#ffb4c5]", node: "border-[#ea4b71]" },
@@ -118,6 +131,8 @@ export default function Home() {
   const [completeIds, setCompleteIds] = useState<string[]>([]);
   const [menuOpen, setMenuOpen] = useState(false);
   const [resourceQuery, setResourceQuery] = useState("");
+  const [resourceFilter, setResourceFilter] = useState<ResourceFilter>("all");
+  const [submissionForm, setSubmissionForm] = useState<{ submissionType: "project" | "resource"; title: string; description: string; url: string; moduleId: string }>({ submissionType: "project", title: "", description: "", url: "", moduleId: "" });
   const inputRef = useRef<HTMLInputElement>(null);
   const { user, loading: authLoading, isAuthenticated, logout } = useAuth();
   const utils = trpc.useUtils();
@@ -126,21 +141,26 @@ export default function Home() {
   const learnerFiles = trpc.files.list.useQuery(undefined, { enabled: isAuthenticated });
   const progressMutation = trpc.roadmap.setProgress.useMutation({ onSuccess: () => void utils.roadmap.progress.invalidate(), onError: (error) => toast.error(error.message) });
   const uploadMutation = trpc.files.upload.useMutation({ onSuccess: () => { void utils.files.list.invalidate(); toast.success("Resource saved to your personal vault."); }, onError: (error) => toast.error(error.message) });
+  const submissionMutation = trpc.submissions.create.useMutation({ onSuccess: () => { setSubmissionForm({ submissionType: "project", title: "", description: "", url: "", moduleId: "" }); toast.success("Suggestion received — thank you for helping shape the route."); }, onError: (error) => toast.error(error.message) });
 
   const resourceList = (learningResources.data ?? []) as LearningResource[];
   const resourcesByModule = useMemo<Record<string, LearningResource[]>>(() => resourceList.reduce((collection, resource) => { (collection[resource.moduleId] ??= []).push(resource); return collection; }, {} as Record<string, LearningResource[]>), [resourceList]);
   const filteredResources = useMemo(() => {
     const needle = resourceQuery.trim().toLowerCase();
-    return !needle ? resourceList : resourceList.filter((resource) => [resource.title, resource.description, resource.provider, resource.resourceType, resource.moduleId].join(" ").toLowerCase().includes(needle));
-  }, [resourceList, resourceQuery]);
+    return resourceList.filter((resource) => {
+      const matchesType = resourceFilter === "all" || (resourceFilter === "notebook" ? resource.source.includes("Gemini Notebook") : resource.resourceType === resourceFilter);
+      const matchesSearch = !needle || [resource.title, resource.description, resource.provider, resource.resourceType, resource.moduleId, resource.source].join(" ").toLowerCase().includes(needle);
+      return matchesType && matchesSearch;
+    });
+  }, [resourceFilter, resourceList, resourceQuery]);
   const progress = Math.round((completeIds.length / roadmapModules.length) * 100);
 
   useEffect(() => { if (persistedProgress.data) setCompleteIds(persistedProgress.data.map((item) => item.moduleId)); }, [persistedProgress.data]);
   useEffect(() => {
-    if (resourceQuery.trim() && !learningResources.isLoading && !learningResources.error && filteredResources.length === 0) {
-      toast.info("No resources match that search. Clear the search to browse the full library.");
+    if ((resourceQuery.trim() || resourceFilter !== "all") && !learningResources.isLoading && !learningResources.error && filteredResources.length === 0) {
+      toast.info("No resources match that search and filter. Clear them to browse the full library.");
     }
-  }, [filteredResources.length, learningResources.error, learningResources.isLoading, resourceQuery]);
+  }, [filteredResources.length, learningResources.error, learningResources.isLoading, resourceFilter, resourceQuery]);
   useEffect(() => {
     if (learnerFiles.error) toast.error("Your personal vault could not be loaded. Please refresh and try again.");
   }, [learnerFiles.error]);
@@ -165,6 +185,11 @@ export default function Home() {
     reader.readAsDataURL(file);
     event.target.value = "";
   };
+  const submitSuggestion = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    if (!isAuthenticated) { startLogin(); return; }
+    submissionMutation.mutate(submissionForm);
+  };
   const startRoute = () => { setActiveModule("orient"); scrollToId("roadmap"); };
 
   return (
@@ -186,9 +211,37 @@ export default function Home() {
 
       <section id="roadmap" className="scroll-mt-16 bg-[#040506] py-20 lg:py-28"><div className="mx-auto grid max-w-[1480px] gap-14 px-5 sm:px-8 lg:grid-cols-[.72fr_1.28fr] lg:gap-24 lg:px-10"><aside className="lg:sticky lg:top-28 lg:self-start"><p className="mono text-[10px] font-semibold uppercase tracking-[.18em] text-[#ffb4c5]">The complete route</p><h2 className="display mt-5 max-w-md text-5xl leading-[.92] tracking-[-.035em] text-white sm:text-6xl">Learn the parts. <em className="text-[#ff9bb1]">Ship the whole.</em></h2><p className="mt-6 max-w-sm text-sm leading-7 text-[#aaaab5]">Every stop combines a practical outcome with a resource pack selected for that exact capability.</p><div className="route-card mt-9 max-w-sm border border-white/[.12] bg-[#121216] p-5"><div className="flex items-start justify-between"><div><p className="mono text-[10px] uppercase tracking-[.15em] text-[#ffb4c5]">Saved route meter</p><p className="mt-2 text-3xl font-extrabold tracking-[-.05em] text-white">{progress}<span className="text-base text-[#aaaab5]">%</span></p></div><Waypoints className="size-5 text-[#ea4b71]" /></div><div className="mt-5 h-1.5 overflow-hidden rounded-full bg-white/10"><div className="h-full bg-[#ea4b71] transition-all" style={{ width: `${progress}%` }} /></div><p className="mt-3 text-xs leading-5 text-[#aaaab5]">{isAuthenticated ? `${completeIds.length} of ${roadmapModules.length} route stops saved to your account.` : "Sign in to save your route across devices."}</p></div></aside><div className="relative space-y-6 pb-4 sm:space-y-8"><div className="absolute bottom-0 left-3 top-8 w-px bg-gradient-to-b from-[#ea4b71] via-[#ff9bb1] to-[#c92f55] sm:left-8" />{roadmapModules.map((module) => <ModuleCard key={module.id} module={module} resources={resourcesByModule[module.id] ?? []} isActive={activeModule === module.id} isDone={completeIds.includes(module.id)} onSelect={() => setActiveModule((current) => current === module.id ? "" : module.id)} onToggle={() => toggleComplete(module.id)} />)}</div></div></section>
 
-      <section id="library" className="paper-grain scroll-mt-16 bg-white text-[#15151a]"><div className="mx-auto max-w-[1480px] px-5 py-20 sm:px-8 lg:px-10 lg:py-28"><div className="grid gap-8 border-b border-black/10 pb-8 lg:grid-cols-[.9fr_1.1fr] lg:items-end"><div><p className="mono text-[10px] font-semibold uppercase tracking-[.18em] text-[#c92f55]">Curated learning library</p><h2 className="display mt-5 text-5xl leading-[.93] tracking-[-.035em] sm:text-6xl">Learn the next <em>useful thing.</em></h2></div><div><p className="max-w-xl text-sm leading-7 text-[#606065]">Official n8n, MDN, and OpenAI material supports the whole roadmap, from automation mechanics to structured AI outputs and production hardening.</p><label className="relative mt-5 block max-w-xl"><BookOpen className="pointer-events-none absolute left-4 top-1/2 size-4 -translate-y-1/2 text-[#c92f55]" /><input value={resourceQuery} onChange={(event) => setResourceQuery(event.target.value)} placeholder="Search guides, providers, or topics" className="w-full rounded-full border border-black/15 bg-white py-3 pl-11 pr-4 text-sm outline-none transition-colors placeholder:text-[#85858a] focus:border-[#ea4b71]" /></label></div></div><div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">{filteredResources.map((resource) => <a key={resource.id} href={resource.url} target="_blank" rel="noreferrer" className="card-lift group flex min-h-[220px] flex-col border border-black/10 bg-white p-5 sm:p-6"><div className="flex items-start justify-between gap-4"><span className="mono text-[10px] font-semibold uppercase tracking-[.13em] text-[#c92f55]">{resource.moduleId} / {resource.resourceType}</span><ExternalLink className="size-4 text-[#ea4b71] transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></div><h3 className="display mt-7 text-2xl leading-[.96] tracking-[-.02em]">{resource.title}</h3><p className="mt-3 text-sm leading-6 text-[#606065]">{resource.description}</p><div className="mt-auto flex items-center justify-between border-t border-black/10 pt-4"><span className="text-xs font-bold text-[#202027]">{resource.provider}</span><span className="mono text-[10px] text-[#85858a]">{resource.effort}</span></div></a>)}</div>{learningResources.isLoading && <p className="mt-8 text-sm text-[#606065]">Loading the curated library…</p>}{learningResources.error && <p className="mt-8 text-sm text-[#c92f55]">The resource library is temporarily unavailable.</p>}</div></section>
+      <section id="library" className="paper-grain scroll-mt-16 bg-white text-[#15151a]">
+        <div className="mx-auto max-w-[1480px] px-5 py-20 sm:px-8 lg:px-10 lg:py-28">
+          <div className="grid gap-8 border-b border-black/10 pb-8 lg:grid-cols-[.9fr_1.1fr] lg:items-end">
+            <div><p className="mono text-[10px] font-semibold uppercase tracking-[.18em] text-[#c92f55]">Curated learning library</p><h2 className="display mt-5 text-5xl leading-[.93] tracking-[-.035em] sm:text-6xl">Learn the next <em>useful thing.</em></h2></div>
+            <div><p className="max-w-xl text-sm leading-7 text-[#606065]">Official n8n, MDN, OpenAI, YouTube, and Notebook material supports the whole roadmap, from automation mechanics to production hardening.</p><label className="relative mt-5 block max-w-xl"><BookOpen className="pointer-events-none absolute left-4 top-1/2 size-4 -translate-y-1/2 text-[#c92f55]" /><input value={resourceQuery} onChange={(event) => setResourceQuery(event.target.value)} placeholder="Search topics, providers, or sources" className="w-full rounded-full border border-black/15 bg-white py-3 pl-11 pr-4 text-sm outline-none transition-colors placeholder:text-[#85858a] focus:border-[#ea4b71]" /></label></div>
+          </div>
+          <div className="mt-6 flex flex-wrap items-center gap-2" aria-label="Filter learning resources by type">
+            {resourceFilters.map((filter) => <button key={filter.id} type="button" onClick={() => setResourceFilter(filter.id)} aria-pressed={resourceFilter === filter.id} className={`rounded-full border px-3.5 py-2 text-xs font-extrabold transition-colors ${resourceFilter === filter.id ? "border-[#ea4b71] bg-[#ea4b71] text-white" : "border-black/15 bg-white text-[#505056] hover:border-[#ea4b71]/60"}`}>{filter.label}</button>)}
+            {(resourceFilter !== "all" || resourceQuery) && <button type="button" onClick={() => { setResourceFilter("all"); setResourceQuery(""); }} className="ml-1 text-xs font-extrabold text-[#c92f55] hover:text-[#ea4b71]">Clear filters</button>}
+            <span className="mono ml-auto text-[10px] uppercase tracking-[.12em] text-[#85858a]">{filteredResources.length} shown</span>
+          </div>
+          {filteredResources.length > 0 && <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">{filteredResources.map((resource) => <a key={resource.id} href={resource.url} target="_blank" rel="noreferrer" className="card-lift group flex min-h-[220px] flex-col border border-black/10 bg-white p-5 sm:p-6"><div className="flex items-start justify-between gap-4"><span className="mono text-[10px] font-semibold uppercase tracking-[.13em] text-[#c92f55]">{resource.moduleId} / {resource.resourceType}</span><ExternalLink className="size-4 text-[#ea4b71] transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></div><h3 className="display mt-7 text-2xl leading-[.96] tracking-[-.02em]">{resource.title}</h3><p className="mt-3 text-sm leading-6 text-[#606065]">{resource.description}</p><div className="mt-auto flex items-center justify-between border-t border-black/10 pt-4"><span className="text-xs font-bold text-[#202027]">{resource.provider}</span><span className="mono text-[10px] text-[#85858a]">{resource.effort}</span></div></a>)}</div>}
+          {!learningResources.isLoading && !learningResources.error && filteredResources.length === 0 && <div className="mt-8 border border-dashed border-black/20 bg-white p-8 text-center"><p className="display text-3xl">No matching resources.</p><p className="mt-2 text-sm text-[#606065]">Try another type or clear the search to return to the complete library.</p><button type="button" onClick={() => { setResourceFilter("all"); setResourceQuery(""); }} className="mt-4 text-sm font-extrabold text-[#c92f55]">Show all resources</button></div>}
+          {learningResources.isLoading && <p className="mt-8 text-sm text-[#606065]">Loading the curated library…</p>}{learningResources.error && <p className="mt-8 text-sm text-[#c92f55]">The resource library is temporarily unavailable.</p>}
+        </div>
+      </section>
 
       <section className="bg-[#121216] py-20 lg:py-28"><div className="mx-auto grid max-w-[1480px] gap-10 px-5 sm:px-8 lg:grid-cols-[.86fr_1.14fr] lg:gap-20 lg:px-10"><div><p className="mono text-[10px] font-semibold uppercase tracking-[.18em] text-[#ffb4c5]">Personal resource vault</p><h2 className="display mt-5 max-w-md text-5xl leading-[.93] tracking-[-.035em] text-white sm:text-6xl">Keep your build notes <em className="text-[#ff9bb1]">with the route.</em></h2><p className="mt-6 max-w-md text-sm leading-7 text-[#bebec6]">Save briefs, n8n exports, and handover notes to your account. The database keeps the record while secure storage keeps the actual file.</p><input ref={inputRef} onChange={handleFileChange} accept=".pdf,.json,.zip,.md,.txt,application/pdf,application/json,application/zip,text/markdown,text/plain" className="hidden" type="file" /><button type="button" onClick={() => isAuthenticated ? inputRef.current?.click() : startLogin()} disabled={uploadMutation.isPending} className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#ea4b71] px-5 py-3 text-sm font-extrabold text-white transition-colors hover:bg-[#ff7795] disabled:opacity-60"><Upload className="size-4" />{uploadMutation.isPending ? "Saving resource…" : isAuthenticated ? "Add a learning file" : "Sign in to add files"}</button><p className="mono mt-3 text-[10px] uppercase tracking-[.12em] text-[#85858f]">PDF, JSON, ZIP, Markdown, or text · up to 8 MB</p></div><div className="border border-white/10 bg-white/[.04] p-5 sm:p-7"><div className="flex items-start justify-between gap-4"><div><p className="mono text-[10px] uppercase tracking-[.14em] text-[#ffb4c5]">{isAuthenticated ? `${user?.name ?? "Your"} vault` : "Account required"}</p><p className="mt-2 text-sm text-[#c7c7cd]">{isAuthenticated ? "Files you save are available to your signed-in account." : "Sign in to attach your workflow resources to this roadmap."}</p></div><FileText className="size-7 text-[#ea4b71]" /></div><div className="mt-6 space-y-3">{(learnerFiles.data ?? []).map((file) => <a key={file.id} href={file.fileUrl} target="_blank" rel="noreferrer" className="group flex items-center justify-between gap-4 rounded-xl border border-white/10 bg-black/20 px-4 py-3 transition-colors hover:border-[#ea4b71]/50"><span className="min-w-0"><span className="block truncate text-sm font-bold text-white">{file.filename}</span><span className="mono mt-1 block text-[10px] uppercase tracking-[.1em] text-[#a0a0a8]">{Math.max(1, Math.round(file.sizeBytes / 1024))} KB · {file.contentType}</span></span><ExternalLink className="size-4 shrink-0 text-[#ff9bb1]" /></a>)}{isAuthenticated && learnerFiles.data?.length === 0 && <p className="rounded-xl border border-dashed border-white/15 px-4 py-6 text-sm text-[#bcbcc4]">Your first saved workflow resource will appear here.</p>}{!isAuthenticated && <p className="rounded-xl border border-dashed border-white/15 px-4 py-6 text-sm text-[#bcbcc4]">Your resources remain private to your account after sign-in.</p>}</div></div></div></section>
+
+      <section id="suggestions" className="scroll-mt-16 bg-[#f5f5f6] text-[#15151a]">
+        <div className="mx-auto grid max-w-[1480px] gap-10 px-5 py-20 sm:px-8 lg:grid-cols-[.72fr_1.28fr] lg:gap-20 lg:px-10 lg:py-28">
+          <div><p className="mono text-[10px] font-semibold uppercase tracking-[.18em] text-[#c92f55]">Community contribution desk</p><h2 className="display mt-5 max-w-md text-5xl leading-[.93] tracking-[-.035em] sm:text-6xl">Put the next <em>useful build</em> on the route.</h2><p className="mt-6 max-w-md text-sm leading-7 text-[#606065]">Suggest a project prompt or a learning resource that would help other n8n builders. Signed-in contributions are reviewed before they become part of the public curriculum.</p><div className="mt-8 border-l-2 border-[#ea4b71] pl-4"><p className="mono text-[10px] uppercase tracking-[.13em] text-[#c92f55]">What helps most</p><p className="mt-2 text-sm leading-6 text-[#606065]">Concrete workflow outcome, intended learner stage, and a trustworthy learning link when you have one.</p></div></div>
+          <form onSubmit={submitSuggestion} className="border border-black/10 bg-white p-5 shadow-[0_18px_44px_rgba(20,20,25,.07)] sm:p-7">
+            <div className="grid gap-4 sm:grid-cols-2"><label className="text-sm font-bold text-[#202027]">I am suggesting<select value={submissionForm.submissionType} onChange={(event) => setSubmissionForm((form) => ({ ...form, submissionType: event.target.value as "project" | "resource" }))} className="mt-2 w-full rounded-lg border border-black/15 bg-white px-3 py-3 text-sm outline-none focus:border-[#ea4b71]"><option value="project">An n8n automation project</option><option value="resource">A learning resource</option></select></label><label className="text-sm font-bold text-[#202027]">Best route stop<select value={submissionForm.moduleId} onChange={(event) => setSubmissionForm((form) => ({ ...form, moduleId: event.target.value }))} className="mt-2 w-full rounded-lg border border-black/15 bg-white px-3 py-3 text-sm outline-none focus:border-[#ea4b71]"><option value="">Choose later</option>{roadmapModules.map((module) => <option key={module.id} value={module.id}>{module.title}</option>)}</select></label></div>
+            <label className="mt-5 block text-sm font-bold text-[#202027]">Title<input required minLength={5} maxLength={255} value={submissionForm.title} onChange={(event) => setSubmissionForm((form) => ({ ...form, title: event.target.value }))} placeholder={submissionForm.submissionType === "project" ? "Example: Customer request triage agent" : "Example: n8n HTTP Request guide"} className="mt-2 w-full rounded-lg border border-black/15 bg-white px-3 py-3 text-sm outline-none focus:border-[#ea4b71]" /></label>
+            <label className="mt-5 block text-sm font-bold text-[#202027]">Why should it be on the route?<textarea required minLength={20} maxLength={4000} rows={5} value={submissionForm.description} onChange={(event) => setSubmissionForm((form) => ({ ...form, description: event.target.value }))} placeholder="Describe the outcome, how learners would use it, and what makes it worthwhile." className="mt-2 w-full resize-y rounded-lg border border-black/15 bg-white px-3 py-3 text-sm leading-6 outline-none focus:border-[#ea4b71]" /></label>
+            <label className="mt-5 block text-sm font-bold text-[#202027]">Helpful link <span className="font-normal text-[#85858a]">(optional)</span><input type="url" value={submissionForm.url} onChange={(event) => setSubmissionForm((form) => ({ ...form, url: event.target.value }))} placeholder="https://…" className="mt-2 w-full rounded-lg border border-black/15 bg-white px-3 py-3 text-sm outline-none focus:border-[#ea4b71]" /></label>
+            <div className="mt-6 flex flex-wrap items-center justify-between gap-4 border-t border-black/10 pt-5"><p className="max-w-sm text-xs leading-5 text-[#606065]">{isAuthenticated ? "Your contribution is saved as a pending review." : "Sign in when you submit so we can safely review and credit your contribution."}</p><button type="submit" disabled={submissionMutation.isPending} className="inline-flex items-center gap-2 rounded-full bg-[#ea4b71] px-5 py-3 text-sm font-extrabold text-white transition-colors hover:bg-[#ff7795] disabled:opacity-60"><Send className="size-4" />{submissionMutation.isPending ? "Sending…" : isAuthenticated ? "Send suggestion" : "Sign in to suggest"}</button></div>
+          </form>
+        </div>
+      </section>
 
       <section id="builds" className="bg-[#f5f5f6] text-[#15151a]"><div className="mx-auto max-w-[1480px] px-5 py-20 sm:px-8 lg:px-10 lg:py-28"><div className="flex flex-col justify-between gap-6 border-b border-black/10 pb-8 sm:flex-row sm:items-end"><div><p className="mono text-[10px] font-semibold uppercase tracking-[.18em] text-[#c92f55]">The build bench</p><h2 className="display mt-5 text-5xl leading-[.93] tracking-[-.035em] sm:text-6xl">Proof you can show.</h2></div><p className="max-w-sm text-sm leading-7 text-[#606065]">Use the routes and reference links to make portfolio-sized systems from recognisable operational problems.</p></div><div className="mt-7 grid gap-4 lg:grid-cols-3">{featuredBuilds.map((build) => <article key={build.id} className="card-lift min-h-[250px] border border-black/10 bg-white p-6 sm:p-7"><p className="mono text-[10px] font-semibold tracking-[.15em] text-[#c92f55]">{build.label}</p><h3 className="display mt-10 max-w-sm text-3xl leading-[.98] tracking-[-.025em]">{build.title}</h3><p className="mono mt-5 text-[11px] leading-5 text-[#606065]">{build.note}</p><button type="button" onClick={startRoute} className="mt-6 inline-flex items-center gap-2 text-sm font-extrabold text-[#c92f55] hover:text-[#ea4b71]">Trace the skills <ArrowRight className="size-4" /></button></article>)}</div></div></section>
 
