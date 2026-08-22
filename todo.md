@@ -35,7 +35,7 @@
 - [x] Inventory existing Gemini Notebook-sourced resources in the current library.
 - [x] Extract all accessible Notebook source-collection links and classify them against roadmap stages.
 - [x] Deduplicate and import the classified Notebook resources with clear source labels and accurate resource types.
-- [ ] Validate the imported Notebook resource library, synchronize GitHub, and verify the Vercel release.
+- [x] Validate the imported Notebook resource library, synchronize GitHub, and verify the Vercel release.
 - [x] Recover learner access to the Notebook through a category-level resource-pack fallback after the oversized catalogue request timed out.
 - [x] Assess the supplied attachment for importable Notebook source metadata and safe deployment clues.
 - [x] Diagnose and repair the connected GitHub-to-Vercel production publishing path.
@@ -44,3 +44,7 @@
 - [x] Create an advanced GitHub-profile README with refined badges, architecture visuals, status indicators, and maintainable project guidance.
 - [x] Validate Markdown rendering, synchronize the updated README to GitHub, and confirm the repository documentation release.
 - [ ] Import the Notebook’s individual source URLs once an item-level export or stable authenticated extraction is available.
+- [ ] Capture the exact Vercel publication symptom across production aliases, root HTML, and API endpoints.
+- [ ] Inspect the current Vercel build settings, build logs, and runtime errors for the production deployment.
+- [ ] Research the relevant Vercel guidance and apply the smallest compatible deployment fix.
+- [ ] Verify the repaired site response, client assets, and server API endpoints on the stable production alias.
