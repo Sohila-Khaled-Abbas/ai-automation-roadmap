@@ -31,15 +31,16 @@
 - [x] Expand the roadmap into a fuller learning process with preparation, skill-building, project milestones, and capstone guidance.
 - [x] Add the new resource set to the persistent learning library with accurate source labels and type filters.
 - [x] Validate the expanded curriculum, resource library, GitHub synchronization, and Vercel release.
-- [ ] Verify the latest connected GitHub commit is live on Vercel production and share the confirmed URL.
-- [ ] Inventory existing Gemini Notebook-sourced resources in the current library.
-- [ ] Extract all accessible source links from the shared Gemini Notebook and classify them against roadmap stages.
-- [ ] Deduplicate and import the classified Notebook resources with clear source labels and accurate resource types.
+- [x] Verify the latest connected GitHub commit is live on Vercel production and share the confirmed URL.
+- [x] Inventory existing Gemini Notebook-sourced resources in the current library.
+- [x] Extract all accessible Notebook source-collection links and classify them against roadmap stages.
+- [x] Deduplicate and import the classified Notebook resources with clear source labels and accurate resource types.
 - [ ] Validate the imported Notebook resource library, synchronize GitHub, and verify the Vercel release.
-- [ ] Recover the Notebook source extraction by using smaller source-category batches after the oversized catalogue request timed out.
-- [ ] Assess the supplied attachment for importable Notebook source metadata and safe deployment clues.
-- [ ] Diagnose and repair the connected GitHub-to-Vercel production publishing path.
-- [ ] Verify the repaired Vercel production URL and imported-resource library state.
+- [x] Recover learner access to the Notebook through a category-level resource-pack fallback after the oversized catalogue request timed out.
+- [x] Assess the supplied attachment for importable Notebook source metadata and safe deployment clues.
+- [x] Diagnose and repair the connected GitHub-to-Vercel production publishing path.
+- [x] Verify the repaired Vercel production URL and imported-resource library state.
 - [x] Inspect the current README and repository metadata before the GitHub-profile documentation redesign.
 - [x] Create an advanced GitHub-profile README with refined badges, architecture visuals, status indicators, and maintainable project guidance.
-- [ ] Validate Markdown rendering, synchronize the updated README to GitHub, and confirm the repository documentation release.
+- [x] Validate Markdown rendering, synchronize the updated README to GitHub, and confirm the repository documentation release.
+- [ ] Import the Notebook’s individual source URLs once an item-level export or stable authenticated extraction is available.

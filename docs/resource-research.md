@@ -4,6 +4,8 @@
 
 The shared public notebook, **“n8n Mastery: From Basic Automation to Advanced AI Agents,”** contains **217 sources** grouped into AI Agents, API and Integration, Business Automation Cases, Data Handling, Deployment and Hosting, Introduction and Tutorials, LLM Models, MCP and Multi-Agents, Miscellaneous, n8n Career and Business, n8n Core Nodes, and RAG and Vectors. The Notebook itself states that the source collection comes from a video tutorial series by Karim Nabil focused on business-driven n8n automation, triggers, nodes, actions, application connections, local Docker setup, JSON, and APIs.
 
+The public library now contains one stage-mapped resource pack for each accessible Notebook category, in addition to the two previously verified direct YouTube lessons. Each pack links to the shared Notebook and retains the source label **Gemini Notebook · Source collection**, so learners can browse the complete category source set without misrepresenting an unavailable item-level URL export. The attached OpenAI Prompt Engineering and Structured Outputs documents were reviewed and matched existing direct resources, so they were not duplicated.
+
 The Introduction and Tutorials group visibly includes these learner-facing sources:
 
 - `001 | n8n with Karim | n8n from Business Perspective`
