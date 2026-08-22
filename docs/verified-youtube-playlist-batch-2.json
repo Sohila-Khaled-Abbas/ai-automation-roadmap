@@ -1,0 +1,57 @@
+{
+  "source": "https://www.youtube.com/playlist?list=PLLHIYYlcgk6KN58UnPm8q1btNHLDJlYto",
+  "playlist": "n8n with Karim by Kariim Nabiil - كريم نبيل",
+  "verification": "Public playlist extraction on 2026-08-22. Each selected row shares its numbered lesson, subject, and Kariim Nabiil provenance with the catalogue title. English/Arabic renderings are retained only where they describe the same numbered source lesson.",
+  "matches": [
+    {
+      "libraryId": 150020,
+      "title": "015 | Sentiment Analysis | تحليل آراء العملاء بالذكاء الاصطناعي",
+      "directUrl": "https://www.youtube.com/watch?v=-NYfMJVDiGI"
+    },
+    {
+      "libraryId": 150022,
+      "title": "019 | RAG | إزاي بنخلي الذكاء الاصطناعي يفهم ملفاتنا ويرد منها",
+      "directUrl": "https://www.youtube.com/watch?v=4t42DESCvjI"
+    },
+    {
+      "libraryId": 150105,
+      "title": "005 | Local n8n on your machine FREE | إزاي تستخدم على جهازك مجانا",
+      "directUrl": "https://www.youtube.com/watch?v=QqKdGHgvvOI"
+    },
+    {
+      "libraryId": 150106,
+      "title": "006 | ربط التطبيقات المختلفة في n8n | On App Event Trigger",
+      "directUrl": "https://www.youtube.com/watch?v=BQKej719cx8"
+    },
+    {
+      "libraryId": 150108,
+      "title": "008 | اربط أي حاجة | API Explanation (For Beginners)",
+      "directUrl": "https://www.youtube.com/watch?v=ALMbLRbHMCE"
+    },
+    {
+      "libraryId": 150109,
+      "title": "011 | Revision | مراجعة",
+      "directUrl": "https://www.youtube.com/watch?v=hkTXn8Vc44c"
+    },
+    {
+      "libraryId": 150110,
+      "title": "013 | AI Node in n8n",
+      "directUrl": "https://www.youtube.com/watch?v=clhK654wnoE"
+    },
+    {
+      "libraryId": 150111,
+      "title": "018 | Lead Qualification Agent | وكيل ذكاء اصطناعي لتجميع بيانات العملاء",
+      "directUrl": "https://www.youtube.com/watch?v=Sn7BHC0rdqo"
+    },
+    {
+      "libraryId": 150112,
+      "title": "020 | RAG AI Agent | وكيل ذكاء اصطناعي بيفهم الداتا بتاعتنا ويرد منها",
+      "directUrl": "https://www.youtube.com/watch?v=RgTwFgl50KI"
+    },
+    {
+      "libraryId": 150113,
+      "title": "023 | Self-host n8n | استضيف على السيرفر الخاص بيك",
+      "directUrl": "https://www.youtube.com/watch?v=a7wYHAH9-NQ"
+    }
+  ]
+}

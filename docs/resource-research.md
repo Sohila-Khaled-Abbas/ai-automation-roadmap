@@ -82,6 +82,11 @@ The shared Gemini Notebook was accessible in the connected account and exposes i
 | Exact-title public search plus video-page verification | 5 | `docs/direct-youtube-candidates.json` |
 | Official `n8n with Karim` playlist | 6 additional non-duplicate records | `docs/verified-youtube-playlist-matches.json` |
 | Official `Advanced n8n with Karim` playlist | 6 additional records | `docs/verified-advanced-youtube-playlist-matches.json` |
-| Total collection status | 17 direct YouTube pages; 189 search fallbacks remain | Persistent-library verification query |
+| Official `n8n with Karim` playlist — second guarded batch | 10 additional records | `docs/verified-youtube-playlist-batch-2.json` |
+| Total collection status | 27 direct YouTube pages; 179 search fallbacks remain | Persistent-library verification query |
 
 One Advanced-playlist candidate has a minor title difference (`API Document` versus `API Documentation`) and remains a search fallback until independently confirmed. The remaining 189 search links have not been guessed or bulk-replaced; each still requires an exact item-level title-and-provider match from a public playlist, direct page, or Notebook export.
+
+### Public-only recovery constraint
+
+The user requested that no Google or Notebook sign-in be required for continued recovery. The shared Notebook is therefore treated as a non-blocking reference unless a public export or copied item-level source list is supplied. Further replacements use only publicly accessible playlist and direct-video evidence with exact title-and-provider checks; ambiguous candidates remain labelled YouTube-search fallbacks.

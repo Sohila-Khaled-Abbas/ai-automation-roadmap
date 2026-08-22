@@ -43,7 +43,7 @@
 - [x] Inspect the current README and repository metadata before the GitHub-profile documentation redesign.
 - [x] Create an advanced GitHub-profile README with refined badges, architecture visuals, status indicators, and maintainable project guidance.
 - [x] Validate Markdown rendering, synchronize the updated README to GitHub, and confirm the repository documentation release.
-- [ ] Import the Notebook’s individual source URLs once an item-level export or stable authenticated extraction is available.
+- [ ] Import the Notebook’s individual source URLs only from a public item-level export or user-provided source list; do not require sign-in.
 - [x] Capture the exact Vercel publication symptom across production aliases, root HTML, and API endpoints.
 - [x] Inspect the current Vercel build settings, build logs, and runtime errors for the production deployment.
 - [x] Research the relevant Vercel guidance and apply the smallest compatible deployment fix.
@@ -75,21 +75,22 @@
 - [x] Extract the spreadsheet’s embedded source URLs and classify direct permalinks versus search or collection links.
 - [x] Reconcile the spreadsheet rows against the imported n8n Mastery records and prepare direct-link replacements without duplicates.
 - [x] Document the supplied spreadsheet’s no-op reconciliation outcome and retain the exact source-link upgrade as a source-data dependency.
-- [ ] Inspect the shared Gemini Notebook for item-level source links and export options in smaller stable batches.
+- [ ] Inspect any publicly accessible Notebook export or user-provided source list for item-level links; do not require sign-in.
 - [x] Search targeted catalogue titles for candidate direct YouTube permalinks and retain only title-and-provider matches.
 - [x] Apply high-confidence direct-link replacements, document unresolved entries, and validate the upgraded resource library.
-- [ ] Expand Gemini Notebook source categories in small batches and document concrete item-level link or export behavior.
+- [ ] Document the availability of public Notebook item-level source links or export evidence without requiring sign-in.
 - [x] Design and implement an original visual AI Automation learning diagram inspired by roadmap-style path maps.
 - [x] Audit and resolve actionable code-health, type, test, build, and live-runtime issues without weakening checks.
 - [x] Verify the final GitHub Actions quality gate and Vercel production homepage, assets, and API after the diagram release.
 - [ ] Receive the NotebookLM mind-map image after a successful retry and inspect it at OCR-readable resolution.
 - [ ] Extract and verify the mind-map text and relationship structure before using it as infographic source content.
 - [ ] Create and integrate the original AI Automation roadmap infographic with the OCR-verified source structure.
-- [ ] Validate the infographic’s responsive presentation, quality gate, and Vercel production release.
+- [x] Validate the infographic’s responsive presentation, quality gate, and Vercel production release.
 - [x] Research public roadmap-design patterns and translate only applicable accessibility, interaction, and information-hierarchy principles into an original infographic.
 - [x] Define and integrate a visual infographic based on the current nine-stage curriculum and curated-resource evidence, independent of the failed image upload.
 - [x] Refine the curriculum infographic into a responsive connected-node progression diagram with roadmap.sh-style wayfinding and the existing website color tokens.
 - [x] Assess whether a Hugging Face AI agent can provide a specific, safe learner benefit without duplicating existing roadmap functionality.
 - [ ] If approved by the assessment, implement a scoped authenticated AI learner feature with server-side credentials, bounded inputs, transparent limitations, and test coverage.
 - [x] Verify representative direct-video resource rows and their source labels, then validate the upgraded cards and links through the learner-library flow.
-- [ ] Publish the infographic refinement and verify its production homepage, current JavaScript asset, and authentication API endpoint on Vercel.
+- [x] Publish the infographic refinement and verify its production homepage, current JavaScript asset, and authentication API endpoint on Vercel.
+- [ ] Continue public exact-title playlist recovery in small verified batches, leaving all uncertain search fallbacks unchanged.
