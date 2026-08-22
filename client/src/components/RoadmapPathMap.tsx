@@ -40,6 +40,8 @@ export function RoadmapPathMap({ modules, activeModuleId, completedModuleIds, re
                 type="button"
                 onClick={() => onSelect(module.id)}
                 aria-current={isActive ? "step" : undefined}
+                aria-controls="stage-detail"
+                aria-label={`${module.route}: ${module.title}. ${resourceCounts[module.id] ?? 0} learning resources.`}
                 className={`group relative flex min-h-[156px] w-full flex-col rounded-2xl border p-5 text-left transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ff9bb1] ${isActive ? "border-[#ea4b71] bg-[#19131b] shadow-[0_0_0_1px_rgba(234,75,113,.26),0_18px_36px_rgba(0,0,0,.26)]" : "border-white/10 bg-white/[.035] hover:-translate-y-0.5 hover:border-white/30 hover:bg-white/[.06]"}`}
               >
                 <span className="flex items-center justify-between gap-3">

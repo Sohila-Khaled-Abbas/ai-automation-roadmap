@@ -60,10 +60,14 @@
 - [x] Benchmark the current roadmap against roadmap.sh-style learning navigation and identify the highest-impact AI Automation UX improvements.
 - [x] Audit the current interface, runtime logs, and resource-library data for performance bottlenecks, broken states, and invalid links.
 - [x] Implement a responsive, roadmap.sh-inspired AI Automation learner interface with clearer progression, navigation, and resource discovery.
-- [ ] Replace invalid or weak resource links with validated authoritative alternatives and document any unavoidable source limitations.
+- [x] Replace invalid or weak resource links with validated authoritative alternatives and document any unavoidable source limitations.
 - [x] Test the redesigned experience across desktop and mobile, validate production behavior, and publish the improved release.
 - [x] Diagnose and repair the GitHub Actions Type-check, test, and build failure without weakening the quality gate.
 - [ ] Benchmark roadmap.sh and one comparable learning platform with SimilarWeb data where available, saving raw results and documented limitations.
 - [x] Implement an accessible interactive AI Automation Path Map and retain a canonical Mermaid learning-process diagram in project documentation.
 - [x] Reduce unnecessary initial rendering and improve loading, empty, and error states in the expanded resource library.
 - [x] Confirm the repaired GitHub Actions run and Vercel production deployment after the redesign checkpoint.
+- [x] Create and validate a reusable AI Automation Roadmap upkeep skill for resource curation, link remediation, and release verification.
+- [x] Research current accessibility, performance, and learning-path UX improvements from authoritative web-platform and education sources.
+- [x] Implement the highest-value researched improvements without regressing authenticated learner flows or the visual roadmap.
+- [ ] Re-run quality, link, responsive, and production checks after the final improvement pass.

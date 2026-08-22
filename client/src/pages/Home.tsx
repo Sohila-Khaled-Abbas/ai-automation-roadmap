@@ -127,7 +127,8 @@ export default function Home() {
   };
 
   return (
-    <main className="overflow-x-hidden bg-[#040506] text-white">
+    <main id="main-content" className="overflow-x-hidden bg-[#040506] text-white">
+      <a className="skip-link" href="#roadmap">Skip to learning path</a>
       <header className="sticky top-0 z-50 border-b border-white/[.08] bg-[#040506]/95 backdrop-blur-xl">
         <div className="mx-auto flex h-[72px] max-w-[1480px] items-center justify-between px-5 sm:px-8 lg:px-10">
           <a href="#top" className="flex items-center gap-3" aria-label="The Data Tea AI Automation Path home"><img src="/manus-storage/the-data-tea-automation-mark_85c07dab.png" alt="" className="size-9 object-contain" /><span><span className="display block text-lg tracking-[-.03em] text-white">The Data Tea</span><span className="mono mt-0.5 block text-[9px] font-semibold uppercase tracking-[.16em] text-[#ffb4c5]">AI automation path</span></span></a>

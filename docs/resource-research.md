@@ -51,3 +51,7 @@ The public library now contains **261 resources** after five direct official n8n
 | Agents | [Build with the n8n AI Agent node](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/) | Tool-connected agents, current Tools Agent behavior, and template discovery. | Official n8n Docs |
 
 The source audit also retains a visible distinction between direct authoritative links and the 207 catalogue entries that lead to YouTube search results. Those search entries are working discovery links, but they are not represented as direct video permalinks; a verified item-level video export is still required before replacing them.
+
+## Generic Academy Link Remediation — August 2026
+
+Two early curriculum entries originally sent learners to the generic `learn.n8n.io/courses` landing page. They have been remapped to direct stage-appropriate sources: the **Orient** quickstart now uses [Build your first workflow](https://docs.n8n.io/build-your-first-workflow/), which covers triggers, credentials, data, logic, expressions, testing, and publishing; the **Connect** course now uses [N8N102 Integrations: APIs & Connected Workflows](https://learn.n8n.io/courses/course-v1:n8n+N8N102+2026H2/about/), which directly teaches API requests, webhooks, authentication, credentials, data handling, and flow control. These replacements make the route-specific cards more useful than a generic catalogue page while preserving official n8n provenance.

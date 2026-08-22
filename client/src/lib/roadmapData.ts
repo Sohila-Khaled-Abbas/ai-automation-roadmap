@@ -79,7 +79,7 @@ export const roadmapModules: RoadmapModule[] = [
   },
   {
     id: "augment",
-    route: "04 / Augment",
+    route: "05 / Augment",
     title: "Add AI without adding ambiguity",
     duration: "Week 5",
     tone: "coral",
@@ -92,7 +92,7 @@ export const roadmapModules: RoadmapModule[] = [
   },
   {
     id: "operate",
-    route: "05 / Operate",
+    route: "06 / Operate",
     title: "Ship workflows people can trust",
     duration: "Week 6",
     tone: "mint",
@@ -105,7 +105,7 @@ export const roadmapModules: RoadmapModule[] = [
   },
   {
     id: "agents",
-    route: "06 / Agent",
+    route: "07 / Agent",
     title: "Design context-aware AI systems",
     duration: "Week 7",
     tone: "coral",
@@ -118,7 +118,7 @@ export const roadmapModules: RoadmapModule[] = [
   },
   {
     id: "capstone",
-    route: "07 / Capstone",
+    route: "08 / Capstone",
     title: "Deploy, document, and prove the value",
     duration: "Weeks 8–10",
     tone: "amber",
