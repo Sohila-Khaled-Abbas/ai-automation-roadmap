@@ -25,4 +25,4 @@
 - [x] Add persisted submission records and a secure API for suggested automation projects and learning resources.
 - [x] Add resource-type filters for videos, guides/articles, notebook selections, courses, templates, and references.
 - [x] Build a responsive submission form with client and server validation plus success and error feedback.
-- [ ] Test the resource filtering and submission flows, synchronize GitHub, and verify the Vercel deployment.
+- [x] Test the resource filtering and submission flows, synchronize GitHub, and verify the Vercel deployment.
