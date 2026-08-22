@@ -32,11 +32,12 @@
 
 | Signal | Current state | What it means |
 | --- | --- | --- |
-| **Production** | [Vercel deployment](https://ai-automation-roadmap-git-main-sohila-khaled-abbas-projects.vercel.app) | Pushes to `main` are deployed automatically. |
+| **Production** | [Vercel deployment](https://ai-automation-roadmap-git-main-sohila-khaled-abbas-projects.vercel.app) | Pushes to `main` are deployed automatically; its public client reads the catalogue through a scoped managed API bridge. |
 | **Quality gate** | Type check · Vitest · production build | Every release runs the same verification workflow before deployment. |
 | **Curriculum** | 10-week process · 9 checkpoints | The visual route spans preparation through capstone delivery. |
-| **Learning library** | 264 source-labeled references | Public n8n, MDN, OpenAI, YouTube, and Gemini Notebook references, including verified direct video upgrades. |
-| **Build studio** | 7 persisted project challenges | Stage-mapped projects with proof criteria and direct official n8n template or guide references. |
+| **Learning library** | 270 source-labeled references | Public n8n, MDN, OpenAI, YouTube, and Gemini Notebook references, including eight official n8n templates and verified direct video upgrades. |
+| **Build studio** | 10 persisted project challenges | Stage-mapped projects with proof criteria and direct official n8n template or guide references. |
+| **Casebook** | 3 direct official n8n cases | Delivery Hero, Huel, and SanctifAI studies frame business outcomes, constraints, and evidence questions. |
 | **Public field kit** | No sign-in required | Route completion is stored in the current browser and can be downloaded or printed as a portable field note. |
 
 ## Learning experience
@@ -66,9 +67,9 @@ Learners can filter the public library by type, including videos, guides, Notebo
 
 ```mermaid
 flowchart LR
-  L["Learner"] --> UI["React 19 · Tailwind UI"]
-  UI --> RPC["tRPC API boundary"]
-  RPC --> DB["Drizzle · MySQL / TiDB"]
+  L["Learner"] --> UI["React 19 · Tailwind UI on Vercel"]
+  UI --> RPC["Scoped public tRPC catalogue bridge"]
+  RPC --> DB["Managed Express · Drizzle · MySQL / TiDB"]
   DB --> PROGRESS["Public curriculum data"]
   DB --> RESOURCES["Curated resource metadata"]
   DB --> PROJECTS["Persisted build challenges"]
@@ -77,7 +78,7 @@ flowchart LR
 | Layer | Responsibility | Key locations |
 | --- | --- | --- |
 | **Client** | Learning route, library filters, learner workspace, accessible interactions | `client/src/` |
-| **API** | Typed public curriculum, resource, and project procedures | `server/routers.ts` |
+| **API** | Typed public curriculum, resource, and project procedures; scoped Vercel catalogue bridge | `server/routers.ts`, `server/app.ts` |
 | **Domain logic** | Isolated validation and learning-route helpers | `server/*.ts` |
 | **Persistence** | Schema, migrations, learner data, resource records, build challenges | `drizzle/`, `server/db.ts` |
 | **Public progress** | Browser-local completion markers and portable route-note export | `client/src/lib/localRoadmapProgress.ts` |
@@ -138,7 +139,7 @@ sequenceDiagram
 
 The project is connected to Vercel with `main` as the production branch. Each synchronized main-branch checkpoint becomes a GitHub commit and triggers an automatic Vercel production build.
 
-> **Production data check:** an externally hosted Vercel function must have the same protected database, OAuth, and storage environment configuration as the runtime used to seed the learner data. A successful homepage is not sufficient; verify the public resource and build-project endpoints contain expected records. See the [release runbook](./docs/release-runbook.md).
+> **Production data check:** the public Vercel client omits credentials and reads curated resources and projects through a narrowly scoped managed tRPC bridge. A successful homepage is not sufficient; verify the current bundle includes the bridge and that the managed public resource and build-project endpoints return expected records for the Vercel origin. See the [release runbook](./docs/release-runbook.md).
 
 ## GitHub maintenance
 
@@ -159,7 +160,7 @@ Curated resources must retain a clear provider and source label. Never add fabri
 
 ## Resource provenance
 
-The public library combines official n8n documentation, MDN and OpenAI references, curated YouTube lessons, and selected Gemini Notebook sources. The research trail is available in [resource research notes](./docs/resource-research.md) and [learning-process research](./docs/learning-process-research.md).
+The public library combines official n8n documentation, templates, and case studies; MDN and OpenAI references; curated YouTube lessons; and selected Gemini Notebook sources. The research trail is available in [resource research notes](./docs/resource-research.md), [business case-study research](./docs/business-case-study-research.md), and [projects and templates research](./docs/projects-templates-research.md).
 
 ---
 

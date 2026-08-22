@@ -45,7 +45,11 @@ For the last two calls, an empty `json: []` response is a functional warning if 
 
 ### Current verification note — August 2026
 
-The redesigned production homepage and current JavaScript bundle returned `200`, while the deployed public `resources.list` and `projects.list` procedures returned empty collections. Local validation returns the persisted collections. Treat this as an external-host environment boundary to resolve in Vercel Project Settings, not as evidence that the local database seed or frontend mapping has failed. No secret values are recorded in this repository.
+The Vercel server functions do not hold independent managed database credentials, so their same-origin catalogue calls can remain empty. That is an expected hosting boundary for this deliberately public, no-sign-in product; the released static client does not rely on those routes for its catalogue.
+
+The expanded learning-process deployment `eb6b9a29` is `READY` on Vercel. Its homepage returned `200` with the expected `The Data Tea — AI Automation Path` title, and its current client bundle contains the managed `airoadmap-yzczrdqq.manus.space` catalogue host. A request to that managed API carrying the Vercel deployment origin received the scoped CORS response and returned **270** resource records and **10** persisted project records. No protected database, OAuth, or storage secrets were copied to Vercel.
+
+The connected browser extension timed out before interactive hydration could be inspected. This is recorded as a browser-automation limitation, not evidence of a site failure. Until an interactive browser session is available again, do not claim a visual browser end-to-end confirmation; use the deployed HTML and client-asset responses, the GitHub quality run, and the origin-authorized managed catalogue requests as the available release evidence.
 
 ## Recovery rules
 
