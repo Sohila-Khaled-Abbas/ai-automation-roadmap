@@ -1,0 +1,12 @@
+{
+  "source": "https://www.youtube.com/watch?v=zfD-OgeJF64",
+  "verification": "Public direct-page extraction on 2026-08-22. The official Kariim Nabiil page, playlist position 08, uses the title `08 | AI Automation Engineer | API Documentation`. The catalogue title is the same numbered lesson with the terminal word shortened to `API Document`; creator, numbered sequence, and subject are aligned.",
+  "matches": [
+    {
+      "libraryId": 150032,
+      "catalogueTitle": "08 | AI Automation Engineer | API Document",
+      "publicVideoTitle": "08 | AI Automation Engineer | API Documentation",
+      "directUrl": "https://www.youtube.com/watch?v=zfD-OgeJF64"
+    }
+  ]
+}
