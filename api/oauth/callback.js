@@ -438,7 +438,7 @@ async function storagePut(relKey, data, contentType = "application/octet-stream"
   if (!uploadResp.ok) {
     throw new Error(`Storage upload to S3 failed (${uploadResp.status})`);
   }
-  return { key, url: `/manus-storage/${key}` };
+  return { key, url: `/api/storage/${key}` };
 }
 
 // server/submissions.ts
@@ -833,7 +833,7 @@ function registerOAuthRoutes(app) {
 
 // server/_core/storageProxy.ts
 function registerStorageProxy(app) {
-  app.get("/manus-storage/*", async (req, res) => {
+  app.get(["/api/storage/*", "/manus-storage/*"], async (req, res) => {
     const key = req.params[0];
     if (!key) {
       res.status(400).send("Missing storage key");
