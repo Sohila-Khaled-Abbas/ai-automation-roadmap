@@ -1,0 +1,37 @@
+{
+  "source": "https://www.youtube.com/playlist?list=PLLHIYYlcgk6KN58UnPm8q1btNHLDJlYto",
+  "playlist": "n8n with Karim by Kariim Nabiil - كريم نبيل",
+  "verification": "Exact title and creator match in the public playlist extraction on 2026-08-22.",
+  "matches": [
+    {
+      "libraryId": 150005,
+      "title": "009 | نظام إدارة المخزون باستخدام التلجرام | Stock Management System using Telegram",
+      "directUrl": "https://www.youtube.com/watch?v=bV0agV6RPUY"
+    },
+    {
+      "libraryId": 150006,
+      "title": "010 | ربط أوردرات المطعم بالمطبخ والمخزون | Restaurant Kitchen and Stock Management",
+      "directUrl": "https://www.youtube.com/watch?v=2mL7Hd0EXa4"
+    },
+    {
+      "libraryId": 150007,
+      "title": "012 | AI Automation | الأتمتة بالذكاء الاصطناعي",
+      "directUrl": "https://www.youtube.com/watch?v=ecCHtuyjz_o"
+    },
+    {
+      "libraryId": 150008,
+      "title": "014 | AI Telegram Bot | بوت ذكاء اصطناعي بيرد على التلجرام",
+      "directUrl": "https://www.youtube.com/watch?v=GYKbAt9Z7HY"
+    },
+    {
+      "libraryId": 150010,
+      "title": "021 | مشروع أتمتة مطعم | أتمتة خدمة العملاء",
+      "directUrl": "https://www.youtube.com/watch?v=uN4GsroBv8E"
+    },
+    {
+      "libraryId": 150011,
+      "title": "022 | إزاي عبد الله عمل أول ألف دولار من n8n",
+      "directUrl": "https://www.youtube.com/watch?v=giqms3pkjGs"
+    }
+  ]
+}

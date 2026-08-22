@@ -72,3 +72,16 @@ The supplied `n8n-mastery-sources-catalogue.xlsx` was parsed from its embedded E
 | Current n8n Mastery collection | 216 records | Retained unchanged; one source was already represented elsewhere in the library during the original deduplicated import. |
 
 The workbook therefore confirms and strengthens the existing provenance record, but it cannot complete the exact-video-link replacement. A copied list of specific video pages (`youtube.com/watch?v=…` or `youtu.be/…`) or a Notebook item-level export containing those pages is still required before the 206 search-result links can be upgraded.
+
+## Direct YouTube Recovery from the Shared Notebook — August 2026
+
+The shared Gemini Notebook was accessible in the connected account and exposes its grouped sources and downloadable catalogue files. It does not present a static item-level URL export in its initial source-panel view. Targeted public YouTube research then identified two official `Kariim Nabiil - كريم نبيل` playlists, and their extracted public item lists provided creator- and title-matched direct pages. Exact title matches, together with a browser check of individual video-page titles, were required before any existing link was changed.
+
+| Recovery source | Verified direct-video replacements | Evidence retained |
+|---|---:|---|
+| Exact-title public search plus video-page verification | 5 | `docs/direct-youtube-candidates.json` |
+| Official `n8n with Karim` playlist | 6 additional non-duplicate records | `docs/verified-youtube-playlist-matches.json` |
+| Official `Advanced n8n with Karim` playlist | 6 additional records | `docs/verified-advanced-youtube-playlist-matches.json` |
+| Total collection status | 17 direct YouTube pages; 189 search fallbacks remain | Persistent-library verification query |
+
+One Advanced-playlist candidate has a minor title difference (`API Document` versus `API Documentation`) and remains a search fallback until independently confirmed. The remaining 189 search links have not been guessed or bulk-replaced; each still requires an exact item-level title-and-provider match from a public playlist, direct page, or Notebook export.

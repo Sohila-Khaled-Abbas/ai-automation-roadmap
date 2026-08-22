@@ -1,0 +1,19 @@
+{
+  "source": "https://www.youtube.com/playlist?list=PLLHIYYlcgk6KUa7VI3Fvi1Tuy4FsR27fd",
+  "playlist": "Advanced n8n with Karim by Kariim Nabiil - كريم نبيل",
+  "verification": "Exact title and creator matches in the public playlist extraction on 2026-08-22.",
+  "excludedNearMatch": {
+    "libraryId": 150032,
+    "catalogueTitle": "08 | AI Automation Engineer | API Document",
+    "playlistTitle": "08 | AI Automation Engineer | API Documentation",
+    "reason": "Retained as a search link until the title mismatch is independently confirmed."
+  },
+  "matches": [
+    { "libraryId": 150012, "title": "026 | إزاي محمود وصل لخمسة أضعاف دخله من n8n", "directUrl": "https://www.youtube.com/watch?v=rkrEwILsWCA" },
+    { "libraryId": 150013, "title": "03 | أول خطوة في التجهيز للمشروع | AI Automation PRD", "directUrl": "https://www.youtube.com/watch?v=kl9LZSq7fKk" },
+    { "libraryId": 150014, "title": "04 | ماذا قبل الحل | إدارة المنتجات | م. محمد عصام | Product Management", "directUrl": "https://www.youtube.com/watch?v=Us5IvaXEiYE" },
+    { "libraryId": 150015, "title": "05 | Vibe Coding | الحقيقة والخيال", "directUrl": "https://www.youtube.com/watch?v=-mkZ5_ZRxpo" },
+    { "libraryId": 150017, "title": "06 | Vibe Coding | أفضل استخدام", "directUrl": "https://www.youtube.com/watch?v=iIPaU2WSk5s" },
+    { "libraryId": 150030, "title": "07 | AI Automation Engineer | Environments", "directUrl": "https://www.youtube.com/watch?v=ffFONNXlEO8" }
+  ]
+}

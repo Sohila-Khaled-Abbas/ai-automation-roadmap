@@ -1,0 +1,42 @@
+{
+  "purpose": "High-confidence direct YouTube candidates recovered from targeted title search and browser verification.",
+  "candidates": [
+    {
+      "libraryId": 150001,
+      "catalogueTitle": "001 | n8n with Karim | n8n from Business Perspective",
+      "existingSearchUrl": "https://www.youtube.com/results?search_query=001+%7C+n8n+with+Karim+%7C+n8n+from+Business+Perspective",
+      "directUrl": "https://www.youtube.com/watch?v=FBID4TaQ6OE",
+      "verification": "Exact title matched in public search results and browser page title on 2026-08-22.",
+      "confidence": "high"
+    },
+    {
+      "libraryId": 150002,
+      "catalogueTitle": "002 | n8n with Karim | إزاي توصل جوجل شيتس بالجيميل| | How to connect Google Sheets to Gmail",
+      "directUrl": "https://www.youtube.com/watch?v=HdU_jOthCDc",
+      "verification": "Exact title matched in public search results and browser page title on 2026-08-22.",
+      "confidence": "high"
+    },
+    {
+      "libraryId": 150003,
+      "catalogueTitle": "003 | n8n with Karim | Very Simple Restaurants Orders System using n8n Step by Step",
+      "existingSearchUrl": "https://www.youtube.com/results?search_query=003+%7C+n8n+with+Karim+%7C+Very+Simple+Restaurants+Orders+System+using+n8n+Step+by+Step",
+      "directUrl": "https://www.youtube.com/watch?v=6EdFxcHjcwA",
+      "verification": "Exact title matched in public search results and browser page title on 2026-08-22.",
+      "confidence": "high"
+    },
+    {
+      "libraryId": 150004,
+      "catalogueTitle": "004 | n8n with Karim | شرح الأساسيات | Nodes, Triggers, Workflows",
+      "directUrl": "https://www.youtube.com/watch?v=xv9gQkdPa5g",
+      "verification": "Exact title matched in public search results and browser page title on 2026-08-22.",
+      "confidence": "high"
+    },
+    {
+      "libraryId": 150009,
+      "catalogueTitle": "017 | AI Agent Node | n8n with Karim",
+      "directUrl": "https://www.youtube.com/watch?v=nARxq7jObNQ",
+      "verification": "Exact title matched in public search results and browser page title on 2026-08-22.",
+      "confidence": "high"
+    }
+  ]
+}
