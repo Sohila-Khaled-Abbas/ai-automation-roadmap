@@ -20,6 +20,7 @@
   <a href="#architecture">Architecture</a> ·
   <a href="#local-development">Local development</a> ·
   <a href="#quality-and-delivery">Quality & delivery</a> ·
+  <a href="#github-maintenance">GitHub maintenance</a> ·
   <a href="#contributing">Contributing</a>
 </p>
 
@@ -33,9 +34,10 @@
 | --- | --- | --- |
 | **Production** | [Vercel deployment](https://ai-automation-roadmap-git-main-sohila-khaled-abbas-projects.vercel.app) | Pushes to `main` are deployed automatically. |
 | **Quality gate** | Type check · Vitest · production build | Every release runs the same verification workflow before deployment. |
-| **Curriculum** | 10-week process · 8 stages | The route spans preparation through capstone delivery. |
-| **Learning library** | 28 curated resources | Public n8n, MDN, OpenAI, YouTube, and Gemini Notebook references. |
-| **Learner workspace** | Authenticated | Progress, private file metadata, and community suggestions are scoped to the signed-in learner. |
+| **Curriculum** | 10-week process · 9 checkpoints | The visual route spans preparation through capstone delivery. |
+| **Learning library** | 264 source-labeled references | Public n8n, MDN, OpenAI, YouTube, and Gemini Notebook references, including verified direct video upgrades. |
+| **Build studio** | 7 persisted project challenges | Stage-mapped projects with proof criteria and direct official n8n template or guide references. |
+| **Public field kit** | No sign-in required | Route completion is stored in the current browser and can be downloaded or printed as a portable field note. |
 
 ## Learning experience
 
@@ -49,13 +51,14 @@ The roadmap is deliberately project-led. Each stage pairs a measurable deliverab
 | `03 / Build` | Nodes, branches, error paths, reuse | Multi-step n8n workflow |
 | `04 / Shape` | Data mapping, expressions, transformations | Data contract and validation rules |
 | `05 / Augment` | Bounded AI and human review | AI-assisted workflow with review gate |
-| `06 / Agent` | Memory, tools, evaluation, escalation | Context-aware agent design |
-| `07 / Capstone` | Deployment, debugging, evidence, portfolio | Demo-ready workflow and case study |
+| `06 / Operate` | Logging, retries, handover, observability | Production-ready workflow handover |
+| `07 / Agent` | Memory, tools, evaluation, escalation | Context-aware agent design |
+| `08 / Capstone` | Deployment, debugging, evidence, portfolio | Demo-ready workflow and case study |
 
 <details open>
 <summary><strong>What learners can do</strong></summary>
 
-Learners can filter the public library by type, including videos, guides, Notebook selections, courses, templates, and references. Signed-in learners can save route-stop progress, keep private workflow briefs and exports in a secure vault, and submit proposed n8n projects or learning resources for review.
+Learners can filter the public library by type, including videos, guides, Notebook selections, courses, templates, and references. Route-stop completion remains on the current device, and the field kit can export or print a portable route note. Source-backed project or resource suggestions use the repository’s public GitHub content-proposal template rather than an in-app account form.
 
 </details>
 
@@ -65,22 +68,19 @@ Learners can filter the public library by type, including videos, guides, Notebo
 flowchart LR
   L["Learner"] --> UI["React 19 · Tailwind UI"]
   UI --> RPC["tRPC API boundary"]
-  RPC --> AUTH["OAuth session"]
   RPC --> DB["Drizzle · MySQL / TiDB"]
-  RPC --> STORE["Secure object storage"]
-  DB --> PROGRESS["Learner progress"]
+  DB --> PROGRESS["Public curriculum data"]
   DB --> RESOURCES["Curated resource metadata"]
-  DB --> SUBMISSIONS["Community suggestions"]
-  STORE --> FILES["Private workflow files"]
+  DB --> PROJECTS["Persisted build challenges"]
 ```
 
 | Layer | Responsibility | Key locations |
 | --- | --- | --- |
 | **Client** | Learning route, library filters, learner workspace, accessible interactions | `client/src/` |
-| **API** | Typed public and protected procedures | `server/routers.ts` |
+| **API** | Typed public curriculum, resource, and project procedures | `server/routers.ts` |
 | **Domain logic** | Isolated validation and learning-route helpers | `server/*.ts` |
-| **Persistence** | Schema, migrations, learner data, resource records | `drizzle/`, `server/db.ts` |
-| **Storage** | Learner-owned file upload metadata and secure object keys | `server/storage.ts` |
+| **Persistence** | Schema, migrations, learner data, resource records, build challenges | `drizzle/`, `server/db.ts` |
+| **Public progress** | Browser-local completion markers and portable route-note export | `client/src/lib/localRoadmapProgress.ts` |
 | **Documentation** | Resource provenance, validation notes, contribution standards | `docs/`, `CONTRIBUTING.md` |
 
 ## Technology toolkit
@@ -96,7 +96,7 @@ flowchart LR
 
 ## Local development
 
-Use **Node.js 22+** and **pnpm 10+**. Managed runtime variables provide the database, OAuth, and storage configuration. Do not commit `.env` files, credentials, or learner data.
+Use **Node.js 22+** and **pnpm 10+**. Managed runtime variables provide the database configuration used by the content catalogue. Do not commit `.env` files, credentials, or learner data.
 
 ```bash
 pnpm install
@@ -117,7 +117,7 @@ pnpm dev
 
 > **Schema-first principle:** update `drizzle/schema.ts`, generate and review migration SQL, apply it through the managed migration workflow, and keep the schema, migration history, and deployed database aligned.
 
-The database stores learner progress, curated resource metadata, file metadata, and community suggestions. Private workflow files stay in secure object storage; the database stores only object keys and safe metadata. Never store file bytes in database columns or expose one learner’s resources to another learner.
+The database stores curated resource metadata and stage-mapped build challenges. Public route completion is deliberately stored only in the learner’s browser and can be downloaded as a field note. Never store file bytes in database columns, collect unneeded personal data, or present browser-local completion as account-synced progress.
 
 ## Quality and delivery
 
@@ -137,6 +137,19 @@ sequenceDiagram
 ```
 
 The project is connected to Vercel with `main` as the production branch. Each synchronized main-branch checkpoint becomes a GitHub commit and triggers an automatic Vercel production build.
+
+> **Production data check:** an externally hosted Vercel function must have the same protected database, OAuth, and storage environment configuration as the runtime used to seed the learner data. A successful homepage is not sufficient; verify the public resource and build-project endpoints contain expected records. See the [release runbook](./docs/release-runbook.md).
+
+## GitHub maintenance
+
+The repository includes issue templates, a pull-request checklist, a security-reporting policy, and a release runbook. These artifacts keep design changes, content additions, migrations, and production verification reviewable and reproducible.
+
+| Document | Use it when |
+| --- | --- |
+| [GitHub maintenance guide](./docs/github-maintenance.md) | Reviewing repository areas, triaging issues, or maintaining source-backed learning content. |
+| [Release runbook](./docs/release-runbook.md) | Verifying a GitHub commit, Vercel deployment, public API routes, or protected environment boundary. |
+| [Contributing guide](./CONTRIBUTING.md) | Opening a focused implementation pull request. |
+| [Security policy](./SECURITY.md) | Reporting a potential auth, storage, database, or secret issue privately. |
 
 ## Contribution contract
 

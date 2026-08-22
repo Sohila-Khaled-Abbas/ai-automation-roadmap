@@ -2,7 +2,6 @@ import express from "express";
 import { createExpressMiddleware } from "@trpc/server/adapters/express";
 import { appRouter } from "./routers";
 import { createContext } from "./_core/context";
-import { registerOAuthRoutes } from "./_core/oauth";
 import { registerStorageProxy } from "./_core/storageProxy";
 
 /**
@@ -15,8 +14,31 @@ export function createApp() {
 
   app.use(express.json({ limit: "50mb" }));
   app.use(express.urlencoded({ limit: "50mb", extended: true }));
+  app.use((req, res, next) => {
+    const origin = req.headers.origin;
+    const isRoadmapVercelOrigin = typeof origin === "string" && (() => {
+      try {
+        const hostname = new URL(origin).hostname;
+        return hostname === "ai-automation-roadmap-psi.vercel.app" || hostname.endsWith("-sohila-khaled-abbas-projects.vercel.app");
+      } catch {
+        return false;
+      }
+    })();
+
+    if (isRoadmapVercelOrigin) {
+      res.setHeader("Access-Control-Allow-Origin", origin as string);
+      res.setHeader("Vary", "Origin");
+      res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
+    }
+
+    if (req.method === "OPTIONS" && isRoadmapVercelOrigin) {
+      res.status(204).end();
+      return;
+    }
+
+    next();
+  });
   registerStorageProxy(app);
-  registerOAuthRoutes(app);
   app.use(
     "/api/trpc",
     createExpressMiddleware({

@@ -30,6 +30,10 @@ The redesigned route canvas was reviewed at **1440 × 1000** and **390 × 844**.
 
 The review confirmed strong visual hierarchy, consistent dark-ink/pale-paper section transitions, visible progress states, and no apparent clipping. The existing n8n-pink palette was retained to respect the established product colors; public roadmap patterns informed information hierarchy and interaction only, not copied design assets or code.
 
+## Public Field-Kit Model — August 2026
+
+The public route no longer requires OAuth sign-in. Completion markers are kept only in the current browser and can be exported or printed as a portable route note. The former account-only vault is presented as a field kit and proof ledger, and private file storage is intentionally unavailable without an explicit secure account model. Source-backed project and resource proposals use the public GitHub content-proposal template, retaining provider and evidence requirements without collecting a learner account.
+
 ## References
 
 [1]: https://roadmap.sh/roadmaps "roadmap.sh — Developer Roadmaps"

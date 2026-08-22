@@ -36,7 +36,7 @@ export function StageDetailPanel({ module, resources, isComplete, onToggleComple
           </div>
           <div className="mt-7 flex flex-wrap gap-3 border-t border-white/10 pt-6">
             <button type="button" onClick={onToggleComplete} className={`inline-flex items-center gap-2 rounded-full px-4 py-2.5 text-sm font-extrabold transition-colors ${isComplete ? "border border-[#ea4b71]/30 bg-[#ea4b71]/10 text-[#ffb4c5]" : "bg-[#ea4b71] text-white hover:bg-[#ff7795]"}`}>
-              {isComplete ? <Check className="size-4" /> : <Waypoints className="size-4" />}{isComplete ? "Saved complete" : "Save as complete"}
+              {isComplete ? <Check className="size-4" /> : <Waypoints className="size-4" />}{isComplete ? "Marked on this device" : "Mark complete on this device"}
             </button>
             <button type="button" onClick={onBrowseAll} className="inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2.5 text-sm font-extrabold text-white hover:border-[#ea4b71]/60">Browse stage resources <ArrowRight className="size-4" /></button>
           </div>

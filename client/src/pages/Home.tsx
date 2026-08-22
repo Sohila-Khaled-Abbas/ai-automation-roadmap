@@ -1,15 +1,14 @@
 /**
- * The Data Tea AI Automation Path: public learning discovery with authenticated progress,
- * private workflow files, and community submissions backed by tRPC.
+ * The Data Tea AI Automation Path: public learning discovery with browser-local route progress
+ * and source-backed project ideas, resources, and contribution guidance.
  */
-import { useEffect, useMemo, useRef, useState, type ChangeEvent, type FormEvent } from "react";
-import { ArrowDownRight, ArrowRight, BookOpen, Compass, ExternalLink, FileText, LogIn, LogOut, Menu, Printer, Send, ShieldCheck, Upload, X } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
+import { ArrowDownRight, ArrowRight, BookOpen, ClipboardList, Compass, Download, ExternalLink, Github, Menu, Printer, ShieldCheck, X } from "lucide-react";
 import { toast } from "sonner";
-import { startLogin } from "@/const";
-import { useAuth } from "@/_core/hooks/useAuth";
 import { BuildChallengeRail } from "@/components/BuildChallengeRail";
 import { RoadmapPathMap } from "@/components/RoadmapPathMap";
 import { StageDetailPanel } from "@/components/StageDetailPanel";
+import { normalizeLocalProgress, toggleLocalProgress } from "@/lib/localRoadmapProgress";
 import { trpc } from "@/lib/trpc";
 import { filterLibraryView, visibleLibraryResources } from "@/lib/libraryView";
 import { type ResourceFilterValue } from "@/lib/resourceFilters";
@@ -30,9 +29,9 @@ type LearningResource = {
 
 type ResourceFilter = ResourceFilterValue;
 
-const MAX_CLIENT_UPLOAD_BYTES = 8 * 1024 * 1024;
 const RESOURCE_BATCH_SIZE = 12;
-const ALLOWED_CLIENT_UPLOADS = new Set(["application/json", "application/pdf", "application/zip", "text/markdown", "text/plain"]);
+const LOCAL_PROGRESS_KEY = "the-data-tea-roadmap-progress-v1";
+const GITHUB_CONTENT_PROPOSAL_URL = "https://github.com/Sohila-Khaled-Abbas/ai-automation-roadmap/issues/new?template=content_proposal.md";
 const resourceFilters: Array<{ id: ResourceFilter; label: string }> = [
   { id: "all", label: "All" },
   { id: "video", label: "Video" },
@@ -49,23 +48,21 @@ function scrollToId(id: string) {
 
 export default function Home() {
   const [activeModuleId, setActiveModuleId] = useState("orient");
-  const [completeIds, setCompleteIds] = useState<string[]>([]);
+  const [completeIds, setCompleteIds] = useState<string[]>(() => {
+    if (typeof window === "undefined") return [];
+    try {
+      return normalizeLocalProgress(JSON.parse(window.localStorage.getItem(LOCAL_PROGRESS_KEY) ?? "[]"), roadmapModules.map((module) => module.id));
+    } catch {
+      return [];
+    }
+  });
   const [menuOpen, setMenuOpen] = useState(false);
   const [resourceQuery, setResourceQuery] = useState("");
   const [resourceFilter, setResourceFilter] = useState<ResourceFilter>("all");
   const [libraryStage, setLibraryStage] = useState("all");
   const [resourceLimit, setResourceLimit] = useState(RESOURCE_BATCH_SIZE);
-  const [submissionForm, setSubmissionForm] = useState<{ submissionType: "project" | "resource"; title: string; description: string; url: string; moduleId: string }>({ submissionType: "project", title: "", description: "", url: "", moduleId: "" });
-  const inputRef = useRef<HTMLInputElement>(null);
-  const { user, loading: authLoading, isAuthenticated, logout } = useAuth();
-  const utils = trpc.useUtils();
   const learningResources = trpc.resources.list.useQuery();
   const roadmapProjects = trpc.projects.list.useQuery();
-  const persistedProgress = trpc.roadmap.progress.useQuery(undefined, { enabled: isAuthenticated });
-  const learnerFiles = trpc.files.list.useQuery(undefined, { enabled: isAuthenticated });
-  const progressMutation = trpc.roadmap.setProgress.useMutation({ onSuccess: () => void utils.roadmap.progress.invalidate(), onError: (error) => toast.error(error.message) });
-  const uploadMutation = trpc.files.upload.useMutation({ onSuccess: () => { void utils.files.list.invalidate(); toast.success("Resource saved to your personal vault."); }, onError: (error) => toast.error(error.message) });
-  const submissionMutation = trpc.submissions.create.useMutation({ onSuccess: () => { setSubmissionForm({ submissionType: "project", title: "", description: "", url: "", moduleId: "" }); toast.success("Suggestion received — thank you for shaping the route."); }, onError: (error) => toast.error(error.message) });
 
   const resourceList = (learningResources.data ?? []) as LearningResource[];
   const buildChallenges = useMemo(() => toBuildChallenges((roadmapProjects.data ?? []) as PersistedRoadmapProject[]), [roadmapProjects.data]);
@@ -81,22 +78,27 @@ export default function Home() {
   const progress = Math.round((completeIds.length / roadmapModules.length) * 100);
   const libraryMetric = learningResources.isLoading || learningResources.error ? "Curated resources" : `${resourceList.length} curated references`;
 
-  useEffect(() => { if (persistedProgress.data) setCompleteIds(persistedProgress.data.map((item) => item.moduleId)); }, [persistedProgress.data]);
+  useEffect(() => {
+    try {
+      window.localStorage.setItem(LOCAL_PROGRESS_KEY, JSON.stringify(completeIds));
+    } catch {
+      // Browser storage is optional; the current view remains usable without it.
+    }
+  }, [completeIds]);
   useEffect(() => { setResourceLimit(RESOURCE_BATCH_SIZE); }, [libraryStage, resourceFilter, resourceQuery]);
   useEffect(() => {
     if ((resourceQuery.trim() || resourceFilter !== "all" || libraryStage !== "all") && !learningResources.isLoading && !learningResources.error && filteredResources.length === 0) {
       toast.info("No resources match this view. Clear the controls to browse the whole library.");
     }
   }, [filteredResources.length, libraryStage, learningResources.error, learningResources.isLoading, resourceFilter, resourceQuery]);
-  useEffect(() => { if (learnerFiles.error) toast.error("Your personal vault could not be loaded. Please refresh and try again."); }, [learnerFiles.error]);
 
   const selectModule = (moduleId: string) => {
     setActiveModuleId(moduleId);
     window.setTimeout(() => scrollToId("stage-detail"), 0);
   };
   const toggleComplete = (moduleId: string) => {
-    if (!isAuthenticated) { startLogin(); return; }
-    progressMutation.mutate({ moduleId, completed: !completeIds.includes(moduleId) });
+    setCompleteIds((current) => toggleLocalProgress(current, moduleId));
+    toast.success(completeIds.includes(moduleId) ? "Route checkpoint cleared on this device." : "Route checkpoint saved on this device.");
   };
   const browseStageResources = () => {
     setLibraryStage(activeModule.id);
@@ -109,29 +111,17 @@ export default function Home() {
     setResourceQuery("");
     setLibraryStage("all");
   };
-  const handleFileChange = (event: ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0];
-    if (!file) return;
-    if (!isAuthenticated) { startLogin(); return; }
-    const contentType = file.type || (file.name.toLowerCase().endsWith(".md") ? "text/markdown" : "text/plain");
-    if (!ALLOWED_CLIENT_UPLOADS.has(contentType)) { toast.error("Choose a PDF, JSON, ZIP, Markdown, or text file."); event.target.value = ""; return; }
-    if (file.size > MAX_CLIENT_UPLOAD_BYTES) { toast.error("Files must be 8 MB or smaller."); event.target.value = ""; return; }
-    const reader = new FileReader();
-    reader.onload = () => {
-      const dataBase64 = typeof reader.result === "string" ? reader.result.split(",")[1] : undefined;
-      if (!dataBase64) { toast.error("That file could not be read."); return; }
-      uploadMutation.mutate({ filename: file.name, contentType, dataBase64 });
-    };
-    reader.readAsDataURL(file);
-    event.target.value = "";
-  };
-  const submitSuggestion = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    if (!isAuthenticated) { startLogin(); return; }
-    submissionMutation.mutate(submissionForm);
+  const downloadFieldNotes = () => {
+    const note = ["The Data Tea · AI Automation Path", "", "Local route progress", ...roadmapModules.map((module) => `${completeIds.includes(module.id) ? "[x]" : "[ ]"} ${module.route} · ${module.title} — ${module.deliverable}`), "", "Progress is stored only in this browser unless you save this field note."].join("\n");
+    const blob = new Blob([note], { type: "text/markdown" });
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = "the-data-tea-ai-automation-route.md";
+    link.click();
+    URL.revokeObjectURL(link.href);
   };
 
-  const navigation = [["Roadmap", "roadmap"], ["Build studio", "builds"], ["Resource index", "library"], ["Vault", "vault"]] as const;
+  const navigation = [["Roadmap", "roadmap"], ["Build studio", "builds"], ["Resource index", "library"], ["Field kit", "field-kit"], ["Contribute", "suggestions"]] as const;
 
   return (
     <main id="main-content" className="min-h-screen overflow-x-hidden bg-[#09080b] text-white">
@@ -140,7 +130,7 @@ export default function Home() {
         <div className="mx-auto flex h-[72px] max-w-[1480px] items-center justify-between px-5 sm:px-8 lg:px-10">
           <a href="#top" className="flex items-center gap-3" aria-label="The Data Tea AI Automation Path home"><img src="/manus-storage/the-data-tea-automation-mark_85c07dab.png" alt="" className="size-9 object-contain" /><span><span className="display block text-lg tracking-[-.03em] text-white">The Data Tea</span><span className="mono mt-0.5 block text-[9px] font-bold uppercase tracking-[.16em] text-[#ffb4c5]">AI Automation Path</span></span></a>
           <nav className="hidden items-center gap-6 lg:flex" aria-label="Primary navigation">{navigation.map(([label, target]) => <a key={target} href={`#${target}`} className="text-xs font-bold tracking-wide text-[#beb8c0] transition-colors hover:text-[#ffb4c5]">{label}</a>)}</nav>
-          <div className="hidden items-center gap-3 sm:flex"><button type="button" onClick={() => window.print()} className="no-print inline-flex items-center gap-2 rounded-full border border-white/15 px-3.5 py-2 text-xs font-extrabold text-white hover:border-[#ea4b71]/60"><Printer className="size-3.5" />Print route</button><button type="button" onClick={() => isAuthenticated ? void logout() : startLogin()} disabled={authLoading} className="no-print inline-flex items-center gap-2 rounded-full bg-[#ea4b71] px-4 py-2 text-xs font-extrabold text-white transition-colors hover:bg-[#ff7795] disabled:opacity-60">{isAuthenticated ? <LogOut className="size-3.5" /> : <LogIn className="size-3.5" />}{isAuthenticated ? "Sign out" : "Save route"}</button></div>
+          <div className="hidden items-center gap-3 sm:flex"><button type="button" onClick={() => window.print()} className="no-print inline-flex items-center gap-2 rounded-full border border-white/15 px-3.5 py-2 text-xs font-extrabold text-white hover:border-[#ea4b71]/60"><Printer className="size-3.5" />Print route</button><button type="button" onClick={downloadFieldNotes} className="no-print inline-flex items-center gap-2 rounded-full bg-[#ea4b71] px-4 py-2 text-xs font-extrabold text-white transition-colors hover:bg-[#ff7795]"><Download className="size-3.5" />Download field notes</button></div>
           <button type="button" onClick={() => setMenuOpen((open) => !open)} className="no-print flex size-10 items-center justify-center rounded-full border border-white/15 text-white lg:hidden" aria-label="Toggle menu" aria-expanded={menuOpen}>{menuOpen ? <X className="size-4" /> : <Menu className="size-4" />}</button>
         </div>
         {menuOpen && <div className="border-t border-white/[.08] bg-[#121015] px-5 py-4 lg:hidden"><div className="flex flex-col gap-2">{navigation.map(([label, target]) => <a onClick={() => setMenuOpen(false)} key={target} href={`#${target}`} className="rounded-xl px-3 py-2 text-sm font-bold text-[#e6e0e6] hover:bg-white/[.06]">{label}</a>)}</div></div>}
@@ -161,7 +151,7 @@ export default function Home() {
           <aside className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-[#110f14]/90 p-5 shadow-[0_28px_80px_rgba(0,0,0,.35)] sm:p-7">
             <div className="absolute right-0 top-0 h-44 w-44 rounded-full bg-[#ea4b71]/15 blur-2xl" />
             <div className="relative flex items-start justify-between gap-5"><div><p className="mono text-[10px] font-bold uppercase tracking-[.16em] text-[#ffb4c5]">Course navigator</p><h2 className="display mt-3 text-3xl leading-[.9] text-white">Your route has a <em className="text-[#ff9bb1]">next move.</em></h2></div><span className="flex size-11 items-center justify-center rounded-xl border border-[#ea4b71]/35 bg-[#ea4b71]/15 text-[#ffb4c5]"><ShieldCheck className="size-5" /></span></div>
-            <div className="relative mt-8 rounded-2xl border border-white/10 bg-black/20 p-5"><div className="flex items-end justify-between gap-5"><div><span className="mono text-[9px] uppercase tracking-[.14em] text-[#8f858f]">Route completion</span><p className="display mt-2 text-5xl text-white">{progress}<span className="ml-1 text-lg text-[#aaa0aa]">%</span></p></div><p className="max-w-[10rem] text-right text-xs leading-5 text-[#b9afb8]">{isAuthenticated ? `${completeIds.length} coordinates saved to your account.` : "Save your route when you are ready."}</p></div><div className="mt-5 h-2 overflow-hidden rounded-full bg-white/10"><div className="h-full rounded-full bg-gradient-to-r from-[#ea4b71] to-[#ffb4c5] transition-all duration-300" style={{ width: `${progress}%` }} /></div></div>
+            <div className="relative mt-8 rounded-2xl border border-white/10 bg-black/20 p-5"><div className="flex items-end justify-between gap-5"><div><span className="mono text-[9px] uppercase tracking-[.14em] text-[#8f858f]">Route completion</span><p className="display mt-2 text-5xl text-white">{progress}<span className="ml-1 text-lg text-[#aaa0aa]">%</span></p></div><p className="max-w-[10rem] text-right text-xs leading-5 text-[#b9afb8]">{completeIds.length} checkpoints kept in this browser.</p></div><div className="mt-5 h-2 overflow-hidden rounded-full bg-white/10"><div className="h-full rounded-full bg-gradient-to-r from-[#ea4b71] to-[#ffb4c5] transition-all duration-300" style={{ width: `${progress}%` }} /></div></div>
             <div className="relative mt-4 grid gap-3 sm:grid-cols-2"><button type="button" onClick={() => selectModule(activeModule.id)} className="rounded-xl border border-[#ea4b71]/45 bg-[#ea4b71]/10 p-4 text-left transition hover:bg-[#ea4b71]/15"><span className="mono text-[9px] font-bold uppercase tracking-[.14em] text-[#ffb4c5]">In focus</span><span className="mt-2 block text-sm font-extrabold text-white">{activeModule.route} · {activeModule.title}</span></button><button type="button" onClick={() => { setLibraryStage(activeModule.id); scrollToId("library"); }} className="rounded-xl border border-white/10 bg-white/[.035] p-4 text-left transition hover:border-white/30"><span className="mono text-[9px] font-bold uppercase tracking-[.14em] text-[#a89da6]">Stage assets</span><span className="mt-2 block text-sm font-extrabold text-white">{resourceCounts[activeModule.id] ?? 0} resources to inspect</span></button></div>
             <p className="relative mt-5 border-t border-white/10 pt-4 text-xs leading-5 text-[#aaa0aa]">The map favors visible proofs: brief, workflow, data contract, review rule, runbook, or a portfolio-ready handoff.</p>
           </aside>
@@ -183,9 +173,9 @@ export default function Home() {
         {visibleResources.length > 0 && <><div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">{visibleResources.map((resource) => <a key={resource.id} href={resource.url} target="_blank" rel="noreferrer" className="group flex min-h-[240px] flex-col rounded-2xl border border-black/10 bg-white p-5 transition duration-200 hover:-translate-y-1 hover:border-[#ea4b71]/50 hover:shadow-[0_18px_36px_rgba(52,28,38,.10)] sm:p-6"><div className="flex items-start justify-between gap-4"><span className="mono text-[9px] font-bold uppercase tracking-[.13em] text-[#c92f55]">{resource.moduleId} / {resource.resourceType}</span><ExternalLink className="size-4 text-[#ea4b71] transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></div><h3 className="display mt-6 text-2xl leading-[.96] tracking-[-.02em]">{resource.title}</h3><p className="mt-3 line-clamp-3 text-sm leading-6 text-[#615b62]">{resource.description}</p><div className="mt-auto flex items-center justify-between gap-3 border-t border-black/10 pt-4"><span className="truncate text-xs font-bold text-[#252026]">{resource.provider}</span><span className="mono shrink-0 text-[9px] text-[#877d85]">{resource.effort}</span></div></a>)}</div>{visibleResources.length < filteredResources.length && <div className="mt-8 text-center"><button type="button" onClick={() => setResourceLimit((limit) => limit + RESOURCE_BATCH_SIZE)} className="rounded-full border border-black/15 bg-white px-5 py-3 text-sm font-extrabold text-[#252026] transition hover:border-[#ea4b71] hover:text-[#c92f55]">Show 12 more resources <ArrowDownRight className="ml-1 inline size-4" /></button><p className="mt-3 text-xs text-[#877d85]">Showing {visibleResources.length} of {filteredResources.length} matching references.</p></div>}</>}
       </div></section>
 
-      <section id="vault" className="scroll-mt-16 bg-[#121015] py-16 lg:py-24"><div className="mx-auto grid max-w-[1480px] gap-10 px-5 sm:px-8 lg:grid-cols-[.86fr_1.14fr] lg:gap-20 lg:px-10"><div><p className="mono text-[10px] font-bold uppercase tracking-[.18em] text-[#ffb4c5]">Private build vault</p><h2 className="display mt-5 max-w-md text-5xl leading-[.9] tracking-[-.045em] text-white sm:text-6xl">Keep the evidence <em className="text-[#ff9bb1]">with the route.</em></h2><p className="mt-6 max-w-md text-sm leading-7 text-[#beb6be]">Store workflow exports, briefs, and handover notes privately with the proof they support. The record remains in your account while file bytes are stored securely.</p><input ref={inputRef} onChange={handleFileChange} accept=".pdf,.json,.zip,.md,.txt,application/pdf,application/json,application/zip,text/markdown,text/plain" className="hidden" type="file" /><button type="button" onClick={() => isAuthenticated ? inputRef.current?.click() : startLogin()} disabled={uploadMutation.isPending} className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#ea4b71] px-5 py-3 text-sm font-extrabold text-white transition hover:bg-[#ff7795] disabled:opacity-60"><Upload className="size-4" />{uploadMutation.isPending ? "Saving proof…" : isAuthenticated ? "Add build evidence" : "Sign in to save proof"}</button><p className="mono mt-3 text-[10px] uppercase tracking-[.12em] text-[#89808a]">PDF, JSON, ZIP, Markdown, or text · up to 8 MB</p></div><div className="rounded-[1.5rem] border border-white/10 bg-white/[.04] p-5 sm:p-7"><div className="flex items-start justify-between gap-4"><div><p className="mono text-[10px] uppercase tracking-[.14em] text-[#ffb4c5]">{isAuthenticated ? `${user?.name ?? "Your"} build vault` : "Account required"}</p><p className="mt-2 text-sm text-[#c7bec7]">{isAuthenticated ? "Files you save stay available to your signed-in account." : "Sign in to attach workflow resources to this route."}</p></div><FileText className="size-7 text-[#ea4b71]" /></div><div className="mt-6 space-y-3">{(learnerFiles.data ?? []).map((file) => <a key={file.id} href={file.fileUrl} target="_blank" rel="noreferrer" className="group flex items-center justify-between gap-4 rounded-xl border border-white/10 bg-black/20 px-4 py-3 transition hover:border-[#ea4b71]/50"><span className="min-w-0"><span className="block truncate text-sm font-bold text-white">{file.filename}</span><span className="mono mt-1 block text-[10px] uppercase tracking-[.1em] text-[#a39aa4]">{Math.max(1, Math.round(file.sizeBytes / 1024))} KB · {file.contentType}</span></span><ExternalLink className="size-4 shrink-0 text-[#ffb4c5]" /></a>)}{isAuthenticated && learnerFiles.data?.length === 0 && <p className="rounded-xl border border-dashed border-white/15 px-4 py-6 text-sm text-[#bcb4bd]">Your first saved proof will appear here.</p>}{!isAuthenticated && <p className="rounded-xl border border-dashed border-white/15 px-4 py-6 text-sm text-[#bcb4bd]">Your resources remain private after sign-in.</p>}</div></div></div></section>
+      <section id="field-kit" className="scroll-mt-16 bg-[#121015] py-16 lg:py-24"><div className="mx-auto grid max-w-[1480px] gap-10 px-5 sm:px-8 lg:grid-cols-[.86fr_1.14fr] lg:gap-20 lg:px-10"><div><p className="mono text-[10px] font-bold uppercase tracking-[.18em] text-[#ffb4c5]">Browser field kit</p><h2 className="display mt-5 max-w-md text-5xl leading-[.9] tracking-[-.045em] text-white sm:text-6xl">Keep the route <em className="text-[#ff9bb1]">close to the work.</em></h2><p className="mt-6 max-w-md text-sm leading-7 text-[#beb6be]">Mark a checkpoint complete, then print or download your route as a portable field note. Your completion marks stay in this browser only—no account, sign-in, or personal file upload is required.</p><div className="mt-8 flex flex-wrap gap-3"><button type="button" onClick={downloadFieldNotes} className="inline-flex items-center gap-2 rounded-full bg-[#ea4b71] px-5 py-3 text-sm font-extrabold text-white transition hover:bg-[#ff7795]"><Download className="size-4" />Download route note</button><button type="button" onClick={() => window.print()} className="inline-flex items-center gap-2 rounded-full border border-white/15 px-5 py-3 text-sm font-extrabold text-white hover:border-[#ea4b71]/60"><Printer className="size-4" />Print field kit</button></div></div><div className="rounded-[1.5rem] border border-white/10 bg-white/[.04] p-5 sm:p-7"><div className="flex items-start justify-between gap-4"><div><p className="mono text-[10px] uppercase tracking-[.14em] text-[#ffb4c5]">Proof ledger</p><p className="mt-2 text-sm text-[#c7bec7]">Use the route as a lightweight build log while you work.</p></div><ClipboardList className="size-7 text-[#ea4b71]" /></div><div className="mt-6 grid gap-3 sm:grid-cols-2">{roadmapModules.slice(0, 6).map((module) => <button key={module.id} type="button" onClick={() => selectModule(module.id)} className="rounded-xl border border-white/10 bg-black/20 p-4 text-left transition hover:border-[#ea4b71]/50"><span className="mono text-[9px] uppercase tracking-[.12em] text-[#ffb4c5]">{completeIds.includes(module.id) ? "Proof marked" : "Open proof"}</span><span className="mt-2 block text-sm font-bold text-white">{module.deliverable}</span></button>)}</div><p className="mt-5 rounded-xl border border-dashed border-white/15 px-4 py-3 text-xs leading-5 text-[#bcb4bd]">For private workflow exports and files, save them in your own secure drive or repository alongside the downloaded route note.</p></div></div></section>
 
-      <section id="suggestions" className="scroll-mt-16 bg-[#f4eee9] text-[#19161b]"><div className="mx-auto grid max-w-[1480px] gap-10 px-5 py-16 sm:px-8 lg:grid-cols-[.72fr_1.28fr] lg:gap-20 lg:px-10 lg:py-24"><div><p className="mono text-[10px] font-bold uppercase tracking-[.18em] text-[#c92f55]">Contribution desk</p><h2 className="display mt-5 max-w-md text-5xl leading-[.9] tracking-[-.045em] sm:text-6xl">Put the next <em>useful build</em> on the map.</h2><p className="mt-6 max-w-md text-sm leading-7 text-[#615b62]">Suggest a project prompt or learning resource with a concrete outcome, intended route stage, and a direct public link when you have one.</p><div className="mt-8 border-l-2 border-[#ea4b71] pl-4"><p className="mono text-[10px] font-bold uppercase tracking-[.13em] text-[#c92f55]">Review standard</p><p className="mt-2 text-sm leading-6 text-[#615b62]">Projects should show an operational result; resources should identify a credible provider and direct destination.</p></div></div><form onSubmit={submitSuggestion} className="rounded-[1.5rem] border border-black/10 bg-white p-5 shadow-[0_18px_44px_rgba(20,20,25,.07)] sm:p-7"><div className="grid gap-4 sm:grid-cols-2"><label className="text-sm font-bold text-[#252026]">I am suggesting<select value={submissionForm.submissionType} onChange={(event) => setSubmissionForm((form) => ({ ...form, submissionType: event.target.value as "project" | "resource" }))} className="mt-2 w-full rounded-lg border border-black/15 bg-white px-3 py-3 text-sm outline-none focus:border-[#ea4b71]"><option value="project">An n8n automation project</option><option value="resource">A learning resource</option></select></label><label className="text-sm font-bold text-[#252026]">Route checkpoint<select value={submissionForm.moduleId} onChange={(event) => setSubmissionForm((form) => ({ ...form, moduleId: event.target.value }))} className="mt-2 w-full rounded-lg border border-black/15 bg-white px-3 py-3 text-sm outline-none focus:border-[#ea4b71]"><option value="">Choose later</option>{roadmapModules.map((module) => <option key={module.id} value={module.id}>{module.title}</option>)}</select></label></div><label className="mt-5 block text-sm font-bold text-[#252026]">Title<input required minLength={5} maxLength={255} value={submissionForm.title} onChange={(event) => setSubmissionForm((form) => ({ ...form, title: event.target.value }))} placeholder={submissionForm.submissionType === "project" ? "Example: Customer request triage agent" : "Example: n8n HTTP Request guide"} className="mt-2 w-full rounded-lg border border-black/15 bg-white px-3 py-3 text-sm outline-none focus:border-[#ea4b71]" /></label><label className="mt-5 block text-sm font-bold text-[#252026]">Why should it be on the route?<textarea required minLength={20} maxLength={4000} rows={5} value={submissionForm.description} onChange={(event) => setSubmissionForm((form) => ({ ...form, description: event.target.value }))} placeholder="Describe the outcome, learner use case, and why it is worthwhile." className="mt-2 w-full resize-y rounded-lg border border-black/15 bg-white px-3 py-3 text-sm leading-6 outline-none focus:border-[#ea4b71]" /></label><label className="mt-5 block text-sm font-bold text-[#252026]">Helpful link <span className="font-normal text-[#898188]">(optional)</span><input type="url" value={submissionForm.url} onChange={(event) => setSubmissionForm((form) => ({ ...form, url: event.target.value }))} placeholder="https://…" className="mt-2 w-full rounded-lg border border-black/15 bg-white px-3 py-3 text-sm outline-none focus:border-[#ea4b71]" /></label><div className="mt-6 flex flex-wrap items-center justify-between gap-4 border-t border-black/10 pt-5"><p className="max-w-sm text-xs leading-5 text-[#615b62]">{isAuthenticated ? "Your contribution is saved as a pending review." : "Sign in when you submit so we can safely review and credit your contribution."}</p><button type="submit" disabled={submissionMutation.isPending} className="inline-flex items-center gap-2 rounded-full bg-[#ea4b71] px-5 py-3 text-sm font-extrabold text-white transition hover:bg-[#ff7795] disabled:opacity-60"><Send className="size-4" />{submissionMutation.isPending ? "Sending…" : isAuthenticated ? "Send suggestion" : "Sign in to suggest"}</button></div></form></div></section>
+      <section id="suggestions" className="scroll-mt-16 bg-[#f4eee9] text-[#19161b]"><div className="mx-auto grid max-w-[1480px] gap-10 px-5 py-16 sm:px-8 lg:grid-cols-[.72fr_1.28fr] lg:gap-20 lg:px-10 lg:py-24"><div><p className="mono text-[10px] font-bold uppercase tracking-[.18em] text-[#c92f55]">Contribution desk</p><h2 className="display mt-5 max-w-md text-5xl leading-[.9] tracking-[-.045em] sm:text-6xl">Put the next <em>useful build</em> on the map.</h2><p className="mt-6 max-w-md text-sm leading-7 text-[#615b62]">Propose a source-backed project or learning resource through the public GitHub content template. It keeps the route open to contribution without collecting personal learner accounts in the app.</p><div className="mt-8 border-l-2 border-[#ea4b71] pl-4"><p className="mono text-[10px] font-bold uppercase tracking-[.13em] text-[#c92f55]">Review standard</p><p className="mt-2 text-sm leading-6 text-[#615b62]">Projects should show an operational result; resources should identify a credible provider and direct destination.</p></div></div><div className="rounded-[1.5rem] border border-black/10 bg-white p-7 shadow-[0_18px_44px_rgba(20,20,25,.07)]"><Github className="size-8 text-[#c92f55]" /><h3 className="display mt-6 text-4xl leading-[.92]">Open a <em>content proposal.</em></h3><p className="mt-4 max-w-xl text-sm leading-7 text-[#615b62]">The proposal template asks for a direct public source, provider, route stage, and evidence of learning value. That preserves clear provenance without requiring this website to collect a sign-in or account profile.</p><a href={GITHUB_CONTENT_PROPOSAL_URL} target="_blank" rel="noreferrer" className="mt-7 inline-flex items-center gap-2 rounded-full bg-[#ea4b71] px-5 py-3 text-sm font-extrabold text-white transition hover:bg-[#ff7795]">Propose a route addition <ExternalLink className="size-4" /></a><p className="mono mt-4 text-[9px] uppercase tracking-[.12em] text-[#877d85]">Public GitHub issue template · source-backed content only</p></div></div></section>
 
       <footer className="border-t border-white/[.08] bg-[#09080b]"><div className="mx-auto flex max-w-[1480px] flex-col gap-5 px-5 py-8 sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-10"><div className="flex items-center gap-3"><img src="/manus-storage/the-data-tea-automation-mark_85c07dab.png" alt="" className="size-8 object-contain" /><span className="text-sm font-extrabold text-white">The Data Tea</span></div><p className="mono text-[10px] uppercase tracking-[.14em] text-[#89808a]">AI Automation learning route · n8n builder track</p><a href="#top" className="inline-flex items-center gap-2 text-xs font-bold text-[#ffb4c5] hover:text-[#ff9bb1]">Back to top <ArrowRight className="size-3.5 -rotate-90" /></a></div></footer>
     </main>

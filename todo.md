@@ -100,3 +100,15 @@
 - [ ] Validate the redesigned journey at desktop and mobile breakpoints, run quality checks, and verify the GitHub Actions and Vercel release.
 - [x] Persist curated build challenges in a durable database table with source/provider metadata and expose them through a public tRPC query.
 - [x] Re-validate the build studio after it reads persisted project challenges rather than frontend-only constants.
+- [x] Expand the README and add GitHub-focused documentation for architecture, contribution, project-content maintenance, release verification, and issue/PR workflows.
+- [ ] Verify the current GitHub Actions run, Vercel deployment, and database-backed production endpoints; resolve any publish/configuration gap found.
+- [ ] Run the updated quality gate and publish the documented GitHub/Vercel maintenance release.
+- [x] Review relevant project guidance and implement targeted, testable enhancements that improve learner navigation, accessibility, or maintenance without adding speculative features.
+- [x] Determine whether protected Vercel production values can be accessed through an authorized configuration path; otherwise obtain secure user entry before retrying the live data release.
+- [x] Audit and remove public OAuth sign-in requirements from the roadmap, library, build studio, and contribution experience.
+- [x] Replace account-only progress, vault, and submission controls with clear public behavior that does not expose or fabricate personal data.
+- [ ] Update documentation and validate the no-sign-in public release across GitHub and the managed production host.
+- [x] Redesign the website around a full immersive roadmap canvas with connected capability paths, visual branch logic, proof stations, and original creative field-guide styling.
+- [x] Create and validate a reusable maintenance skill for the roadmap-first visual interface and its public-content constraints.
+- [ ] Validate the transformed roadmap interface at desktop and mobile breakpoints, run quality checks, and publish the verified public release.
+- [x] Route the Vercel static frontend to the managed public catalogue API with narrowly scoped CORS, so its source-backed resources and projects remain available without external database or OAuth secrets.
