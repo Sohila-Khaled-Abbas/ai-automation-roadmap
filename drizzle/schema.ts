@@ -44,7 +44,7 @@ export const learningResources = mysqlTable("learningResources", {
   description: text("description").notNull(),
   url: varchar("url", { length: 1024 }).notNull(),
   provider: varchar("provider", { length: 160 }).notNull(),
-  resourceType: mysqlEnum("resourceType", ["course", "guide", "template", "reference"]).notNull(),
+  resourceType: mysqlEnum("resourceType", ["course", "guide", "template", "reference", "video"]).notNull(),
   effort: varchar("effort", { length: 64 }).notNull(),
   source: varchar("source", { length: 160 }).notNull(),
   createdAt: timestamp("createdAt").defaultNow().notNull(),

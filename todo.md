@@ -6,7 +6,14 @@
 - [x] Connect roadmap completion to authenticated database-backed records.
 - [x] Add a secure resource upload and file-library experience for workflow assets.
 - [x] Validate authenticated persistence contracts, file upload validation, file access links, and responsive user flows.
-- [ ] Save a checkpoint and deliver the completed full-stack upgrade.
+- [x] Save a checkpoint and deliver the completed full-stack upgrade.
+- [x] Inspect the connected GitHub repository and existing Vercel deployment context.
+- [x] Add a software-engineering README with architecture, setup, data model, testing, deployment, and contribution guidance.
+- [x] Add repository hygiene for automated checks and clean project configuration.
+- [x] Connect the existing GitHub repository to Vercel for automatic branch deployments.
+- [ ] Verify the GitHub-to-Vercel deployment path and document the ongoing edit workflow.
+- [x] Research and add vetted YouTube videos for each learning-roadmap phase.
+- [x] Import accessible Gemini Notebook links into the persistent resource library with source labels.
 - [x] Research and curate credible online learning resources for each AI automation roadmap phase.
 - [x] Add structured learning-resource metadata and roadmap-path relationships to the database.
 - [x] Build a searchable, roadmap-linked resource library that links learners to curated external material.

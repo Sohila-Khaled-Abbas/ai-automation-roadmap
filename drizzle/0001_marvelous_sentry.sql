@@ -1,0 +1,1 @@
+ALTER TABLE `learningResources` MODIFY COLUMN `resourceType` enum('course','guide','template','reference','video') NOT NULL;
