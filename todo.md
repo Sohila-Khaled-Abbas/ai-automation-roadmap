@@ -55,15 +55,15 @@
 - [x] Browser-test the updated library count, imported Arabic and English catalogue resources, an official guide/template, and a search/filter path.
 - [ ] Obtain exact per-item video permalinks for the imported n8n Mastery catalogue entries that currently use YouTube search-result URLs.
 - [ ] Replace YouTube search-result URLs with exact source permalinks and re-validate the updated library.
-- [ ] Re-diagnose the reported Vercel publication failure across the active production aliases and deployment logs.
-- [ ] Repair, republish, and verify the production homepage, client bundle, and tRPC API on the stable Vercel alias.
+- [x] Re-diagnose the reported Vercel publication failure across the active production aliases and deployment logs.
+- [x] Repair, republish, and verify the production homepage, client bundle, and tRPC API on the stable Vercel alias.
 - [x] Benchmark the current roadmap against roadmap.sh-style learning navigation and identify the highest-impact AI Automation UX improvements.
 - [x] Audit the current interface, runtime logs, and resource-library data for performance bottlenecks, broken states, and invalid links.
 - [x] Implement a responsive, roadmap.sh-inspired AI Automation learner interface with clearer progression, navigation, and resource discovery.
 - [ ] Replace invalid or weak resource links with validated authoritative alternatives and document any unavoidable source limitations.
-- [ ] Test the redesigned experience across desktop and mobile, validate production behavior, and publish the improved release.
-- [ ] Diagnose and repair the GitHub Actions Type-check, test, and build failure without weakening the quality gate.
+- [x] Test the redesigned experience across desktop and mobile, validate production behavior, and publish the improved release.
+- [x] Diagnose and repair the GitHub Actions Type-check, test, and build failure without weakening the quality gate.
 - [ ] Benchmark roadmap.sh and one comparable learning platform with SimilarWeb data where available, saving raw results and documented limitations.
 - [x] Implement an accessible interactive AI Automation Path Map and retain a canonical Mermaid learning-process diagram in project documentation.
 - [x] Reduce unnecessary initial rendering and improve loading, empty, and error states in the expanded resource library.
-- [ ] Confirm the repaired GitHub Actions run and Vercel production deployment after the redesign checkpoint.
+- [x] Confirm the repaired GitHub Actions run and Vercel production deployment after the redesign checkpoint.
