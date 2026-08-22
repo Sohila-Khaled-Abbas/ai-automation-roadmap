@@ -1,0 +1,1310 @@
+{
+  "uniqueUrlCount": 217,
+  "statusCounts": {
+    "200": 217
+  },
+  "results": [
+    {
+      "url": "https://community-charts.github.io/docs/charts/n8n/queue-mode",
+      "status": 200,
+      "finalUrl": "https://community-charts.github.io/docs/charts/n8n/queue-mode",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://community.n8n.io/t/n8n-autoscaling-updated-for-v2-0-includes-queue-mode-worker-scaling-runner-scaling-cloudflare-etc/245688",
+      "status": 200,
+      "finalUrl": "https://community.n8n.io/t/n8n-autoscaling-updated-for-v2-0-includes-queue-mode-worker-scaling-runner-scaling-cloudflare-etc/245688",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://dev.to/codebangkok/n8n-code-node-import-external-library-python-javascript-4lp7",
+      "status": 200,
+      "finalUrl": "https://dev.to/codebangkok/n8n-code-node-import-external-library-python-javascript-4lp7",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://docs.n8n.io/changelog/v20-breaking-changes",
+      "status": 200,
+      "finalUrl": "https://docs.n8n.io/changelog/v20-breaking-changes",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://docs.n8n.io/deploy/host-n8n/configure-n8n/scaling/enable-queue-mode",
+      "status": 200,
+      "finalUrl": "https://docs.n8n.io/deploy/host-n8n/configure-n8n/scaling/enable-queue-mode",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://docs.n8n.io/deploy/host-n8n/configure-n8n/set-up-task-runners",
+      "status": 200,
+      "finalUrl": "https://docs.n8n.io/deploy/host-n8n/configure-n8n/set-up-task-runners",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/Sohila-Khaled-Abbas/n8n-production-queue-setup",
+      "status": 200,
+      "finalUrl": "https://github.com/Sohila-Khaled-Abbas/n8n-production-queue-setup",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/n8n-io/n8n/tree/master/docker/images/runners",
+      "status": 200,
+      "finalUrl": "https://github.com/n8n-io/n8n/tree/master/docker/images/runners",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://learn.n8n.io/courses/course-v1:n8n+N8N101+2026H2/about",
+      "status": 200,
+      "finalUrl": "https://learn.n8n.io/courses/course-v1:n8n+N8N101+2026H2/about",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://learn.n8n.io/courses/course-v1:n8n+QS101+2026H2/",
+      "status": 200,
+      "finalUrl": "https://learn.n8n.io/courses/course-v1:n8n+QS101+2026H2/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://nfirdausblog.wordpress.com/2025/12/31/solving-the-n8n-v2-python-task-runner-nightmare-a-step-by-step-survival-guide/",
+      "status": 200,
+      "finalUrl": "https://nfirdausblog.wordpress.com/2025/12/31/solving-the-n8n-v2-python-task-runner-nightmare-a-step-by-step-survival-guide/",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=001+%7C+n8n+with+Karim+%7C+n8n+from+Business+Perspective",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=001+%7C+n8n+with+Karim+%7C+n8n+from+Business+Perspective",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=002+%7C+n8n+with+Karim+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D9%88%D8%B5%D9%84+%D8%AC%D9%88%D8%AC%D9%84+%D8%B4%D9%8A%D8%AA%D8%B3+%D8%A8%D8%A7%D9%84%D8%AC%D9%8A%D9%85%D9%8A%D9%84%7C+%7C+How+to+connect+Google+Sheets+to+Gmail",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=002+%7C+n8n+with+Karim+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D9%88%D8%B5%D9%84+%D8%AC%D9%88%D8%AC%D9%84+%D8%B4%D9%8A%D8%AA%D8%B3+%D8%A8%D8%A7%D9%84%D8%AC%D9%8A%D9%85%D9%8A%D9%84%7C+%7C+How+to+connect+Google+Sheets+to+Gmail",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=003+%7C+n8n+with+Karim+%7C+Very+Simple+Restaurants+Orders+System+using+n8n+Step+by+Step",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=003+%7C+n8n+with+Karim+%7C+Very+Simple+Restaurants+Orders+System+using+n8n+Step+by+Step",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=004+%7C+n8n+with+Karim+%7C+%D8%B4%D8%B1%D8%AD+%D8%A7%D9%84%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A7%D8%AA+%7C+Nodes%2C+Triggers%2C+Workflows",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=004+%7C+n8n+with+Karim+%7C+%D8%B4%D8%B1%D8%AD+%D8%A7%D9%84%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A7%D8%AA+%7C+Nodes%2C+Triggers%2C+Workflows",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=005+%7C+Local+n8n+on+your+machine+FREE+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D8%B3%D8%AA%D8%AE%D8%AF%D9%85+%D8%B9%D9%84%D9%89+%D8%AC%D9%87%D8%A7%D8%B2%D9%83+%D9%85%D8%AC%D8%A7%D9%86%D8%A7",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=005+%7C+Local+n8n+on+your+machine+FREE+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D8%B3%D8%AA%D8%AE%D8%AF%D9%85+%D8%B9%D9%84%D9%89+%D8%AC%D9%87%D8%A7%D8%B2%D9%83+%D9%85%D8%AC%D8%A7%D9%86%D8%A7",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=006+%7C+%D8%B1%D8%A8%D8%B7+%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA+%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9+%D9%81%D9%8A+n8n+%7C+On+App+Event+Trigger",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=006+%7C+%D8%B1%D8%A8%D8%B7+%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA+%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9+%D9%81%D9%8A+n8n+%7C+On+App+Event+Trigger",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=007+%7C+%D8%A3%D9%86%D9%88%D8%A7%D8%B9+%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA+%D9%81%D9%8A+n8n+%7C+JSON",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=007+%7C+%D8%A3%D9%86%D9%88%D8%A7%D8%B9+%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA+%D9%81%D9%8A+n8n+%7C+JSON",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=008+%7C+%D8%A7%D8%B1%D8%A8%D8%B7+%D8%A3%D9%8A+%D8%AD%D8%A7%D8%AC%D8%A9++%7C+API+Explanation+%28For+Beginners%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=008+%7C+%D8%A7%D8%B1%D8%A8%D8%B7+%D8%A3%D9%8A+%D8%AD%D8%A7%D8%AC%D8%A9++%7C+API+Explanation+%28For+Beginners%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=009+%7C+%D9%86%D8%B8%D8%A7%D9%85+%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9+%D8%A7%D9%84%D9%85%D8%AE%D8%B2%D9%88%D9%86+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+%D8%A7%D9%84%D8%AA%D9%84%D8%AC%D8%B1%D8%A7%D9%85+%7C+Stock+Management+System+using+Telegram",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=009+%7C+%D9%86%D8%B8%D8%A7%D9%85+%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9+%D8%A7%D9%84%D9%85%D8%AE%D8%B2%D9%88%D9%86+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+%D8%A7%D9%84%D8%AA%D9%84%D8%AC%D8%B1%D8%A7%D9%85+%7C+Stock+Management+System+using+Telegram",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=01+%7C+%D9%85%D8%AD%D8%AA%D8%A7%D8%AC+%D8%A5%D9%8A%D9%87+%D8%B9%D8%B4%D8%A7%D9%86+%D8%AA%D8%A8%D9%82%D9%89+%D9%85%D9%87%D9%86%D8%AF%D8%B3+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%7C+AI+Automation+Engineer",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=01+%7C+%D9%85%D8%AD%D8%AA%D8%A7%D8%AC+%D8%A5%D9%8A%D9%87+%D8%B9%D8%B4%D8%A7%D9%86+%D8%AA%D8%A8%D9%82%D9%89+%D9%85%D9%87%D9%86%D8%AF%D8%B3+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%7C+AI+Automation+Engineer",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=01+__+%D8%A3%D8%B3%D9%87%D9%84+%D8%B7%D8%B1%D9%8A%D9%82%D9%87+%D9%84%D9%81%D9%87%D9%85+AI+Agent+%D9%88%D8%A7%D9%84%D9%81%D8%B1%D9%82+%D8%A8%D9%8A%D9%86%D9%87+%D9%88%D8%A8%D9%8A%D9%86+%D8%A7%D9%84%D9%80+Large+Language+Models+%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=01+__+%D8%A3%D8%B3%D9%87%D9%84+%D8%B7%D8%B1%D9%8A%D9%82%D9%87+%D9%84%D9%81%D9%87%D9%85+AI+Agent+%D9%88%D8%A7%D9%84%D9%81%D8%B1%D9%82+%D8%A8%D9%8A%D9%86%D9%87+%D9%88%D8%A8%D9%8A%D9%86+%D8%A7%D9%84%D9%80+Large+Language+Models+%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=010+%7C+%D8%B1%D8%A8%D8%B7+%D8%A3%D9%88%D8%B1%D8%AF%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D9%85%D8%B7%D8%B9%D9%85+%D8%A8%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D8%AE+%D9%88%D8%A7%D9%84%D9%85%D8%AE%D8%B2%D9%88%D9%86+%7C+Restaurant+Kitchen+and+Stock+Management",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=010+%7C+%D8%B1%D8%A8%D8%B7+%D8%A3%D9%88%D8%B1%D8%AF%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D9%85%D8%B7%D8%B9%D9%85+%D8%A8%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D8%AE+%D9%88%D8%A7%D9%84%D9%85%D8%AE%D8%B2%D9%88%D9%86+%7C+Restaurant+Kitchen+and+Stock+Management",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=011+%7C+Revision+%7C+%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=011+%7C+Revision+%7C+%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=012+%7C+AI+Automation+%7C+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=012+%7C+AI+Automation+%7C+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=013+%7C+AI+Node+in+n8n",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=013+%7C+AI+Node+in+n8n",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=014+%7C+AI+Telegram+Bot+%7C+%D8%A8%D9%88%D8%AA+%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D8%A8%D9%8A%D8%B1%D8%AF+%D8%B9%D9%84%D9%89+%D8%A7%D9%84%D8%AA%D9%84%D8%AC%D8%B1%D8%A7%D9%85",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=014+%7C+AI+Telegram+Bot+%7C+%D8%A8%D9%88%D8%AA+%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D8%A8%D9%8A%D8%B1%D8%AF+%D8%B9%D9%84%D9%89+%D8%A7%D9%84%D8%AA%D9%84%D8%AC%D8%B1%D8%A7%D9%85",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=015+%7C+Sentiment+Analysis+%7C+%D8%AA%D8%AD%D9%84%D9%8A%D9%84+%D8%A2%D8%B1%D8%A7%D8%A1+%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1+%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=015+%7C+Sentiment+Analysis+%7C+%D8%AA%D8%AD%D9%84%D9%8A%D9%84+%D8%A2%D8%B1%D8%A7%D8%A1+%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1+%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=016+%7C+AI+Agents+Introduction+%7C+%D9%85%D9%82%D8%AF%D9%85%D8%A9+%D8%B9%D9%86+%D9%88%D9%83%D9%84%D8%A7%D8%A1+%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=016+%7C+AI+Agents+Introduction+%7C+%D9%85%D9%82%D8%AF%D9%85%D8%A9+%D8%B9%D9%86+%D9%88%D9%83%D9%84%D8%A7%D8%A1+%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=017+%7C+AI+Agent+Node+%7C+n8n+with+Karim",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=017+%7C+AI+Agent+Node+%7C+n8n+with+Karim",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=018+%7C+Lead+Qualification+Agent+%7C+%D9%88%D9%83%D9%8A%D9%84+%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D9%84%D8%AA%D8%AC%D9%85%D9%8A%D8%B9+%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA+%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=018+%7C+Lead+Qualification+Agent+%7C+%D9%88%D9%83%D9%8A%D9%84+%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D9%84%D8%AA%D8%AC%D9%85%D9%8A%D8%B9+%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA+%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=019+%7C+RAG+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%A8%D9%86%D8%AE%D9%84%D9%8A+%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D9%8A%D9%81%D9%87%D9%85+%D9%85%D9%84%D9%81%D8%A7%D8%AA%D9%86%D8%A7+%D9%88%D9%8A%D8%B1%D8%AF+%D9%85%D9%86%D9%87%D8%A7",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=019+%7C+RAG+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%A8%D9%86%D8%AE%D9%84%D9%8A+%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D9%8A%D9%81%D9%87%D9%85+%D9%85%D9%84%D9%81%D8%A7%D8%AA%D9%86%D8%A7+%D9%88%D9%8A%D8%B1%D8%AF+%D9%85%D9%86%D9%87%D8%A7",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=02+%7C+%D8%A8%D9%86%D8%AD%D8%AA%D8%A7%D8%AC+%D9%86%D8%B9%D8%B1%D9%81+%D8%A5%D9%8A%D9%87+%D9%85%D9%86+%D9%81%D8%B1%D9%82+%D8%A7%D9%84%D8%A8%D9%8A%D8%B2%D9%86%D8%B3+%D9%82%D8%A8%D9%84+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%7C+Business+AI+Automation",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=02+%7C+%D8%A8%D9%86%D8%AD%D8%AA%D8%A7%D8%AC+%D9%86%D8%B9%D8%B1%D9%81+%D8%A5%D9%8A%D9%87+%D9%85%D9%86+%D9%81%D8%B1%D9%82+%D8%A7%D9%84%D8%A8%D9%8A%D8%B2%D9%86%D8%B3+%D9%82%D8%A8%D9%84+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%7C+Business+AI+Automation",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=02+%D9%80%D9%80%D9%80%D9%80+%D8%AA%D8%B9%D8%B1%D9%81+%D8%B9%D9%84%D9%8A+%D8%A7%D9%84%D9%81%D8%B1%D9%82+%D8%A8%D9%8A%D9%86+%D8%A7%D9%84%D9%80+AI+Agents+%D9%88%D8%A7%D9%84%D9%80+Workflows+%D9%85%D8%B9+%D8%A3%D9%85%D8%AB%D9%84%D8%A9+%D8%B9%D9%85%D9%84%D9%8A%D8%A9+%7C%7C+Anthropic+Article",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=02+%D9%80%D9%80%D9%80%D9%80+%D8%AA%D8%B9%D8%B1%D9%81+%D8%B9%D9%84%D9%8A+%D8%A7%D9%84%D9%81%D8%B1%D9%82+%D8%A8%D9%8A%D9%86+%D8%A7%D9%84%D9%80+AI+Agents+%D9%88%D8%A7%D9%84%D9%80+Workflows+%D9%85%D8%B9+%D8%A3%D9%85%D8%AB%D9%84%D8%A9+%D8%B9%D9%85%D9%84%D9%8A%D8%A9+%7C%7C+Anthropic+Article",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=02+-+%D9%84%D9%8A%D9%87+%D9%83%D9%84+%D8%A7%D9%84%D9%85%D8%B7%D9%88%D8%B1%D9%8A%D9%86+%D8%A8%D8%AF%D8%A3%D9%88%D8%A7+%D9%8A%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D9%88%D8%A7++Supabase+Database+%D9%85%D8%B9+n8n%D8%9F%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=02+-+%D9%84%D9%8A%D9%87+%D9%83%D9%84+%D8%A7%D9%84%D9%85%D8%B7%D9%88%D8%B1%D9%8A%D9%86+%D8%A8%D8%AF%D8%A3%D9%88%D8%A7+%D9%8A%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D9%88%D8%A7++Supabase+Database+%D9%85%D8%B9+n8n%D8%9F%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=020+%7C+RAG+AI+Agent+%7C+%D9%88%D9%83%D9%8A%D9%84+%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D8%A8%D9%8A%D9%81%D9%87%D9%85+%D8%A7%D9%84%D8%AF%D8%A7%D8%AA%D8%A7+%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA%D9%86%D8%A7+%D9%88%D9%8A%D8%B1%D8%AF+%D9%85%D9%86%D9%87%D8%A7",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=020+%7C+RAG+AI+Agent+%7C+%D9%88%D9%83%D9%8A%D9%84+%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D8%A8%D9%8A%D9%81%D9%87%D9%85+%D8%A7%D9%84%D8%AF%D8%A7%D8%AA%D8%A7+%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA%D9%86%D8%A7+%D9%88%D9%8A%D8%B1%D8%AF+%D9%85%D9%86%D9%87%D8%A7",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=021+%7C+%D9%85%D8%B4%D8%B1%D9%88%D8%B9+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D9%85%D8%B7%D8%B9%D9%85+%7C+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%AE%D8%AF%D9%85%D8%A9+%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=021+%7C+%D9%85%D8%B4%D8%B1%D9%88%D8%B9+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D9%85%D8%B7%D8%B9%D9%85+%7C+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%AE%D8%AF%D9%85%D8%A9+%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=022+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D9%84%D9%87+%D8%B9%D9%85%D9%84+%D8%A3%D9%88%D9%84+%D8%A3%D9%84%D9%81+%D8%AF%D9%88%D9%84%D8%A7%D8%B1+%D9%85%D9%86+n8n",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=022+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D9%84%D9%87+%D8%B9%D9%85%D9%84+%D8%A3%D9%88%D9%84+%D8%A3%D9%84%D9%81+%D8%AF%D9%88%D9%84%D8%A7%D8%B1+%D9%85%D9%86+n8n",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=023+%7C+Self-host+n8n+%7C+%D8%A7%D8%B3%D8%AA%D8%B6%D9%8A%D9%81+%D8%B9%D9%84%D9%89+%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D9%81%D8%B1+%D8%A7%D9%84%D8%AE%D8%A7%D8%B5+%D8%A8%D9%8A%D9%83",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=023+%7C+Self-host+n8n+%7C+%D8%A7%D8%B3%D8%AA%D8%B6%D9%8A%D9%81+%D8%B9%D9%84%D9%89+%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D9%81%D8%B1+%D8%A7%D9%84%D8%AE%D8%A7%D8%B5+%D8%A8%D9%8A%D9%83",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=024+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D8%B4%D8%AA%D8%BA%D9%84+%D9%81%D9%8A+%D9%85%D8%AC%D8%A7%D9%84+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9%D8%9F",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=024+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D8%B4%D8%AA%D8%BA%D9%84+%D9%81%D9%8A+%D9%85%D8%AC%D8%A7%D9%84+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9%D8%9F",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=025+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%A8%D9%86%D8%B3%D8%B9%D8%B1+%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9+n8n%D8%9F",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=025+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%A8%D9%86%D8%B3%D8%B9%D8%B1+%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9+n8n%D8%9F",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=026+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%A8%D9%86%D8%B3%D9%84%D9%85+%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9+n8n%D8%9F",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=026+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%A8%D9%86%D8%B3%D9%84%D9%85+%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9+n8n%D8%9F",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=026+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D9%85%D8%AD%D9%85%D9%88%D8%AF+%D9%88%D8%B5%D9%84+%D9%84%D8%AE%D9%85%D8%B3%D8%A9+%D8%A3%D8%B6%D8%B9%D8%A7%D9%81+%D8%AF%D8%AE%D9%84%D9%87+%D9%85%D9%86+n8n",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=026+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D9%85%D8%AD%D9%85%D9%88%D8%AF+%D9%88%D8%B5%D9%84+%D9%84%D8%AE%D9%85%D8%B3%D8%A9+%D8%A3%D8%B6%D8%B9%D8%A7%D9%81+%D8%AF%D8%AE%D9%84%D9%87+%D9%85%D9%86+n8n",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=03+%7C+%D8%A3%D9%88%D9%84+%D8%AE%D8%B7%D9%88%D8%A9+%D9%81%D9%8A+%D8%A7%D9%84%D8%AA%D8%AC%D9%87%D9%8A%D8%B2+%D9%84%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9+%7C+AI+Automation+PRD",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=03+%7C+%D8%A3%D9%88%D9%84+%D8%AE%D8%B7%D9%88%D8%A9+%D9%81%D9%8A+%D8%A7%D9%84%D8%AA%D8%AC%D9%87%D9%8A%D8%B2+%D9%84%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9+%7C+AI+Automation+PRD",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=03+%D9%80%D9%80%D9%80%D9%80+%D8%AC%D8%B2%D8%A1+1%D9%80%D9%80%D9%80%D9%80+%D8%B4%D8%B1%D8%AD+Prompt+Chaining%3A+%D8%A3%D9%88%D9%84+Workflow+%D9%81%D9%8A+%D8%A3%D9%86%D8%B8%D9%85%D8%A9+Anthropic+%D8%A7%D9%84%D8%B0%D9%83%D9%8A%D8%A9",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=03+%D9%80%D9%80%D9%80%D9%80+%D8%AC%D8%B2%D8%A1+1%D9%80%D9%80%D9%80%D9%80+%D8%B4%D8%B1%D8%AD+Prompt+Chaining%3A+%D8%A3%D9%88%D9%84+Workflow+%D9%81%D9%8A+%D8%A3%D9%86%D8%B8%D9%85%D8%A9+Anthropic+%D8%A7%D9%84%D8%B0%D9%83%D9%8A%D8%A9",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=03+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+2+%3A+%D8%A7%D9%83%D8%AA%D8%B4%D9%81+Workflows+%D8%A3%D9%86%D8%AB%D8%B1%D9%88%D8%A8%D9%8A%D9%83+%D8%A7%D9%84%D8%B0%D9%83%D9%8A%D8%A9+%7C+LLM+Router+%D9%88+Parallelization+%D9%88%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=03+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+2+%3A+%D8%A7%D9%83%D8%AA%D8%B4%D9%81+Workflows+%D8%A3%D9%86%D8%AB%D8%B1%D9%88%D8%A8%D9%8A%D9%83+%D8%A7%D9%84%D8%B0%D9%83%D9%8A%D8%A9+%7C+LLM+Router+%D9%88+Parallelization+%D9%88%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=04+%7C+%D9%85%D8%A7%D8%B0%D8%A7+%D9%82%D8%A8%D9%84+%D8%A7%D9%84%D8%AD%D9%84+%7C+%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9+%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA+%7C+%D9%85.+%D9%85%D8%AD%D9%85%D8%AF+%D8%B9%D8%B5%D8%A7%D9%85+%7C+Product+Management",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=04+%7C+%D9%85%D8%A7%D8%B0%D8%A7+%D9%82%D8%A8%D9%84+%D8%A7%D9%84%D8%AD%D9%84+%7C+%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9+%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA+%7C+%D9%85.+%D9%85%D8%AD%D9%85%D8%AF+%D8%B9%D8%B5%D8%A7%D9%85+%7C+Product+Management",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=04+%E2%80%93+%D9%84%D9%85%D8%A7%D8%B0%D8%A7+%D8%A7%D9%84%D9%80+AI+Agents+%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9%D8%9F++Anthropic+Frameworks+%D9%88%D8%A7%D9%84%D9%85%D8%AE%D8%A7%D8%B7%D8%B1+%D9%88%D8%B7%D8%B1%D9%82+%D8%A7%D9%84%D8%AD%D8%AF+%D9%85%D9%86%D9%87%D8%A7",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=04+%E2%80%93+%D9%84%D9%85%D8%A7%D8%B0%D8%A7+%D8%A7%D9%84%D9%80+AI+Agents+%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9%D8%9F++Anthropic+Frameworks+%D9%88%D8%A7%D9%84%D9%85%D8%AE%D8%A7%D8%B7%D8%B1+%D9%88%D8%B7%D8%B1%D9%82+%D8%A7%D9%84%D8%AD%D8%AF+%D9%85%D9%86%D9%87%D8%A7",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=05+%7C+Vibe+Coding+%7C+%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D9%82%D8%A9+%D9%88%D8%A7%D9%84%D8%AE%D9%8A%D8%A7%D9%84",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=05+%7C+Vibe+Coding+%7C+%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D9%82%D8%A9+%D9%88%D8%A7%D9%84%D8%AE%D9%8A%D8%A7%D9%84",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=05+%E2%80%93+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D9%8A%D8%A9+%D8%A3%D9%85+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D8%A3%D9%85+%D8%A7%D9%84%D9%80+AI+Agents%D8%9F+%D8%A7%D9%84%D9%81%D8%B1%D9%88%D9%82%D8%A7%D8%AA+%D8%A7%D9%84%D8%AC%D9%88%D9%87%D8%B1%D9%8A%D8%A9+%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=05+%E2%80%93+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D9%8A%D8%A9+%D8%A3%D9%85+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D8%A3%D9%85+%D8%A7%D9%84%D9%80+AI+Agents%D8%9F+%D8%A7%D9%84%D9%81%D8%B1%D9%88%D9%82%D8%A7%D8%AA+%D8%A7%D9%84%D8%AC%D9%88%D9%87%D8%B1%D9%8A%D8%A9+%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=06+%7C+Vibe+Coding+%7C+%D8%A3%D9%81%D8%B6%D9%84+%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=06+%7C+Vibe+Coding+%7C+%D8%A3%D9%81%D8%B6%D9%84+%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=06+%E2%80%93+%D9%83%D9%8A%D9%81+%D8%AA%D8%B9%D9%85%D9%84+%D8%A7%D9%84%D9%80+APIs+%D8%AF%D8%A7%D8%AE%D9%84+%D8%A7%D9%84%D9%80+AI+Agents%D8%9F+%D8%B4%D8%B1%D8%AD+%D9%85%D8%A8%D8%B3%D9%91%D8%B7+%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A9+Client+%E2%86%94+Server",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=06+%E2%80%93+%D9%83%D9%8A%D9%81+%D8%AA%D8%B9%D9%85%D9%84+%D8%A7%D9%84%D9%80+APIs+%D8%AF%D8%A7%D8%AE%D9%84+%D8%A7%D9%84%D9%80+AI+Agents%D8%9F+%D8%B4%D8%B1%D8%AD+%D9%85%D8%A8%D8%B3%D9%91%D8%B7+%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A9+Client+%E2%86%94+Server",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=07+%7C+AI+Automation+Engineer+%7C+Environments",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=07+%7C+AI+Automation+Engineer+%7C+Environments",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=07+%E2%80%93+%D9%83%D9%8A%D9%81+%D8%AA%D8%A8%D8%AF%D8%A3+%D9%85%D8%B9+OpenAI+API%D8%9F+%D8%B4%D8%B1%D8%AD+%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%D8%8C+%D8%A7%D9%84%D9%81%D9%88%D8%AA%D8%B1%D8%A9%D8%8C+%D9%88%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF+%D9%85%D9%81%D8%AA%D8%A7%D8%AD+%D8%A7%D9%84%D9%80+API+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=07+%E2%80%93+%D9%83%D9%8A%D9%81+%D8%AA%D8%A8%D8%AF%D8%A3+%D9%85%D8%B9+OpenAI+API%D8%9F+%D8%B4%D8%B1%D8%AD+%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%D8%8C+%D8%A7%D9%84%D9%81%D9%88%D8%AA%D8%B1%D8%A9%D8%8C+%D9%88%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF+%D9%85%D9%81%D8%AA%D8%A7%D8%AD+%D8%A7%D9%84%D9%80+API+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=08+%7C+AI+Automation+Engineer+%7C+API+Document",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=08+%7C+AI+Automation+Engineer+%7C+API+Document",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=08+%E2%80%93+%D9%86%D8%B8%D8%B1%D9%87+%D8%B9%D9%85%D9%8A%D9%82%D9%87+%D9%81%D9%8A+%D8%B9%D8%A7%D9%84%D9%85+%D8%A7%D9%84%D9%80+AI+Agents%3A+Think-Time+Compute%D8%8C+Function+Calling%D8%8C+%D9%88%D8%A3%D8%AF%D9%88%D8%A7%D8%AA+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=08+%E2%80%93+%D9%86%D8%B8%D8%B1%D9%87+%D8%B9%D9%85%D9%8A%D9%82%D9%87+%D9%81%D9%8A+%D8%B9%D8%A7%D9%84%D9%85+%D8%A7%D9%84%D9%80+AI+Agents%3A+Think-Time+Compute%D8%8C+Function+Calling%D8%8C+%D9%88%D8%A3%D8%AF%D9%88%D8%A7%D8%AA+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=09+%E2%80%93+n8n%3A+%D8%A7%D9%84%D9%81%D8%B1%D9%82+%D8%A8%D9%8A%D9%86+Self%E2%80%91Hosted+%D9%88+Cloud+%D9%85%D8%B9+%D8%B4%D8%B1%D8%AD+%D8%A7%D9%84%D8%AA%D8%AB%D8%A8%D9%8A%D8%AA+%D9%88%D8%AE%D8%B7%D9%88%D8%A7%D8%AA+%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=09+%E2%80%93+n8n%3A+%D8%A7%D9%84%D9%81%D8%B1%D9%82+%D8%A8%D9%8A%D9%86+Self%E2%80%91Hosted+%D9%88+Cloud+%D9%85%D8%B9+%D8%B4%D8%B1%D8%AD+%D8%A7%D9%84%D8%AA%D8%AB%D8%A8%D9%8A%D8%AA+%D9%88%D8%AE%D8%B7%D9%88%D8%A7%D8%AA+%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=1-+%D9%84%D9%8A%D9%87+%D8%A7%D9%84%D9%80%D9%80+Multimodal+RAG+%D9%87%D9%88+%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84+%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A%D8%9F%21+%F0%9F%94%A5",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=1-+%D9%84%D9%8A%D9%87+%D8%A7%D9%84%D9%80%D9%80+Multimodal+RAG+%D9%87%D9%88+%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84+%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A%D8%9F%21+%F0%9F%94%A5",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=10+%E2%80%93+%D8%B7%D8%B1%D9%8A%D9%82%D8%A9+%D8%AA%D8%AB%D8%A8%D9%8A%D8%AA+n8n+Self%E2%80%91Hosted+%D8%B9%D8%A8%D8%B1+npm+%D9%88%D9%83%D9%8A%D9%81%D9%8A%D8%A9+%D8%A5%D8%A8%D9%82%D8%A7%D8%A1+%D8%A7%D9%84%D8%AD%D8%B2%D9%85+%D9%85%D8%AD%D8%AF%D8%AB%D8%A9+%D8%AF%D8%A7%D8%A6%D9%85%D9%8B%D8%A7",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=10+%E2%80%93+%D8%B7%D8%B1%D9%8A%D9%82%D8%A9+%D8%AA%D8%AB%D8%A8%D9%8A%D8%AA+n8n+Self%E2%80%91Hosted+%D8%B9%D8%A8%D8%B1+npm+%D9%88%D9%83%D9%8A%D9%81%D9%8A%D8%A9+%D8%A5%D8%A8%D9%82%D8%A7%D8%A1+%D8%A7%D9%84%D8%AD%D8%B2%D9%85+%D9%85%D8%AD%D8%AF%D8%AB%D8%A9+%D8%AF%D8%A7%D8%A6%D9%85%D9%8B%D8%A7",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=11+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+2%3A+%D9%83%D9%8A%D9%81%D9%8A%D8%A9+%D8%AA%D9%88%D8%B5%D9%8A%D9%84+Gmail+API+%D8%A8%D9%80+n8n+%D9%81%D9%8A+%D9%88%D8%B6%D8%B9+Self%E2%80%91Hosting",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=11+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+2%3A+%D9%83%D9%8A%D9%81%D9%8A%D8%A9+%D8%AA%D9%88%D8%B5%D9%8A%D9%84+Gmail+API+%D8%A8%D9%80+n8n+%D9%81%D9%8A+%D9%88%D8%B6%D8%B9+Self%E2%80%91Hosting",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=11+%E2%80%93+%D8%AC%D8%B2%D8%A1+1%3A+n8n+Trigger+Types+%2B+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%B4%D8%A7%D8%AA+%D8%A8%D9%88%D8%AA+%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+Gmail+API+%28Self%E2%80%91Hosting%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=11+%E2%80%93+%D8%AC%D8%B2%D8%A1+1%3A+n8n+Trigger+Types+%2B+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%B4%D8%A7%D8%AA+%D8%A8%D9%88%D8%AA+%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+Gmail+API+%28Self%E2%80%91Hosting%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=12+%E2%80%93+Automation+Example+2%263%3A+%D8%AA%D8%B4%D8%BA%D9%8A%D9%84+%D8%B9%D8%A8%D8%B1+Chat+%D8%A3%D9%88+Schedule+Trigger+%D9%84%D9%84%D8%A5%D9%8A%D9%85%D9%8A%D9%84+%D9%88Google+Sheets",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=12+%E2%80%93+Automation+Example+2%263%3A+%D8%AA%D8%B4%D8%BA%D9%8A%D9%84+%D8%B9%D8%A8%D8%B1+Chat+%D8%A3%D9%88+Schedule+Trigger+%D9%84%D9%84%D8%A5%D9%8A%D9%85%D9%8A%D9%84+%D9%88Google+Sheets",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=13+%E2%80%93+Automation+Example+%234%3A+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+Smart+Car+Dealership+Workflow+%D8%A8%D8%AE%D8%B7%D9%88%D8%A7%D8%AA+%D8%A8%D8%B3%D9%8A%D8%B7%D8%A9",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=13+%E2%80%93+Automation+Example+%234%3A+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+Smart+Car+Dealership+Workflow+%D8%A8%D8%AE%D8%B7%D9%88%D8%A7%D8%AA+%D8%A8%D8%B3%D9%8A%D8%B7%D8%A9",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=13+n8n+Workflow+Concepts+For+Beginners+%282026+Update%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=13+n8n+Workflow+Concepts+For+Beginners+%282026+Update%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=14+%E2%80%93+Automation+Example+%235%3A+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+Hotel+Reservation+%D9%85%D8%B9+Self%E2%80%91Hosting",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=14+%E2%80%93+Automation+Example+%235%3A+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+Hotel+Reservation+%D9%85%D8%B9+Self%E2%80%91Hosting",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=15+%E2%80%93+%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9+n8n+Projects%3A+%D9%83%D9%8A%D9%81%D9%8A%D8%A9+Duplicate+%D9%88Download+%D9%88Import+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=15+%E2%80%93+%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9+n8n+Projects%3A+%D9%83%D9%8A%D9%81%D9%8A%D8%A9+Duplicate+%D9%88Download+%D9%88Import+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=16+%E2%80%93+AI+Agent+%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%AA%D9%84%D8%AE%D9%8A%D8%B5+Support+Tickets+%D9%88%D8%A5%D8%B1%D8%B3%D8%A7%D9%84%D9%87%D8%A7+%D8%B9%D8%A8%D8%B1+Email+%D9%84%D9%85%D8%AF%D9%8A%D8%B1+IT+%28Self%E2%80%91Hosting%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=16+%E2%80%93+AI+Agent+%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%AA%D9%84%D8%AE%D9%8A%D8%B5+Support+Tickets+%D9%88%D8%A5%D8%B1%D8%B3%D8%A7%D9%84%D9%87%D8%A7+%D8%B9%D8%A8%D8%B1+Email+%D9%84%D9%85%D8%AF%D9%8A%D8%B1+IT+%28Self%E2%80%91Hosting%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=17+%E2%80%93+AI+Agent+%D9%84%D8%AA%D8%AD%D9%84%D9%8A%D9%84+%D9%85%D8%B4%D8%A7%D8%B9%D8%B1+%D8%AA%D9%82%D9%8A%D9%8A%D9%85%D8%A7%D8%AA+%D8%A7%D9%84%D9%85%D8%B7%D8%A7%D8%B9%D9%85+%D9%88%D8%A5%D8%B1%D8%B3%D8%A7%D9%84%D9%87%D8%A7+%D8%A5%D9%84%D9%89+Excel+%D8%AA%D9%84%D9%82%D8%A7%D8%A6%D9%8A%D9%8B%D8%A7+%28Self%E2%80%91Hosting%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=17+%E2%80%93+AI+Agent+%D9%84%D8%AA%D8%AD%D9%84%D9%8A%D9%84+%D9%85%D8%B4%D8%A7%D8%B9%D8%B1+%D8%AA%D9%82%D9%8A%D9%8A%D9%85%D8%A7%D8%AA+%D8%A7%D9%84%D9%85%D8%B7%D8%A7%D8%B9%D9%85+%D9%88%D8%A5%D8%B1%D8%B3%D8%A7%D9%84%D9%87%D8%A7+%D8%A5%D9%84%D9%89+Excel+%D8%AA%D9%84%D9%82%D8%A7%D8%A6%D9%8A%D9%8B%D8%A7+%28Self%E2%80%91Hosting%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=18+%E2%80%93+%D9%85%D8%A7+%D8%A7%D9%84%D8%B0%D9%8A+%D9%8A%D8%AC%D8%A8+%D9%85%D8%B9%D8%B1%D9%81%D8%AA%D9%87+%D9%82%D8%A8%D9%84+%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+Open%E2%80%91Source+LLMs+%D9%85%D8%B9+n8n%D8%9F",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=18+%E2%80%93+%D9%85%D8%A7+%D8%A7%D9%84%D8%B0%D9%8A+%D9%8A%D8%AC%D8%A8+%D9%85%D8%B9%D8%B1%D9%81%D8%AA%D9%87+%D9%82%D8%A8%D9%84+%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+Open%E2%80%91Source+LLMs+%D9%85%D8%B9+n8n%D8%9F",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=19+%E2%80%93Free+Local+AI+Agents+%D8%B9%D9%84%D9%89+%D8%AC%D9%87%D8%A7%D8%B2%D9%83%3A+Open%E2%80%91Source+LLM+%D9%85%D8%B9+DeepSeek+%D9%88Ollama+_+n8n+Self%E2%80%91Hosting",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=19+%E2%80%93Free+Local+AI+Agents+%D8%B9%D9%84%D9%89+%D8%AC%D9%87%D8%A7%D8%B2%D9%83%3A+Open%E2%80%91Source+LLM+%D9%85%D8%B9+DeepSeek+%D9%88Ollama+_+n8n+Self%E2%80%91Hosting",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=20+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+1%3A+%D8%B4%D8%B1%D8%AD+Basic+Chain+Node+%D9%88%D8%A3%D9%86%D9%88%D8%A7%D8%B9+%D8%B1%D8%B3%D8%A7%D8%A6%D9%84+LLM+%D9%85%D8%AB%D9%84+User+%D9%88System+%D9%88Assistant",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=20+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+1%3A+%D8%B4%D8%B1%D8%AD+Basic+Chain+Node+%D9%88%D8%A3%D9%86%D9%88%D8%A7%D8%B9+%D8%B1%D8%B3%D8%A7%D8%A6%D9%84+LLM+%D9%85%D8%AB%D9%84+User+%D9%88System+%D9%88Assistant",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=20+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+2%3A+%D8%B4%D8%B1%D8%AD+Basic+LLM+Chain+Parameters+%D9%85%D8%B9+%D8%A3%D9%86%D9%88%D8%A7%D8%B9+Parser+%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=20+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+2%3A+%D8%B4%D8%B1%D8%AD+Basic+LLM+Chain+Parameters+%D9%85%D8%B9+%D8%A3%D9%86%D9%88%D8%A7%D8%B9+Parser+%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=21+%E2%80%93+%D9%83%D9%8A%D9%81+%D8%AA%D9%8F%D8%A4%D8%AA%D9%85%D8%AA+%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A7%D8%AA+%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1+%D9%85%D8%AC%D8%A7%D9%86%D9%8B%D8%A7%D8%9F+Ollama+Llama+3.2+%D9%85%D8%B9+Google+Sheets",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=21+%E2%80%93+%D9%83%D9%8A%D9%81+%D8%AA%D9%8F%D8%A4%D8%AA%D9%85%D8%AA+%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A7%D8%AA+%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1+%D9%85%D8%AC%D8%A7%D9%86%D9%8B%D8%A7%D8%9F+Ollama+Llama+3.2+%D9%85%D8%B9+Google+Sheets",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=22+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%A3%D9%88%D9%84%3A+%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1+DeepSeek+API+%7C+Tokens%D8%8C+Context+Window+%D9%88+Caching+Essentials",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=22+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%A3%D9%88%D9%84%3A+%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1+DeepSeek+API+%7C+Tokens%D8%8C+Context+Window+%D9%88+Caching+Essentials",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=22+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%3A+%D8%A7%D9%83%D8%AA%D8%B4%D9%81+%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1+Gemini+API+Pricing+%7C+Plans%D8%8C+Tiers+%D9%88+Usage+%D8%A8%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84+%D8%B9%D9%85%D9%8A%D9%82%D8%A9%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=22+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%3A+%D8%A7%D9%83%D8%AA%D8%B4%D9%81+%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1+Gemini+API+Pricing+%7C+Plans%D8%8C+Tiers+%D9%88+Usage+%D8%A8%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84+%D8%B9%D9%85%D9%8A%D9%82%D8%A9%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=23+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%A3%D9%88%D9%84%3A+%D8%AA%D8%B9%D9%84%D9%91%D9%85+%D8%AF%D9%85%D8%AC+Claude+%D9%85%D9%86+Anthropic+%D9%85%D8%B9+n8n+%D9%88%D8%AE%D8%B7%D9%88%D8%A9+%D8%A5%D9%86%D8%B4%D8%A7%D8%A1+API+Key+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=23+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%A3%D9%88%D9%84%3A+%D8%AA%D8%B9%D9%84%D9%91%D9%85+%D8%AF%D9%85%D8%AC+Claude+%D9%85%D9%86+Anthropic+%D9%85%D8%B9+n8n+%D9%88%D8%AE%D8%B7%D9%88%D8%A9+%D8%A5%D9%86%D8%B4%D8%A7%D8%A1+API+Key+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=23+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%3A+%D9%83%D9%8A%D9%81+%D8%AA%D9%88%D8%B5%D9%84+DeepSeek+%D9%88+Gemini+%D9%88+Groq+%D9%85%D8%B9+n8n+%D8%A8%D8%AE%D8%B7%D9%88%D8%A7%D8%AA+%D8%A8%D8%B3%D9%8A%D8%B7%D8%A9%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=23+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%3A+%D9%83%D9%8A%D9%81+%D8%AA%D9%88%D8%B5%D9%84+DeepSeek+%D9%88+Gemini+%D9%88+Groq+%D9%85%D8%B9+n8n+%D8%A8%D8%AE%D8%B7%D9%88%D8%A7%D8%AA+%D8%A8%D8%B3%D9%8A%D8%B7%D8%A9%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=24+%E2%80%93+%D8%A7%D9%83%D8%AA%D8%B4%D9%81+%D8%A8%D8%B9%D9%85%D9%82+AI+Agent+%D9%88+Simple+Memory+Nodes+in+n8n+%D8%AE%D8%B7%D9%88%D8%A9+%D8%A8%D8%AE%D8%B7%D9%88%D8%A9%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=24+%E2%80%93+%D8%A7%D9%83%D8%AA%D8%B4%D9%81+%D8%A8%D8%B9%D9%85%D9%82+AI+Agent+%D9%88+Simple+Memory+Nodes+in+n8n+%D8%AE%D8%B7%D9%88%D8%A9+%D8%A8%D8%AE%D8%B7%D9%88%D8%A9%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=25+%E2%80%93+%D8%A7%D8%B5%D9%86%D8%B9+Chatbot+%D8%B0%D9%83%D9%8A+%D9%84%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA+%D9%85%D9%83%D9%88%D9%86%D8%A7%D8%AA+%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D9%88%D8%A8+%D8%B9%D8%A8%D8%B1+n8n+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=25+%E2%80%93+%D8%A7%D8%B5%D9%86%D8%B9+Chatbot+%D8%B0%D9%83%D9%8A+%D9%84%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA+%D9%85%D9%83%D9%88%D9%86%D8%A7%D8%AA+%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D9%88%D8%A8+%D8%B9%D8%A8%D8%B1+n8n+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=26+%E2%80%93+%D9%83%D9%84+%D9%85%D8%A7+%D8%AA%D8%AD%D8%AA%D8%A7%D8%AC+%D9%85%D8%B9%D8%B1%D9%81%D8%AA%D9%87+%D8%B9%D9%86+Grok4+%D9%85%D9%86+%D9%84%D8%A7%D9%8A%D9%81+%D8%A5%D9%8A%D9%84%D9%88%D9%86+%D9%85%D8%A7%D8%B3%D9%83+%2B+%D8%AF%D9%85%D8%AC%D9%87+%D9%85%D8%B9+n8n",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=26+%E2%80%93+%D9%83%D9%84+%D9%85%D8%A7+%D8%AA%D8%AD%D8%AA%D8%A7%D8%AC+%D9%85%D8%B9%D8%B1%D9%81%D8%AA%D9%87+%D8%B9%D9%86+Grok4+%D9%85%D9%86+%D9%84%D8%A7%D9%8A%D9%81+%D8%A5%D9%8A%D9%84%D9%88%D9%86+%D9%85%D8%A7%D8%B3%D9%83+%2B+%D8%AF%D9%85%D8%AC%D9%87+%D9%85%D8%B9+n8n",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=27+%E2%80%93+%D8%A7%D8%B5%D9%86%D8%B9+Smart+Chatbot++%D9%84%D9%84%D8%B1%D8%AF+%D8%B9%D9%84%D9%89+%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+Grok4+%D9%88+n8n+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=27+%E2%80%93+%D8%A7%D8%B5%D9%86%D8%B9+Smart+Chatbot++%D9%84%D9%84%D8%B1%D8%AF+%D8%B9%D9%84%D9%89+%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+Grok4+%D9%88+n8n+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=28+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+1%3A+RAG+%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9%21+3+%D8%B7%D8%B1%D9%82+%D8%B0%D9%83%D9%8A%D8%A9+%D9%84%D8%AA%D8%B2%D9%88%D9%8A%D8%AF+%D8%A7%D9%84%D9%80+LLM+%D8%A8%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA+%D8%A8%D8%AF%D9%88%D9%86+%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9+Training",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=28+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+1%3A+RAG+%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9%21+3+%D8%B7%D8%B1%D9%82+%D8%B0%D9%83%D9%8A%D8%A9+%D9%84%D8%AA%D8%B2%D9%88%D9%8A%D8%AF+%D8%A7%D9%84%D9%80+LLM+%D8%A8%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA+%D8%A8%D8%AF%D9%88%D9%86+%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9+Training",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=28+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+2%3A+%D9%83%D9%84+%D9%85%D8%A7+%D8%AA%D8%B1%D9%8A%D8%AF+%D9%85%D8%B9%D8%B1%D9%81%D8%AA%D9%87+%D8%B9%D9%86+RAG+%D9%88%D9%83%D9%8A%D9%81%D9%8A%D8%A9+%D8%AA%D8%B2%D9%88%D9%8A%D8%AF+%D8%A7%D9%84%D9%80+LLM+%D8%A8%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA+%D8%A8%D8%AF%D9%88%D9%86+%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9+Training",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=28+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+2%3A+%D9%83%D9%84+%D9%85%D8%A7+%D8%AA%D8%B1%D9%8A%D8%AF+%D9%85%D8%B9%D8%B1%D9%81%D8%AA%D9%87+%D8%B9%D9%86+RAG+%D9%88%D9%83%D9%8A%D9%81%D9%8A%D8%A9+%D8%AA%D8%B2%D9%88%D9%8A%D8%AF+%D8%A7%D9%84%D9%80+LLM+%D8%A8%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA+%D8%A8%D8%AF%D9%88%D9%86+%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9+Training",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=28+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+3%3A+%D9%83%D9%84+%D9%85%D8%A7+%D8%AA%D8%B1%D9%8A%D8%AF+%D9%85%D8%B9%D8%B1%D9%81%D8%AA%D9%87+%D8%B9%D9%86+RAG+%D9%88%D9%83%D9%8A%D9%81%D9%8A%D8%A9+%D8%AA%D8%B2%D9%88%D9%8A%D8%AF+%D8%A7%D9%84%D9%80+LLM+%D8%A8%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA+%D8%A8%D8%AF%D9%88%D9%86+%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9+Training",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=28+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+3%3A+%D9%83%D9%84+%D9%85%D8%A7+%D8%AA%D8%B1%D9%8A%D8%AF+%D9%85%D8%B9%D8%B1%D9%81%D8%AA%D9%87+%D8%B9%D9%86+RAG+%D9%88%D9%83%D9%8A%D9%81%D9%8A%D8%A9+%D8%AA%D8%B2%D9%88%D9%8A%D8%AF+%D8%A7%D9%84%D9%80+LLM+%D8%A8%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA+%D8%A8%D8%AF%D9%88%D9%86+%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9+Training",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=28+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+4%3A+RAG+%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9%21+%D9%85%D8%A7+%D9%87%D9%8A+Vector+Databases+%D9%88%D9%83%D9%8A%D9%81+%D8%AA%D8%B2%D9%88%D8%AF+%D8%A7%D9%84%D9%80+LLM+%D8%A8%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA+%D8%A8%D8%AF%D9%88%D9%86+%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9+Training",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=28+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+4%3A+RAG+%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9%21+%D9%85%D8%A7+%D9%87%D9%8A+Vector+Databases+%D9%88%D9%83%D9%8A%D9%81+%D8%AA%D8%B2%D9%88%D8%AF+%D8%A7%D9%84%D9%80+LLM+%D8%A8%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA+%D8%A8%D8%AF%D9%88%D9%86+%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9+Training",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=28+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+5%3A+RAG+%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9%21+%D8%A3%D9%81%D8%B6%D9%84+Vector+Databases+%D9%81%D9%8A+2025+%D9%88%D9%83%D9%8A%D9%81+%D8%AA%D8%AF%D8%B9%D9%85+%D8%A7%D9%84%D9%80+LLM+%D8%A8%D8%AF%D9%88%D9%86+%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9+Training",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=28+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+5%3A+RAG+%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9%21+%D8%A3%D9%81%D8%B6%D9%84+Vector+Databases+%D9%81%D9%8A+2025+%D9%88%D9%83%D9%8A%D9%81+%D8%AA%D8%AF%D8%B9%D9%85+%D8%A7%D9%84%D9%80+LLM+%D8%A8%D8%AF%D9%88%D9%86+%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9+Training",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=29+--+%D8%AC%D8%B2%D8%A1+1+---+%D8%A7%D8%B5%D9%86%D8%B9+RAG+Chatbot+%D9%85%D8%AC%D8%A7%D9%86%D9%8A+%D9%88%D8%B0%D9%83%D9%8A+%D8%A8%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9+%D8%BA%D9%8A%D8%B1+%D9%85%D8%B3%D8%A8%D9%88%D9%82%D8%A9%21+%7C%7C+n8n",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=29+--+%D8%AC%D8%B2%D8%A1+1+---+%D8%A7%D8%B5%D9%86%D8%B9+RAG+Chatbot+%D9%85%D8%AC%D8%A7%D9%86%D9%8A+%D9%88%D8%B0%D9%83%D9%8A+%D8%A8%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9+%D8%BA%D9%8A%D8%B1+%D9%85%D8%B3%D8%A8%D9%88%D9%82%D8%A9%21+%7C%7C+n8n",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=29+--+%D8%AC%D8%B2%D8%A1+2+---+%D8%A7%D8%B5%D9%86%D8%B9+RAG+Chatbot+%D9%85%D8%AC%D8%A7%D9%86%D9%8A+%D9%88%D8%B0%D9%83%D9%8A+%D8%A8%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9+%D8%BA%D9%8A%D8%B1+%D9%85%D8%B3%D8%A8%D9%88%D9%82%D8%A9%21+%7C%7C+n8n",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=29+--+%D8%AC%D8%B2%D8%A1+2+---+%D8%A7%D8%B5%D9%86%D8%B9+RAG+Chatbot+%D9%85%D8%AC%D8%A7%D9%86%D9%8A+%D9%88%D8%B0%D9%83%D9%8A+%D8%A8%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9+%D8%BA%D9%8A%D8%B1+%D9%85%D8%B3%D8%A8%D9%88%D9%82%D8%A9%21+%7C%7C+n8n",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=30+--+%D8%AD%D9%85%D9%91%D9%84+%D8%A3%D9%8A+%D8%B9%D8%AF%D8%AF+%D9%85%D9%86+%D8%A7%D9%84%D9%85%D9%84%D9%81%D8%A7%D8%AA+%D8%A5%D9%84%D9%89+%D8%A7%D9%84%D9%80+Vector+Database+%D9%85%D8%A8%D8%A7%D8%B4%D8%B1%D8%A9+%D9%85%D9%86+Google+Drive+%D9%81%D9%8A+%D8%AB%D9%88%D8%A7%D9%86%D9%8D%21+%7C+RAG+AI+Agent",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=30+--+%D8%AD%D9%85%D9%91%D9%84+%D8%A3%D9%8A+%D8%B9%D8%AF%D8%AF+%D9%85%D9%86+%D8%A7%D9%84%D9%85%D9%84%D9%81%D8%A7%D8%AA+%D8%A5%D9%84%D9%89+%D8%A7%D9%84%D9%80+Vector+Database+%D9%85%D8%A8%D8%A7%D8%B4%D8%B1%D8%A9+%D9%85%D9%86+Google+Drive+%D9%81%D9%8A+%D8%AB%D9%88%D8%A7%D9%86%D9%8D%21+%7C+RAG+AI+Agent",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=31+--+P1+--+%D8%B3%D8%B1+%D9%84%D9%85+%D9%8A%D8%AE%D8%A8%D8%B1%D9%83+%D8%A8%D9%87+%D8%A3%D8%AD%D8%AF+%D9%81%D9%8A+RAG+AI+Agent+%D9%84%D8%B1%D9%81%D8%B9+%D8%AF%D9%82%D8%AA%D9%87+%D8%A5%D9%84%D9%89+%D8%A7%D9%84%D8%AD%D8%AF+%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D9%89",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=31+--+P1+--+%D8%B3%D8%B1+%D9%84%D9%85+%D9%8A%D8%AE%D8%A8%D8%B1%D9%83+%D8%A8%D9%87+%D8%A3%D8%AD%D8%AF+%D9%81%D9%8A+RAG+AI+Agent+%D9%84%D8%B1%D9%81%D8%B9+%D8%AF%D9%82%D8%AA%D9%87+%D8%A5%D9%84%D9%89+%D8%A7%D9%84%D8%AD%D8%AF+%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D9%89",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=31+--+P2+--+%D8%B3%D8%B1+%D9%84%D9%85+%D9%8A%D8%AE%D8%A8%D8%B1%D9%83+%D8%A8%D9%87+%D8%A3%D8%AD%D8%AF+%D9%81%D9%8A+RAG+AI+Agent+%D9%84%D8%B1%D9%81%D8%B9+%D8%AF%D9%82%D8%AA%D9%87+%D8%A5%D9%84%D9%89+%D8%A7%D9%84%D8%AD%D8%AF+%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D9%89",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=31+--+P2+--+%D8%B3%D8%B1+%D9%84%D9%85+%D9%8A%D8%AE%D8%A8%D8%B1%D9%83+%D8%A8%D9%87+%D8%A3%D8%AD%D8%AF+%D9%81%D9%8A+RAG+AI+Agent+%D9%84%D8%B1%D9%81%D8%B9+%D8%AF%D9%82%D8%AA%D9%87+%D8%A5%D9%84%D9%89+%D8%A7%D9%84%D8%AD%D8%AF+%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D9%89",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=32+--+%D8%A7%D9%84%D8%AD%D9%84+%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%A6%D9%8A+%D9%84%D9%85%D8%B4%D9%83%D9%84%D8%A9+%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB+RAG+AI+Agent+%D8%AA%D9%84%D9%82%D8%A7%D8%A6%D9%8A%D8%A7%D9%8B+%D9%85%D8%B9+Google+Drive+%D8%A8%D8%AF%D9%88%D9%86+%D8%AA%D9%83%D8%B1%D8%A7%D8%B1+%D8%A7%D9%84%D9%85%D9%84%D9%81%D8%A7%D8%AA",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=32+--+%D8%A7%D9%84%D8%AD%D9%84+%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%A6%D9%8A+%D9%84%D9%85%D8%B4%D9%83%D9%84%D8%A9+%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB+RAG+AI+Agent+%D8%AA%D9%84%D9%82%D8%A7%D8%A6%D9%8A%D8%A7%D9%8B+%D9%85%D8%B9+Google+Drive+%D8%A8%D8%AF%D9%88%D9%86+%D8%AA%D9%83%D8%B1%D8%A7%D8%B1+%D8%A7%D9%84%D9%85%D9%84%D9%81%D8%A7%D8%AA",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=33+--%D9%88%D8%AF%D8%A7%D8%B9%D9%8B%D8%A7+%D9%84%D8%B9%D8%B0%D8%A7%D8%A8+%D9%83%D8%AA%D8%A7%D8%A8%D8%A9+%D8%A7%D9%84%D9%80+System+Prompt%21+%F0%9F%A4%96+%D8%A3%D8%AF%D8%A7%D8%A9+%D8%A8%D8%AA%D8%AC%D9%87%D8%B2%D9%84%D9%83+%D9%83%D9%84+%D8%AD%D8%A7%D8%AC%D8%A9+%D8%A3%D9%88%D8%AA%D9%88%D9%85%D8%A7%D8%AA%D9%8A%D9%83+%D9%84%D9%84%D9%80+AI+Agent%21%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=33+--%D9%88%D8%AF%D8%A7%D8%B9%D9%8B%D8%A7+%D9%84%D8%B9%D8%B0%D8%A7%D8%A8+%D9%83%D8%AA%D8%A7%D8%A8%D8%A9+%D8%A7%D9%84%D9%80+System+Prompt%21+%F0%9F%A4%96+%D8%A3%D8%AF%D8%A7%D8%A9+%D8%A8%D8%AA%D8%AC%D9%87%D8%B2%D9%84%D9%83+%D9%83%D9%84+%D8%AD%D8%A7%D8%AC%D8%A9+%D8%A3%D9%88%D8%AA%D9%88%D9%85%D8%A7%D8%AA%D9%8A%D9%83+%D9%84%D9%84%D9%80+AI+Agent%21%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=34+--+%D9%85%D8%A7+%D9%87%D9%88+%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D9%81%D8%B1+%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9+-+Hosting+-+%D9%88%D9%84%D9%85%D8%A7%D8%B0%D8%A7+%D9%86%D8%AD%D8%AA%D8%A7%D8%AC%D9%87%D9%85%D8%A7%D8%9F+%7C%7C%7C+n8n",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=34+--+%D9%85%D8%A7+%D9%87%D9%88+%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D9%81%D8%B1+%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9+-+Hosting+-+%D9%88%D9%84%D9%85%D8%A7%D8%B0%D8%A7+%D9%86%D8%AD%D8%AA%D8%A7%D8%AC%D9%87%D9%85%D8%A7%D8%9F+%7C%7C%7C+n8n",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=35+--+%D8%AC%D8%B2%D8%A1+1+--++%D8%AA%D8%B3%D8%B9%D8%A9+%D8%A3%D9%86%D9%88%D8%A7%D8%B9+%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9+%D9%84%D9%80%E2%80%AFn8n%3A+%D8%A7%D9%84%D9%85%D9%85%D9%8A%D8%B2%D8%A7%D8%AA%D8%8C+%D8%A7%D9%84%D8%B9%D9%8A%D9%88%D8%A8%D8%8C+%D9%88%D8%A3%D9%8A%D9%87+%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B3%D8%A8+%D9%84%D9%83%21%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=35+--+%D8%AC%D8%B2%D8%A1+1+--++%D8%AA%D8%B3%D8%B9%D8%A9+%D8%A3%D9%86%D9%88%D8%A7%D8%B9+%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9+%D9%84%D9%80%E2%80%AFn8n%3A+%D8%A7%D9%84%D9%85%D9%85%D9%8A%D8%B2%D8%A7%D8%AA%D8%8C+%D8%A7%D9%84%D8%B9%D9%8A%D9%88%D8%A8%D8%8C+%D9%88%D8%A3%D9%8A%D9%87+%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B3%D8%A8+%D9%84%D9%83%21%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=35+--+%D8%AC%D8%B2%D8%A1+2+--++%D8%AA%D8%B3%D8%B9%D8%A9+%D8%A3%D9%86%D9%88%D8%A7%D8%B9+%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9+%D9%84%D9%80%E2%80%AFn8n%3A+%D8%A7%D9%84%D9%85%D9%85%D9%8A%D8%B2%D8%A7%D8%AA%D8%8C+%D8%A7%D9%84%D8%B9%D9%8A%D9%88%D8%A8%D8%8C+%D9%88%D8%A3%D9%8A%D9%87+%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B3%D8%A8+%D9%84%D9%83%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=35+--+%D8%AC%D8%B2%D8%A1+2+--++%D8%AA%D8%B3%D8%B9%D8%A9+%D8%A3%D9%86%D9%88%D8%A7%D8%B9+%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9+%D9%84%D9%80%E2%80%AFn8n%3A+%D8%A7%D9%84%D9%85%D9%85%D9%8A%D8%B2%D8%A7%D8%AA%D8%8C+%D8%A7%D9%84%D8%B9%D9%8A%D9%88%D8%A8%D8%8C+%D9%88%D8%A3%D9%8A%D9%87+%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B3%D8%A8+%D9%84%D9%83%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=36+--+%D8%B3%D8%B1+%D9%81%D8%B4%D9%84+WhatsApp%D9%88+Telegram+%D9%81%D9%8A+n8n+Self-Hosting+%E2%80%93+%D9%88%D8%A7%D9%84%D9%80%D9%80%D9%80%D8%AD%D9%80%D9%80%D9%80%D9%80%D9%84%21%21%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=36+--+%D8%B3%D8%B1+%D9%81%D8%B4%D9%84+WhatsApp%D9%88+Telegram+%D9%81%D9%8A+n8n+Self-Hosting+%E2%80%93+%D9%88%D8%A7%D9%84%D9%80%D9%80%D9%80%D8%AD%D9%80%D9%80%D9%80%D9%80%D9%84%21%21%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=37+--++%D8%AA%D8%AE%D9%84%D8%B5+%D9%86%D9%87%D8%A7%D8%A6%D9%8A%D9%8B%D8%A7+%D9%85%D9%86+%D9%85%D8%B4%D8%A7%D9%83%D9%84+WhatsApp+%D9%88+Telegram+%D9%81%D9%8A+n8n+Self-Hosting",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=37+--++%D8%AA%D8%AE%D9%84%D8%B5+%D9%86%D9%87%D8%A7%D8%A6%D9%8A%D9%8B%D8%A7+%D9%85%D9%86+%D9%85%D8%B4%D8%A7%D9%83%D9%84+WhatsApp+%D9%88+Telegram+%D9%81%D9%8A+n8n+Self-Hosting",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=38-%D9%83%D9%84+%D9%86%D9%85%D8%A7%D8%B0%D8%AC+Open+AI+%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD%D8%A9+%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D8%B1+%D9%81%D9%8A+%D8%AF%D9%82%D8%A7%D8%A6%D9%82%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=38-%D9%83%D9%84+%D9%86%D9%85%D8%A7%D8%B0%D8%AC+Open+AI+%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD%D8%A9+%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D8%B1+%D9%81%D9%8A+%D8%AF%D9%82%D8%A7%D8%A6%D9%82%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=39+-+%D8%A7%D8%B2%D8%A7%D9%8A+%D8%AA%D8%B5%D9%85%D9%85+%D8%A3%D9%88%D9%84+AI+Agent+%D9%85%D8%AC%D8%A7%D9%86%D9%8A+%D8%A8%D9%80+GPT-Oss+%D9%85%D9%86+OpenAI%21%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=39+-+%D8%A7%D8%B2%D8%A7%D9%8A+%D8%AA%D8%B5%D9%85%D9%85+%D8%A3%D9%88%D9%84+AI+Agent+%D9%85%D8%AC%D8%A7%D9%86%D9%8A+%D8%A8%D9%80+GPT-Oss+%D9%85%D9%86+OpenAI%21%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=40+-+GPT-5+%D9%81%D9%8A+%D8%AF%D9%82%D8%A7%D8%A6%D9%82%3A+%D9%85%D9%85%D9%8A%D8%B2%D8%A7%D8%AA%D8%8C+%D9%82%D8%AF%D8%B1%D8%A7%D8%AA%D8%8C+%D9%88%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1+%D8%A7%D9%84%D9%86%D8%B8%D8%A7%D9%85+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=40+-+GPT-5+%D9%81%D9%8A+%D8%AF%D9%82%D8%A7%D8%A6%D9%82%3A+%D9%85%D9%85%D9%8A%D8%B2%D8%A7%D8%AA%D8%8C+%D9%82%D8%AF%D8%B1%D8%A7%D8%AA%D8%8C+%D9%88%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1+%D8%A7%D9%84%D9%86%D8%B8%D8%A7%D9%85+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=41+-+%F0%9F%A4%96+%D8%AE%D9%84%D9%91%D9%8A+GPT-5+%D9%8A%D8%AF%D9%8A%D8%B1+%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%D9%83%E2%80%A6+Automate+Your+Business%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=41+-+%F0%9F%A4%96+%D8%AE%D9%84%D9%91%D9%8A+GPT-5+%D9%8A%D8%AF%D9%8A%D8%B1+%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%D9%83%E2%80%A6+Automate+Your+Business%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=42+--+%D8%B5%D9%85%D9%85++AI+Agent+%D9%8A%D8%B9%D9%85%D9%84+%D9%83%D8%B3%D9%83%D8%B1%D8%AA%D9%8A%D8%B1+%D8%B0%D9%83%D9%8A+%D9%84%D9%84%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF+%D9%88%D9%8A%D8%B9%D9%85%D9%84+%D8%A8%D8%A7%D9%84+Voice+and+Text+Commands",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=42+--+%D8%B5%D9%85%D9%85++AI+Agent+%D9%8A%D8%B9%D9%85%D9%84+%D9%83%D8%B3%D9%83%D8%B1%D8%AA%D9%8A%D8%B1+%D8%B0%D9%83%D9%8A+%D9%84%D9%84%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF+%D9%88%D9%8A%D8%B9%D9%85%D9%84+%D8%A8%D8%A7%D9%84+Voice+and+Text+Commands",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=43+--+%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82%D8%A9+%D8%A7%D9%84%D8%B5%D8%AD%21+%D8%B1%D8%A8%D8%B7+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D8%A8%D9%80+n8n+%F0%9F%94%A5",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=43+--+%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82%D8%A9+%D8%A7%D9%84%D8%B5%D8%AD%21+%D8%B1%D8%A8%D8%B7+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D8%A8%D9%80+n8n+%F0%9F%94%A5",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=44+-+%D8%A3%D9%88%D8%AB%D9%82%D9%87+%D9%88%D9%84%D8%A7+%D9%84%D8%A3%D8%9F+Meta+Business+Account+%D9%85%D8%B9+WhatsApp%21%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=44+-+%D8%A3%D9%88%D8%AB%D9%82%D9%87+%D9%88%D9%84%D8%A7+%D9%84%D8%A3%D8%9F+Meta+Business+Account+%D9%85%D8%B9+WhatsApp%21%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=45+--+%D8%AD%D9%84%D9%91+%D9%86%D9%87%D8%A7%D8%A6%D9%8A%3A+%D8%A7%D9%84%D8%AA%D9%88%D9%83%D9%86+%D8%A7%D9%84%D8%AF%D8%A7%D8%A6%D9%85+%D9%84%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%28Cloud+API%29+%7C%7C+n8n",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=45+--+%D8%AD%D9%84%D9%91+%D9%86%D9%87%D8%A7%D8%A6%D9%8A%3A+%D8%A7%D9%84%D8%AA%D9%88%D9%83%D9%86+%D8%A7%D9%84%D8%AF%D8%A7%D8%A6%D9%85+%D9%84%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%28Cloud+API%29+%7C%7C+n8n",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=46+-+%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D8%AA%D9%8A%D8%B1+%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D9%82%3A+%D9%83%D9%8A%D9%81+%D8%AA%D8%B1%D8%A8%D8%B7+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D9%84%D8%A7%D8%AF%D8%A7%D8%B1%D9%87+%D8%AC%D9%85%D9%8A%D8%B9+%D8%A7%D8%B9%D9%85%D8%A7%D9%84%D9%83+%7C%7C+Voice%2BText%2BImage",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=46+-+%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D8%AA%D9%8A%D8%B1+%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D9%82%3A+%D9%83%D9%8A%D9%81+%D8%AA%D8%B1%D8%A8%D8%B7+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D9%84%D8%A7%D8%AF%D8%A7%D8%B1%D9%87+%D8%AC%D9%85%D9%8A%D8%B9+%D8%A7%D8%B9%D9%85%D8%A7%D9%84%D9%83+%7C%7C+Voice%2BText%2BImage",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=47+-+%D8%A3%D8%B3%D9%87%D9%84+%D8%B7%D8%B1%D9%8A%D9%82%D8%A9+%D9%84%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB+n8n+%D9%81%D9%8A+Docker+%D9%85%D9%86+%D8%BA%D9%8A%D8%B1+%D9%85%D8%A7+%D8%AA%D8%AE%D8%B3%D8%B1+%D8%B4%D8%BA%D9%84%D9%83%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=47+-+%D8%A3%D8%B3%D9%87%D9%84+%D8%B7%D8%B1%D9%8A%D9%82%D8%A9+%D9%84%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB+n8n+%D9%81%D9%8A+Docker+%D9%85%D9%86+%D8%BA%D9%8A%D8%B1+%D9%85%D8%A7+%D8%AA%D8%AE%D8%B3%D8%B1+%D8%B4%D8%BA%D9%84%D9%83%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=48+--+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D8%B6%D9%8A%D9%81+%D8%B1%D9%82%D9%85%D9%83+%D8%B9%D9%84%D9%89+Meta+Business+Account+%D8%A8%D8%A8%D9%84%D8%A7%D8%B4+%D8%A8%D8%B7%D8%B1%D9%8A%D9%82%D9%87+%D8%B1%D8%B3%D9%85%D9%8A%D9%87%21%21+%7C%7C+%23n8n",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=48+--+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D8%B6%D9%8A%D9%81+%D8%B1%D9%82%D9%85%D9%83+%D8%B9%D9%84%D9%89+Meta+Business+Account+%D8%A8%D8%A8%D9%84%D8%A7%D8%B4+%D8%A8%D8%B7%D8%B1%D9%8A%D9%82%D9%87+%D8%B1%D8%B3%D9%85%D9%8A%D9%87%21%21+%7C%7C+%23n8n",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=49+-+%D8%AD%D9%88%D9%91%D9%84+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D9%84%D9%85%D9%88%D8%B8%D9%81+%D8%AE%D8%A7%D8%B1%D9%82+%7C+Multi-Agent+Orchestrator+%28Text%2FVoice%2FImage%29+%D9%85%D8%B9+n8n",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=49+-+%D8%AD%D9%88%D9%91%D9%84+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D9%84%D9%85%D9%88%D8%B8%D9%81+%D8%AE%D8%A7%D8%B1%D9%82+%7C+Multi-Agent+Orchestrator+%28Text%2FVoice%2FImage%29+%D9%85%D8%B9+n8n",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=50+-+%E2%AD%90+%D8%A7%D8%AD%D8%B0%D8%B1%21+%D8%A8%D9%88%D8%AA+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D9%85%D9%85%D9%83%D9%86+%D9%8A%D9%8F%D8%AE%D9%92%D8%AA%D9%8E%D8%B1%D9%8E%D9%82+%E2%80%94+%D8%A7%D9%82%D9%81%D9%84%D9%87+%D8%A8%D9%80+Whitelist+%21%21%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=50+-+%E2%AD%90+%D8%A7%D8%AD%D8%B0%D8%B1%21+%D8%A8%D9%88%D8%AA+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D9%85%D9%85%D9%83%D9%86+%D9%8A%D9%8F%D8%AE%D9%92%D8%AA%D9%8E%D8%B1%D9%8E%D9%82+%E2%80%94+%D8%A7%D9%82%D9%81%D9%84%D9%87+%D8%A8%D9%80+Whitelist+%21%21%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=51+--+n8n+Community+Nodes+%E2%80%94+%D9%84%D8%A7%D8%B2%D9%85+%D8%AA%D8%B9%D8%B1%D9%81%D9%87%D8%A7%21+%F0%9F%9A%80",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=51+--+n8n+Community+Nodes+%E2%80%94+%D9%84%D8%A7%D8%B2%D9%85+%D8%AA%D8%B9%D8%B1%D9%81%D9%87%D8%A7%21+%F0%9F%9A%80",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=52+--+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%A3%D9%88%D9%84+--+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+API+%D9%85%D8%AC%D8%A7%D9%86%D9%8A+%D9%85%D8%B9+%7CEvolution+API+%2B+n8n+%7C+++%F0%9F%9A%80",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=52+--+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%A3%D9%88%D9%84+--+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+API+%D9%85%D8%AC%D8%A7%D9%86%D9%8A+%D9%85%D8%B9+%7CEvolution+API+%2B+n8n+%7C+++%F0%9F%9A%80",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=52+--+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A++--+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+API+%D9%85%D8%AC%D8%A7%D9%86%D9%8A+%D9%85%D8%B9+%7CEvolution+API+%2B+n8n+%7C+++%F0%9F%9A%80",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=52+--+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A++--+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+API+%D9%85%D8%AC%D8%A7%D9%86%D9%8A+%D9%85%D8%B9+%7CEvolution+API+%2B+n8n+%7C+++%F0%9F%9A%80",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=53+--+%D8%A7%D8%A8%D9%86%D9%8A+%D9%86%D8%B8%D8%A7%D9%85+Multi-Agent+%D9%84%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+Evolution+API+%D9%88+n8n+%F0%9F%9A%80",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=53+--+%D8%A7%D8%A8%D9%86%D9%8A+%D9%86%D8%B8%D8%A7%D9%85+Multi-Agent+%D9%84%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+Evolution+API+%D9%88+n8n+%F0%9F%9A%80",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=54+-+N8N+hosting+%7C+%D8%AF%D9%84%D9%8A%D9%84%D9%83+%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%3A+Hostinger+%2B+Docker+Compose+%2B+Banana+Pi+%2B+Private+Domain+%2B+SSL",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=54+-+N8N+hosting+%7C+%D8%AF%D9%84%D9%8A%D9%84%D9%83+%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%3A+Hostinger+%2B+Docker+Compose+%2B+Banana+Pi+%2B+Private+Domain+%2B+SSL",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=55+--+Messenger+Multi-Agent+%7C+%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D8%AA%D9%8A%D8%B1+%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D9%82+%D9%84%D9%84%D9%85%D8%A7%D8%B3%D9%86%D8%AC%D8%B1+%28Voice+%2B+Text+%2B+Image%29+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%A3%D9%88%D9%84+%7C%7C+n8n",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=55+--+Messenger+Multi-Agent+%7C+%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D8%AA%D9%8A%D8%B1+%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D9%82+%D9%84%D9%84%D9%85%D8%A7%D8%B3%D9%86%D8%AC%D8%B1+%28Voice+%2B+Text+%2B+Image%29+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%A3%D9%88%D9%84+%7C%7C+n8n",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=55+--+Messenger+Multi-Agent+%7C+%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D8%AA%D9%8A%D8%B1+%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D9%82+%D9%84%D9%84%D9%85%D8%A7%D8%B3%D9%86%D8%AC%D8%B1+%28Voice+%2B+Text+%2B+Image%29+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=55+--+Messenger+Multi-Agent+%7C+%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D8%AA%D9%8A%D8%B1+%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D9%82+%D9%84%D9%84%D9%85%D8%A7%D8%B3%D9%86%D8%AC%D8%B1+%28Voice+%2B+Text+%2B+Image%29+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=56+--+%F0%9F%9A%80+%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9+n8n+%2B+Evolution+API+%7C++%D8%B9%D9%84%D9%89+Hostinger+VPS",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=56+--+%F0%9F%9A%80+%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9+n8n+%2B+Evolution+API+%7C++%D8%B9%D9%84%D9%89+Hostinger+VPS",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=57+--++%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB+Evolution+API+%28Free+WhatsApp+API%29+%D8%B9%D9%84%D9%8A+Hostinger+VPS",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=57+--++%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB+Evolution+API+%28Free+WhatsApp+API%29+%D8%B9%D9%84%D9%8A+Hostinger+VPS",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=58+%E2%80%94+%D9%85%D8%A7+%D9%87%D9%8A+MCP%D8%9F+%D9%84%D9%85%D8%A7%D8%B0%D8%A7+%D8%B8%D9%87%D8%B1%D8%AA%D8%9F+%D9%88%D9%83%D9%8A%D9%81+%D8%AA%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D9%87%D8%A7+%D9%85%D8%B9+%23n8n+%D8%AE%D8%B7%D9%88%D8%A9-%D8%A8%D8%AE%D8%B7%D9%88%D8%A9",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=58+%E2%80%94+%D9%85%D8%A7+%D9%87%D9%8A+MCP%D8%9F+%D9%84%D9%85%D8%A7%D8%B0%D8%A7+%D8%B8%D9%87%D8%B1%D8%AA%D8%9F+%D9%88%D9%83%D9%8A%D9%81+%D8%AA%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D9%87%D8%A7+%D9%85%D8%B9+%23n8n+%D8%AE%D8%B7%D9%88%D8%A9-%D8%A8%D8%AE%D8%B7%D9%88%D8%A9",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=59+-+%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB+%23n8n+%D9%81%D9%8A+%D8%AF%D9%82%D8%A7%D8%A6%D9%82+%D8%B9%D9%84%D9%8A+Hostinger+VPS",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=59+-+%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB+%23n8n+%D9%81%D9%8A+%D8%AF%D9%82%D8%A7%D8%A6%D9%82+%D8%B9%D9%84%D9%8A+Hostinger+VPS",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=60+--+%D8%AC%D8%B2%D8%A11+--+%D8%A8%D9%86%D8%A7%D8%A1+n8n+AI+Agents%23+%D9%81%D9%8A+%D8%AB%D9%88%D8%A7%D9%86%D9%8A%21%21+%7C%7C+MCP",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=60+--+%D8%AC%D8%B2%D8%A11+--+%D8%A8%D9%86%D8%A7%D8%A1+n8n+AI+Agents%23+%D9%81%D9%8A+%D8%AB%D9%88%D8%A7%D9%86%D9%8A%21%21+%7C%7C+MCP",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=61+-+%D9%87%D9%84+%D9%81%D8%B9%D9%84%D8%A7%D9%8B+%D8%AA%D9%82%D8%AF%D8%B1+%D8%AA%D8%A8%D9%86%D9%8A+AI+Agents+%D9%81%D9%8A+%D8%AB%D9%88%D8%A7%D9%86%D9%8A+%D8%B9%D9%84%D9%89+n8n%23%D8%9F+%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D9%82%D8%A9+%D9%83%D8%A7%D9%85%D9%84%D8%A9%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=61+-+%D9%87%D9%84+%D9%81%D8%B9%D9%84%D8%A7%D9%8B+%D8%AA%D9%82%D8%AF%D8%B1+%D8%AA%D8%A8%D9%86%D9%8A+AI+Agents+%D9%81%D9%8A+%D8%AB%D9%88%D8%A7%D9%86%D9%8A+%D8%B9%D9%84%D9%89+n8n%23%D8%9F+%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D9%82%D8%A9+%D9%83%D8%A7%D9%85%D9%84%D8%A9%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=62+--+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D9%88%D9%81%D9%91%D8%B1+%D8%A7%D9%84%D9%80+Tokens+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+MCP+%2B+Multi-Agents+%D8%B9%D9%84%D9%89+n8n+%F0%9F%94%A5",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=62+--+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D9%88%D9%81%D9%91%D8%B1+%D8%A7%D9%84%D9%80+Tokens+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+MCP+%2B+Multi-Agents+%D8%B9%D9%84%D9%89+n8n+%F0%9F%94%A5",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=63+--+%D8%A7%D8%B1%D8%A8%D8%B7+n8n+%D9%85%D8%B9++Microsoft+Outlook+%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=63+--+%D8%A7%D8%B1%D8%A8%D8%B7+n8n+%D9%85%D8%B9++Microsoft+Outlook+%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=64+--+%D8%A7%D9%83%D8%AA%D8%B4%D9%81+%D8%A3%D8%AE%D8%B7%D8%A7%D8%A1+%D8%AA%D8%B5%D9%85%D9%8A%D9%85%D9%83+%D8%A3%D8%B3%D8%B1%D8%B9+20+%D9%85%D8%B1%D8%A9+%7C+%D9%88%D9%83%D9%8A%D9%84+Outlook+%D8%A7%D9%84%D8%B0%D9%83%D9%8A+%28MCP+%2B+Multi-Agents%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=64+--+%D8%A7%D9%83%D8%AA%D8%B4%D9%81+%D8%A3%D8%AE%D8%B7%D8%A7%D8%A1+%D8%AA%D8%B5%D9%85%D9%8A%D9%85%D9%83+%D8%A3%D8%B3%D8%B1%D8%B9+20+%D9%85%D8%B1%D8%A9+%7C+%D9%88%D9%83%D9%8A%D9%84+Outlook+%D8%A7%D9%84%D8%B0%D9%83%D9%8A+%28MCP+%2B+Multi-Agents%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=65+--+%D9%87%D9%84+n8n+AI+Builder+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF+%D9%8A%D8%B3%D8%AA%D8%AD%D9%82+%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9+%D9%81%D8%B9%D9%84%D8%A7%D9%8B%D8%9F+%F0%9F%A4%96%F0%9F%94%A5",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=65+--+%D9%87%D9%84+n8n+AI+Builder+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF+%D9%8A%D8%B3%D8%AA%D8%AD%D9%82+%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9+%D9%81%D8%B9%D9%84%D8%A7%D9%8B%D8%9F+%F0%9F%A4%96%F0%9F%94%A5",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=95%25+of+n8n+Users+Have+NO+IDEA+These+Features+Exist",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=95%25+of+n8n+Users+Have+NO+IDEA+These+Features+Exist",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=AI+Image+Editing+Workflow+Walkthrough+in+N8N",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=AI+Image+Editing+Workflow+Walkthrough+in+N8N",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=AI+Real+Estate+Outreach+Made+Easy+with+n8n%2C+HeyGen%2C+and+Scout",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=AI+Real+Estate+Outreach+Made+Easy+with+n8n%2C+HeyGen%2C+and+Scout",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Automate+LinkedIn+Lead+Generation+with+this+N8N+Workflow+%28Apify+%26+Google+Sheets%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Automate+LinkedIn+Lead+Generation+with+this+N8N+Workflow+%28Apify+%26+Google+Sheets%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Beginner%E2%80%99s+Guide+to+n8n+Webhooks+%28No+Coding+Required%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Beginner%E2%80%99s+Guide+to+n8n+Webhooks+%28No+Coding+Required%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Build+a+LinkedIn+Job+Scraper+in+30+Minutes+%7C+n8n+%2B+Apify+Tutorial+%28Free+Template%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Build+a+LinkedIn+Job+Scraper+in+30+Minutes+%7C+n8n+%2B+Apify+Tutorial+%28Free+Template%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Connect+Notion+in+n8n+Easily+%282026+Guide%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Connect+Notion+in+n8n+Easily+%282026+Guide%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Connect+Telegram+in+n8n+%2B+Example+Workflows",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Connect+Telegram+in+n8n+%2B+Example+Workflows",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Game-Changer%21+How+to+Use+n8n%E2%80%99s+Brand-New+Native+Data+Tables",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Game-Changer%21+How+to+Use+n8n%E2%80%99s+Brand-New+Native+Data+Tables",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Google+Sheets+in+n8n+%E2%80%93+Read%2C+Append%2C+Update%2C+Filter+%26+Delete",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Google+Sheets+in+n8n+%E2%80%93+Read%2C+Append%2C+Update%2C+Filter+%26+Delete",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+To+Build+a+Bulk+PDF+Generator+in+N8N+%28Free+%26+Easy+-+Integrates+With+Excel%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+To+Build+a+Bulk+PDF+Generator+in+N8N+%28Free+%26+Easy+-+Integrates+With+Excel%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+To+Use+The+NEW+Apify+Node+in+N8N+%28Stop+Using+HTTP+Request%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+To+Use+The+NEW+Apify+Node+in+N8N+%28Stop+Using+HTTP+Request%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+To+Work+With+Binary+Data+in+n8n+%7C+Images%2C+PDFs%2C+and+CSVs",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+To+Work+With+Binary+Data+in+n8n+%7C+Images%2C+PDFs%2C+and+CSVs",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+the+AI+Information+Extractor+Node+Works+in+n8n+%28Beginner%27s+Guide%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+the+AI+Information+Extractor+Node+Works+in+n8n+%28Beginner%27s+Guide%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Build+your+first+AI+Agent+in+N8N+%28Super+Easy%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Build+your+first+AI+Agent+in+N8N+%28Super+Easy%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Connect+GPT+5+to+N8N+%28In+5+Minutes%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Connect+GPT+5+to+N8N+%28In+5+Minutes%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Connect+Google+Drive+to+N8N+%28Easy+-+Beginner+Friendly%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Connect+Google+Drive+to+N8N+%28Easy+-+Beginner+Friendly%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Control+AI+Agents+in+n8n+with+System+and+User+Prompts",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Control+AI+Agents+in+n8n+with+System+and+User+Prompts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Do+Sentiment+Analysis+in+n8n+%28Step-by-Step+Guide%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Do+Sentiment+Analysis+in+n8n+%28Step-by-Step+Guide%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Generate+Leads+for+%240.001+with+N8N%2C+Apollo%2C+and+Apify",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Generate+Leads+for+%240.001+with+N8N%2C+Apollo%2C+and+Apify",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Get+Started+with+n8n+%28without+feeling+overwhelmed%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Get+Started+with+n8n+%28without+feeling+overwhelmed%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Learn+n8n+FAST+%28Do+This+or+Keep+Struggling%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Learn+n8n+FAST+%28Do+This+or+Keep+Struggling%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Master+n8n+for+Gmail+and+Land+High-Paying+Freelance+Gigs",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Master+n8n+for+Gmail+and+Land+High-Paying+Freelance+Gigs",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Scrape+Instagram+Accounts+%26+Hashtags+with+N8N+and+Apify",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Scrape+Instagram+Accounts+%26+Hashtags+with+N8N+and+Apify",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Scrape+TikTok+Profiles+%26+Posts+in+n8n+with+Apify",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Scrape+TikTok+Profiles+%26+Posts+in+n8n+with+Apify",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Scrape+UNLIMITED+Leads+on+Google+Maps+with+N8N+%26+Apify",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Scrape+UNLIMITED+Leads+on+Google+Maps+with+N8N+%26+Apify",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Self+Host+N8N+with+Hostinger+%28Easy%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Self+Host+N8N+with+Hostinger+%28Easy%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Self+Host+n8n+For+Free%21+%28Fast+%26+Easy+For+Beginners%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Self+Host+n8n+For+Free%21+%28Fast+%26+Easy+For+Beginners%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Set+Up+Perplexity+in+N8N",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Set+Up+Perplexity+in+N8N",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Travel+Safe+-+General+Knowledge",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Travel+Safe+-+General+Knowledge",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Use+ANY+LLM+in+n8n+with+Open+Router+%26+Model+Selector",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Use+ANY+LLM+in+n8n+with+Open+Router+%26+Model+Selector",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Use+Hubspot+in+N8N+with+2+Workflows+%2B+API",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Use+Hubspot+in+N8N+with+2+Workflows+%2B+API",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Use+the+Call+n8n+Workflow+Tool+Inside+the+AI+Agent",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Use+the+Call+n8n+Workflow+Tool+Inside+the+AI+Agent",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+Use+the+Limit+Node+in+n8n+%28Step-by-Step+Tutorial%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+Use+the+Limit+Node+in+n8n+%28Step-by-Step+Tutorial%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+use+Monday.com+in+n8n+%28API%2C+Webhook%2C+and+Workflow%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+use+Monday.com+in+n8n+%28API%2C+Webhook%2C+and+Workflow%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+use+the+Sort+Node+in+n8n+like+a+Data+Analyst",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+use+the+Sort+Node+in+n8n+like+a+Data+Analyst",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=How+to+use+the+n8n+Summarize+Node+%28Like+a+Data+Analyst%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=How+to+use+the+n8n+Summarize+Node+%28Like+a+Data+Analyst%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Human+in+the+Loop+in+n8n%3A+Full+2026+Guide",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Human+in+the+Loop+in+n8n%3A+Full+2026+Guide",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=I+Built+a+n8n+GoHighLevel+Slack+Integration+That+Follows+Up+With+Leads+Automatically",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=I+Built+a+n8n+GoHighLevel+Slack+Integration+That+Follows+Up+With+Leads+Automatically",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=I+Built+an+AI+Email+Assistant+in+n8n+%28Community+Challenge%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=I+Built+an+AI+Email+Assistant+in+n8n+%28Community+Challenge%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=I+Updated+to+n8n+V2+and+All+My+Sub+Workflows+Broke+%28Here%27s+The+Fix%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=I+Updated+to+n8n+V2+and+All+My+Sub+Workflows+Broke+%28Here%27s+The+Fix%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Improve+RAG+with+Metadata+in+n8n+%283+Examples%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Improve+RAG+with+Metadata+in+n8n+%283+Examples%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Master+80%25+of+AI+in+n8n+by+Learning+Just+These+12+Nodes",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Master+80%25+of+AI+in+n8n+by+Learning+Just+These+12+Nodes",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Master+n8n+Triggers+in+20+Minutes+%E2%80%93+Automate+Anything",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Master+n8n+Triggers+in+20+Minutes+%E2%80%93+Automate+Anything",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Master+the+n8n+Merge+Node%3A+The+Complete+Guide+to+Append%2C+Combine%2C+SQL+%26++Choose+Branch",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Master+the+n8n+Merge+Node%3A+The+Complete+Guide+to+Append%2C+Combine%2C+SQL+%26++Choose+Branch",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Mastering+the+n8n+Aggregate+Node%3A+Step-by-Step+Tutorial",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Mastering+the+n8n+Aggregate+Node%3A+Step-by-Step+Tutorial",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Mastering+the+n8n+Summarization+Chain%3A+From+Zero+to+Automation+Pro",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Mastering+the+n8n+Summarization+Chain%3A+From+Zero+to+Automation+Pro",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Model+Context+Protocol+%28MCP%29+in+n8n+Cloud+%26+Self+Host",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Model+Context+Protocol+%28MCP%29+in+n8n+Cloud+%26+Self+Host",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Nano+Banana+Pro+Just+Supercharged+AI+Image+Generation+in+n8n+%E2%80%94+Here%E2%80%99s+How",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Nano+Banana+Pro+Just+Supercharged+AI+Image+Generation+in+n8n+%E2%80%94+Here%E2%80%99s+How",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=OpenAI%27s+Search+Feature+Changes+Everything+for+n8n+Workflows",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=OpenAI%27s+Search+Feature+Changes+Everything+for+n8n+Workflows",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=REST+APIs+in+n8n+Explained+%28Complete+Beginner%27s+Guide%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=REST+APIs+in+n8n+Explained+%28Complete+Beginner%27s+Guide%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Remove+Duplicates+in+n8n+-+The+Secret+Node+to+Clean+Your+Data",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Remove+Duplicates+in+n8n+-+The+Secret+Node+to+Clean+Your+Data",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Scale+Your+n8n+Workflows+with+Sub-Workflows+%2B+Parallel+Executions",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Scale+Your+n8n+Workflows+with+Sub-Workflows+%2B+Parallel+Executions",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Scrape+Google+Search+Results+with+this+N8N+Workflow+%28Apify+%26+Sheets%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Scrape+Google+Search+Results+with+this+N8N+Workflow+%28Apify+%26+Sheets%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Stop+Building+n8n+AI+Agents.+Build+LLM+Chains+Instead",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Stop+Building+n8n+AI+Agents.+Build+LLM+Chains+Instead",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Stop+Checking+Websites+Manually+-+Use+RSS+in+n8n",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Stop+Checking+Websites+Manually+-+Use+RSS+in+n8n",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Stop+Losing+API+Data+in+n8n+%28Pagination+Explained+with+2+Examples%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Stop+Losing+API+Data+in+n8n+%28Pagination+Explained+with+2+Examples%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Streamlit+Meets+n8n%3A+The+Ultimate+Automation+Workflow",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Streamlit+Meets+n8n%3A+The+Ultimate+Automation+Workflow",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Supercharge+n8n+Workflows+with+Gemini+3+Pro%3A+Complete+Setup+%2B+4+Powerful+Automations",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Supercharge+n8n+Workflows+with+Gemini+3+Pro%3A+Complete+Setup+%2B+4+Powerful+Automations",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=The+Beginner%E2%80%99s+Guide+to+n8n+Evaluations+%28Optimize+Your+AI+Agents%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=The+Beginner%E2%80%99s+Guide+to+n8n+Evaluations+%28Optimize+Your+AI+Agents%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=The+Best+AI+Models+for+n8n+Workflows+%28LLM+Benchmarks%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=The+Best+AI+Models+for+n8n+Workflows+%28LLM+Benchmarks%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=The+Harsh+Reality+of+learning+n8n+in+2026",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=The+Harsh+Reality+of+learning+n8n+in+2026",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=The+MOST+OVERLOOKED+Feature+in+n8n+%28Error+Handling+Guide%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=The+MOST+OVERLOOKED+Feature+in+n8n+%28Error+Handling+Guide%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=The+n8n+Feature+That+Finally+Fixes+Credential+Setup",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=The+n8n+Feature+That+Finally+Fixes+Credential+Setup",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Ultimate+n8n+Course%3A+Beginner+to+Pro+in+17+Hours+%282026%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Ultimate+n8n+Course%3A+Beginner+to+Pro+in+17+Hours+%282026%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Watch+these+8+minutes+if+you+want+to+land+a+High+Paying+n8n+customer+in+2026",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Watch+these+8+minutes+if+you+want+to+land+a+High+Paying+n8n+customer+in+2026",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Where+%245%2C000+n8n+Clients+Are+Actually+Hiding+in+2026",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Where+%245%2C000+n8n+Clients+Are+Actually+Hiding+in+2026",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=Why+n8n+Chat+Hub+is+a+Game+Changer+for+Workflows",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=Why+n8n+Chat+Hub+is+a+Game+Changer+for+Workflows",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+Airtable+Integration%3A+Everything+You+Need+to+Know",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+Airtable+Integration%3A+Everything+You+Need+to+Know",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+Compare+Datasets+Node+%28Full+Guide%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+Compare+Datasets+Node+%28Full+Guide%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+Date+%26+Time+Node+101%3A+Format%2C+Calculate%2C+and+Automate",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+Date+%26+Time+Node+101%3A+Format%2C+Calculate%2C+and+Automate",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+Edit+Fields+Set+Node%3A+Transform+Data+Like+a+Pro",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+Edit+Fields+Set+Node%3A+Transform+Data+Like+a+Pro",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+File+Handling+Made+Easy+%7C+Convert+to+File+Node",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+File+Handling+Made+Easy+%7C+Convert+to+File+Node",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+HTTP+Request+Node+%26+Tool+%28Connect+to+APIs%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+HTTP+Request+Node+%26+Tool+%28Connect+to+APIs%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+If+Node+%28COMPLETE+Guide+For+Beginners%29+-+11+Examples",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+If+Node+%28COMPLETE+Guide+For+Beginners%29+-+11+Examples",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+Just+Released+AI+Guardrails+%E2%80%94+Here%E2%80%99s+How+%E2%80%9CCheck+Text%E2%80%9D+and+%E2%80%9CSanitize%E2%80%9D+Work",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+Just+Released+AI+Guardrails+%E2%80%94+Here%E2%80%99s+How+%E2%80%9CCheck+Text%E2%80%9D+and+%E2%80%9CSanitize%E2%80%9D+Work",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+Loop+Over+Items%3A+The+RIGHT+Way+vs+The+WRONG+Way",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+Loop+Over+Items%3A+The+RIGHT+Way+vs+The+WRONG+Way",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+Python+Code+Node+Tutorial+-+What+Changed+in+V2",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+Python+Code+Node+Tutorial+-+What+Changed+in+V2",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+RAG+Embeddings+with+OpenAI+%28Small+%26+Large%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+RAG+Embeddings+with+OpenAI+%28Small+%26+Large%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+RAG+Reranker+%28Cohere%29+-+Full+Tutorial+For+Beginners",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+RAG+Reranker+%28Cohere%29+-+Full+Tutorial+For+Beginners",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+RAG+Text+Splitters+%28Document+Chunking%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+RAG+Text+Splitters+%28Document+Chunking%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+Reddit+Lead+Generation+%28Apify+%2B+RSS+Workflows%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+Reddit+Lead+Generation+%28Apify+%2B+RSS+Workflows%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+Slack+Automation+Tutorial+%E2%80%93+Triggers%2C+Nodes+%26+Real+Workflows",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+Slack+Automation+Tutorial+%E2%80%93+Triggers%2C+Nodes+%26+Real+Workflows",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+Split+Out+Node+Explained%3A+Step-by-Step+Guide",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+Split+Out+Node+Explained%3A+Step-by-Step+Guide",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+Switch+Node+for+Beginners+%28Full+Guide%29",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+Switch+Node+for+Beginners+%28Full+Guide%29",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+Terms+%26+Concepts+for+Beginners",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+Terms+%26+Concepts+for+Beginners",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+Text+Classification+Tutorial%3A+Learn+AI+Automation+Fast%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+Text+Classification+Tutorial%3A+Learn+AI+Automation+Fast%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+sticky+notes+-+Keep+your+Workflows+Organized%21",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+sticky+notes+-+Keep+your+Workflows+Organized%21",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=n8n+v2+Is+Coming+Soon+%E2%80%94+Here%E2%80%99s+What+You+Absolutely+Need+to+Know",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=n8n+v2+Is+Coming+Soon+%E2%80%94+Here%E2%80%99s+What+You+Absolutely+Need+to+Know",
+      "method": "HEAD"
+    }
+  ]
+}

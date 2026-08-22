@@ -1,0 +1,2638 @@
+{
+  "sourceFile": "n8n-mastery-sources-catalogue.docx",
+  "relationshipHyperlinkCount": 217,
+  "extractedCatalogueRows": 218,
+  "rowsWithoutEmbeddedUrl": [],
+  "embeddedUrlCount": 218,
+  "duplicateEmbeddedUrls": {
+    "https://www.youtube.com/results?search_query=62+--+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D9%88%D9%81%D9%91%D8%B1+%D8%A7%D9%84%D9%80+Tokens+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+MCP+%2B+Multi-Agents+%D8%B9%D9%84%D9%89+n8n+%F0%9F%94%A5": 2
+  },
+  "domains": {
+    "community-charts.github.io": 1,
+    "community.n8n.io": 1,
+    "dev.to": 1,
+    "docs.n8n.io": 3,
+    "github.com": 2,
+    "learn.n8n.io": 2,
+    "nfirdausblog.wordpress.com": 1,
+    "www.youtube.com": 207
+  },
+  "records": [
+    {
+      "documentOrder": 1,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "1",
+      "title": "001 | n8n with Karim | n8n from Business Perspective",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=001+%7C+n8n+with+Karim+%7C+n8n+from+Business+Perspective"
+      ],
+      "purpose": "Introduction to n8n from a business and operational perspective, explaining the core benefits of workflow automation."
+    },
+    {
+      "documentOrder": 2,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "2",
+      "title": "002 | n8n with Karim | إزاي توصل جوجل شيتس بالجيميل| | How to connect Google Sheets to Gmail",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=002+%7C+n8n+with+Karim+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D9%88%D8%B5%D9%84+%D8%AC%D9%88%D8%AC%D9%84+%D8%B4%D9%8A%D8%AA%D8%B3+%D8%A8%D8%A7%D9%84%D8%AC%D9%8A%D9%85%D9%8A%D9%84%7C+%7C+How+to+connect+Google+Sheets+to+Gmail"
+      ],
+      "purpose": "Step-by-step tutorial on connecting Google Sheets to Gmail to automate task lists and email notifications."
+    },
+    {
+      "documentOrder": 3,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "3",
+      "title": "003 | n8n with Karim | Very Simple Restaurants Orders System using n8n Step by Step",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=003+%7C+n8n+with+Karim+%7C+Very+Simple+Restaurants+Orders+System+using+n8n+Step+by+Step"
+      ],
+      "purpose": "Building a simple restaurant order management system using n8n workflows."
+    },
+    {
+      "documentOrder": 4,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "4",
+      "title": "004 | n8n with Karim | شرح الأساسيات | Nodes, Triggers, Workflows",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=004+%7C+n8n+with+Karim+%7C+%D8%B4%D8%B1%D8%AD+%D8%A7%D9%84%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A7%D8%AA+%7C+Nodes%2C+Triggers%2C+Workflows"
+      ],
+      "purpose": "Comprehensive tour of n8n fundamentals, covering nodes, triggers, and workflow canvas basics."
+    },
+    {
+      "documentOrder": 5,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "5",
+      "title": "009 | نظام إدارة المخزون باستخدام التلجرام | Stock Management System using Telegram",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=009+%7C+%D9%86%D8%B8%D8%A7%D9%85+%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9+%D8%A7%D9%84%D9%85%D8%AE%D8%B2%D9%88%D9%86+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+%D8%A7%D9%84%D8%AA%D9%84%D8%AC%D8%B1%D8%A7%D9%85+%7C+Stock+Management+System+using+Telegram"
+      ],
+      "purpose": "Designing a stock and inventory management pipeline integrated with Telegram messenger."
+    },
+    {
+      "documentOrder": 6,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "6",
+      "title": "010 | ربط أوردرات المطعم بالمطبخ والمخزون | Restaurant Kitchen and Stock Management",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=010+%7C+%D8%B1%D8%A8%D8%B7+%D8%A3%D9%88%D8%B1%D8%AF%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D9%85%D8%B7%D8%B9%D9%85+%D8%A8%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D8%AE+%D9%88%D8%A7%D9%84%D9%85%D8%AE%D8%B2%D9%88%D9%86+%7C+Restaurant+Kitchen+and+Stock+Management"
+      ],
+      "purpose": "Automating restaurant operations by syncing orders with kitchen dispatch and inventory."
+    },
+    {
+      "documentOrder": 7,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "7",
+      "title": "012 | AI Automation | الأتمتة بالذكاء الاصطناعي",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=012+%7C+AI+Automation+%7C+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A"
+      ],
+      "purpose": "Exploring the fundamentals of AI automation and how LLMs enhance standard workflows."
+    },
+    {
+      "documentOrder": 8,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "8",
+      "title": "014 | AI Telegram Bot | بوت ذكاء اصطناعي بيرد على التلجرام",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=014+%7C+AI+Telegram+Bot+%7C+%D8%A8%D9%88%D8%AA+%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D8%A8%D9%8A%D8%B1%D8%AF+%D8%B9%D9%84%D9%89+%D8%A7%D9%84%D8%AA%D9%84%D8%AC%D8%B1%D8%A7%D9%85"
+      ],
+      "purpose": "Step-by-step configuration of an AI-powered Telegram chatbot."
+    },
+    {
+      "documentOrder": 9,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "9",
+      "title": "017 | AI Agent Node | n8n with Karim",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=017+%7C+AI+Agent+Node+%7C+n8n+with+Karim"
+      ],
+      "purpose": "Deep dive into configuring the AI Agent node to use advanced tools."
+    },
+    {
+      "documentOrder": 10,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "10",
+      "title": "021 | مشروع أتمتة مطعم | أتمتة خدمة العملاء",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=021+%7C+%D9%85%D8%B4%D8%B1%D9%88%D8%B9+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D9%85%D8%B7%D8%B9%D9%85+%7C+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%AE%D8%AF%D9%85%D8%A9+%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1"
+      ],
+      "purpose": "Advanced real-world restaurant customer service automation project."
+    },
+    {
+      "documentOrder": 11,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "11",
+      "title": "022 | إزاي عبد الله عمل أول ألف دولار من n8n",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=022+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D9%84%D9%87+%D8%B9%D9%85%D9%84+%D8%A3%D9%88%D9%84+%D8%A3%D9%84%D9%81+%D8%AF%D9%88%D9%84%D8%A7%D8%B1+%D9%85%D9%86+n8n"
+      ],
+      "purpose": "Case study on monetizing n8n skills and landing freelance automation clients."
+    },
+    {
+      "documentOrder": 12,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "12",
+      "title": "026 | إزاي محمود وصل لخمسة أضعاف دخله من n8n",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=026+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D9%85%D8%AD%D9%85%D9%88%D8%AF+%D9%88%D8%B5%D9%84+%D9%84%D8%AE%D9%85%D8%B3%D8%A9+%D8%A3%D8%B6%D8%B9%D8%A7%D9%81+%D8%AF%D8%AE%D9%84%D9%87+%D9%85%D9%86+n8n"
+      ],
+      "purpose": "Best practices for handoff and delivery of n8n automation projects to clients."
+    },
+    {
+      "documentOrder": 13,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "13",
+      "title": "03 | أول خطوة في التجهيز للمشروع | AI Automation PRD",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=03+%7C+%D8%A3%D9%88%D9%84+%D8%AE%D8%B7%D9%88%D8%A9+%D9%81%D9%8A+%D8%A7%D9%84%D8%AA%D8%AC%D9%87%D9%8A%D8%B2+%D9%84%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9+%7C+AI+Automation+PRD"
+      ],
+      "purpose": "Guide to preparing Project Requirements Documents (PRDs) for AI automation."
+    },
+    {
+      "documentOrder": 14,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "14",
+      "title": "04 | ماذا قبل الحل | إدارة المنتجات | م. محمد عصام | Product Management",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=04+%7C+%D9%85%D8%A7%D8%B0%D8%A7+%D9%82%D8%A8%D9%84+%D8%A7%D9%84%D8%AD%D9%84+%7C+%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9+%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA+%7C+%D9%85.+%D9%85%D8%AD%D9%85%D8%AF+%D8%B9%D8%B5%D8%A7%D9%85+%7C+Product+Management"
+      ],
+      "purpose": "Product management strategies and problem definition principles for engineers."
+    },
+    {
+      "documentOrder": 15,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "15",
+      "title": "05 | Vibe Coding | الحقيقة والخيال",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=05+%7C+Vibe+Coding+%7C+%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D9%82%D8%A9+%D9%88%D8%A7%D9%84%D8%AE%D9%8A%D8%A7%D9%84"
+      ],
+      "purpose": "Exploring rapid prototyping, web UIs, and connecting frontends to n8n backends."
+    },
+    {
+      "documentOrder": 16,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "16",
+      "title": "05 – الأتمتة العادية أم الأتمتة بالذكاء الاصطناعي أم الـ AI Agents؟ الفروقات الجوهرية ببساطة",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=05+%E2%80%93+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D9%8A%D8%A9+%D8%A3%D9%85+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D8%A3%D9%85+%D8%A7%D9%84%D9%80+AI+Agents%D8%9F+%D8%A7%D9%84%D9%81%D8%B1%D9%88%D9%82%D8%A7%D8%AA+%D8%A7%D9%84%D8%AC%D9%88%D9%87%D8%B1%D9%8A%D8%A9+%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9"
+      ],
+      "purpose": "Exploring the fundamentals of AI automation and how LLMs enhance standard workflows."
+    },
+    {
+      "documentOrder": 17,
+      "catalogueGroup": "Arabic Foundational Course: n8n with Karim",
+      "catalogueNumber": "17",
+      "title": "06 | Vibe Coding | أفضل استخدام",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=06+%7C+Vibe+Coding+%7C+%D8%A3%D9%81%D8%B6%D9%84+%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85"
+      ],
+      "purpose": "Exploring rapid prototyping, web UIs, and connecting frontends to n8n backends."
+    },
+    {
+      "documentOrder": 18,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "1",
+      "title": "01 __ أسهل طريقه لفهم AI Agent والفرق بينه وبين الـ Large Language Models ببساطة",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=01+__+%D8%A3%D8%B3%D9%87%D9%84+%D8%B7%D8%B1%D9%8A%D9%82%D9%87+%D9%84%D9%81%D9%87%D9%85+AI+Agent+%D9%88%D8%A7%D9%84%D9%81%D8%B1%D9%82+%D8%A8%D9%8A%D9%86%D9%87+%D9%88%D8%A8%D9%8A%D9%86+%D8%A7%D9%84%D9%80+Large+Language+Models+%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 19,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "2",
+      "title": "01 | محتاج إيه عشان تبقى مهندس أتمتة بالذكاء الاصطناعي | AI Automation Engineer",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=01+%7C+%D9%85%D8%AD%D8%AA%D8%A7%D8%AC+%D8%A5%D9%8A%D9%87+%D8%B9%D8%B4%D8%A7%D9%86+%D8%AA%D8%A8%D9%82%D9%89+%D9%85%D9%87%D9%86%D8%AF%D8%B3+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%7C+AI+Automation+Engineer"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 20,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "3",
+      "title": "015 | Sentiment Analysis | تحليل آراء العملاء بالذكاء الاصطناعي",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=015+%7C+Sentiment+Analysis+%7C+%D8%AA%D8%AD%D9%84%D9%8A%D9%84+%D8%A2%D8%B1%D8%A7%D8%A1+%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1+%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A"
+      ],
+      "purpose": "Analyzing customer review sentiment using AI and routing negative feedback."
+    },
+    {
+      "documentOrder": 21,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "4",
+      "title": "016 | AI Agents Introduction | مقدمة عن وكلاء الذكاء الاصطناعي",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=016+%7C+AI+Agents+Introduction+%7C+%D9%85%D9%82%D8%AF%D9%85%D8%A9+%D8%B9%D9%86+%D9%88%D9%83%D9%84%D8%A7%D8%A1+%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A"
+      ],
+      "purpose": "Introduction to the architecture and cognitive frameworks of AI Agents."
+    },
+    {
+      "documentOrder": 22,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "5",
+      "title": "019 | RAG | إزاي بنخلي الذكاء الاصطناعي يفهم ملفاتنا ويرد منها",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=019+%7C+RAG+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%A8%D9%86%D8%AE%D9%84%D9%8A+%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D9%8A%D9%81%D9%87%D9%85+%D9%85%D9%84%D9%81%D8%A7%D8%AA%D9%86%D8%A7+%D9%88%D9%8A%D8%B1%D8%AF+%D9%85%D9%86%D9%87%D8%A7"
+      ],
+      "purpose": "Explaining Retrieval-Augmented Generation (RAG) and how to ground AI in custom files."
+    },
+    {
+      "documentOrder": 23,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "6",
+      "title": "02 - ليه كل المطورين بدأوا يستخدموا Supabase Database مع n8n؟!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=02+-+%D9%84%D9%8A%D9%87+%D9%83%D9%84+%D8%A7%D9%84%D9%85%D8%B7%D9%88%D8%B1%D9%8A%D9%86+%D8%A8%D8%AF%D8%A3%D9%88%D8%A7+%D9%8A%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D9%88%D8%A7++Supabase+Database+%D9%85%D8%B9+n8n%D8%9F%21"
+      ],
+      "purpose": "Configuring Supabase PgVector with n8n to store and retrieve high-performance vector embeddings."
+    },
+    {
+      "documentOrder": 24,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "7",
+      "title": "02 | بنحتاج نعرف إيه من فرق البيزنس قبل الأتمتة | Business AI Automation",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=02+%7C+%D8%A8%D9%86%D8%AD%D8%AA%D8%A7%D8%AC+%D9%86%D8%B9%D8%B1%D9%81+%D8%A5%D9%8A%D9%87+%D9%85%D9%86+%D9%81%D8%B1%D9%82+%D8%A7%D9%84%D8%A8%D9%8A%D8%B2%D9%86%D8%B3+%D9%82%D8%A8%D9%84+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%7C+Business+AI+Automation"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 25,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "8",
+      "title": "02 ــــ تعرف علي الفرق بين الـ AI Agents والـ Workflows مع أمثلة عملية || Anthropic Article",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=02+%D9%80%D9%80%D9%80%D9%80+%D8%AA%D8%B9%D8%B1%D9%81+%D8%B9%D9%84%D9%8A+%D8%A7%D9%84%D9%81%D8%B1%D9%82+%D8%A8%D9%8A%D9%86+%D8%A7%D9%84%D9%80+AI+Agents+%D9%88%D8%A7%D9%84%D9%80+Workflows+%D9%85%D8%B9+%D8%A3%D9%85%D8%AB%D9%84%D8%A9+%D8%B9%D9%85%D9%84%D9%8A%D8%A9+%7C%7C+Anthropic+Article"
+      ],
+      "purpose": "Integrating Anthropic Claude and managing API keys."
+    },
+    {
+      "documentOrder": 26,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "9",
+      "title": "03 ــــ جزء 1ــــ شرح Prompt Chaining: أول Workflow في أنظمة Anthropic الذكية",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=03+%D9%80%D9%80%D9%80%D9%80+%D8%AC%D8%B2%D8%A1+1%D9%80%D9%80%D9%80%D9%80+%D8%B4%D8%B1%D8%AD+Prompt+Chaining%3A+%D8%A3%D9%88%D9%84+Workflow+%D9%81%D9%8A+%D8%A3%D9%86%D8%B8%D9%85%D8%A9+Anthropic+%D8%A7%D9%84%D8%B0%D9%83%D9%8A%D8%A9"
+      ],
+      "purpose": "Explaining prompt chaining and building multi-step LLM reasoning pipelines."
+    },
+    {
+      "documentOrder": 27,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "10",
+      "title": "03 – الجزء 2 : اكتشف Workflows أنثروبيك الذكية | LLM Router و Parallelization والمزيد!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=03+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+2+%3A+%D8%A7%D9%83%D8%AA%D8%B4%D9%81+Workflows+%D8%A3%D9%86%D8%AB%D8%B1%D9%88%D8%A8%D9%8A%D9%83+%D8%A7%D9%84%D8%B0%D9%83%D9%8A%D8%A9+%7C+LLM+Router+%D9%88+Parallelization+%D9%88%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF%21"
+      ],
+      "purpose": "Building dynamic LLM routing agents and executing parallel LLM calls."
+    },
+    {
+      "documentOrder": 28,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "11",
+      "title": "04 – لماذا الـ AI Agents مختلفة؟ Anthropic Frameworks والمخاطر وطرق الحد منها",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=04+%E2%80%93+%D9%84%D9%85%D8%A7%D8%B0%D8%A7+%D8%A7%D9%84%D9%80+AI+Agents+%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9%D8%9F++Anthropic+Frameworks+%D9%88%D8%A7%D9%84%D9%85%D8%AE%D8%A7%D8%B7%D8%B1+%D9%88%D8%B7%D8%B1%D9%82+%D8%A7%D9%84%D8%AD%D8%AF+%D9%85%D9%86%D9%87%D8%A7"
+      ],
+      "purpose": "Analyzing the unique capabilities and operational risks of autonomous AI agents."
+    },
+    {
+      "documentOrder": 29,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "12",
+      "title": "06 – كيف تعمل الـ APIs داخل الـ AI Agents؟ شرح مبسّط لعلاقة Client ↔ Server",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=06+%E2%80%93+%D9%83%D9%8A%D9%81+%D8%AA%D8%B9%D9%85%D9%84+%D8%A7%D9%84%D9%80+APIs+%D8%AF%D8%A7%D8%AE%D9%84+%D8%A7%D9%84%D9%80+AI+Agents%D8%9F+%D8%B4%D8%B1%D8%AD+%D9%85%D8%A8%D8%B3%D9%91%D8%B7+%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A9+Client+%E2%86%94+Server"
+      ],
+      "purpose": "Explaining client-server communication and API integration within agent environments."
+    },
+    {
+      "documentOrder": 30,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "13",
+      "title": "07 | AI Automation Engineer | Environments",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=07+%7C+AI+Automation+Engineer+%7C+Environments"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 31,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "14",
+      "title": "07 – كيف تبدأ مع OpenAI API؟ شرح التسجيل، الفوترة، وإعداد مفتاح الـ API بسهولة",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=07+%E2%80%93+%D9%83%D9%8A%D9%81+%D8%AA%D8%A8%D8%AF%D8%A3+%D9%85%D8%B9+OpenAI+API%D8%9F+%D8%B4%D8%B1%D8%AD+%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%D8%8C+%D8%A7%D9%84%D9%81%D9%88%D8%AA%D8%B1%D8%A9%D8%8C+%D9%88%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF+%D9%85%D9%81%D8%AA%D8%A7%D8%AD+%D8%A7%D9%84%D9%80+API+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9"
+      ],
+      "purpose": "Setting up OpenAI API accounts, billing tiers, and generating keys."
+    },
+    {
+      "documentOrder": 32,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "15",
+      "title": "08 | AI Automation Engineer | API Document",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=08+%7C+AI+Automation+Engineer+%7C+API+Document"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 33,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "16",
+      "title": "08 – نظره عميقه في عالم الـ AI Agents: Think-Time Compute، Function Calling، وأدوات الأتمتة",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=08+%E2%80%93+%D9%86%D8%B8%D8%B1%D9%87+%D8%B9%D9%85%D9%8A%D9%82%D9%87+%D9%81%D9%8A+%D8%B9%D8%A7%D9%84%D9%85+%D8%A7%D9%84%D9%80+AI+Agents%3A+Think-Time+Compute%D8%8C+Function+Calling%D8%8C+%D9%88%D8%A3%D8%AF%D9%88%D8%A7%D8%AA+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9"
+      ],
+      "purpose": "Exploring think-time compute, function calling, and tool selection in AI agents."
+    },
+    {
+      "documentOrder": 34,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "17",
+      "title": "09 – n8n: الفرق بين Self‑Hosted و Cloud مع شرح التثبيت وخطوات التسجيل",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=09+%E2%80%93+n8n%3A+%D8%A7%D9%84%D9%81%D8%B1%D9%82+%D8%A8%D9%8A%D9%86+Self%E2%80%91Hosted+%D9%88+Cloud+%D9%85%D8%B9+%D8%B4%D8%B1%D8%AD+%D8%A7%D9%84%D8%AA%D8%AB%D8%A8%D9%8A%D8%AA+%D9%88%D8%AE%D8%B7%D9%88%D8%A7%D8%AA+%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84"
+      ],
+      "purpose": "Comparing cloud versus self-hosted n8n in terms of features, costs, and limits."
+    },
+    {
+      "documentOrder": 35,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "18",
+      "title": "1- ليه الــ Multimodal RAG هو مستقبل الذكاء الاصطناعي؟! 🔥",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=1-+%D9%84%D9%8A%D9%87+%D8%A7%D9%84%D9%80%D9%80+Multimodal+RAG+%D9%87%D9%88+%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84+%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A%D8%9F%21+%F0%9F%94%A5"
+      ],
+      "purpose": "Why multimodal RAG (text + images) is the future of advanced RAG applications."
+    },
+    {
+      "documentOrder": 36,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "19",
+      "title": "10 – طريقة تثبيت n8n Self‑Hosted عبر npm وكيفية إبقاء الحزم محدثة دائمًا",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=10+%E2%80%93+%D8%B7%D8%B1%D9%8A%D9%82%D8%A9+%D8%AA%D8%AB%D8%A8%D9%8A%D8%AA+n8n+Self%E2%80%91Hosted+%D8%B9%D8%A8%D8%B1+npm+%D9%88%D9%83%D9%8A%D9%81%D9%8A%D8%A9+%D8%A5%D8%A8%D9%82%D8%A7%D8%A1+%D8%A7%D9%84%D8%AD%D8%B2%D9%85+%D9%85%D8%AD%D8%AF%D8%AB%D8%A9+%D8%AF%D8%A7%D8%A6%D9%85%D9%8B%D8%A7"
+      ],
+      "purpose": "Installing self-hosted n8n via npm and maintaining packages."
+    },
+    {
+      "documentOrder": 37,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "20",
+      "title": "11 – الجزء 2: كيفية توصيل Gmail API بـ n8n في وضع Self‑Hosting",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=11+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+2%3A+%D9%83%D9%8A%D9%81%D9%8A%D8%A9+%D8%AA%D9%88%D8%B5%D9%8A%D9%84+Gmail+API+%D8%A8%D9%80+n8n+%D9%81%D9%8A+%D9%88%D8%B6%D8%B9+Self%E2%80%91Hosting"
+      ],
+      "purpose": "Connecting Gmail API to self-hosted n8n for email processing and auto-response chatbots."
+    },
+    {
+      "documentOrder": 38,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "21",
+      "title": "11 – جزء 1: n8n Trigger Types + أتمتة شات بوت الذكاء الاصطناعي باستخدام Gmail API (Self‑Hosting)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=11+%E2%80%93+%D8%AC%D8%B2%D8%A1+1%3A+n8n+Trigger+Types+%2B+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%B4%D8%A7%D8%AA+%D8%A8%D9%88%D8%AA+%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+Gmail+API+%28Self%E2%80%91Hosting%29"
+      ],
+      "purpose": "Connecting Gmail API to self-hosted n8n for email processing and auto-response chatbots."
+    },
+    {
+      "documentOrder": 39,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "22",
+      "title": "12 – Automation Example 2&3: تشغيل عبر Chat أو Schedule Trigger للإيميل وGoogle Sheets",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=12+%E2%80%93+Automation+Example+2%263%3A+%D8%AA%D8%B4%D8%BA%D9%8A%D9%84+%D8%B9%D8%A8%D8%B1+Chat+%D8%A3%D9%88+Schedule+Trigger+%D9%84%D9%84%D8%A5%D9%8A%D9%85%D9%8A%D9%84+%D9%88Google+Sheets"
+      ],
+      "purpose": "Practical builds of automated email and spreadsheet sync workflows."
+    },
+    {
+      "documentOrder": 40,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "23",
+      "title": "13 n8n Workflow Concepts For Beginners (2026 Update)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=13+n8n+Workflow+Concepts+For+Beginners+%282026+Update%29"
+      ],
+      "purpose": "Best practices for handoff and delivery of n8n automation projects to clients."
+    },
+    {
+      "documentOrder": 41,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "24",
+      "title": "13 – Automation Example #4: أتمتة Smart Car Dealership Workflow بخطوات بسيطة",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=13+%E2%80%93+Automation+Example+%234%3A+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+Smart+Car+Dealership+Workflow+%D8%A8%D8%AE%D8%B7%D9%88%D8%A7%D8%AA+%D8%A8%D8%B3%D9%8A%D8%B7%D8%A9"
+      ],
+      "purpose": "Configuring event-driven systems for booking and reservation processes."
+    },
+    {
+      "documentOrder": 42,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "25",
+      "title": "14 – Automation Example #5: أتمتة Hotel Reservation مع Self‑Hosting",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=14+%E2%80%93+Automation+Example+%235%3A+%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+Hotel+Reservation+%D9%85%D8%B9+Self%E2%80%91Hosting"
+      ],
+      "purpose": "Configuring event-driven systems for booking and reservation processes."
+    },
+    {
+      "documentOrder": 43,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "26",
+      "title": "15 – إدارة n8n Projects: كيفية Duplicate وDownload وImport بسهولة",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=15+%E2%80%93+%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9+n8n+Projects%3A+%D9%83%D9%8A%D9%81%D9%8A%D8%A9+Duplicate+%D9%88Download+%D9%88Import+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9"
+      ],
+      "purpose": "Importing, exporting, and duplicating n8n workflow JSON packages."
+    },
+    {
+      "documentOrder": 44,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "27",
+      "title": "16 – AI Agent لأتمتة تلخيص Support Tickets وإرسالها عبر Email لمدير IT (Self‑Hosting)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=16+%E2%80%93+AI+Agent+%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9+%D8%AA%D9%84%D8%AE%D9%8A%D8%B5+Support+Tickets+%D9%88%D8%A5%D8%B1%D8%B3%D8%A7%D9%84%D9%87%D8%A7+%D8%B9%D8%A8%D8%B1+Email+%D9%84%D9%85%D8%AF%D9%8A%D8%B1+IT+%28Self%E2%80%91Hosting%29"
+      ],
+      "purpose": "Building an automated support ticket summarizer and routing pipeline."
+    },
+    {
+      "documentOrder": 45,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "28",
+      "title": "17 – AI Agent لتحليل مشاعر تقييمات المطاعم وإرسالها إلى Excel تلقائيًا (Self‑Hosting)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=17+%E2%80%93+AI+Agent+%D9%84%D8%AA%D8%AD%D9%84%D9%8A%D9%84+%D9%85%D8%B4%D8%A7%D8%B9%D8%B1+%D8%AA%D9%82%D9%8A%D9%8A%D9%85%D8%A7%D8%AA+%D8%A7%D9%84%D9%85%D8%B7%D8%A7%D8%B9%D9%85+%D9%88%D8%A5%D8%B1%D8%B3%D8%A7%D9%84%D9%87%D8%A7+%D8%A5%D9%84%D9%89+Excel+%D8%AA%D9%84%D9%82%D8%A7%D8%A6%D9%8A%D9%8B%D8%A7+%28Self%E2%80%91Hosting%29"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 46,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "29",
+      "title": "18 – ما الذي يجب معرفته قبل استخدام Open‑Source LLMs مع n8n؟",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=18+%E2%80%93+%D9%85%D8%A7+%D8%A7%D9%84%D8%B0%D9%8A+%D9%8A%D8%AC%D8%A8+%D9%85%D8%B9%D8%B1%D9%81%D8%AA%D9%87+%D9%82%D8%A8%D9%84+%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+Open%E2%80%91Source+LLMs+%D9%85%D8%B9+n8n%D8%9F"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 47,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "30",
+      "title": "19 –Free Local AI Agents على جهازك: Open‑Source LLM مع DeepSeek وOllama _ n8n Self‑Hosting",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=19+%E2%80%93Free+Local+AI+Agents+%D8%B9%D9%84%D9%89+%D8%AC%D9%87%D8%A7%D8%B2%D9%83%3A+Open%E2%80%91Source+LLM+%D9%85%D8%B9+DeepSeek+%D9%88Ollama+_+n8n+Self%E2%80%91Hosting"
+      ],
+      "purpose": "Running open-source models like DeepSeek-R1 locally with Ollama and n8n."
+    },
+    {
+      "documentOrder": 48,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "31",
+      "title": "20 – الجزء 1: شرح Basic Chain Node وأنواع رسائل LLM مثل User وSystem وAssistant",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=20+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+1%3A+%D8%B4%D8%B1%D8%AD+Basic+Chain+Node+%D9%88%D8%A3%D9%86%D9%88%D8%A7%D8%B9+%D8%B1%D8%B3%D8%A7%D8%A6%D9%84+LLM+%D9%85%D8%AB%D9%84+User+%D9%88System+%D9%88Assistant"
+      ],
+      "purpose": "Understanding System, User, and Assistant message roles in LLM chains."
+    },
+    {
+      "documentOrder": 49,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "32",
+      "title": "20 – الجزء 2: شرح Basic LLM Chain Parameters مع أنواع Parser المختلفة",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=20+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+2%3A+%D8%B4%D8%B1%D8%AD+Basic+LLM+Chain+Parameters+%D9%85%D8%B9+%D8%A3%D9%86%D9%88%D8%A7%D8%B9+Parser+%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9"
+      ],
+      "purpose": "Tuning LLM chain parameters (temperature, tokens) and output parsers."
+    },
+    {
+      "documentOrder": 50,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "33",
+      "title": "21 – كيف تُؤتمت مراجعات العملاء مجانًا؟ Ollama Llama 3.2 مع Google Sheets",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=21+%E2%80%93+%D9%83%D9%8A%D9%81+%D8%AA%D9%8F%D8%A4%D8%AA%D9%85%D8%AA+%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A7%D8%AA+%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1+%D9%85%D8%AC%D8%A7%D9%86%D9%8B%D8%A7%D8%9F+Ollama+Llama+3.2+%D9%85%D8%B9+Google+Sheets"
+      ],
+      "purpose": "Running open-source models like DeepSeek-R1 locally with Ollama and n8n."
+    },
+    {
+      "documentOrder": 51,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "34",
+      "title": "22 – الجزء الأول: أسعار DeepSeek API | Tokens، Context Window و Caching Essentials",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=22+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%A3%D9%88%D9%84%3A+%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1+DeepSeek+API+%7C+Tokens%D8%8C+Context+Window+%D9%88+Caching+Essentials"
+      ],
+      "purpose": "Running open-source models like DeepSeek-R1 locally with Ollama and n8n."
+    },
+    {
+      "documentOrder": 52,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "35",
+      "title": "22 – الجزء الثاني: اكتشف أسرار Gemini API Pricing | Plans، Tiers و Usage بتفاصيل عميقة!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=22+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%3A+%D8%A7%D9%83%D8%AA%D8%B4%D9%81+%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1+Gemini+API+Pricing+%7C+Plans%D8%8C+Tiers+%D9%88+Usage+%D8%A8%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84+%D8%B9%D9%85%D9%8A%D9%82%D8%A9%21"
+      ],
+      "purpose": "Deep dive into Google Gemini API pricing plans, usage limits, and tiers."
+    },
+    {
+      "documentOrder": 53,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "36",
+      "title": "23 – الجزء الأول: تعلّم دمج Claude من Anthropic مع n8n وخطوة إنشاء API Key بسهولة!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=23+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%A3%D9%88%D9%84%3A+%D8%AA%D8%B9%D9%84%D9%91%D9%85+%D8%AF%D9%85%D8%AC+Claude+%D9%85%D9%86+Anthropic+%D9%85%D8%B9+n8n+%D9%88%D8%AE%D8%B7%D9%88%D8%A9+%D8%A5%D9%86%D8%B4%D8%A7%D8%A1+API+Key+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9%21"
+      ],
+      "purpose": "Integrating Anthropic Claude and managing API keys."
+    },
+    {
+      "documentOrder": 54,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "37",
+      "title": "23 – الجزء الثاني: كيف توصل DeepSeek و Gemini و Groq مع n8n بخطوات بسيطة!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=23+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%3A+%D9%83%D9%8A%D9%81+%D8%AA%D9%88%D8%B5%D9%84+DeepSeek+%D9%88+Gemini+%D9%88+Groq+%D9%85%D8%B9+n8n+%D8%A8%D8%AE%D8%B7%D9%88%D8%A7%D8%AA+%D8%A8%D8%B3%D9%8A%D8%B7%D8%A9%21"
+      ],
+      "purpose": "Running open-source models like DeepSeek-R1 locally with Ollama and n8n."
+    },
+    {
+      "documentOrder": 55,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "38",
+      "title": "24 – اكتشف بعمق AI Agent و Simple Memory Nodes in n8n خطوة بخطوة!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=24+%E2%80%93+%D8%A7%D9%83%D8%AA%D8%B4%D9%81+%D8%A8%D8%B9%D9%85%D9%82+AI+Agent+%D9%88+Simple+Memory+Nodes+in+n8n+%D8%AE%D8%B7%D9%88%D8%A9+%D8%A8%D8%AE%D8%B7%D9%88%D8%A9%21"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 56,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "39",
+      "title": "25 – اصنع Chatbot ذكي لمبيعات مكونات الحاسوب عبر n8n بسهولة!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=25+%E2%80%93+%D8%A7%D8%B5%D9%86%D8%B9+Chatbot+%D8%B0%D9%83%D9%8A+%D9%84%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA+%D9%85%D9%83%D9%88%D9%86%D8%A7%D8%AA+%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D9%88%D8%A8+%D8%B9%D8%A8%D8%B1+n8n+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9%21"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 57,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "40",
+      "title": "26 – كل ما تحتاج معرفته عن Grok4 من لايف إيلون ماسك + دمجه مع n8n",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=26+%E2%80%93+%D9%83%D9%84+%D9%85%D8%A7+%D8%AA%D8%AD%D8%AA%D8%A7%D8%AC+%D9%85%D8%B9%D8%B1%D9%81%D8%AA%D9%87+%D8%B9%D9%86+Grok4+%D9%85%D9%86+%D9%84%D8%A7%D9%8A%D9%81+%D8%A5%D9%8A%D9%84%D9%88%D9%86+%D9%85%D8%A7%D8%B3%D9%83+%2B+%D8%AF%D9%85%D8%AC%D9%87+%D9%85%D8%B9+n8n"
+      ],
+      "purpose": "Integrating xAI Grok and utilizing real-time data features."
+    },
+    {
+      "documentOrder": 58,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "41",
+      "title": "27 – اصنع Smart Chatbot للرد على العملاء باستخدام Grok4 و n8n بسهولة!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=27+%E2%80%93+%D8%A7%D8%B5%D9%86%D8%B9+Smart+Chatbot++%D9%84%D9%84%D8%B1%D8%AF+%D8%B9%D9%84%D9%89+%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+Grok4+%D9%88+n8n+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9%21"
+      ],
+      "purpose": "Integrating xAI Grok and utilizing real-time data features."
+    },
+    {
+      "documentOrder": 59,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "42",
+      "title": "28 – الجزء 1: RAG ببساطة! 3 طرق ذكية لتزويد الـ LLM بالمعلومات بدون إعادة Training",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=28+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+1%3A+RAG+%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9%21+3+%D8%B7%D8%B1%D9%82+%D8%B0%D9%83%D9%8A%D8%A9+%D9%84%D8%AA%D8%B2%D9%88%D9%8A%D8%AF+%D8%A7%D9%84%D9%80+LLM+%D8%A8%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA+%D8%A8%D8%AF%D9%88%D9%86+%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9+Training"
+      ],
+      "purpose": "Explaining standard RAG concepts, vector stores, and chunking strategy."
+    },
+    {
+      "documentOrder": 60,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "43",
+      "title": "28 – الجزء 2: كل ما تريد معرفته عن RAG وكيفية تزويد الـ LLM بالمعلومات بدون إعادة Training",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=28+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+2%3A+%D9%83%D9%84+%D9%85%D8%A7+%D8%AA%D8%B1%D9%8A%D8%AF+%D9%85%D8%B9%D8%B1%D9%81%D8%AA%D9%87+%D8%B9%D9%86+RAG+%D9%88%D9%83%D9%8A%D9%81%D9%8A%D8%A9+%D8%AA%D8%B2%D9%88%D9%8A%D8%AF+%D8%A7%D9%84%D9%80+LLM+%D8%A8%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA+%D8%A8%D8%AF%D9%88%D9%86+%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9+Training"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 61,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "44",
+      "title": "28 – الجزء 3: كل ما تريد معرفته عن RAG وكيفية تزويد الـ LLM بالمعلومات بدون إعادة Training",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=28+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+3%3A+%D9%83%D9%84+%D9%85%D8%A7+%D8%AA%D8%B1%D9%8A%D8%AF+%D9%85%D8%B9%D8%B1%D9%81%D8%AA%D9%87+%D8%B9%D9%86+RAG+%D9%88%D9%83%D9%8A%D9%81%D9%8A%D8%A9+%D8%AA%D8%B2%D9%88%D9%8A%D8%AF+%D8%A7%D9%84%D9%80+LLM+%D8%A8%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA+%D8%A8%D8%AF%D9%88%D9%86+%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9+Training"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 62,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "45",
+      "title": "28 – الجزء 4: RAG ببساطة! ما هي Vector Databases وكيف تزود الـ LLM بالمعلومات بدون إعادة Training",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=28+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+4%3A+RAG+%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9%21+%D9%85%D8%A7+%D9%87%D9%8A+Vector+Databases+%D9%88%D9%83%D9%8A%D9%81+%D8%AA%D8%B2%D9%88%D8%AF+%D8%A7%D9%84%D9%80+LLM+%D8%A8%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA+%D8%A8%D8%AF%D9%88%D9%86+%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9+Training"
+      ],
+      "purpose": "Explaining standard RAG concepts, vector stores, and chunking strategy."
+    },
+    {
+      "documentOrder": 63,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "46",
+      "title": "28 – الجزء 5: RAG ببساطة! أفضل Vector Databases في 2025 وكيف تدعم الـ LLM بدون إعادة Training",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=28+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+5%3A+RAG+%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9%21+%D8%A3%D9%81%D8%B6%D9%84+Vector+Databases+%D9%81%D9%8A+2025+%D9%88%D9%83%D9%8A%D9%81+%D8%AA%D8%AF%D8%B9%D9%85+%D8%A7%D9%84%D9%80+LLM+%D8%A8%D8%AF%D9%88%D9%86+%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9+Training"
+      ],
+      "purpose": "Strategic pricing strategies for freelance and agency n8n projects."
+    },
+    {
+      "documentOrder": 64,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "47",
+      "title": "29 -- جزء 1 --- اصنع RAG Chatbot مجاني وذكي باحترافية غير مسبوقة! || n8n",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=29+--+%D8%AC%D8%B2%D8%A1+1+---+%D8%A7%D8%B5%D9%86%D8%B9+RAG+Chatbot+%D9%85%D8%AC%D8%A7%D9%86%D9%8A+%D9%88%D8%B0%D9%83%D9%8A+%D8%A8%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9+%D8%BA%D9%8A%D8%B1+%D9%85%D8%B3%D8%A8%D9%88%D9%82%D8%A9%21+%7C%7C+n8n"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 65,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "48",
+      "title": "29 -- جزء 2 --- اصنع RAG Chatbot مجاني وذكي باحترافية غير مسبوقة! || n8n",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=29+--+%D8%AC%D8%B2%D8%A1+2+---+%D8%A7%D8%B5%D9%86%D8%B9+RAG+Chatbot+%D9%85%D8%AC%D8%A7%D9%86%D9%8A+%D9%88%D8%B0%D9%83%D9%8A+%D8%A8%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9+%D8%BA%D9%8A%D8%B1+%D9%85%D8%B3%D8%A8%D9%88%D9%82%D8%A9%21+%7C%7C+n8n"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 66,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "49",
+      "title": "30 -- حمّل أي عدد من الملفات إلى الـ Vector Database مباشرة من Google Drive في ثوانٍ! | RAG AI Agent",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=30+--+%D8%AD%D9%85%D9%91%D9%84+%D8%A3%D9%8A+%D8%B9%D8%AF%D8%AF+%D9%85%D9%86+%D8%A7%D9%84%D9%85%D9%84%D9%81%D8%A7%D8%AA+%D8%A5%D9%84%D9%89+%D8%A7%D9%84%D9%80+Vector+Database+%D9%85%D8%A8%D8%A7%D8%B4%D8%B1%D8%A9+%D9%85%D9%86+Google+Drive+%D9%81%D9%8A+%D8%AB%D9%88%D8%A7%D9%86%D9%8D%21+%7C+RAG+AI+Agent"
+      ],
+      "purpose": "Building an AI agent that searches custom data to answer queries accurately."
+    },
+    {
+      "documentOrder": 67,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "50",
+      "title": "31 -- P1 -- سر لم يخبرك به أحد في RAG AI Agent لرفع دقته إلى الحد الأقصى",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=31+--+P1+--+%D8%B3%D8%B1+%D9%84%D9%85+%D9%8A%D8%AE%D8%A8%D8%B1%D9%83+%D8%A8%D9%87+%D8%A3%D8%AD%D8%AF+%D9%81%D9%8A+RAG+AI+Agent+%D9%84%D8%B1%D9%81%D8%B9+%D8%AF%D9%82%D8%AA%D9%87+%D8%A5%D9%84%D9%89+%D8%A7%D9%84%D8%AD%D8%AF+%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D9%89"
+      ],
+      "purpose": "Building an AI agent that searches custom data to answer queries accurately."
+    },
+    {
+      "documentOrder": 68,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "51",
+      "title": "31 -- P2 -- سر لم يخبرك به أحد في RAG AI Agent لرفع دقته إلى الحد الأقصى",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=31+--+P2+--+%D8%B3%D8%B1+%D9%84%D9%85+%D9%8A%D8%AE%D8%A8%D8%B1%D9%83+%D8%A8%D9%87+%D8%A3%D8%AD%D8%AF+%D9%81%D9%8A+RAG+AI+Agent+%D9%84%D8%B1%D9%81%D8%B9+%D8%AF%D9%82%D8%AA%D9%87+%D8%A5%D9%84%D9%89+%D8%A7%D9%84%D8%AD%D8%AF+%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D9%89"
+      ],
+      "purpose": "Building an AI agent that searches custom data to answer queries accurately."
+    },
+    {
+      "documentOrder": 69,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "52",
+      "title": "32 -- الحل النهائي لمشكلة تحديث RAG AI Agent تلقائياً مع Google Drive بدون تكرار الملفات",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=32+--+%D8%A7%D9%84%D8%AD%D9%84+%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%A6%D9%8A+%D9%84%D9%85%D8%B4%D9%83%D9%84%D8%A9+%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB+RAG+AI+Agent+%D8%AA%D9%84%D9%82%D8%A7%D8%A6%D9%8A%D8%A7%D9%8B+%D9%85%D8%B9+Google+Drive+%D8%A8%D8%AF%D9%88%D9%86+%D8%AA%D9%83%D8%B1%D8%A7%D8%B1+%D8%A7%D9%84%D9%85%D9%84%D9%81%D8%A7%D8%AA"
+      ],
+      "purpose": "Building an AI agent that searches custom data to answer queries accurately."
+    },
+    {
+      "documentOrder": 70,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "53",
+      "title": "33 --وداعًا لعذاب كتابة الـ System Prompt! 🤖 أداة بتجهزلك كل حاجة أوتوماتيك للـ AI Agent!!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=33+--%D9%88%D8%AF%D8%A7%D8%B9%D9%8B%D8%A7+%D9%84%D8%B9%D8%B0%D8%A7%D8%A8+%D9%83%D8%AA%D8%A7%D8%A8%D8%A9+%D8%A7%D9%84%D9%80+System+Prompt%21+%F0%9F%A4%96+%D8%A3%D8%AF%D8%A7%D8%A9+%D8%A8%D8%AA%D8%AC%D9%87%D8%B2%D9%84%D9%83+%D9%83%D9%84+%D8%AD%D8%A7%D8%AC%D8%A9+%D8%A3%D9%88%D8%AA%D9%88%D9%85%D8%A7%D8%AA%D9%8A%D9%83+%D9%84%D9%84%D9%80+AI+Agent%21%21"
+      ],
+      "purpose": "Designing effective system prompts and using automation tools to generate them."
+    },
+    {
+      "documentOrder": 71,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "54",
+      "title": "34 -- ما هو السيرفر والاستضافة - Hosting - ولماذا نحتاجهما؟ ||| n8n",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=34+--+%D9%85%D8%A7+%D9%87%D9%88+%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D9%81%D8%B1+%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9+-+Hosting+-+%D9%88%D9%84%D9%85%D8%A7%D8%B0%D8%A7+%D9%86%D8%AD%D8%AA%D8%A7%D8%AC%D9%87%D9%85%D8%A7%D8%9F+%7C%7C%7C+n8n"
+      ],
+      "purpose": "Understanding hosting models, VPS, and cloud infrastructure requirements."
+    },
+    {
+      "documentOrder": 72,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "55",
+      "title": "35 -- جزء 1 -- تسعة أنواع استضافة لـ n8n: المميزات، العيوب، وأيه المناسب لك!!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=35+--+%D8%AC%D8%B2%D8%A1+1+--++%D8%AA%D8%B3%D8%B9%D8%A9+%D8%A3%D9%86%D9%88%D8%A7%D8%B9+%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9+%D9%84%D9%80%E2%80%AFn8n%3A+%D8%A7%D9%84%D9%85%D9%85%D9%8A%D8%B2%D8%A7%D8%AA%D8%8C+%D8%A7%D9%84%D8%B9%D9%8A%D9%88%D8%A8%D8%8C+%D9%88%D8%A3%D9%8A%D9%87+%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B3%D8%A8+%D9%84%D9%83%21%21"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 73,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "56",
+      "title": "35 -- جزء 2 -- تسعة أنواع استضافة لـ n8n: المميزات، العيوب، وأيه المناسب لك!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=35+--+%D8%AC%D8%B2%D8%A1+2+--++%D8%AA%D8%B3%D8%B9%D8%A9+%D8%A3%D9%86%D9%88%D8%A7%D8%B9+%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9+%D9%84%D9%80%E2%80%AFn8n%3A+%D8%A7%D9%84%D9%85%D9%85%D9%8A%D8%B2%D8%A7%D8%AA%D8%8C+%D8%A7%D9%84%D8%B9%D9%8A%D9%88%D8%A8%D8%8C+%D9%88%D8%A3%D9%8A%D9%87+%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B3%D8%A8+%D9%84%D9%83%21"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 74,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "57",
+      "title": "36 -- سر فشل WhatsAppو Telegram في n8n Self-Hosting – والـــحــــل!!!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=36+--+%D8%B3%D8%B1+%D9%81%D8%B4%D9%84+WhatsApp%D9%88+Telegram+%D9%81%D9%8A+n8n+Self-Hosting+%E2%80%93+%D9%88%D8%A7%D9%84%D9%80%D9%80%D9%80%D8%AD%D9%80%D9%80%D9%80%D9%80%D9%84%21%21%21"
+      ],
+      "purpose": "Hosting n8n on your own virtual private server (VPS)."
+    },
+    {
+      "documentOrder": 75,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "58",
+      "title": "37 -- تخلص نهائيًا من مشاكل WhatsApp و Telegram في n8n Self-Hosting",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=37+--++%D8%AA%D8%AE%D9%84%D8%B5+%D9%86%D9%87%D8%A7%D8%A6%D9%8A%D9%8B%D8%A7+%D9%85%D9%86+%D9%85%D8%B4%D8%A7%D9%83%D9%84+WhatsApp+%D9%88+Telegram+%D9%81%D9%8A+n8n+Self-Hosting"
+      ],
+      "purpose": "Hosting n8n on your own virtual private server (VPS)."
+    },
+    {
+      "documentOrder": 76,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "59",
+      "title": "39 - ازاي تصمم أول AI Agent مجاني بـ GPT-Oss من OpenAI!!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=39+-+%D8%A7%D8%B2%D8%A7%D9%8A+%D8%AA%D8%B5%D9%85%D9%85+%D8%A3%D9%88%D9%84+AI+Agent+%D9%85%D8%AC%D8%A7%D9%86%D9%8A+%D8%A8%D9%80+GPT-Oss+%D9%85%D9%86+OpenAI%21%21"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 77,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "60",
+      "title": "40 - GPT-5 في دقائق: مميزات، قدرات، وأسرار النظام الجديد",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=40+-+GPT-5+%D9%81%D9%8A+%D8%AF%D9%82%D8%A7%D8%A6%D9%82%3A+%D9%85%D9%85%D9%8A%D8%B2%D8%A7%D8%AA%D8%8C+%D9%82%D8%AF%D8%B1%D8%A7%D8%AA%D8%8C+%D9%88%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1+%D8%A7%D9%84%D9%86%D8%B8%D8%A7%D9%85+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 78,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "61",
+      "title": "41 - 🤖 خلّي GPT-5 يدير مواعيدك… Automate Your Business!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=41+-+%F0%9F%A4%96+%D8%AE%D9%84%D9%91%D9%8A+GPT-5+%D9%8A%D8%AF%D9%8A%D8%B1+%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%D9%83%E2%80%A6+Automate+Your+Business%21"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 79,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "62",
+      "title": "42 -- صمم AI Agent يعمل كسكرتير ذكي للمواعيد ويعمل بال Voice and Text Commands",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=42+--+%D8%B5%D9%85%D9%85++AI+Agent+%D9%8A%D8%B9%D9%85%D9%84+%D9%83%D8%B3%D9%83%D8%B1%D8%AA%D9%8A%D8%B1+%D8%B0%D9%83%D9%8A+%D9%84%D9%84%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF+%D9%88%D9%8A%D8%B9%D9%85%D9%84+%D8%A8%D8%A7%D9%84+Voice+and+Text+Commands"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 80,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "63",
+      "title": "43 -- الطريقة الصح! ربط واتساب بـ n8n 🔥",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=43+--+%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82%D8%A9+%D8%A7%D9%84%D8%B5%D8%AD%21+%D8%B1%D8%A8%D8%B7+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D8%A8%D9%80+n8n+%F0%9F%94%A5"
+      ],
+      "purpose": "Setting up WhatsApp API integrations with Evolution API or Meta Cloud API."
+    },
+    {
+      "documentOrder": 81,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "64",
+      "title": "44 - أوثقه ولا لأ؟ Meta Business Account مع WhatsApp!!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=44+-+%D8%A3%D9%88%D8%AB%D9%82%D9%87+%D9%88%D9%84%D8%A7+%D9%84%D8%A3%D8%9F+Meta+Business+Account+%D9%85%D8%B9+WhatsApp%21%21"
+      ],
+      "purpose": "Setting up WhatsApp API integrations with Evolution API or Meta Cloud API."
+    },
+    {
+      "documentOrder": 82,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "65",
+      "title": "45 -- حلّ نهائي: التوكن الدائم لواتساب (Cloud API) || n8n",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=45+--+%D8%AD%D9%84%D9%91+%D9%86%D9%87%D8%A7%D8%A6%D9%8A%3A+%D8%A7%D9%84%D8%AA%D9%88%D9%83%D9%86+%D8%A7%D9%84%D8%AF%D8%A7%D8%A6%D9%85+%D9%84%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%28Cloud+API%29+%7C%7C+n8n"
+      ],
+      "purpose": "Setting up WhatsApp API integrations with Evolution API or Meta Cloud API."
+    },
+    {
+      "documentOrder": 83,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "66",
+      "title": "46 - السكرتير الخارق: كيف تربط واتساب بالذكاء الاصطناعي لاداره جميع اعمالك || Voice+Text+Image",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=46+-+%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D8%AA%D9%8A%D8%B1+%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D9%82%3A+%D9%83%D9%8A%D9%81+%D8%AA%D8%B1%D8%A8%D8%B7+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D9%84%D8%A7%D8%AF%D8%A7%D8%B1%D9%87+%D8%AC%D9%85%D9%8A%D8%B9+%D8%A7%D8%B9%D9%85%D8%A7%D9%84%D9%83+%7C%7C+Voice%2BText%2BImage"
+      ],
+      "purpose": "Setting up WhatsApp API integrations with Evolution API or Meta Cloud API."
+    },
+    {
+      "documentOrder": 84,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "67",
+      "title": "47 - أسهل طريقة لتحديث n8n في Docker من غير ما تخسر شغلك!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=47+-+%D8%A3%D8%B3%D9%87%D9%84+%D8%B7%D8%B1%D9%8A%D9%82%D8%A9+%D9%84%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB+n8n+%D9%81%D9%8A+Docker+%D9%85%D9%86+%D8%BA%D9%8A%D8%B1+%D9%85%D8%A7+%D8%AA%D8%AE%D8%B3%D8%B1+%D8%B4%D8%BA%D9%84%D9%83%21"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 85,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "68",
+      "title": "48 -- إزاي تضيف رقمك على Meta Business Account ببلاش بطريقه رسميه!! || #n8n",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=48+--+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D8%B6%D9%8A%D9%81+%D8%B1%D9%82%D9%85%D9%83+%D8%B9%D9%84%D9%89+Meta+Business+Account+%D8%A8%D8%A8%D9%84%D8%A7%D8%B4+%D8%A8%D8%B7%D8%B1%D9%8A%D9%82%D9%87+%D8%B1%D8%B3%D9%85%D9%8A%D9%87%21%21+%7C%7C+%23n8n"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 86,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "69",
+      "title": "49 - حوّل واتساب لموظف خارق | Multi-Agent Orchestrator (Text/Voice/Image) مع n8n",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=49+-+%D8%AD%D9%88%D9%91%D9%84+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D9%84%D9%85%D9%88%D8%B8%D9%81+%D8%AE%D8%A7%D8%B1%D9%82+%7C+Multi-Agent+Orchestrator+%28Text%2FVoice%2FImage%29+%D9%85%D8%B9+n8n"
+      ],
+      "purpose": "Setting up WhatsApp API integrations with Evolution API or Meta Cloud API."
+    },
+    {
+      "documentOrder": 87,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "70",
+      "title": "50 - ⭐ احذر! بوت واتساب ممكن يُخْتَرَق — اقفله بـ Whitelist !!!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=50+-+%E2%AD%90+%D8%A7%D8%AD%D8%B0%D8%B1%21+%D8%A8%D9%88%D8%AA+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D9%85%D9%85%D9%83%D9%86+%D9%8A%D9%8F%D8%AE%D9%92%D8%AA%D9%8E%D8%B1%D9%8E%D9%82+%E2%80%94+%D8%A7%D9%82%D9%81%D9%84%D9%87+%D8%A8%D9%80+Whitelist+%21%21%21"
+      ],
+      "purpose": "Setting up WhatsApp API integrations with Evolution API or Meta Cloud API."
+    },
+    {
+      "documentOrder": 88,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "71",
+      "title": "51 -- n8n Community Nodes — لازم تعرفها! 🚀",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=51+--+n8n+Community+Nodes+%E2%80%94+%D9%84%D8%A7%D8%B2%D9%85+%D8%AA%D8%B9%D8%B1%D9%81%D9%87%D8%A7%21+%F0%9F%9A%80"
+      ],
+      "purpose": "Installing and leveraging community-built nodes to extend n8n capabilities."
+    },
+    {
+      "documentOrder": 89,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "72",
+      "title": "52 -- الجزء الأول -- واتساب API مجاني مع |Evolution API + n8n | 🚀",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=52+--+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%A3%D9%88%D9%84+--+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+API+%D9%85%D8%AC%D8%A7%D9%86%D9%8A+%D9%85%D8%B9+%7CEvolution+API+%2B+n8n+%7C+++%F0%9F%9A%80"
+      ],
+      "purpose": "Setting up WhatsApp API integrations with Evolution API or Meta Cloud API."
+    },
+    {
+      "documentOrder": 90,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "73",
+      "title": "52 -- الجزء الثاني -- واتساب API مجاني مع |Evolution API + n8n | 🚀",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=52+--+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A++--+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+API+%D9%85%D8%AC%D8%A7%D9%86%D9%8A+%D9%85%D8%B9+%7CEvolution+API+%2B+n8n+%7C+++%F0%9F%9A%80"
+      ],
+      "purpose": "Setting up WhatsApp API integrations with Evolution API or Meta Cloud API."
+    },
+    {
+      "documentOrder": 91,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "74",
+      "title": "53 -- ابني نظام Multi-Agent لواتساب باستخدام Evolution API و n8n 🚀",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=53+--+%D8%A7%D8%A8%D9%86%D9%8A+%D9%86%D8%B8%D8%A7%D9%85+Multi-Agent+%D9%84%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+Evolution+API+%D9%88+n8n+%F0%9F%9A%80"
+      ],
+      "purpose": "Setting up WhatsApp API integrations with Evolution API or Meta Cloud API."
+    },
+    {
+      "documentOrder": 92,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "75",
+      "title": "54 - N8N hosting | دليلك الشامل: Hostinger + Docker Compose + Banana Pi + Private Domain + SSL",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=54+-+N8N+hosting+%7C+%D8%AF%D9%84%D9%8A%D9%84%D9%83+%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%3A+Hostinger+%2B+Docker+Compose+%2B+Banana+Pi+%2B+Private+Domain+%2B+SSL"
+      ],
+      "purpose": "Hosting n8n on Hostinger VPS with Docker Compose and SSL."
+    },
+    {
+      "documentOrder": 93,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "76",
+      "title": "55 -- Messenger Multi-Agent | السكرتير الخارق للماسنجر (Voice + Text + Image) – الجزء الأول || n8n",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=55+--+Messenger+Multi-Agent+%7C+%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D8%AA%D9%8A%D8%B1+%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D9%82+%D9%84%D9%84%D9%85%D8%A7%D8%B3%D9%86%D8%AC%D8%B1+%28Voice+%2B+Text+%2B+Image%29+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%A3%D9%88%D9%84+%7C%7C+n8n"
+      ],
+      "purpose": "Orchestrating multi-agent systems for voice, text, and image support on Messenger."
+    },
+    {
+      "documentOrder": 94,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "77",
+      "title": "55 -- Messenger Multi-Agent | السكرتير الخارق للماسنجر (Voice + Text + Image) – الجزء الثاني",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=55+--+Messenger+Multi-Agent+%7C+%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D8%AA%D9%8A%D8%B1+%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D9%82+%D9%84%D9%84%D9%85%D8%A7%D8%B3%D9%86%D8%AC%D8%B1+%28Voice+%2B+Text+%2B+Image%29+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A"
+      ],
+      "purpose": "Orchestrating multi-agent systems for voice, text, and image support on Messenger."
+    },
+    {
+      "documentOrder": 95,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "78",
+      "title": "56 -- 🚀 استضافة n8n + Evolution API | على Hostinger VPS",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=56+--+%F0%9F%9A%80+%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9+n8n+%2B+Evolution+API+%7C++%D8%B9%D9%84%D9%89+Hostinger+VPS"
+      ],
+      "purpose": "Hosting n8n on Hostinger VPS with Docker Compose and SSL."
+    },
+    {
+      "documentOrder": 96,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "79",
+      "title": "57 -- تحديث Evolution API (Free WhatsApp API) علي Hostinger VPS",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=57+--++%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB+Evolution+API+%28Free+WhatsApp+API%29+%D8%B9%D9%84%D9%8A+Hostinger+VPS"
+      ],
+      "purpose": "Hosting n8n on Hostinger VPS with Docker Compose and SSL."
+    },
+    {
+      "documentOrder": 97,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "80",
+      "title": "58 — ما هي MCP؟ لماذا ظهرت؟ وكيف تستخدمها مع #n8n خطوة-بخطوة",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=58+%E2%80%94+%D9%85%D8%A7+%D9%87%D9%8A+MCP%D8%9F+%D9%84%D9%85%D8%A7%D8%B0%D8%A7+%D8%B8%D9%87%D8%B1%D8%AA%D8%9F+%D9%88%D9%83%D9%8A%D9%81+%D8%AA%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D9%87%D8%A7+%D9%85%D8%B9+%23n8n+%D8%AE%D8%B7%D9%88%D8%A9-%D8%A8%D8%AE%D8%B7%D9%88%D8%A9"
+      ],
+      "purpose": "Implementing Model Context Protocol (MCP) to decouple tools and save tokens."
+    },
+    {
+      "documentOrder": 98,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "81",
+      "title": "59 - تحديث #n8n في دقائق علي Hostinger VPS",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=59+-+%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB+%23n8n+%D9%81%D9%8A+%D8%AF%D9%82%D8%A7%D8%A6%D9%82+%D8%B9%D9%84%D9%8A+Hostinger+VPS"
+      ],
+      "purpose": "Hosting n8n on Hostinger VPS with Docker Compose and SSL."
+    },
+    {
+      "documentOrder": 99,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "82",
+      "title": "60 -- جزء1 -- بناء n8n AI Agents# في ثواني!! || MCP",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=60+--+%D8%AC%D8%B2%D8%A11+--+%D8%A8%D9%86%D8%A7%D8%A1+n8n+AI+Agents%23+%D9%81%D9%8A+%D8%AB%D9%88%D8%A7%D9%86%D9%8A%21%21+%7C%7C+MCP"
+      ],
+      "purpose": "Implementing Model Context Protocol (MCP) to decouple tools and save tokens."
+    },
+    {
+      "documentOrder": 100,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "83",
+      "title": "61 - هل فعلاً تقدر تبني AI Agents في ثواني على n8n#؟ الحقيقة كاملة!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=61+-+%D9%87%D9%84+%D9%81%D8%B9%D9%84%D8%A7%D9%8B+%D8%AA%D9%82%D8%AF%D8%B1+%D8%AA%D8%A8%D9%86%D9%8A+AI+Agents+%D9%81%D9%8A+%D8%AB%D9%88%D8%A7%D9%86%D9%8A+%D8%B9%D9%84%D9%89+n8n%23%D8%9F+%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D9%82%D8%A9+%D9%83%D8%A7%D9%85%D9%84%D8%A9%21"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 101,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "84",
+      "title": "62 -- إزاي توفّر الـ Tokens باستخدام MCP + Multi-Agents على n8n 🔥",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=62+--+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D9%88%D9%81%D9%91%D8%B1+%D8%A7%D9%84%D9%80+Tokens+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+MCP+%2B+Multi-Agents+%D8%B9%D9%84%D9%89+n8n+%F0%9F%94%A5"
+      ],
+      "purpose": "Implementing Model Context Protocol (MCP) to decouple tools and save tokens."
+    },
+    {
+      "documentOrder": 102,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "85",
+      "title": "62 -- إزاي توفّر الـ Tokens باستخدام MCP + Multi-Agents على n8n 🔥",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=62+--+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D9%88%D9%81%D9%91%D8%B1+%D8%A7%D9%84%D9%80+Tokens+%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+MCP+%2B+Multi-Agents+%D8%B9%D9%84%D9%89+n8n+%F0%9F%94%A5"
+      ],
+      "purpose": "Implementing Model Context Protocol (MCP) to decouple tools and save tokens."
+    },
+    {
+      "documentOrder": 103,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "86",
+      "title": "63 -- اربط n8n مع Microsoft Outlook !",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=63+--+%D8%A7%D8%B1%D8%A8%D8%B7+n8n+%D9%85%D8%B9++Microsoft+Outlook+%21"
+      ],
+      "purpose": "Integrating n8n with Microsoft Outlook for email and calendar management."
+    },
+    {
+      "documentOrder": 104,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "87",
+      "title": "64 -- اكتشف أخطاء تصميمك أسرع 20 مرة | وكيل Outlook الذكي (MCP + Multi-Agents)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=64+--+%D8%A7%D9%83%D8%AA%D8%B4%D9%81+%D8%A3%D8%AE%D8%B7%D8%A7%D8%A1+%D8%AA%D8%B5%D9%85%D9%8A%D9%85%D9%83+%D8%A3%D8%B3%D8%B1%D8%B9+20+%D9%85%D8%B1%D8%A9+%7C+%D9%88%D9%83%D9%8A%D9%84+Outlook+%D8%A7%D9%84%D8%B0%D9%83%D9%8A+%28MCP+%2B+Multi-Agents%29"
+      ],
+      "purpose": "Implementing Model Context Protocol (MCP) to decouple tools and save tokens."
+    },
+    {
+      "documentOrder": 105,
+      "catalogueGroup": "Arabic Advanced AI Agents & Scaling Course: AI Plus",
+      "catalogueNumber": "88",
+      "title": "65 -- هل n8n AI Builder الجديد يستحق التجربة فعلاً؟ 🤖🔥",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=65+--+%D9%87%D9%84+n8n+AI+Builder+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF+%D9%8A%D8%B3%D8%AA%D8%AD%D9%82+%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9+%D9%81%D8%B9%D9%84%D8%A7%D9%8B%D8%9F+%F0%9F%A4%96%F0%9F%94%A5"
+      ],
+      "purpose": "Evaluating n8n's brand new AI Builder interface and features."
+    },
+    {
+      "documentOrder": 106,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "1",
+      "title": "005 | Local n8n on your machine FREE | إزاي تستخدم على جهازك مجانا",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=005+%7C+Local+n8n+on+your+machine+FREE+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D8%B3%D8%AA%D8%AE%D8%AF%D9%85+%D8%B9%D9%84%D9%89+%D8%AC%D9%87%D8%A7%D8%B2%D9%83+%D9%85%D8%AC%D8%A7%D9%86%D8%A7"
+      ],
+      "purpose": "Configuring and running a local, free instance of n8n on a personal machine."
+    },
+    {
+      "documentOrder": 107,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "2",
+      "title": "006 | ربط التطبيقات المختلفة في n8n | On App Event Trigger",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=006+%7C+%D8%B1%D8%A8%D8%B7+%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA+%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9+%D9%81%D9%8A+n8n+%7C+On+App+Event+Trigger"
+      ],
+      "purpose": "How to trigger workflows based on real-time app events using native integration triggers."
+    },
+    {
+      "documentOrder": 108,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "3",
+      "title": "007 | أنواع البيانات في n8n | JSON",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=007+%7C+%D8%A3%D9%86%D9%88%D8%A7%D8%B9+%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA+%D9%81%D9%8A+n8n+%7C+JSON"
+      ],
+      "purpose": "Deep dive into n8n data types, with a focus on working with structured JSON payloads."
+    },
+    {
+      "documentOrder": 109,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "4",
+      "title": "008 | اربط أي حاجة | API Explanation (For Beginners)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=008+%7C+%D8%A7%D8%B1%D8%A8%D8%B7+%D8%A3%D9%8A+%D8%AD%D8%A7%D8%AC%D8%A9++%7C+API+Explanation+%28For+Beginners%29"
+      ],
+      "purpose": "Beginner-friendly explanation of APIs, endpoints, and HTTP request basics."
+    },
+    {
+      "documentOrder": 110,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "5",
+      "title": "011 | Revision | مراجعة",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=011+%7C+Revision+%7C+%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9"
+      ],
+      "purpose": "Foundational review and summary of n8n core concepts and trigger patterns."
+    },
+    {
+      "documentOrder": 111,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "6",
+      "title": "013 | AI Node in n8n",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=013+%7C+AI+Node+in+n8n"
+      ],
+      "purpose": "Guide to utilizing native AI nodes inside n8n to process and transform text."
+    },
+    {
+      "documentOrder": 112,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "7",
+      "title": "018 | Lead Qualification Agent | وكيل ذكاء اصطناعي لتجميع بيانات العملاء",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=018+%7C+Lead+Qualification+Agent+%7C+%D9%88%D9%83%D9%8A%D9%84+%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D9%84%D8%AA%D8%AC%D9%85%D9%8A%D8%B9+%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA+%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1"
+      ],
+      "purpose": "Building an interactive AI agent to collect, qualify, and segment lead data."
+    },
+    {
+      "documentOrder": 113,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "8",
+      "title": "020 | RAG AI Agent | وكيل ذكاء اصطناعي بيفهم الداتا بتاعتنا ويرد منها",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=020+%7C+RAG+AI+Agent+%7C+%D9%88%D9%83%D9%8A%D9%84+%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A+%D8%A8%D9%8A%D9%81%D9%87%D9%85+%D8%A7%D9%84%D8%AF%D8%A7%D8%AA%D8%A7+%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA%D9%86%D8%A7+%D9%88%D9%8A%D8%B1%D8%AF+%D9%85%D9%86%D9%87%D8%A7"
+      ],
+      "purpose": "Building an AI agent that searches custom data to answer queries accurately."
+    },
+    {
+      "documentOrder": 114,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "9",
+      "title": "023 | Self-host n8n | استضيف على السيرفر الخاص بيك",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=023+%7C+Self-host+n8n+%7C+%D8%A7%D8%B3%D8%AA%D8%B6%D9%8A%D9%81+%D8%B9%D9%84%D9%89+%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D9%81%D8%B1+%D8%A7%D9%84%D8%AE%D8%A7%D8%B5+%D8%A8%D9%8A%D9%83"
+      ],
+      "purpose": "Hosting n8n on your own virtual private server (VPS)."
+    },
+    {
+      "documentOrder": 115,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "10",
+      "title": "024 | إزاي تشتغل في مجال الأتمتة؟",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=024+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%AA%D8%B4%D8%AA%D8%BA%D9%84+%D9%81%D9%8A+%D9%85%D8%AC%D8%A7%D9%84+%D8%A7%D9%84%D8%A3%D8%AA%D9%85%D8%AA%D8%A9%D8%9F"
+      ],
+      "purpose": "Career roadmap and strategic advice for becoming an AI Automation Engineer."
+    },
+    {
+      "documentOrder": 116,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "11",
+      "title": "025 | إزاي بنسعر مشاريع n8n؟",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=025+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%A8%D9%86%D8%B3%D8%B9%D8%B1+%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9+n8n%D8%9F"
+      ],
+      "purpose": "Strategic pricing strategies for freelance and agency n8n projects."
+    },
+    {
+      "documentOrder": 117,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "12",
+      "title": "026 | إزاي بنسلم مشاريع n8n؟",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=026+%7C+%D8%A5%D8%B2%D8%A7%D9%8A+%D8%A8%D9%86%D8%B3%D9%84%D9%85+%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9+n8n%D8%9F"
+      ],
+      "purpose": "Best practices for handoff and delivery of n8n automation projects to clients."
+    },
+    {
+      "documentOrder": 118,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "13",
+      "title": "38-كل نماذج Open AI المفتوحة المصدر في دقائق!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=38-%D9%83%D9%84+%D9%86%D9%85%D8%A7%D8%B0%D8%AC+Open+AI+%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD%D8%A9+%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D8%B1+%D9%81%D9%8A+%D8%AF%D9%82%D8%A7%D8%A6%D9%82%21"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 119,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "14",
+      "title": "95% of n8n Users Have NO IDEA These Features Exist",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=95%25+of+n8n+Users+Have+NO+IDEA+These+Features+Exist"
+      ],
+      "purpose": "Uncovering hidden and underutilized features in n8n for workflow optimization."
+    },
+    {
+      "documentOrder": 120,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "15",
+      "title": "AI Image Editing Workflow Walkthrough in N8N",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=AI+Image+Editing+Workflow+Walkthrough+in+N8N"
+      ],
+      "purpose": "Building an automated AI image editing and manipulation pipeline."
+    },
+    {
+      "documentOrder": 121,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "16",
+      "title": "AI Real Estate Outreach Made Easy with n8n, HeyGen, and Scout",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=AI+Real+Estate+Outreach+Made+Easy+with+n8n%2C+HeyGen%2C+and+Scout"
+      ],
+      "purpose": "Automating real estate marketing, outreach, and personalized videos."
+    },
+    {
+      "documentOrder": 122,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "17",
+      "title": "Automate LinkedIn Lead Generation with this N8N Workflow (Apify & Google Sheets)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Automate+LinkedIn+Lead+Generation+with+this+N8N+Workflow+%28Apify+%26+Google+Sheets%29"
+      ],
+      "purpose": "Scraping LinkedIn leads and profiles via Apify and saving to Google Sheets."
+    },
+    {
+      "documentOrder": 123,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "18",
+      "title": "Beginner’s Guide to n8n Webhooks (No Coding Required)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Beginner%E2%80%99s+Guide+to+n8n+Webhooks+%28No+Coding+Required%29"
+      ],
+      "purpose": "Comprehensive guide to setting up inbound and outbound webhooks in n8n."
+    },
+    {
+      "documentOrder": 124,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "19",
+      "title": "Build a LinkedIn Job Scraper in 30 Minutes | n8n + Apify Tutorial (Free Template)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Build+a+LinkedIn+Job+Scraper+in+30+Minutes+%7C+n8n+%2B+Apify+Tutorial+%28Free+Template%29"
+      ],
+      "purpose": "Scraping LinkedIn leads and profiles via Apify and saving to Google Sheets."
+    },
+    {
+      "documentOrder": 125,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "20",
+      "title": "Connect Notion in n8n Easily (2026 Guide)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Connect+Notion+in+n8n+Easily+%282026+Guide%29"
+      ],
+      "purpose": "Best practices for handoff and delivery of n8n automation projects to clients."
+    },
+    {
+      "documentOrder": 126,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "21",
+      "title": "Connect Telegram in n8n + Example Workflows",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Connect+Telegram+in+n8n+%2B+Example+Workflows"
+      ],
+      "purpose": "Configuring interactive Telegram bots with custom keyboard layouts."
+    },
+    {
+      "documentOrder": 127,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "22",
+      "title": "Game-Changer! How to Use n8n’s Brand-New Native Data Tables",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Game-Changer%21+How+to+Use+n8n%E2%80%99s+Brand-New+Native+Data+Tables"
+      ],
+      "purpose": "How to use n8n's brand-new native Data Tables to store internal data without Google Sheets."
+    },
+    {
+      "documentOrder": 128,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "23",
+      "title": "Google Sheets in n8n – Read, Append, Update, Filter & Delete",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Google+Sheets+in+n8n+%E2%80%93+Read%2C+Append%2C+Update%2C+Filter+%26+Delete"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 129,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "24",
+      "title": "How To Build a Bulk PDF Generator in N8N (Free & Easy - Integrates With Excel)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+To+Build+a+Bulk+PDF+Generator+in+N8N+%28Free+%26+Easy+-+Integrates+With+Excel%29"
+      ],
+      "purpose": "Generating bulk PDF documents from structured Excel data automatically."
+    },
+    {
+      "documentOrder": 130,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "25",
+      "title": "How To Use The NEW Apify Node in N8N (Stop Using HTTP Request)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+To+Use+The+NEW+Apify+Node+in+N8N+%28Stop+Using+HTTP+Request%29"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 131,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "26",
+      "title": "How To Work With Binary Data in n8n | Images, PDFs, and CSVs",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+To+Work+With+Binary+Data+in+n8n+%7C+Images%2C+PDFs%2C+and+CSVs"
+      ],
+      "purpose": "Mastering binary data handling, file conversion, and reading media assets."
+    },
+    {
+      "documentOrder": 132,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "27",
+      "title": "How the AI Information Extractor Node Works in n8n (Beginner's Guide)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+the+AI+Information+Extractor+Node+Works+in+n8n+%28Beginner%27s+Guide%29"
+      ],
+      "purpose": "Extracting structured data from raw unstructured text using AI."
+    },
+    {
+      "documentOrder": 133,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "28",
+      "title": "How to Build your first AI Agent in N8N (Super Easy)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Build+your+first+AI+Agent+in+N8N+%28Super+Easy%29"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 134,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "29",
+      "title": "How to Connect GPT 5 to N8N (In 5 Minutes)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Connect+GPT+5+to+N8N+%28In+5+Minutes%29"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 135,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "30",
+      "title": "How to Connect Google Drive to N8N (Easy - Beginner Friendly)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Connect+Google+Drive+to+N8N+%28Easy+-+Beginner+Friendly%29"
+      ],
+      "purpose": "Automating file ingestion and embedding pipelines directly from Google Drive."
+    },
+    {
+      "documentOrder": 136,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "31",
+      "title": "How to Control AI Agents in n8n with System and User Prompts",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Control+AI+Agents+in+n8n+with+System+and+User+Prompts"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 137,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "32",
+      "title": "How to Do Sentiment Analysis in n8n (Step-by-Step Guide)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Do+Sentiment+Analysis+in+n8n+%28Step-by-Step+Guide%29"
+      ],
+      "purpose": "Analyzing customer review sentiment using AI and routing negative feedback."
+    },
+    {
+      "documentOrder": 138,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "33",
+      "title": "How to Generate Leads for $0.001 with N8N, Apollo, and Apify",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Generate+Leads+for+%240.001+with+N8N%2C+Apollo%2C+and+Apify"
+      ],
+      "purpose": "Introduction to n8n from a business and operational perspective, explaining the core benefits of workflow automation."
+    },
+    {
+      "documentOrder": 139,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "34",
+      "title": "How to Get Started with n8n (without feeling overwhelmed)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Get+Started+with+n8n+%28without+feeling+overwhelmed%29"
+      ],
+      "purpose": "Friendly onboarding guide to navigating n8n's editor, canvas, and settings."
+    },
+    {
+      "documentOrder": 140,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "35",
+      "title": "How to Learn n8n FAST (Do This or Keep Struggling)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Learn+n8n+FAST+%28Do+This+or+Keep+Struggling%29"
+      ],
+      "purpose": "Effective learning strategies and three high-value practice projects."
+    },
+    {
+      "documentOrder": 141,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "36",
+      "title": "How to Travel Safe - General Knowledge",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Travel+Safe+-+General+Knowledge"
+      ],
+      "purpose": "Exploring general knowledge principles on logistics and routing configurations."
+    },
+    {
+      "documentOrder": 142,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "37",
+      "title": "How to Master n8n for Gmail and Land High-Paying Freelance Gigs",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Master+n8n+for+Gmail+and+Land+High-Paying+Freelance+Gigs"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 143,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "38",
+      "title": "How to Scrape Instagram Accounts & Hashtags with N8N and Apify",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Scrape+Instagram+Accounts+%26+Hashtags+with+N8N+and+Apify"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 144,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "39",
+      "title": "How to Scrape TikTok Profiles & Posts in n8n with Apify",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Scrape+TikTok+Profiles+%26+Posts+in+n8n+with+Apify"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 145,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "40",
+      "title": "How to Scrape UNLIMITED Leads on Google Maps with N8N & Apify",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Scrape+UNLIMITED+Leads+on+Google+Maps+with+N8N+%26+Apify"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 146,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "41",
+      "title": "How to Self Host N8N with Hostinger (Easy)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Self+Host+N8N+with+Hostinger+%28Easy%29"
+      ],
+      "purpose": "Hosting n8n on Hostinger VPS with Docker Compose and SSL."
+    },
+    {
+      "documentOrder": 147,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "42",
+      "title": "How to Self Host n8n For Free! (Fast & Easy For Beginners)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Self+Host+n8n+For+Free%21+%28Fast+%26+Easy+For+Beginners%29"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 148,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "43",
+      "title": "How to Set Up Perplexity in N8N",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Set+Up+Perplexity+in+N8N"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 149,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "44",
+      "title": "How to Use ANY LLM in n8n with Open Router & Model Selector",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Use+ANY+LLM+in+n8n+with+Open+Router+%26+Model+Selector"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 150,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "45",
+      "title": "How to Use Hubspot in N8N with 2 Workflows + API",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Use+Hubspot+in+N8N+with+2+Workflows+%2B+API"
+      ],
+      "purpose": "Connecting HubSpot CRM to automate customer profile updates."
+    },
+    {
+      "documentOrder": 151,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "46",
+      "title": "How to Use the Call n8n Workflow Tool Inside the AI Agent",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Use+the+Call+n8n+Workflow+Tool+Inside+the+AI+Agent"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 152,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "47",
+      "title": "How to Use the Limit Node in n8n (Step-by-Step Tutorial)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+Use+the+Limit+Node+in+n8n+%28Step-by-Step+Tutorial%29"
+      ],
+      "purpose": "How to use the Limit node to restrict data flow and paginate results."
+    },
+    {
+      "documentOrder": 153,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "48",
+      "title": "How to use Monday.com in n8n (API, Webhook, and Workflow)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+use+Monday.com+in+n8n+%28API%2C+Webhook%2C+and+Workflow%29"
+      ],
+      "purpose": "Connecting Monday.com boards via API and webhooks."
+    },
+    {
+      "documentOrder": 154,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "49",
+      "title": "How to use the Sort Node in n8n like a Data Analyst",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+use+the+Sort+Node+in+n8n+like+a+Data+Analyst"
+      ],
+      "purpose": "Utilizing the Sort node to order data streams alphabetically or numerically."
+    },
+    {
+      "documentOrder": 155,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "50",
+      "title": "How to use the n8n Summarize Node (Like a Data Analyst)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=How+to+use+the+n8n+Summarize+Node+%28Like+a+Data+Analyst%29"
+      ],
+      "purpose": "Using the Summarize node to aggregate and summarize tabular data."
+    },
+    {
+      "documentOrder": 156,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "51",
+      "title": "Human in the Loop in n8n: Full 2026 Guide",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Human+in+the+Loop+in+n8n%3A+Full+2026+Guide"
+      ],
+      "purpose": "Best practices for handoff and delivery of n8n automation projects to clients."
+    },
+    {
+      "documentOrder": 157,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "52",
+      "title": "I Built a n8n GoHighLevel Slack Integration That Follows Up With Leads Automatically",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=I+Built+a+n8n+GoHighLevel+Slack+Integration+That+Follows+Up+With+Leads+Automatically"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 158,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "53",
+      "title": "I Built an AI Email Assistant in n8n (Community Challenge)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=I+Built+an+AI+Email+Assistant+in+n8n+%28Community+Challenge%29"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 159,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "54",
+      "title": "I Updated to n8n V2 and All My Sub Workflows Broke (Here's The Fix)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=I+Updated+to+n8n+V2+and+All+My+Sub+Workflows+Broke+%28Here%27s+The+Fix%29"
+      ],
+      "purpose": "Creating, calling, and debugging sub-workflows and handling v2.0 breaking changes."
+    },
+    {
+      "documentOrder": 160,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "55",
+      "title": "Improve RAG with Metadata in n8n (3 Examples)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Improve+RAG+with+Metadata+in+n8n+%283+Examples%29"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 161,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "56",
+      "title": "Master 80% of AI in n8n by Learning Just These 12 Nodes",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Master+80%25+of+AI+in+n8n+by+Learning+Just+These+12+Nodes"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 162,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "57",
+      "title": "Master n8n Triggers in 20 Minutes – Automate Anything",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Master+n8n+Triggers+in+20+Minutes+%E2%80%93+Automate+Anything"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 163,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "58",
+      "title": "Master the n8n Merge Node: The Complete Guide to Append, Combine, SQL & Choose Branch",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Master+the+n8n+Merge+Node%3A+The+Complete+Guide+to+Append%2C+Combine%2C+SQL+%26++Choose+Branch"
+      ],
+      "purpose": "Mastering append, combine, and SQL-like merging logic in n8n."
+    },
+    {
+      "documentOrder": 164,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "59",
+      "title": "Mastering the n8n Aggregate Node: Step-by-Step Tutorial",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Mastering+the+n8n+Aggregate+Node%3A+Step-by-Step+Tutorial"
+      ],
+      "purpose": "Using the Aggregate node to group items and construct arrays."
+    },
+    {
+      "documentOrder": 165,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "60",
+      "title": "Mastering the n8n Summarization Chain: From Zero to Automation Pro",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Mastering+the+n8n+Summarization+Chain%3A+From+Zero+to+Automation+Pro"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 166,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "61",
+      "title": "Model Context Protocol (MCP) in n8n Cloud & Self Host",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Model+Context+Protocol+%28MCP%29+in+n8n+Cloud+%26+Self+Host"
+      ],
+      "purpose": "Implementing Model Context Protocol (MCP) to decouple tools and save tokens."
+    },
+    {
+      "documentOrder": 167,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "62",
+      "title": "Nano Banana Pro Just Supercharged AI Image Generation in n8n — Here’s How",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Nano+Banana+Pro+Just+Supercharged+AI+Image+Generation+in+n8n+%E2%80%94+Here%E2%80%99s+How"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 168,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "63",
+      "title": "OpenAI's Search Feature Changes Everything for n8n Workflows",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=OpenAI%27s+Search+Feature+Changes+Everything+for+n8n+Workflows"
+      ],
+      "purpose": "Using OpenAI's assistant tool features like web search and file search."
+    },
+    {
+      "documentOrder": 169,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "64",
+      "title": "REST APIs in n8n Explained (Complete Beginner's Guide)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=REST+APIs+in+n8n+Explained+%28Complete+Beginner%27s+Guide%29"
+      ],
+      "purpose": "Foundational guide to REST API concepts and standard HTTP request configurations."
+    },
+    {
+      "documentOrder": 170,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "65",
+      "title": "Remove Duplicates in n8n - The Secret Node to Clean Your Data",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Remove+Duplicates+in+n8n+-+The+Secret+Node+to+Clean+Your+Data"
+      ],
+      "purpose": "Using the Compare Datasets or specialized code nodes to deduplicate streams."
+    },
+    {
+      "documentOrder": 171,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "66",
+      "title": "Scale Your n8n Workflows with Sub-Workflows + Parallel Executions",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Scale+Your+n8n+Workflows+with+Sub-Workflows+%2B+Parallel+Executions"
+      ],
+      "purpose": "Creating, calling, and debugging sub-workflows and handling v2.0 breaking changes."
+    },
+    {
+      "documentOrder": 172,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "67",
+      "title": "Scrape Google Search Results with this N8N Workflow (Apify & Sheets)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Scrape+Google+Search+Results+with+this+N8N+Workflow+%28Apify+%26+Sheets%29"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 173,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "68",
+      "title": "Stop Building n8n AI Agents. Build LLM Chains Instead",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Stop+Building+n8n+AI+Agents.+Build+LLM+Chains+Instead"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 174,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "69",
+      "title": "Stop Checking Websites Manually - Use RSS in n8n",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Stop+Checking+Websites+Manually+-+Use+RSS+in+n8n"
+      ],
+      "purpose": "Automating content curation and newsletters using RSS feed triggers."
+    },
+    {
+      "documentOrder": 175,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "70",
+      "title": "Stop Losing API Data in n8n (Pagination Explained with 2 Examples)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Stop+Losing+API+Data+in+n8n+%28Pagination+Explained+with+2+Examples%29"
+      ],
+      "purpose": "Explaining pagination logic and loop routines to fetch multi-page API data."
+    },
+    {
+      "documentOrder": 176,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "71",
+      "title": "Streamlit Meets n8n: The Ultimate Automation Workflow",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Streamlit+Meets+n8n%3A+The+Ultimate+Automation+Workflow"
+      ],
+      "purpose": "Building interactive Streamlit Python frontends powered by n8n webhooks."
+    },
+    {
+      "documentOrder": 177,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "72",
+      "title": "Supercharge n8n Workflows with Gemini 3 Pro: Complete Setup + 4 Powerful Automations",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Supercharge+n8n+Workflows+with+Gemini+3+Pro%3A+Complete+Setup+%2B+4+Powerful+Automations"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 178,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "73",
+      "title": "The Beginner’s Guide to n8n Evaluations (Optimize Your AI Agents)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=The+Beginner%E2%80%99s+Guide+to+n8n+Evaluations+%28Optimize+Your+AI+Agents%29"
+      ],
+      "purpose": "Implementing LLM and agent evaluation frameworks to score and optimize responses."
+    },
+    {
+      "documentOrder": 179,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "74",
+      "title": "The Best AI Models for n8n Workflows (LLM Benchmarks)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=The+Best+AI+Models+for+n8n+Workflows+%28LLM+Benchmarks%29"
+      ],
+      "purpose": "Comparing LLM cost, speed, and accuracy benchmarks inside n8n workflows."
+    },
+    {
+      "documentOrder": 180,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "75",
+      "title": "The Harsh Reality of learning n8n in 2026",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=The+Harsh+Reality+of+learning+n8n+in+2026"
+      ],
+      "purpose": "Best practices for handoff and delivery of n8n automation projects to clients."
+    },
+    {
+      "documentOrder": 181,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "76",
+      "title": "The MOST OVERLOOKED Feature in n8n (Error Handling Guide)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=The+MOST+OVERLOOKED+Feature+in+n8n+%28Error+Handling+Guide%29"
+      ],
+      "purpose": "Best practices for configuring node-level retries and error-handling workflows."
+    },
+    {
+      "documentOrder": 182,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "77",
+      "title": "The n8n Feature That Finally Fixes Credential Setup",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=The+n8n+Feature+That+Finally+Fixes+Credential+Setup"
+      ],
+      "purpose": "Utilizing n8n's credential sharing and auto-fill features."
+    },
+    {
+      "documentOrder": 183,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "78",
+      "title": "Ultimate n8n Course: Beginner to Pro in 17 Hours (2026)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Ultimate+n8n+Course%3A+Beginner+to+Pro+in+17+Hours+%282026%29"
+      ],
+      "purpose": "Best practices for handoff and delivery of n8n automation projects to clients."
+    },
+    {
+      "documentOrder": 184,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "79",
+      "title": "Watch these 8 minutes if you want to land a High Paying n8n customer in 2026",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Watch+these+8+minutes+if+you+want+to+land+a+High+Paying+n8n+customer+in+2026"
+      ],
+      "purpose": "Best practices for handoff and delivery of n8n automation projects to clients."
+    },
+    {
+      "documentOrder": 185,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "80",
+      "title": "Where $5,000 n8n Clients Are Actually Hiding in 2026",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Where+%245%2C000+n8n+Clients+Are+Actually+Hiding+in+2026"
+      ],
+      "purpose": "Best practices for handoff and delivery of n8n automation projects to clients."
+    },
+    {
+      "documentOrder": 186,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "81",
+      "title": "Why n8n Chat Hub is a Game Changer for Workflows",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=Why+n8n+Chat+Hub+is+a+Game+Changer+for+Workflows"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 187,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "82",
+      "title": "n8n Airtable Integration: Everything You Need to Know",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+Airtable+Integration%3A+Everything+You+Need+to+Know"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 188,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "83",
+      "title": "n8n Compare Datasets Node (Full Guide)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+Compare+Datasets+Node+%28Full+Guide%29"
+      ],
+      "purpose": "Deep dive into the Compare Datasets node for auditing lead lists."
+    },
+    {
+      "documentOrder": 189,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "84",
+      "title": "n8n Date & Time Node 101: Format, Calculate, and Automate",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+Date+%26+Time+Node+101%3A+Format%2C+Calculate%2C+and+Automate"
+      ],
+      "purpose": "Formatting and performing calculations on date-time fields."
+    },
+    {
+      "documentOrder": 190,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "85",
+      "title": "n8n Edit Fields Set Node: Transform Data Like a Pro",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+Edit+Fields+Set+Node%3A+Transform+Data+Like+a+Pro"
+      ],
+      "purpose": "How to transform, modify, and restructure data streams."
+    },
+    {
+      "documentOrder": 191,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "86",
+      "title": "n8n File Handling Made Easy | Convert to File Node",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+File+Handling+Made+Easy+%7C+Convert+to+File+Node"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 192,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "87",
+      "title": "n8n HTTP Request Node & Tool (Connect to APIs)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+HTTP+Request+Node+%26+Tool+%28Connect+to+APIs%29"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 193,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "88",
+      "title": "n8n If Node (COMPLETE Guide For Beginners) - 11 Examples",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+If+Node+%28COMPLETE+Guide+For+Beginners%29+-+11+Examples"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 194,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "89",
+      "title": "n8n Just Released AI Guardrails — Here’s How “Check Text” and “Sanitize” Work",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+Just+Released+AI+Guardrails+%E2%80%94+Here%E2%80%99s+How+%E2%80%9CCheck+Text%E2%80%9D+and+%E2%80%9CSanitize%E2%80%9D+Work"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 195,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "90",
+      "title": "n8n Loop Over Items: The RIGHT Way vs The WRONG Way",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+Loop+Over+Items%3A+The+RIGHT+Way+vs+The+WRONG+Way"
+      ],
+      "purpose": "Configuring loop-over-items workflows correctly to avoid execution bottlenecks."
+    },
+    {
+      "documentOrder": 196,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "91",
+      "title": "n8n Python Code Node Tutorial - What Changed in V2",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+Python+Code+Node+Tutorial+-+What+Changed+in+V2"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 197,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "92",
+      "title": "n8n RAG Embeddings with OpenAI (Small & Large)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+RAG+Embeddings+with+OpenAI+%28Small+%26+Large%29"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 198,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "93",
+      "title": "n8n RAG Reranker (Cohere) - Full Tutorial For Beginners",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+RAG+Reranker+%28Cohere%29+-+Full+Tutorial+For+Beginners"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 199,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "94",
+      "title": "n8n RAG Text Splitters (Document Chunking)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+RAG+Text+Splitters+%28Document+Chunking%29"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 200,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "95",
+      "title": "n8n Reddit Lead Generation (Apify + RSS Workflows)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+Reddit+Lead+Generation+%28Apify+%2B+RSS+Workflows%29"
+      ],
+      "purpose": "Automating content curation and newsletters using RSS feed triggers."
+    },
+    {
+      "documentOrder": 201,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "96",
+      "title": "n8n Slack Automation Tutorial – Triggers, Nodes & Real Workflows",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+Slack+Automation+Tutorial+%E2%80%93+Triggers%2C+Nodes+%26+Real+Workflows"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 202,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "97",
+      "title": "n8n Split Out Node Explained: Step-by-Step Guide",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+Split+Out+Node+Explained%3A+Step-by-Step+Guide"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 203,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "98",
+      "title": "n8n Switch Node for Beginners (Full Guide)",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+Switch+Node+for+Beginners+%28Full+Guide%29"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 204,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "99",
+      "title": "n8n Terms & Concepts for Beginners",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+Terms+%26+Concepts+for+Beginners"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 205,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "100",
+      "title": "n8n Text Classification Tutorial: Learn AI Automation Fast!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+Text+Classification+Tutorial%3A+Learn+AI+Automation+Fast%21"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 206,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "101",
+      "title": "n8n sticky notes - Keep your Workflows Organized!",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+sticky+notes+-+Keep+your+Workflows+Organized%21"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 207,
+      "catalogueGroup": "English Comprehensive Tutorials & Workflows",
+      "catalogueNumber": "102",
+      "title": "n8n v2 Is Coming Soon — Here’s What You Absolutely Need to Know",
+      "format": "VIDEO",
+      "referenceLabel": "Direct Link",
+      "urls": [
+        "https://www.youtube.com/results?search_query=n8n+v2+Is+Coming+Soon+%E2%80%94+Here%E2%80%99s+What+You+Absolutely+Need+to+Know"
+      ],
+      "purpose": "Comprehensive tutorial covering n8n node configuration, data parsing, and tool-calling automation."
+    },
+    {
+      "documentOrder": 208,
+      "catalogueGroup": "Official Documentation & Technical Resource Guides",
+      "catalogueNumber": "1",
+      "title": "Enable queue mode | Deploy | n8n Docs",
+      "format": "DOCUMENTATION",
+      "referenceLabel": "View Docs",
+      "urls": [
+        "https://docs.n8n.io/deploy/host-n8n/configure-n8n/scaling/enable-queue-mode"
+      ],
+      "purpose": "Official technical guide to configuring n8n in queue mode with Redis-backed worker pools to scale workflow executions horizontally."
+    },
+    {
+      "documentOrder": 209,
+      "catalogueGroup": "Official Documentation & Technical Resource Guides",
+      "catalogueNumber": "2",
+      "title": "Essentials: Your First Workflows | n8n",
+      "format": "DOCUMENTATION",
+      "referenceLabel": "View Docs",
+      "urls": [
+        "https://learn.n8n.io/courses/course-v1:n8n+N8N101+2026H2/about"
+      ],
+      "purpose": "Syllabus and overview for Course 1 of the official n8n Foundations program, detailing platform navigation, triggers, and data structures."
+    },
+    {
+      "documentOrder": 210,
+      "catalogueGroup": "Official Documentation & Technical Resource Guides",
+      "catalogueNumber": "3",
+      "title": "GitHub - Sohila-Khaled-Abbas/n8n-production-queue-setup: A production-grade, self-hosted n8n deployment with queue-mode scaling, PostgreSQL persistence, and an isolated Python/JavaScript code execution sidecar. · GitHub",
+      "format": "TEMPLATE",
+      "referenceLabel": "View Docs",
+      "urls": [
+        "https://github.com/Sohila-Khaled-Abbas/n8n-production-queue-setup"
+      ],
+      "purpose": "A production-grade, self-hosted deployment template featuring worker autoscaling, PostgreSQL persistence, and isolated Python/JS sidecars."
+    },
+    {
+      "documentOrder": 211,
+      "catalogueGroup": "Official Documentation & Technical Resource Guides",
+      "catalogueNumber": "4",
+      "title": "N8n-autoscaling updated for v2.0. Includes Queue Mode, Worker Scaling, Runner Scaling, Cloudflare, etc - English 🇬🇧 - n8n Community",
+      "format": "DOCUMENTATION",
+      "referenceLabel": "View Docs",
+      "urls": [
+        "https://community.n8n.io/t/n8n-autoscaling-updated-for-v2-0-includes-queue-mode-worker-scaling-runner-scaling-cloudflare-etc/245688"
+      ],
+      "purpose": "Community tutorial and discussion thread for setting up worker and runner autoscaling stacks compatible with n8n v2.0."
+    },
+    {
+      "documentOrder": 212,
+      "catalogueGroup": "Official Documentation & Technical Resource Guides",
+      "catalogueNumber": "5",
+      "title": "Set up task runners | Deploy | n8n Docs",
+      "format": "DOCUMENTATION",
+      "referenceLabel": "View Docs",
+      "urls": [
+        "https://docs.n8n.io/deploy/host-n8n/configure-n8n/set-up-task-runners"
+      ],
+      "purpose": "Official documentation for configuring the external Task Runner sidecar architecture in n8n v2.0 to execute custom scripts securely."
+    },
+    {
+      "documentOrder": 213,
+      "catalogueGroup": "Official Documentation & Technical Resource Guides",
+      "catalogueNumber": "6",
+      "title": "Solving the n8n v2 Python “Task Runner” Nightmare: A Step-by-Step Survival Guide – Nanda Firdaus",
+      "format": "DOCUMENTATION",
+      "referenceLabel": "View Docs",
+      "urls": [
+        "https://nfirdausblog.wordpress.com/2025/12/31/solving-the-n8n-v2-python-task-runner-nightmare-a-step-by-step-survival-guide/"
+      ],
+      "purpose": "In-depth troubleshooting guide for resolving common Docker networking and broker authentication errors with the new n8n v2 task runner."
+    },
+    {
+      "documentOrder": 214,
+      "catalogueGroup": "Official Documentation & Technical Resource Guides",
+      "catalogueNumber": "7",
+      "title": "n8n Queue Mode Setup | OpenCharts",
+      "format": "DOCUMENTATION",
+      "referenceLabel": "View Docs",
+      "urls": [
+        "https://community-charts.github.io/docs/charts/n8n/queue-mode"
+      ],
+      "purpose": "Technical documentation for deploying queue-mode scaling configurations using official Community Helm Charts."
+    },
+    {
+      "documentOrder": 215,
+      "catalogueGroup": "Official Documentation & Technical Resource Guides",
+      "catalogueNumber": "8",
+      "title": "n8n Quickstart | n8n",
+      "format": "DOCUMENTATION",
+      "referenceLabel": "View Docs",
+      "urls": [
+        "https://learn.n8n.io/courses/course-v1:n8n+QS101+2026H2/"
+      ],
+      "purpose": "Syllabus for the official n8n Quickstart course covering triggers, HTTP requests, data transformation, and custom AI agents."
+    },
+    {
+      "documentOrder": 216,
+      "catalogueGroup": "Official Documentation & Technical Resource Guides",
+      "catalogueNumber": "9",
+      "title": "n8n/docker/images/runners at master · n8n-io/n8n · GitHub",
+      "format": "TEMPLATE",
+      "referenceLabel": "View Docs",
+      "urls": [
+        "https://github.com/n8n-io/n8n/tree/master/docker/images/runners"
+      ],
+      "purpose": "Official GitHub source repository for building sandboxed JavaScript and Python task runner Docker images."
+    },
+    {
+      "documentOrder": 217,
+      "catalogueGroup": "Official Documentation & Technical Resource Guides",
+      "catalogueNumber": "10",
+      "title": "n8n: Code Node - Import external library (Python & JavaScript) - DEV Community",
+      "format": "DOCUMENTATION",
+      "referenceLabel": "View Docs",
+      "urls": [
+        "https://dev.to/codebangkok/n8n-code-node-import-external-library-python-javascript-4lp7"
+      ],
+      "purpose": "Practical tutorial on extending the n8n-runners Docker image to pack custom Python (pandas, numpy) and JS npm libraries."
+    },
+    {
+      "documentOrder": 218,
+      "catalogueGroup": "Official Documentation & Technical Resource Guides",
+      "catalogueNumber": "11",
+      "title": "v2.0 Breaking changes | Changelog | n8n Docs",
+      "format": "DOCUMENTATION",
+      "referenceLabel": "View Docs",
+      "urls": [
+        "https://docs.n8n.io/changelog/v20-breaking-changes"
+      ],
+      "purpose": "Official changelog detailing n8n v2.0 breaking changes, including sub-workflow execution behaviors and the new task runner engine."
+    }
+  ]
+}

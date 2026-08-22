@@ -44,7 +44,14 @@
 - [x] Create an advanced GitHub-profile README with refined badges, architecture visuals, status indicators, and maintainable project guidance.
 - [x] Validate Markdown rendering, synchronize the updated README to GitHub, and confirm the repository documentation release.
 - [ ] Import the Notebook’s individual source URLs once an item-level export or stable authenticated extraction is available.
-- [ ] Capture the exact Vercel publication symptom across production aliases, root HTML, and API endpoints.
-- [ ] Inspect the current Vercel build settings, build logs, and runtime errors for the production deployment.
-- [ ] Research the relevant Vercel guidance and apply the smallest compatible deployment fix.
-- [ ] Verify the repaired site response, client assets, and server API endpoints on the stable production alias.
+- [x] Capture the exact Vercel publication symptom across production aliases, root HTML, and API endpoints.
+- [x] Inspect the current Vercel build settings, build logs, and runtime errors for the production deployment.
+- [x] Research the relevant Vercel guidance and apply the smallest compatible deployment fix.
+- [x] Verify the repaired site response, client assets, and server API endpoints on the stable production alias.
+- [x] Extract embedded URLs and reconcile the row counts in the supplied n8n Mastery catalogue.
+- [x] Validate, deduplicate, and map the catalogue resources to the existing roadmap stages.
+- [x] Import the validated catalogue resources with idempotent safeguards and test the updated library.
+- [x] Verify a built client asset URL on the final stable Vercel alias after the explicit-route deployment.
+- [x] Browser-test the updated library count, imported Arabic and English catalogue resources, an official guide/template, and a search/filter path.
+- [ ] Obtain exact per-item video permalinks for the imported n8n Mastery catalogue entries that currently use YouTube search-result URLs.
+- [ ] Replace YouTube search-result URLs with exact source permalinks and re-validate the updated library.

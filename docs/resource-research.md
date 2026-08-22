@@ -21,3 +21,19 @@ The Notebook’s API and Integration group also contains **“008 | API Explanat
 ## YouTube Candidates
 
 The official n8n YouTube beginner series includes **“n8n Beginner Course (1/9) - Introduction to Automation”** and an Advanced Course lesson on error workflows. These are appropriate for early workflow fundamentals and production hardening, respectively. The library will label any source selected from the Notebook as **Gemini Notebook** and any externally validated video as **YouTube**.
+
+## n8n Mastery Catalogue Import — August 2026
+
+The supplied file `n8n-mastery-sources-catalogue.docx` was parsed from its embedded Word hyperlink relationships rather than from its visible **“Direct Link”** labels alone. It contains **218 catalogue rows**: 17 Arabic foundational lessons, 88 Arabic AI-agents and scaling lessons, 102 English tutorials and workflows, and 11 official technical references. This reconciles the document’s internally inconsistent summary: its prose mentions 217 sources, while its category totals correctly add to 218.
+
+All 218 supplied destinations returned HTTP 200 during a bounded validation pass. The 207 video entries resolve to public YouTube **search-result URLs**, not immutable individual video URLs; they are therefore labelled **`n8n Mastery Catalogue · … · YouTube search`** and their card descriptions explicitly say that the link opens a YouTube search for the named lesson. This preserves the source’s usable discovery path without misrepresenting it as a direct video permalink.
+
+| Validation outcome | Count | Handling |
+|---|---:|---|
+| Extracted catalogue rows | 218 | Accounted for in the reproducible catalogue inventory. |
+| HTTP-validated rows | 218 | All destinations returned HTTP 200. |
+| Repeated URL within the catalogue | 1 | Skipped to keep the imported collection URL-distinct. |
+| Existing library duplicate | 1 | `Essentials: Your First Workflows` was already present and was preserved rather than copied. |
+| Newly imported resources | 216 | Added to the persistent resource library. |
+
+The import expands the library from **40 to 256 resources**. It adds 17 Arabic foundational videos, 87 Arabic advanced agent/scaling videos after the in-catalogue duplicate is removed, 102 English tutorial/workflow videos, eight technical guides, and two technical templates. The imported records are URL-distinct and are mapped across `orient`, `connect`, `shape`, `orchestrate`, `augment`, `agents`, `operate`, and `capstone`. Reproducible inventory, validation, mapping, and dry-run/apply tooling live in `docs/n8n-mastery-catalogue-*.json`, `server/catalogueImport.ts`, and `scripts/`.
