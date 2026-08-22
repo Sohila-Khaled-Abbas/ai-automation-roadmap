@@ -1,0 +1,21 @@
+flowchart LR
+  P[00 · Prepare\nPractice system] --> O[01 · Orient\nAutomation opportunity]
+  O --> C[02 · Connect\nAPIs, webhooks, data]
+  C --> B[03 · Orchestrate\nFirst n8n system]
+  B --> S[04 · Shape\nSafe data contracts]
+  S --> A[05 · Augment\nBounded AI step]
+  A --> R[06 · Operate\nReliability and runbooks]
+  R --> G[07 · Agents\nContext, tools, evaluation]
+  G --> K[08 · Capstone\nDeploy and prove value]
+
+  O -. choose a real problem .-> P
+  S -. validate before automation .-> C
+  R -. harden before autonomy .-> A
+  K -. document the evidence .-> R
+
+  classDef foundation fill:#15151a,stroke:#ff9bb1,color:#fff,stroke-width:2px;
+  classDef systems fill:#19131b,stroke:#ea4b71,color:#fff,stroke-width:2px;
+  classDef delivery fill:#211219,stroke:#c92f55,color:#fff,stroke-width:2px;
+  class P,O,C foundation;
+  class B,S,A systems;
+  class R,G,K delivery;

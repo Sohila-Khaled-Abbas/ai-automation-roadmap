@@ -36,4 +36,18 @@ All 218 supplied destinations returned HTTP 200 during a bounded validation pass
 | Existing library duplicate | 1 | `Essentials: Your First Workflows` was already present and was preserved rather than copied. |
 | Newly imported resources | 216 | Added to the persistent resource library. |
 
-The import expands the library from **40 to 256 resources**. It adds 17 Arabic foundational videos, 87 Arabic advanced agent/scaling videos after the in-catalogue duplicate is removed, 102 English tutorial/workflow videos, eight technical guides, and two technical templates. The imported records are URL-distinct and are mapped across `orient`, `connect`, `shape`, `orchestrate`, `augment`, `agents`, `operate`, and `capstone`. Reproducible inventory, validation, mapping, and dry-run/apply tooling live in `docs/n8n-mastery-catalogue-*.json`, `server/catalogueImport.ts`, and `scripts/`.
+The import expanded the library from **40 to 256 resources**. It added 17 Arabic foundational videos, 87 Arabic advanced agent/scaling videos after the in-catalogue duplicate is removed, 102 English tutorial/workflow videos, eight technical guides, and two technical templates. The imported records are URL-distinct and are mapped across `orient`, `connect`, `shape`, `orchestrate`, `augment`, `agents`, `operate`, and `capstone`. Reproducible inventory, validation, mapping, and dry-run/apply tooling live in `docs/n8n-mastery-catalogue-*.json`, `server/catalogueImport.ts`, and `scripts/`.
+
+## Direct Official Link Additions — August 2026
+
+The public library now contains **261 resources** after five direct official n8n references were added to reinforce the visual roadmap’s stage outcomes. These additions intentionally favour current primary documentation over general search results or secondary articles.
+
+| Stage | Resource | Learning purpose | Source |
+|---|---|---|---|
+| Prepare | [Start n8n locally with Docker](https://docs.n8n.io/deploy/host-n8n/install-options/install-with-docker/) | Local setup, persistence, time zones, and self-hosting precautions. The page now directs learners to Docker Compose as the recommended installation path. | Official n8n Docs |
+| Shape | [Using the n8n Code node](https://docs.n8n.io/build/code-in-n8n/using-the-code-node/) | JavaScript/Python execution modes, safe data work, and Code-node constraints. | Official n8n Docs |
+| Operate | [Set up external task runners](https://docs.n8n.io/deploy/host-n8n/configure-n8n/set-up-task-runners/) | Production-safe isolation for user-provided Code-node scripts. | Official n8n Docs |
+| Operate | [Scale n8n with queue mode](https://docs.n8n.io/deploy/host-n8n/configure-n8n/scaling/enable-queue-mode/) | Main process, Redis, workers, scaling, and operational guardrails. | Official n8n Docs |
+| Agents | [Build with the n8n AI Agent node](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/) | Tool-connected agents, current Tools Agent behavior, and template discovery. | Official n8n Docs |
+
+The source audit also retains a visible distinction between direct authoritative links and the 207 catalogue entries that lead to YouTube search results. Those search entries are working discovery links, but they are not represented as direct video permalinks; a verified item-level video export is still required before replacing them.
