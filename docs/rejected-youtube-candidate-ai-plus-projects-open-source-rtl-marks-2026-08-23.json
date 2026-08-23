@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-08-23",
+  "publicPlaylistUrl": "https://www.youtube.com/playlist?list=PLZ42ZUInDWC79Bw1K_tYQhUPfFRV7fy8v",
+  "authorName": "AI Plus - محمد الشامي",
+  "decision": "rejected_exact_unicode_title_mismatch",
+  "policy": "Public canonical URLs replace stored search fallbacks only with exact title code-point equality and matching creator evidence. Unicode directional-formatting marks are not normalized.",
+  "candidates": [
+    {
+      "resourceId": 150043,
+      "importedTitle": "15 – إدارة n8n Projects: كيفية Duplicate وDownload وImport بسهولة",
+      "candidateUrl": "https://www.youtube.com/watch?v=T24UtCVnsxA",
+      "publicOEmbedTitle": "15 – إدارة \u200fn8n Projects\u200f: كيفية \u200fDuplicate\u200f و\u200fDownload\u200f و\u200fImport\u200f بسهولة",
+      "difference": "Public title contains U+200F RIGHT-TO-LEFT MARK around n8n Projects, Duplicate, Download, and Import; imported title does not.",
+      "result": "search_fallback_retained"
+    },
+    {
+      "resourceId": 150046,
+      "importedTitle": "18 – ما الذي يجب معرفته قبل استخدام Open‑Source LLMs مع n8n؟",
+      "candidateUrl": "https://www.youtube.com/watch?v=LuxBKSKQuFg",
+      "publicOEmbedTitle": "18 – ما الذي يجب معرفته قبل استخدام \u200fOpen‑Source LLMs\u200f مع \u200fn8n\u200f؟",
+      "difference": "Public title contains U+200F RIGHT-TO-LEFT MARK around Open-Source LLMs and n8n; imported title does not.",
+      "result": "search_fallback_retained"
+    },
+    {
+      "resourceId": 150047,
+      "importedTitle": "19 –Free Local AI Agents على جهازك: Open‑Source LLM مع DeepSeek وOllama _ n8n Self‑Hosting",
+      "candidateUrl": "https://www.youtube.com/watch?v=AG3pq34tfqc",
+      "publicOEmbedTitle": "19 –\u200fFree Local AI Agents\u200f على جهازك: \u200fOpen‑Source LLM\u200f مع \u200fDeepSeek\u200f و\u200fOllama\u200f _ \u200fn8n Self‑Hosting\u200f",
+      "difference": "Public title contains U+200F RIGHT-TO-LEFT MARK around every English segment; imported title does not.",
+      "result": "search_fallback_retained"
+    }
+  ],
+  "databaseUpdate": "none",
+  "catalogueStatusAfterReview": "177 direct YouTube pages; 29 search fallbacks remain"
+}
