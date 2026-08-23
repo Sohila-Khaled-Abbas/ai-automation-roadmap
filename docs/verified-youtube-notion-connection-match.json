@@ -1,0 +1,13 @@
+{
+  "source": "https://www.youtube.com/watch?v=qeOoeWPVIe0",
+  "verification": "Public direct-page browser verification on 2026-08-23. The displayed video title exactly matches the imported catalogue title; YouTube adds an Auto-dubbed badge separately. The visible page owner is Ryan & Matt Data Science, matching the persisted provider.",
+  "matches": [
+    {
+      "libraryId": 150124,
+      "catalogueTitle": "Connect Notion in n8n Easily (2026 Guide)",
+      "publicVideoTitle": "Connect Notion in n8n Easily (2026 Guide)",
+      "provider": "Ryan & Matt Data Science",
+      "directUrl": "https://www.youtube.com/watch?v=qeOoeWPVIe0"
+    }
+  ]
+}
