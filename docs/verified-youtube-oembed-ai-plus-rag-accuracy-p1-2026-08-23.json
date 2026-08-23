@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-08-23",
+  "verificationMethod": "YouTube public oEmbed metadata",
+  "browserEvidenceStatus": "The connected browser continued to be unable to expose reliable individual-video page content, so the authorised public oEmbed fallback was used.",
+  "matches": [
+    {
+      "resourceId": 150067,
+      "importedTitle": "31 -- P1 -- سر لم يخبرك به أحد في RAG AI Agent لرفع دقته إلى الحد الأقصى",
+      "directUrl": "https://www.youtube.com/watch?v=nMURjvGpVYo",
+      "oembedTitle": "31 -- P1 -- سر لم يخبرك به أحد في RAG AI Agent لرفع دقته إلى الحد الأقصى",
+      "authorName": "AI Plus - محمد الشامي",
+      "expectedProvider": "AI Plus · Mohamed Elshamy",
+      "decision": "accepted_exact_title_and_author"
+    }
+  ]
+}
