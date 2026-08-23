@@ -116,7 +116,12 @@ The shared Gemini Notebook was accessible in the connected account and exposes i
 | Public direct-page Ryan & Matt Perplexity setup verification | 1 additional record | `docs/verified-youtube-perplexity-setup-match.json` |
 | Public direct-page Ryan & Matt OpenRouter model-selector verification | 1 additional record | `docs/verified-youtube-openrouter-model-selector-match.json` |
 | Public direct-page Ryan & Matt HubSpot workflows verification | 1 additional record | `docs/verified-youtube-hubspot-workflows-match.json` |
-| Total collection status | 60 direct YouTube pages; 146 search fallbacks remain | Persistent-library verification query |
+| Public direct-page Ryan & Matt Call n8n Workflow Tool verification | 1 additional record | `docs/verified-youtube-call-workflow-tool-match.json` |
+| Public direct-page Ryan & Matt Limit Node verification | 1 additional record | `docs/verified-youtube-limit-node-match.json` |
+| Public direct-page Ryan & Matt Sort Node verification | 1 additional record | `docs/verified-youtube-sort-node-match.json` |
+| Public direct-page Ryan & Matt Summarize Node verification | 1 additional record | `docs/verified-youtube-summarize-node-match.json` |
+| Public direct-page Ryan & Matt human-in-the-loop verification | 1 additional record | `docs/verified-youtube-human-in-loop-match.json` |
+| Total collection status | 65 direct YouTube pages; 141 search fallbacks remain | Persistent-library verification query |
 
 The recovered entry **`016 | AI Agents Introduction | مقدمة عن وكلاء الذكاء الاصطناعي`** was checked against its public video page before replacement. Its title matched exactly and its creator metadata identified Karim Nabil; the persistent provider and description were corrected to match that evidence. The remaining 177 catalogue search links have not been guessed or bulk-replaced; each still requires an exact item-level title-and-provider match from a public playlist, direct page, or Notebook export.
 
