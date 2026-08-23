@@ -1,0 +1,15 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser remained unavailable for direct video-page and channel-attribution rendering. The direct YouTube URL and its public oEmbed response were checked on 2026-08-23. The oEmbed title exactly matches the imported catalogue title and author_name is AI Plus - محمد الشامي.",
+  "matches": [
+    {
+      "libraryId": 150041,
+      "catalogueTitle": "13 – Automation Example #4: أتمتة Smart Car Dealership Workflow بخطوات بسيطة",
+      "oEmbedTitle": "13 – Automation Example #4: أتمتة Smart Car Dealership Workflow بخطوات بسيطة",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=8RFmp5Flnpw",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8RFmp5Flnpw%26format%3Djson"
+    }
+  ]
+}
