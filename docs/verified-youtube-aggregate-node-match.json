@@ -1,0 +1,13 @@
+{
+  "source": "https://www.youtube.com/watch?v=Wmb0ZyBegOI",
+  "verification": "Public direct-page browser verification on 2026-08-23. The displayed video title exactly matches the imported catalogue title. The visible page owner is Ryan & Matt Data Science, matching the persisted provider.",
+  "matches": [
+    {
+      "libraryId": 150163,
+      "catalogueTitle": "Mastering the n8n Aggregate Node: Step-by-Step Tutorial",
+      "publicVideoTitle": "Mastering the n8n Aggregate Node: Step-by-Step Tutorial",
+      "provider": "Ryan & Matt Data Science",
+      "directUrl": "https://www.youtube.com/watch?v=Wmb0ZyBegOI"
+    }
+  ]
+}
