@@ -1,0 +1,13 @@
+{
+  "source": "https://www.youtube.com/watch?v=4y6ZwG2Vvmk",
+  "verification": "Public direct-page browser verification on 2026-08-23. The displayed video title exactly matches the imported catalogue title. The visible page owner is Ryan & Matt Data Science, matching the persisted provider.",
+  "matches": [
+    {
+      "libraryId": 150168,
+      "catalogueTitle": "REST APIs in n8n Explained (Complete Beginner's Guide)",
+      "publicVideoTitle": "REST APIs in n8n Explained (Complete Beginner's Guide)",
+      "provider": "Ryan & Matt Data Science",
+      "directUrl": "https://www.youtube.com/watch?v=4y6ZwG2Vvmk"
+    }
+  ]
+}
