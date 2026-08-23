@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-08-23",
+  "playlistUrl": "https://www.youtube.com/playlist?list=PLZ42ZUInDWC79Bw1K_tYQhUPfFRV7fy8v",
+  "verificationMethod": "Public playlist title/direct URL plus YouTube public oEmbed title and author_name",
+  "acceptedMatches": [
+    {
+      "resourceId": 150064,
+      "title": "29 -- جزء 1 --- اصنع RAG Chatbot مجاني وذكي باحترافية غير مسبوقة! || n8n",
+      "directUrl": "https://www.youtube.com/watch?v=ntGE0fN8WWM",
+      "authorName": "AI Plus - محمد الشامي"
+    },
+    {
+      "resourceId": 150068,
+      "title": "31 -- P2 -- سر لم يخبرك به أحد في RAG AI Agent لرفع دقته إلى الحد الأقصى",
+      "directUrl": "https://www.youtube.com/watch?v=SWXhl0iQNX4",
+      "authorName": "AI Plus - محمد الشامي"
+    }
+  ],
+  "rejectedCandidate": {
+    "resourceId": 150073,
+    "candidateUrl": "https://www.youtube.com/watch?v=4fwZcs4rXM0",
+    "reason": "The public title uses U+202F narrow no-break space before n8n while the persisted imported title uses a regular space. It is visibly similar but not an exact Unicode title match.",
+    "catalogueAction": "Retain the existing YouTube search fallback."
+  }
+}
