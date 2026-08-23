@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-08-23",
+  "verificationMethod": "YouTube public oEmbed metadata",
+  "browserEvidenceStatus": "The connected browser remained unable to expose usable individual-video page content, so the previously authorised public oEmbed fallback was used.",
+  "acceptanceCriteria": {
+    "title": "Exact equality with the imported catalogue title",
+    "authorName": "AI Plus - محمد الشامي, matching the catalogue provider AI Plus · Mohamed Elshamy"
+  },
+  "matches": [
+    {
+      "resourceId": 150093,
+      "importedTitle": "55 -- Messenger Multi-Agent | السكرتير الخارق للماسنجر (Voice + Text + Image) – الجزء الأول || n8n",
+      "directUrl": "https://www.youtube.com/watch?v=eADZMc13CSY",
+      "oembedTitle": "55 -- Messenger Multi-Agent | السكرتير الخارق للماسنجر (Voice + Text + Image) – الجزء الأول || n8n",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "accepted_exact_title_and_author"
+    },
+    {
+      "resourceId": 150098,
+      "importedTitle": "59 - تحديث #n8n في دقائق علي Hostinger VPS",
+      "directUrl": "https://www.youtube.com/watch?v=5Ij8sGt_4gk",
+      "oembedTitle": "59 - تحديث #n8n في دقائق علي Hostinger VPS",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "accepted_exact_title_and_author"
+    },
+    {
+      "resourceId": 150100,
+      "importedTitle": "61 - هل فعلاً تقدر تبني AI Agents في ثواني على n8n#؟ الحقيقة كاملة!",
+      "directUrl": "https://www.youtube.com/watch?v=2-DJvo4YelY",
+      "oembedTitle": "61 - هل فعلاً تقدر تبني AI Agents في ثواني على n8n#؟ الحقيقة كاملة!",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "accepted_exact_title_and_author"
+    }
+  ]
+}
