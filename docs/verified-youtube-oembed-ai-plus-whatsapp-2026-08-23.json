@@ -1,0 +1,33 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser remained unavailable for direct video-page and channel-attribution rendering. Each direct YouTube URL and its public oEmbed response were checked on 2026-08-23. For every accepted record, the oEmbed title exactly matches the imported catalogue title and author_name is AI Plus - محمد الشامي.",
+  "matches": [
+    {
+      "libraryId": 150080,
+      "catalogueTitle": "43 -- الطريقة الصح! ربط واتساب بـ n8n 🔥",
+      "oEmbedTitle": "43 -- الطريقة الصح! ربط واتساب بـ n8n 🔥",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=i8viuqJyxqw",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Di8viuqJyxqw%26format%3Djson"
+    },
+    {
+      "libraryId": 150081,
+      "catalogueTitle": "44 - أوثقه ولا لأ؟ Meta Business Account مع WhatsApp!!",
+      "oEmbedTitle": "44 - أوثقه ولا لأ؟ Meta Business Account مع WhatsApp!!",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=mnXVfq--_2w",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DmnXVfq--_2w%26format%3Djson"
+    },
+    {
+      "libraryId": 150082,
+      "catalogueTitle": "45 -- حلّ نهائي: التوكن الدائم لواتساب (Cloud API) || n8n",
+      "oEmbedTitle": "45 -- حلّ نهائي: التوكن الدائم لواتساب (Cloud API) || n8n",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=JVw5No9AXig",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJVw5No9AXig%26format%3Djson"
+    }
+  ]
+}
