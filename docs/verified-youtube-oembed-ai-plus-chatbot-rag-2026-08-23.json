@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-08-23",
+  "verificationMethod": "YouTube public oEmbed metadata",
+  "browserEvidenceStatus": "The connected browser remained unable to expose usable individual-video page content, so the previously authorised public oEmbed fallback was used.",
+  "acceptanceCriteria": {
+    "title": "Exact equality with the imported catalogue title",
+    "authorName": "AI Plus - محمد الشامي, matching the catalogue provider AI Plus · Mohamed Elshamy"
+  },
+  "matches": [
+    {
+      "resourceId": 150056,
+      "importedTitle": "25 – اصنع Chatbot ذكي لمبيعات مكونات الحاسوب عبر n8n بسهولة!",
+      "directUrl": "https://www.youtube.com/watch?v=BFi05jLLjMU",
+      "oembedTitle": "25 – اصنع Chatbot ذكي لمبيعات مكونات الحاسوب عبر n8n بسهولة!",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "accepted_exact_title_and_author"
+    },
+    {
+      "resourceId": 150059,
+      "importedTitle": "28 – الجزء 1: RAG ببساطة! 3 طرق ذكية لتزويد الـ LLM بالمعلومات بدون إعادة Training",
+      "directUrl": "https://www.youtube.com/watch?v=LIFyBPDkluI",
+      "oembedTitle": "28 – الجزء 1: RAG ببساطة! 3 طرق ذكية لتزويد الـ LLM بالمعلومات بدون إعادة Training",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "accepted_exact_title_and_author"
+    }
+  ]
+}
