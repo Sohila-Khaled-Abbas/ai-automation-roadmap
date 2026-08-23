@@ -18,3 +18,7 @@ The site’s data-plane evidence is positive: the Vercel bundle points at the pu
 ### Follow-up browser attempt
 
 The latest Vercel deployment was opened again after the connected browser successfully rendered an unrelated public YouTube page. It returned the expected document title, but no interactive elements or hydrated page content were exposed and screenshot upload again failed. This isolates neither a browser-extension limitation nor a client-hydration issue conclusively; it does reinforce that no claim of end-to-end live Vercel card rendering should be made without stronger evidence.
+
+### 2026-08-23 bridge recheck
+
+The current Vercel production alias returned `200` with the expected document title. A direct public bridge request from that Vercel origin returned `200`, the expected scoped `Access-Control-Allow-Origin` response, and **270** persisted resource objects. The connected browser still exposed only the document title, no interactive elements, and no uploaded screenshot. Therefore, the static and API data-plane evidence is refreshed, but the live hydrated-card and public-UI browser checklist items remain open.
