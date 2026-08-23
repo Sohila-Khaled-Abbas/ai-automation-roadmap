@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-08-23",
+  "playlistUrl": "https://www.youtube.com/playlist?list=PLZ42ZUInDWC79Bw1K_tYQhUPfFRV7fy8v",
+  "verificationMethod": "Public playlist direct URL plus YouTube public oEmbed title and author_name, with deterministic codepoint equality comparison",
+  "match": {
+    "resourceId": 150053,
+    "title": "23 – الجزء الأول: تعلّم دمج Claude من Anthropic مع n8n وخطوة إنشاء API Key بسهولة!",
+    "directUrl": "https://www.youtube.com/watch?v=5JG1nEq5VYE",
+    "publicOEmbedTitle": "23 – الجزء الأول: تعلّم دمج Claude من Anthropic مع n8n وخطوة إنشاء API Key بسهولة!",
+    "authorName": "AI Plus - محمد الشامي",
+    "exactCodepointTitleMatch": true,
+    "oldUrl": "https://www.youtube.com/results?search_query=23+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%A3%D9%88%D9%84%3A+%D8%AA%D8%B9%D9%84%D9%91%D9%85+%D8%AF%D9%85%D8%AC+Claude+%D9%85%D9%86+Anthropic+%D9%85%D8%B9+n8n+%D9%88%D8%AE%D8%B7%D9%88%D8%A9+%D8%A5%D9%86%D8%B4%D8%A7%D8%A1+API+Key+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9%21",
+    "source": "n8n Mastery Catalogue · Arabic AI Agents & Scaling · YouTube search",
+    "provider": "AI Plus · Mohamed Elshamy",
+    "guardedSql": "UPDATE learningResources SET url = 'https://www.youtube.com/watch?v=5JG1nEq5VYE' WHERE id = 150053 AND title = '23 – الجزء الأول: تعلّم دمج Claude من Anthropic مع n8n وخطوة إنشاء API Key بسهولة!' AND provider = 'AI Plus · Mohamed Elshamy' AND source = 'n8n Mastery Catalogue · Arabic AI Agents & Scaling · YouTube search' AND url = 'https://www.youtube.com/results?search_query=23+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%A3%D9%88%D9%84%3A+%D8%AA%D8%B9%D9%84%D9%91%D9%85+%D8%AF%D9%85%D8%AC+Claude+%D9%85%D9%86+Anthropic+%D9%85%D8%B9+n8n+%D9%88%D8%AE%D8%B7%D9%88%D8%A9+%D8%A5%D9%86%D8%B4%D8%A7%D8%A1+API+Key+%D8%A8%D8%B3%D9%87%D9%88%D9%84%D8%A9%21';"
+  }
+}
