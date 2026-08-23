@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-08-23",
+  "catalogueResourceId": 150026,
+  "importedTitle": "03 ــــ جزء 1ــــ شرح Prompt Chaining: أول Workflow في أنظمة Anthropic الذكية",
+  "candidateUrl": "https://www.youtube.com/watch?v=5faMBFQ1a-M",
+  "verificationMethod": "YouTube public oEmbed metadata",
+  "oembedTitle": "03 — Part 1: Prompt Chaining Tutorial — How Anthropic Builds Its First Workflow",
+  "authorName": "AI Plus - Mohamed Elshamy",
+  "decision": "rejected_title_variant_despite_creator_match",
+  "catalogueAction": "Retain the imported YouTube search URL unchanged because the required title equality standard was not met."
+}
