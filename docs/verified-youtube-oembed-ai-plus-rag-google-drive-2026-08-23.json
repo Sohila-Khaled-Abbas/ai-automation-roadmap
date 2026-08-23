@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-08-23",
+  "verificationMethod": "YouTube public oEmbed metadata",
+  "browserEvidenceStatus": "The connected browser remained unable to expose usable individual-video page content, so the previously authorised public oEmbed fallback was used.",
+  "acceptanceCriteria": {
+    "title": "Exact equality with the imported catalogue title",
+    "authorName": "AI Plus - محمد الشامي, matching the catalogue provider AI Plus · Mohamed Elshamy"
+  },
+  "matches": [
+    {
+      "resourceId": 150066,
+      "importedTitle": "30 -- حمّل أي عدد من الملفات إلى الـ Vector Database مباشرة من Google Drive في ثوانٍ! | RAG AI Agent",
+      "directUrl": "https://www.youtube.com/watch?v=K1G86IlyWyE",
+      "oembedTitle": "30 -- حمّل أي عدد من الملفات إلى الـ Vector Database مباشرة من Google Drive في ثوانٍ! | RAG AI Agent",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "accepted_exact_title_and_author"
+    },
+    {
+      "resourceId": 150069,
+      "importedTitle": "32 -- الحل النهائي لمشكلة تحديث RAG AI Agent تلقائياً مع Google Drive بدون تكرار الملفات",
+      "directUrl": "https://www.youtube.com/watch?v=WtmpNiGbuw4",
+      "oembedTitle": "32 -- الحل النهائي لمشكلة تحديث RAG AI Agent تلقائياً مع Google Drive بدون تكرار الملفات",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "accepted_exact_title_and_author"
+    }
+  ]
+}
