@@ -1,0 +1,13 @@
+{
+  "source": "https://www.youtube.com/watch?v=OIZ86SIJCLQ",
+  "verification": "Public direct-page browser verification on 2026-08-23. The displayed video title exactly matches the imported catalogue title. The visible page owner is Ryan & Matt Data Science, matching the persisted provider.",
+  "matches": [
+    {
+      "libraryId": 150160,
+      "catalogueTitle": "Master 80% of AI in n8n by Learning Just These 12 Nodes",
+      "publicVideoTitle": "Master 80% of AI in n8n by Learning Just These 12 Nodes",
+      "provider": "Ryan & Matt Data Science",
+      "directUrl": "https://www.youtube.com/watch?v=OIZ86SIJCLQ"
+    }
+  ]
+}
