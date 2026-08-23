@@ -1,0 +1,33 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser remained unavailable for direct video-page and channel-attribution rendering. Each direct YouTube URL and its public oEmbed response were checked on 2026-08-23. For every accepted record, the oEmbed title exactly matches the imported catalogue title and author_name is Ryan & Matt Data Science.",
+  "matches": [
+    {
+      "libraryId": 150171,
+      "catalogueTitle": "Scrape Google Search Results with this N8N Workflow (Apify & Sheets)",
+      "oEmbedTitle": "Scrape Google Search Results with this N8N Workflow (Apify & Sheets)",
+      "authorName": "Ryan & Matt Data Science",
+      "authorUrl": "https://www.youtube.com/@RyanAndMattDataScience",
+      "directUrl": "https://www.youtube.com/watch?v=ey7_w47f3qc",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dey7_w47f3qc%26format%3Djson"
+    },
+    {
+      "libraryId": 150194,
+      "catalogueTitle": "n8n Loop Over Items: The RIGHT Way vs The WRONG Way",
+      "oEmbedTitle": "n8n Loop Over Items: The RIGHT Way vs The WRONG Way",
+      "authorName": "Ryan & Matt Data Science",
+      "authorUrl": "https://www.youtube.com/@RyanAndMattDataScience",
+      "directUrl": "https://www.youtube.com/watch?v=qGrG_lRFulw",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqGrG_lRFulw%26format%3Djson"
+    },
+    {
+      "libraryId": 150202,
+      "catalogueTitle": "n8n Switch Node for Beginners (Full Guide)",
+      "oEmbedTitle": "n8n Switch Node for Beginners (Full Guide)",
+      "authorName": "Ryan & Matt Data Science",
+      "authorUrl": "https://www.youtube.com/@RyanAndMattDataScience",
+      "directUrl": "https://www.youtube.com/watch?v=fwHfu6matD8",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DfwHfu6matD8%26format%3Djson"
+    }
+  ]
+}
