@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-08-23",
+  "catalogueResourceId": 150094,
+  "importedTitle": "55 -- Messenger Multi-Agent | السكرتير الخارق للماسنجر (Voice + Text + Image) – الجزء الثاني",
+  "candidateUrl": "https://www.youtube.com/watch?v=eADZMc13CSY",
+  "verificationMethod": "YouTube public oEmbed metadata",
+  "oembedTitle": "55 -- Messenger Multi-Agent | السكرتير الخارق للماسنجر (Voice + Text + Image) – الجزء الأول || n8n",
+  "authorName": "AI Plus - محمد الشامي",
+  "decision": "rejected_wrong_part_and_title_variant",
+  "catalogueAction": "Retain the imported YouTube search fallback because the candidate is explicitly part one while the record is part two."
+}
