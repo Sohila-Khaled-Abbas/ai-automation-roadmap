@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-08-23",
+  "verificationMethod": "YouTube public oEmbed metadata plus stored-title Unicode comparison",
+  "decisionRule": "The candidate must exactly equal the imported title, including invisible Unicode directional marks, and match the provider.",
+  "rejections": [
+    {
+      "resourceId": 150044,
+      "candidateUrl": "https://www.youtube.com/watch?v=UhvJSzPU6Gs",
+      "authorName": "AI Plus - محمد الشامي",
+      "reason": "The public oEmbed title includes U+200F right-to-left marks around mixed-script segments; the persisted imported title does not. The title is visibly similar but not an exact Unicode match.",
+      "catalogueAction": "Keep the imported YouTube search fallback unchanged."
+    },
+    {
+      "resourceId": 150045,
+      "candidateUrl": "https://www.youtube.com/watch?v=Z-MP1GX-1rI",
+      "authorName": "AI Plus - محمد الشامي",
+      "reason": "The public oEmbed title includes U+200F right-to-left marks around mixed-script segments; the persisted imported title does not. The title is visibly similar but not an exact Unicode match.",
+      "catalogueAction": "Keep the imported YouTube search fallback unchanged."
+    }
+  ]
+}
