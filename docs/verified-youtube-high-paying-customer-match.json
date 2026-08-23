@@ -1,0 +1,13 @@
+{
+  "source": "https://www.youtube.com/watch?v=d2lXHjKDBxA",
+  "verification": "Public direct-page browser verification on 2026-08-23. The displayed video title exactly matches the imported catalogue title. The visible page owner is Ryan & Matt Data Science, matching the persisted provider.",
+  "matches": [
+    {
+      "libraryId": 150183,
+      "catalogueTitle": "Watch these 8 minutes if you want to land a High Paying n8n customer in 2026",
+      "publicVideoTitle": "Watch these 8 minutes if you want to land a High Paying n8n customer in 2026",
+      "provider": "Ryan & Matt Data Science",
+      "directUrl": "https://www.youtube.com/watch?v=d2lXHjKDBxA"
+    }
+  ]
+}
