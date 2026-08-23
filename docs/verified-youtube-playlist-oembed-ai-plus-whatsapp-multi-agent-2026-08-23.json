@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-08-23",
+  "playlistUrl": "https://www.youtube.com/playlist?list=PLZ42ZUInDWC79Bw1K_tYQhUPfFRV7fy8v",
+  "verificationMethod": "Public playlist direct URL plus YouTube public oEmbed title and author_name, with deterministic codepoint equality comparison",
+  "acceptedMatch": {
+    "resourceId": 150086,
+    "title": "49 - حوّل واتساب لموظف خارق | Multi-Agent Orchestrator (Text/Voice/Image) مع n8n",
+    "directUrl": "https://www.youtube.com/watch?v=VSeo-PUuva8",
+    "authorName": "AI Plus - محمد الشامي",
+    "exactCodepointTitleMatch": true,
+    "oldUrl": "https://www.youtube.com/results?search_query=49+-+%D8%AD%D9%88%D9%91%D9%84+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D9%84%D9%85%D9%88%D8%B8%D9%81+%D8%AE%D8%A7%D8%B1%D9%82+%7C+Multi-Agent+Orchestrator+%28Text%2FVoice%2FImage%29+%D9%85%D8%B9+n8n",
+    "source": "n8n Mastery Catalogue · Arabic AI Agents & Scaling · YouTube search",
+    "provider": "AI Plus · Mohamed Elshamy",
+    "guardedSql": "UPDATE learningResources SET url = 'https://www.youtube.com/watch?v=VSeo-PUuva8' WHERE id = 150086 AND title = '49 - حوّل واتساب لموظف خارق | Multi-Agent Orchestrator (Text/Voice/Image) مع n8n' AND provider = 'AI Plus · Mohamed Elshamy' AND source = 'n8n Mastery Catalogue · Arabic AI Agents & Scaling · YouTube search' AND url = 'https://www.youtube.com/results?search_query=49+-+%D8%AD%D9%88%D9%91%D9%84+%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8+%D9%84%D9%85%D9%88%D8%B8%D9%81+%D8%AE%D8%A7%D8%B1%D9%82+%7C+Multi-Agent+Orchestrator+%28Text%2FVoice%2FImage%29+%D9%85%D8%B9+n8n';"
+  },
+  "rejectedCandidates": [
+    {
+      "resourceId": 150089,
+      "candidateUrl": "https://www.youtube.com/watch?v=lg6ZsfBt6TM",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "rejected_whitespace_variant",
+      "reason": "The public oEmbed title has two additional U+0020 spaces before the rocket emoji. The imported and public titles are not codepoint-identical.",
+      "result": "search_fallback_retained"
+    },
+    {
+      "resourceId": 150090,
+      "candidateUrl": "https://www.youtube.com/watch?v=0wxGma5qA0Q",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "rejected_whitespace_variant",
+      "reason": "The public oEmbed title has an extra U+0020 space before the second double-hyphen and two additional U+0020 spaces before the rocket emoji. The imported and public titles are not codepoint-identical.",
+      "result": "search_fallback_retained"
+    }
+  ]
+}
