@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-08-23",
+  "publicPlaylistUrl": "https://www.youtube.com/playlist?list=PLZ42ZUInDWC79Bw1K_tYQhUPfFRV7fy8v",
+  "authorName": "AI Plus - محمد الشامي",
+  "decision": "rejected_exact_unicode_title_mismatch",
+  "policy": "Do not normalize or silently remove Unicode directional formatting marks. A direct page may replace a search fallback only when the persisted imported title and public oEmbed title have identical code points, as well as matching creator identity.",
+  "candidates": [
+    {
+      "resourceId": 150038,
+      "importedTitle": "11 – جزء 1: n8n Trigger Types + أتمتة شات بوت الذكاء الاصطناعي باستخدام Gmail API (Self‑Hosting)",
+      "candidateUrl": "https://www.youtube.com/watch?v=pKdq6o5xvR0",
+      "publicOEmbedTitle": "11 – جزء 1: \u200fn8n\u200f Trigger Types + أتمتة شات بوت الذكاء الاصطناعي باستخدام \u200fGmail API\u200f (Self‑Hosting)",
+      "difference": "Public title contains U+200F RIGHT-TO-LEFT MARK surrounding n8n and Gmail API; imported title does not.",
+      "result": "search_fallback_retained"
+    },
+    {
+      "resourceId": 150039,
+      "importedTitle": "12 – Automation Example 2&3: تشغيل عبر Chat أو Schedule Trigger للإيميل وGoogle Sheets",
+      "candidateUrl": "https://www.youtube.com/watch?v=j6MauZEoODU",
+      "publicOEmbedTitle": "12 – \u200fAutomation Example 2&3\u200f: تشغيل عبر \u200fChat\u200f أو \u200fSchedule Trigger\u200f للإيميل و\u200fGoogle Sheets\u200f",
+      "difference": "Public title contains U+200F RIGHT-TO-LEFT MARK around English terms; imported title does not.",
+      "result": "search_fallback_retained"
+    },
+    {
+      "resourceId": 150042,
+      "importedTitle": "14 – Automation Example #5: أتمتة Hotel Reservation مع Self‑Hosting",
+      "candidateUrl": "https://www.youtube.com/watch?v=CX8KkoRop74",
+      "publicOEmbedTitle": "14 – \u200fAutomation Example #5\u200f: أتمتة \u200fHotel Reservation\u200f مع \u200fSelf‑Hosting\u200f",
+      "difference": "Public title contains U+200F RIGHT-TO-LEFT MARK around English terms; imported title does not.",
+      "result": "search_fallback_retained"
+    }
+  ],
+  "databaseUpdate": "none",
+  "catalogueStatusAfterReview": "177 direct YouTube pages; 29 search fallbacks remain"
+}
