@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-08-23",
+  "verificationMethod": "YouTube public oEmbed metadata",
+  "browserEvidenceStatus": "The connected browser remained unable to expose usable individual-video page content, so the previously authorised public oEmbed fallback was used.",
+  "acceptanceCriteria": {
+    "title": "Exact equality with the imported catalogue title",
+    "authorName": "AI Plus - محمد الشامي, matching the catalogue provider AI Plus · Mohamed Elshamy"
+  },
+  "matches": [
+    {
+      "resourceId": 150070,
+      "importedTitle": "33 --وداعًا لعذاب كتابة الـ System Prompt! 🤖 أداة بتجهزلك كل حاجة أوتوماتيك للـ AI Agent!!",
+      "directUrl": "https://www.youtube.com/watch?v=YY-8ZKahQRU",
+      "oembedTitle": "33 --وداعًا لعذاب كتابة الـ System Prompt! 🤖 أداة بتجهزلك كل حاجة أوتوماتيك للـ AI Agent!!",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "accepted_exact_title_and_author"
+    },
+    {
+      "resourceId": 150071,
+      "importedTitle": "34 -- ما هو السيرفر والاستضافة - Hosting - ولماذا نحتاجهما؟ ||| n8n",
+      "directUrl": "https://www.youtube.com/watch?v=XZDvRFc_BM4",
+      "oembedTitle": "34 -- ما هو السيرفر والاستضافة - Hosting - ولماذا نحتاجهما؟ ||| n8n",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "accepted_exact_title_and_author"
+    }
+  ]
+}
