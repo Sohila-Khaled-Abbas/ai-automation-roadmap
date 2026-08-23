@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-08-23",
+  "playlistUrl": "https://www.youtube.com/playlist?list=PLZ42ZUInDWC79Bw1K_tYQhUPfFRV7fy8v",
+  "playlistTitle": "احترف Agentic AI Engineering باستخدام #n8n (بدون برمجة)",
+  "providerShown": "AI Plus - محمد الشامي",
+  "candidates": [
+    {
+      "resourceId": 150027,
+      "title": "03 – الجزء 2 : اكتشف Workflows أنثروبيك الذكية | LLM Router و Parallelization والمزيد!",
+      "watchUrl": "https://www.youtube.com/watch?v=9Tn2gk1g0n4"
+    },
+    {
+      "resourceId": 150028,
+      "title": "04 – لماذا الـ AI Agents مختلفة؟ Anthropic Frameworks والمخاطر وطرق الحد منها",
+      "watchUrl": "https://www.youtube.com/watch?v=RyozFEYyExQ"
+    },
+    {
+      "resourceId": 150029,
+      "title": "06 – كيف تعمل الـ APIs داخل الـ AI Agents؟ شرح مبسّط لعلاقة Client ↔ Server",
+      "watchUrl": "https://www.youtube.com/watch?v=FUl5yUC8gwU"
+    }
+  ]
+}
