@@ -1,0 +1,13 @@
+{
+  "source": "https://www.youtube.com/watch?v=kR1DP1MGHo4",
+  "verification": "Public direct-page browser verification on 2026-08-23. The displayed video title exactly matches the imported catalogue title. The visible page owner is Ryan & Matt Data Science, matching the persisted provider.",
+  "matches": [
+    {
+      "libraryId": 150137,
+      "catalogueTitle": "How to Generate Leads for $0.001 with N8N, Apollo, and Apify",
+      "publicVideoTitle": "How to Generate Leads for $0.001 with N8N, Apollo, and Apify",
+      "provider": "Ryan & Matt Data Science",
+      "directUrl": "https://www.youtube.com/watch?v=kR1DP1MGHo4"
+    }
+  ]
+}
