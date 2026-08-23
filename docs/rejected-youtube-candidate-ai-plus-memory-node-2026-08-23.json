@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-08-23",
+  "resourceId": 150055,
+  "importedTitle": "24 – اكتشف بعمق AI Agent و Simple Memory Nodes in n8n خطوة بخطوة!",
+  "candidateUrl": "https://www.youtube.com/watch?v=xZNIweJqSZg",
+  "publicPlaylistUrl": "https://www.youtube.com/playlist?list=PLZ42ZUInDWC79Bw1K_tYQhUPfFRV7fy8v",
+  "publicOEmbedTitle": "24 – اكتشف بعمق AI Agent و Simple Memory Nodes في n8n خطوة بخطوة!",
+  "publicAuthorName": "AI Plus - محمد الشامي",
+  "decision": "rejected_title_variant",
+  "reason": "The provider matches, but the imported title uses the English preposition 'in' while the canonical public title uses the Arabic 'في'. The search fallback remains unchanged."
+}
