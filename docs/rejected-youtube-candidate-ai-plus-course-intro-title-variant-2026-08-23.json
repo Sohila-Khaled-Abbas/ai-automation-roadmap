@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-08-23",
+  "resourceId": 150019,
+  "importedTitle": "01 | محتاج إيه عشان تبقى مهندس أتمتة بالذكاء الاصطناعي | AI Automation Engineer",
+  "candidateUrl": "https://www.youtube.com/watch?v=J5HaXOTy16g",
+  "publicPlaylistUrl": "https://www.youtube.com/playlist?list=PLZ42ZUInDWC79Bw1K_tYQhUPfFRV7fy8v",
+  "publicOEmbedTitle": "01 __ أسهل طريقه لفهم AI Agent والفرق بينه وبين الـ Large Language Models ببساطة",
+  "publicAuthorName": "AI Plus - محمد الشامي",
+  "decision": "rejected_different_lesson_title",
+  "reason": "The creator and course playlist match, but the canonical public title is a different lesson about understanding AI Agents and Large Language Models. It cannot replace the imported AI Automation Engineer lesson without an exact title match.",
+  "databaseUpdate": "none",
+  "result": "search_fallback_retained"
+}
