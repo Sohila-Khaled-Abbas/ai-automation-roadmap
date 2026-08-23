@@ -1,0 +1,33 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser remained unavailable for direct video-page and channel-attribution rendering. Each direct YouTube URL and its public oEmbed response were checked on 2026-08-23. For every accepted record, the oEmbed title exactly matches the imported catalogue title and author_name is AI Plus - محمد الشامي.",
+  "matches": [
+    {
+      "libraryId": 150034,
+      "catalogueTitle": "09 – n8n: الفرق بين Self‑Hosted و Cloud مع شرح التثبيت وخطوات التسجيل",
+      "oEmbedTitle": "09 – n8n: الفرق بين Self‑Hosted و Cloud مع شرح التثبيت وخطوات التسجيل",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=2r1C7iXDqGo",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2r1C7iXDqGo%26format%3Djson"
+    },
+    {
+      "libraryId": 150036,
+      "catalogueTitle": "10 – طريقة تثبيت n8n Self‑Hosted عبر npm وكيفية إبقاء الحزم محدثة دائمًا",
+      "oEmbedTitle": "10 – طريقة تثبيت n8n Self‑Hosted عبر npm وكيفية إبقاء الحزم محدثة دائمًا",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=d5FUpSuWZjI",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dd5FUpSuWZjI%26format%3Djson"
+    },
+    {
+      "libraryId": 150037,
+      "catalogueTitle": "11 – الجزء 2: كيفية توصيل Gmail API بـ n8n في وضع Self‑Hosting",
+      "oEmbedTitle": "11 – الجزء 2: كيفية توصيل Gmail API بـ n8n في وضع Self‑Hosting",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=OGzZLGr4EPg",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DOGzZLGr4EPg%26format%3Djson"
+    }
+  ]
+}
