@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-08-23",
+  "playlistUrl": "https://www.youtube.com/playlist?list=PLZ42ZUInDWC79Bw1K_tYQhUPfFRV7fy8v",
+  "verificationMethod": "Public playlist direct URL plus YouTube public oEmbed title and author_name, with deterministic codepoint equality comparison",
+  "match": {
+    "resourceId": 150094,
+    "title": "55 -- Messenger Multi-Agent | السكرتير الخارق للماسنجر (Voice + Text + Image) – الجزء الثاني",
+    "directUrl": "https://www.youtube.com/watch?v=TFL9-INQpSo",
+    "publicOEmbedTitle": "55 -- Messenger Multi-Agent | السكرتير الخارق للماسنجر (Voice + Text + Image) – الجزء الثاني",
+    "authorName": "AI Plus - محمد الشامي",
+    "exactCodepointTitleMatch": true,
+    "oldUrl": "https://www.youtube.com/results?search_query=55+--+Messenger+Multi-Agent+%7C+%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D8%AA%D9%8A%D8%B1+%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D9%82+%D9%84%D9%84%D9%85%D8%A7%D8%B3%D9%86%D8%AC%D8%B1+%28Voice+%2B+Text+%2B+Image%29+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A",
+    "source": "n8n Mastery Catalogue · Arabic AI Agents & Scaling · YouTube search",
+    "provider": "AI Plus · Mohamed Elshamy",
+    "guardedSql": "UPDATE learningResources SET url = 'https://www.youtube.com/watch?v=TFL9-INQpSo' WHERE id = 150094 AND title = '55 -- Messenger Multi-Agent | السكرتير الخارق للماسنجر (Voice + Text + Image) – الجزء الثاني' AND provider = 'AI Plus · Mohamed Elshamy' AND source = 'n8n Mastery Catalogue · Arabic AI Agents & Scaling · YouTube search' AND url = 'https://www.youtube.com/results?search_query=55+--+Messenger+Multi-Agent+%7C+%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D8%AA%D9%8A%D8%B1+%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D9%82+%D9%84%D9%84%D9%85%D8%A7%D8%B3%D9%86%D8%AC%D8%B1+%28Voice+%2B+Text+%2B+Image%29+%E2%80%93+%D8%A7%D9%84%D8%AC%D8%B2%D8%A1+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A';"
+  }
+}
