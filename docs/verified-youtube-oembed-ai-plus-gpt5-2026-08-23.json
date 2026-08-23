@@ -1,0 +1,33 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser remained unavailable for direct video-page and channel-attribution rendering. Each direct YouTube URL and its public oEmbed response were checked on 2026-08-23. For every accepted record, the oEmbed title exactly matches the imported catalogue title and author_name is AI Plus - محمد الشامي.",
+  "matches": [
+    {
+      "libraryId": 150076,
+      "catalogueTitle": "39 - ازاي تصمم أول AI Agent مجاني بـ GPT-Oss من OpenAI!!",
+      "oEmbedTitle": "39 - ازاي تصمم أول AI Agent مجاني بـ GPT-Oss من OpenAI!!",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=evFucdQK7kQ",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DevFucdQK7kQ%26format%3Djson"
+    },
+    {
+      "libraryId": 150077,
+      "catalogueTitle": "40 - GPT-5 في دقائق: مميزات، قدرات، وأسرار النظام الجديد",
+      "oEmbedTitle": "40 - GPT-5 في دقائق: مميزات، قدرات، وأسرار النظام الجديد",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=I5dNMWuWBi0",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DI5dNMWuWBi0%26format%3Djson"
+    },
+    {
+      "libraryId": 150078,
+      "catalogueTitle": "41 - 🤖 خلّي GPT-5 يدير مواعيدك… Automate Your Business!",
+      "oEmbedTitle": "41 - 🤖 خلّي GPT-5 يدير مواعيدك… Automate Your Business!",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=LTAw0B5bKb4",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLTAw0B5bKb4%26format%3Djson"
+    }
+  ]
+}
