@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { roadmapModules } from "./roadmapData";
-import { createRoadmapDiagramNodes } from "./roadmapDiagram";
+import { createRoadmapDiagramNodes, createRoadmapMindMapBranches } from "./roadmapDiagram";
 
 describe("roadmap infographic sequence", () => {
   it("derives the nine visual checkpoints from the curriculum in route order", () => {
@@ -16,5 +16,13 @@ describe("roadmap infographic sequence", () => {
 
     expect(nodes.map((node) => node.rail)).toEqual(["upper", "lower", "upper", "lower", "upper", "lower", "upper", "lower", "upper"]);
     expect(nodes.filter((node) => node.isTerminal)).toHaveLength(1);
+  });
+
+  it("creates skill, tool, and proof branches for every roadmap hub", () => {
+    const branches = createRoadmapMindMapBranches(roadmapModules);
+
+    expect(branches).toHaveLength(27);
+    expect(branches.filter((branch) => branch.nodeId === "augment").map((branch) => branch.kind)).toEqual(["skill", "tool", "proof"]);
+    expect(branches.find((branch) => branch.id === "capstone-proof")?.label).toContain("capstone");
   });
 });

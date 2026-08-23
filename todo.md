@@ -121,3 +121,4 @@
 - [x] Open selected official n8n case studies individually, record their direct canonical URLs, and update the source-backed casebook entries.
 - [x] Add and verify explicit prerequisite mapping for the new template, case-study, and project additions within the nine-stage learning flow.
 - [ ] Continue public online exact-title recovery in bounded, provider-verified batches and document every accepted direct-video replacement.
+- [x] Redesign the public roadmap into a responsive, original roadmap-and-mind-map canvas with expanded branch relationships, keyboard-accessible stage selection, and preserved source-backed learning paths.
