@@ -1,0 +1,33 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser continued to time out while rendering channel attribution. Each direct YouTube URL and its public oEmbed response were checked on 2026-08-23. For every accepted record, the oEmbed `title` exactly matches the imported catalogue title and `author_name` is Ryan & Matt Data Science.",
+  "matches": [
+    {
+      "libraryId": 150199,
+      "catalogueTitle": "n8n Reddit Lead Generation (Apify + RSS Workflows)",
+      "oEmbedTitle": "n8n Reddit Lead Generation (Apify + RSS Workflows)",
+      "authorName": "Ryan & Matt Data Science",
+      "authorUrl": "https://www.youtube.com/@RyanAndMattDataScience",
+      "directUrl": "https://www.youtube.com/watch?v=yXrLCH2IsT4",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyXrLCH2IsT4%26format%3Djson"
+    },
+    {
+      "libraryId": 150200,
+      "catalogueTitle": "n8n Slack Automation Tutorial – Triggers, Nodes & Real Workflows",
+      "oEmbedTitle": "n8n Slack Automation Tutorial – Triggers, Nodes & Real Workflows",
+      "authorName": "Ryan & Matt Data Science",
+      "authorUrl": "https://www.youtube.com/@RyanAndMattDataScience",
+      "directUrl": "https://www.youtube.com/watch?v=Jqngy6KzQmE",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJqngy6KzQmE%26format%3Djson"
+    },
+    {
+      "libraryId": 150201,
+      "catalogueTitle": "n8n Split Out Node Explained: Step-by-Step Guide",
+      "oEmbedTitle": "n8n Split Out Node Explained: Step-by-Step Guide",
+      "authorName": "Ryan & Matt Data Science",
+      "authorUrl": "https://www.youtube.com/@RyanAndMattDataScience",
+      "directUrl": "https://www.youtube.com/watch?v=BDO8-zwdkDs",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBDO8-zwdkDs%26format%3Djson"
+    }
+  ]
+}

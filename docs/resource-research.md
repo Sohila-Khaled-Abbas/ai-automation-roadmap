@@ -160,7 +160,8 @@ The shared Gemini Notebook was accessible in the connected account and exposes i
 | Public direct-page Ryan & Matt n8n Cohere RAG reranker verification | 1 additional record | `docs/verified-youtube-rag-reranker-match.json` |
 | Public direct-page Ryan & Matt n8n RAG text-splitter verification | 1 additional record | `docs/verified-youtube-rag-text-splitters-match.json` |
 | Public YouTube oEmbed fallback verification during connected-browser outage | 3 additional records | `docs/verified-youtube-oembed-fallback-2026-08-23.json` |
-| Total collection status | 106 direct YouTube pages; 100 search fallbacks remain | Persistent-library verification query |
+| Public YouTube oEmbed workflow-pattern verification during connected-browser outage | 3 additional records | `docs/verified-youtube-oembed-workflow-patterns-2026-08-23.json` |
+| Total collection status | 109 direct YouTube pages; 97 search fallbacks remain | Persistent-library verification query |
 
 The recovered entry **`016 | AI Agents Introduction | مقدمة عن وكلاء الذكاء الاصطناعي`** was checked against its public video page before replacement. Its title matched exactly and its creator metadata identified Karim Nabil; the persistent provider and description were corrected to match that evidence. The remaining 177 catalogue search links have not been guessed or bulk-replaced; each still requires an exact item-level title-and-provider match from a public playlist, direct page, or Notebook export.
 
