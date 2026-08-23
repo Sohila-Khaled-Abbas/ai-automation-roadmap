@@ -1,0 +1,29 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser remained unavailable for direct video-page and channel-attribution rendering. The direct YouTube URL and its public oEmbed response were checked on 2026-08-23. The accepted record has an oEmbed title exactly matching the imported catalogue title and an author_name of AI Plus - محمد الشامي. Nearby title variants and candidates without an individual direct-page result were deliberately retained as search fallbacks.",
+  "matches": [
+    {
+      "libraryId": 150025,
+      "catalogueTitle": "02 ــــ تعرف علي الفرق بين الـ AI Agents والـ Workflows مع أمثلة عملية || Anthropic Article",
+      "oEmbedTitle": "02 ــــ تعرف علي الفرق بين الـ AI Agents والـ Workflows مع أمثلة عملية || Anthropic Article",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=YhoY9sDgqbk",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DYhoY9sDgqbk%26format%3Djson"
+    }
+  ],
+  "retainedSearchFallbacks": [
+    {
+      "libraryId": 150026,
+      "reason": "The candidate public oEmbed title is an English-language variant rather than the exact imported Arabic catalogue title."
+    },
+    {
+      "libraryId": 150027,
+      "reason": "The candidate public oEmbed title is an English-language variant rather than the exact imported Arabic catalogue title."
+    },
+    {
+      "libraryId": 150028,
+      "reason": "The candidate public oEmbed title contains a title-text whitespace variant, so it was not treated as an exact match."
+    }
+  ]
+}
