@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-08-23",
+  "catalogueResourceId": 150094,
+  "importedTitle": "55 -- Messenger Multi-Agent | السكرتير الخارق للماسنجر (Voice + Text + Image) – الجزء الثاني",
+  "candidateUrl": "https://www.youtube.com/watch?v=cdzs-cz-_1o",
+  "verificationMethod": "YouTube public oEmbed metadata",
+  "oembedTitle": "AI agent in messenger (responding to messages and saving orders in sheet)",
+  "authorName": "Dlimi & Bensalah - دليمي و بن صالح",
+  "decision": "rejected_title_and_author_mismatch",
+  "catalogueAction": "Retain the imported YouTube search URL unchanged."
+}
