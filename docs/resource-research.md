@@ -169,9 +169,10 @@ The shared Gemini Notebook was accessible in the connected account and exposes i
 | Public YouTube oEmbed AI Plus Grok4-chatbot and RAG vector-database verification during connected-browser outage | 3 additional records | `docs/verified-youtube-oembed-ai-plus-rag-branches-2026-08-23.json` |
 | Public YouTube oEmbed AI Plus GPT-Oss and GPT-5 verification during connected-browser outage | 3 additional records | `docs/verified-youtube-oembed-ai-plus-gpt5-2026-08-23.json` |
 | Public YouTube oEmbed AI Plus WhatsApp API verification during connected-browser outage | 3 additional records | `docs/verified-youtube-oembed-ai-plus-whatsapp-2026-08-23.json` |
-| Total collection status | 131 direct YouTube pages; 75 search fallbacks remain | Persistent-library verification query |
+| Public YouTube oEmbed AI Plus Docker, Meta Business Account, and Community Nodes verification during connected-browser outage | 3 additional records | `docs/verified-youtube-oembed-ai-plus-docker-community-2026-08-23.json` |
+| Total collection status | 134 direct YouTube pages; 72 search fallbacks remain | Persistent-library verification query |
 
-The recovered entry **`016 | AI Agents Introduction | مقدمة عن وكلاء الذكاء الاصطناعي`** was checked against its public video page before replacement. Its title matched exactly and its creator metadata identified Karim Nabil; the persistent provider and description were corrected to match that evidence. The remaining 75 catalogue search links have not been guessed or bulk-replaced; each still requires an exact item-level title-and-provider match from a public playlist, direct page, or Notebook export.
+The recovered entry **`016 | AI Agents Introduction | مقدمة عن وكلاء الذكاء الاصطناعي`** was checked against its public video page before replacement. Its title matched exactly and its creator metadata identified Karim Nabil; the persistent provider and description were corrected to match that evidence. The remaining 72 catalogue search links have not been guessed or bulk-replaced; each still requires an exact item-level title-and-provider match from a public playlist, direct page, or Notebook export.
 
 ### Public-only recovery constraint
 

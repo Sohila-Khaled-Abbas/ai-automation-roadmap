@@ -1,0 +1,33 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser remained unavailable for direct video-page and channel-attribution rendering. Each direct YouTube URL and its public oEmbed response were checked on 2026-08-23. For every accepted record, the oEmbed title exactly matches the imported catalogue title and author_name is AI Plus - محمد الشامي.",
+  "matches": [
+    {
+      "libraryId": 150084,
+      "catalogueTitle": "47 - أسهل طريقة لتحديث n8n في Docker من غير ما تخسر شغلك!",
+      "oEmbedTitle": "47 - أسهل طريقة لتحديث n8n في Docker من غير ما تخسر شغلك!",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=6I_d2gM-3yQ",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D6I_d2gM-3yQ%26format%3Djson"
+    },
+    {
+      "libraryId": 150085,
+      "catalogueTitle": "48 -- إزاي تضيف رقمك على Meta Business Account ببلاش بطريقه رسميه!! || #n8n",
+      "oEmbedTitle": "48 -- إزاي تضيف رقمك على Meta Business Account ببلاش بطريقه رسميه!! || #n8n",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=PMIqeGDHMCc",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DPMIqeGDHMCc%26format%3Djson"
+    },
+    {
+      "libraryId": 150088,
+      "catalogueTitle": "51 -- n8n Community Nodes — لازم تعرفها! 🚀",
+      "oEmbedTitle": "51 -- n8n Community Nodes — لازم تعرفها! 🚀",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=iudiztkDSec",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DiudiztkDSec%26format%3Djson"
+    }
+  ]
+}
