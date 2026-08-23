@@ -1,0 +1,33 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser remained unavailable for direct video-page and channel-attribution rendering. Each direct YouTube URL and its public oEmbed response were checked on 2026-08-23. For every accepted record, the oEmbed title exactly matches the imported catalogue title and author_name is AI Plus - محمد الشامي.",
+  "matches": [
+    {
+      "libraryId": 150097,
+      "catalogueTitle": "58 — ما هي MCP؟ لماذا ظهرت؟ وكيف تستخدمها مع #n8n خطوة-بخطوة",
+      "oEmbedTitle": "58 — ما هي MCP؟ لماذا ظهرت؟ وكيف تستخدمها مع #n8n خطوة-بخطوة",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=rUpaC3wWLOM",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DrUpaC3wWLOM%26format%3Djson"
+    },
+    {
+      "libraryId": 150099,
+      "catalogueTitle": "60 -- جزء1 -- بناء n8n AI Agents# في ثواني!! || MCP",
+      "oEmbedTitle": "60 -- جزء1 -- بناء n8n AI Agents# في ثواني!! || MCP",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=8FrJiDxO0g8",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8FrJiDxO0g8%26format%3Djson"
+    },
+    {
+      "libraryId": 150101,
+      "catalogueTitle": "62 -- إزاي توفّر الـ Tokens باستخدام MCP + Multi-Agents على n8n 🔥",
+      "oEmbedTitle": "62 -- إزاي توفّر الـ Tokens باستخدام MCP + Multi-Agents على n8n 🔥",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=W_m-iSQAHa0",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DW_m-iSQAHa0%26format%3Djson"
+    }
+  ]
+}
