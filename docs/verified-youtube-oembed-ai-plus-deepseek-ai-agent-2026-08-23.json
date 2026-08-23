@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-08-23",
+  "verificationMethod": "YouTube public oEmbed metadata",
+  "browserEvidenceStatus": "The connected browser remained unable to expose usable individual-video page content, so the previously authorised public oEmbed fallback was used.",
+  "acceptanceCriteria": {
+    "title": "Exact equality with the imported catalogue title",
+    "authorName": "AI Plus - محمد الشامي, matching the catalogue provider AI Plus · Mohamed Elshamy"
+  },
+  "matches": [
+    {
+      "resourceId": 150051,
+      "importedTitle": "22 – الجزء الأول: أسعار DeepSeek API | Tokens، Context Window و Caching Essentials",
+      "directUrl": "https://www.youtube.com/watch?v=qXbCJ8aZ3A8",
+      "oembedTitle": "22 – الجزء الأول: أسعار DeepSeek API | Tokens، Context Window و Caching Essentials",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "accepted_exact_title_and_author"
+    },
+    {
+      "resourceId": 150054,
+      "importedTitle": "23 – الجزء الثاني: كيف توصل DeepSeek و Gemini و Groq مع n8n بخطوات بسيطة!",
+      "directUrl": "https://www.youtube.com/watch?v=0ZsabfHpvZ4",
+      "oembedTitle": "23 – الجزء الثاني: كيف توصل DeepSeek و Gemini و Groq مع n8n بخطوات بسيطة!",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "accepted_exact_title_and_author"
+    },
+    {
+      "resourceId": 150055,
+      "importedTitle": "24 – اكتشف بعمق AI Agent و Simple Memory Nodes in n8n خطوة بخطوة!",
+      "candidateUrl": "https://www.youtube.com/watch?v=xZNIweJqSZg",
+      "oembedTitle": "24 – اكتشف بعمق AI Agent و Simple Memory Nodes في n8n خطوة بخطوة!",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "retained_as_search_fallback_title_variant_in_not_exact"
+    }
+  ]
+}
