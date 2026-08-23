@@ -1,0 +1,13 @@
+{
+  "source": "https://www.youtube.com/watch?v=_dZVQuQIWMs",
+  "verification": "Public direct-page browser verification on 2026-08-23. The displayed video title exactly matches the imported catalogue title; YouTube adds an Auto-dubbed badge separately. The visible page owner is Ryan & Matt Data Science, matching the persisted provider.",
+  "matches": [
+    {
+      "libraryId": 150123,
+      "catalogueTitle": "Build a LinkedIn Job Scraper in 30 Minutes | n8n + Apify Tutorial (Free Template)",
+      "publicVideoTitle": "Build a LinkedIn Job Scraper in 30 Minutes | n8n + Apify Tutorial (Free Template)",
+      "provider": "Ryan & Matt Data Science",
+      "directUrl": "https://www.youtube.com/watch?v=_dZVQuQIWMs"
+    }
+  ]
+}

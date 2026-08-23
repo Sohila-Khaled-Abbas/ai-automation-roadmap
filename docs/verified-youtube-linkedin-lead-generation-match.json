@@ -1,0 +1,13 @@
+{
+  "source": "https://www.youtube.com/watch?v=9ZFnwLBAQY8",
+  "verification": "Public direct-page browser verification on 2026-08-23. The displayed video title exactly matches the imported catalogue title. The visible page owner is Ryan & Matt Data Science, matching the persisted provider.",
+  "matches": [
+    {
+      "libraryId": 150121,
+      "catalogueTitle": "Automate LinkedIn Lead Generation with this N8N Workflow (Apify & Google Sheets)",
+      "publicVideoTitle": "Automate LinkedIn Lead Generation with this N8N Workflow (Apify & Google Sheets)",
+      "provider": "Ryan & Matt Data Science",
+      "directUrl": "https://www.youtube.com/watch?v=9ZFnwLBAQY8"
+    }
+  ]
+}
