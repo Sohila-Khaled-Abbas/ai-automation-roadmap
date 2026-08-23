@@ -1,0 +1,33 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser remained unavailable for direct video-page and channel-attribution rendering. Each direct YouTube URL and its public oEmbed response were checked on 2026-08-23. For every accepted record, the oEmbed title exactly matches the imported catalogue title and author_name is AI Plus - محمد الشامي. The first record's originally imported Karim Nabil provider label conflicts with that public creator evidence and is corrected in the persisted row.",
+  "matches": [
+    {
+      "libraryId": 150016,
+      "catalogueTitle": "05 – الأتمتة العادية أم الأتمتة بالذكاء الاصطناعي أم الـ AI Agents؟ الفروقات الجوهرية ببساطة",
+      "oEmbedTitle": "05 – الأتمتة العادية أم الأتمتة بالذكاء الاصطناعي أم الـ AI Agents؟ الفروقات الجوهرية ببساطة",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=zeBk0C1K_Eo",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DzeBk0C1K_Eo%26format%3Djson"
+    },
+    {
+      "libraryId": 150018,
+      "catalogueTitle": "01 __ أسهل طريقه لفهم AI Agent والفرق بينه وبين الـ Large Language Models ببساطة",
+      "oEmbedTitle": "01 __ أسهل طريقه لفهم AI Agent والفرق بينه وبين الـ Large Language Models ببساطة",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=J5HaXOTy16g",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJ5HaXOTy16g%26format%3Djson"
+    },
+    {
+      "libraryId": 150023,
+      "catalogueTitle": "02 - ليه كل المطورين بدأوا يستخدموا Supabase Database مع n8n؟!",
+      "oEmbedTitle": "02 - ليه كل المطورين بدأوا يستخدموا Supabase Database مع n8n؟!",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=DGCWwVlBimc",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DDGCWwVlBimc%26format%3Djson"
+    }
+  ]
+}
