@@ -1,0 +1,33 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser remained unavailable for direct video-page and channel-attribution rendering. Each direct YouTube URL and its public oEmbed response were checked on 2026-08-23. Every accepted record has an oEmbed title exactly matching the imported catalogue title. The `13 n8n Workflow Concepts` record's originally imported AI Plus provider label conflicts with public oEmbed creator evidence and is corrected to Ryan & Matt Data Science.",
+  "matches": [
+    {
+      "libraryId": 150040,
+      "catalogueTitle": "13 n8n Workflow Concepts For Beginners (2026 Update)",
+      "oEmbedTitle": "13 n8n Workflow Concepts For Beginners (2026 Update)",
+      "authorName": "Ryan & Matt Data Science",
+      "authorUrl": "https://www.youtube.com/@RyanAndMattDataScience",
+      "directUrl": "https://www.youtube.com/watch?v=UvaNXHkH3-s",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUvaNXHkH3-s%26format%3Djson"
+    },
+    {
+      "libraryId": 150048,
+      "catalogueTitle": "20 – الجزء 1: شرح Basic Chain Node وأنواع رسائل LLM مثل User وSystem وAssistant",
+      "oEmbedTitle": "20 – الجزء 1: شرح Basic Chain Node وأنواع رسائل LLM مثل User وSystem وAssistant",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=ocw40WNQn78",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Docw40WNQn78%26format%3Djson"
+    },
+    {
+      "libraryId": 150049,
+      "catalogueTitle": "20 – الجزء 2: شرح Basic LLM Chain Parameters مع أنواع Parser المختلفة",
+      "oEmbedTitle": "20 – الجزء 2: شرح Basic LLM Chain Parameters مع أنواع Parser المختلفة",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=QPdTuDX5qtc",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DQPdTuDX5qtc%26format%3Djson"
+    }
+  ]
+}
