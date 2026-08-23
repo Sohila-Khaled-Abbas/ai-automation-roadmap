@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-08-23",
+  "verificationMethod": "YouTube public oEmbed metadata",
+  "browserEvidenceStatus": "The connected browser remained unable to expose usable individual-video page content, so the previously authorised public oEmbed fallback was used.",
+  "acceptanceCriteria": {
+    "title": "Exact equality with the imported catalogue title",
+    "authorName": "AI Plus - محمد الشامي, matching the catalogue provider AI Plus · Mohamed Elshamy"
+  },
+  "matches": [
+    {
+      "resourceId": 150072,
+      "importedTitle": "35 -- جزء 1 -- تسعة أنواع استضافة لـ n8n: المميزات، العيوب، وأيه المناسب لك!!",
+      "candidateUrl": "https://www.youtube.com/watch?v=vzOR0_gQknY",
+      "oembedTitle": "35 -- جزء 1 -- تسعة أنواع استضافة لـ n8n: المميزات، العيوب، وأيه المناسب لك!!",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "retained_as_search_fallback_nonbreaking_space_title_variant"
+    },
+    {
+      "resourceId": 150074,
+      "importedTitle": "36 -- سر فشل WhatsAppو Telegram في n8n Self-Hosting – والـــحــــل!!!",
+      "directUrl": "https://www.youtube.com/watch?v=ID55vhm9m9U",
+      "oembedTitle": "36 -- سر فشل WhatsAppو Telegram في n8n Self-Hosting – والـــحــــل!!!",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "accepted_exact_title_and_author"
+    },
+    {
+      "resourceId": 150075,
+      "importedTitle": "37 -- تخلص نهائيًا من مشاكل WhatsApp و Telegram في n8n Self-Hosting",
+      "directUrl": "https://www.youtube.com/watch?v=VXCC8jHN7zA",
+      "oembedTitle": "37 -- تخلص نهائيًا من مشاكل WhatsApp و Telegram في n8n Self-Hosting",
+      "authorName": "AI Plus - محمد الشامي",
+      "decision": "accepted_exact_title_and_author"
+    }
+  ]
+}
