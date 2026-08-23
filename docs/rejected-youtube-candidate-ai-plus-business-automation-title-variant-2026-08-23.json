@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-08-23",
+  "resourceId": 150024,
+  "importedTitle": "02 | بنحتاج نعرف إيه من فرق البيزنس قبل الأتمتة | Business AI Automation",
+  "candidateUrl": "https://www.youtube.com/watch?v=YhoY9sDgqbk",
+  "publicPlaylistUrl": "https://www.youtube.com/playlist?list=PLZ42ZUInDWC79Bw1K_tYQhUPfFRV7fy8v",
+  "publicOEmbedTitle": "02 ــــ تعرف علي الفرق بين الـ AI Agents والـ Workflows مع أمثلة عملية || Anthropic Article",
+  "publicAuthorName": "AI Plus - محمد الشامي",
+  "decision": "rejected_different_lesson_title",
+  "reason": "The creator and course playlist match, but the canonical page is an AI Agents versus Workflows lesson rather than the imported business-team discovery-before-automation lesson. It cannot replace the search fallback under the exact-title policy.",
+  "databaseUpdate": "none",
+  "result": "search_fallback_retained"
+}
