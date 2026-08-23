@@ -1,0 +1,13 @@
+{
+  "source": "https://www.youtube.com/watch?v=eg8oo3QweLo",
+  "verification": "Public direct-page browser verification on 2026-08-23. The displayed video title exactly matches the imported catalogue title. The visible page owner is Ryan & Matt Data Science, matching the persisted provider.",
+  "matches": [
+    {
+      "libraryId": 150133,
+      "catalogueTitle": "How to Connect GPT 5 to N8N (In 5 Minutes)",
+      "publicVideoTitle": "How to Connect GPT 5 to N8N (In 5 Minutes)",
+      "provider": "Ryan & Matt Data Science",
+      "directUrl": "https://www.youtube.com/watch?v=eg8oo3QweLo"
+    }
+  ]
+}
