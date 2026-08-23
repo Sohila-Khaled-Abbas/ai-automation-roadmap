@@ -1,0 +1,33 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser remained unavailable for direct video-page and channel-attribution rendering. Each direct YouTube URL and its public oEmbed response were checked on 2026-08-23. For every accepted record, the oEmbed title exactly matches the imported catalogue title and author_name is AI Plus - محمد الشامي.",
+  "matches": [
+    {
+      "libraryId": 150091,
+      "catalogueTitle": "53 -- ابني نظام Multi-Agent لواتساب باستخدام Evolution API و n8n 🚀",
+      "oEmbedTitle": "53 -- ابني نظام Multi-Agent لواتساب باستخدام Evolution API و n8n 🚀",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=9oNP7zO2xyg",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9oNP7zO2xyg%26format%3Djson"
+    },
+    {
+      "libraryId": 150095,
+      "catalogueTitle": "56 -- 🚀 استضافة n8n + Evolution API | على Hostinger VPS",
+      "oEmbedTitle": "56 -- 🚀 استضافة n8n + Evolution API | على Hostinger VPS",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=vzgoxxwZMlI",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvzgoxxwZMlI%26format%3Djson"
+    },
+    {
+      "libraryId": 150096,
+      "catalogueTitle": "57 -- تحديث Evolution API (Free WhatsApp API) علي Hostinger VPS",
+      "oEmbedTitle": "57 -- تحديث Evolution API (Free WhatsApp API) علي Hostinger VPS",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=bm_ddbneM48",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dbm_ddbneM48%26format%3Djson"
+    }
+  ]
+}
