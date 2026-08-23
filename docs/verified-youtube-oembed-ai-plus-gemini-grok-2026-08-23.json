@@ -1,0 +1,33 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser remained unavailable for direct video-page and channel-attribution rendering. Each direct YouTube URL and its public oEmbed response were checked on 2026-08-23. For every accepted record, the oEmbed title exactly matches the imported catalogue title and author_name is AI Plus - محمد الشامي.",
+  "matches": [
+    {
+      "libraryId": 150050,
+      "catalogueTitle": "21 – كيف تُؤتمت مراجعات العملاء مجانًا؟ Ollama Llama 3.2 مع Google Sheets",
+      "oEmbedTitle": "21 – كيف تُؤتمت مراجعات العملاء مجانًا؟ Ollama Llama 3.2 مع Google Sheets",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=72oMzAMQO8g",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D72oMzAMQO8g%26format%3Djson"
+    },
+    {
+      "libraryId": 150052,
+      "catalogueTitle": "22 – الجزء الثاني: اكتشف أسرار Gemini API Pricing | Plans، Tiers و Usage بتفاصيل عميقة!",
+      "oEmbedTitle": "22 – الجزء الثاني: اكتشف أسرار Gemini API Pricing | Plans، Tiers و Usage بتفاصيل عميقة!",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=5uNuUM0wO7o",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D5uNuUM0wO7o%26format%3Djson"
+    },
+    {
+      "libraryId": 150057,
+      "catalogueTitle": "26 – كل ما تحتاج معرفته عن Grok4 من لايف إيلون ماسك + دمجه مع n8n",
+      "oEmbedTitle": "26 – كل ما تحتاج معرفته عن Grok4 من لايف إيلون ماسك + دمجه مع n8n",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=exsnquJcSmE",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DexsnquJcSmE%26format%3Djson"
+    }
+  ]
+}
