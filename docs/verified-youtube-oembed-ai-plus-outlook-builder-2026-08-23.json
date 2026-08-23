@@ -1,0 +1,33 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser remained unavailable for direct video-page and channel-attribution rendering. Each direct YouTube URL and its public oEmbed response were checked on 2026-08-23. For every accepted record, the oEmbed title exactly matches the imported catalogue title and author_name is AI Plus - محمد الشامي.",
+  "matches": [
+    {
+      "libraryId": 150102,
+      "catalogueTitle": "63 -- اربط n8n مع Microsoft Outlook !",
+      "oEmbedTitle": "63 -- اربط n8n مع Microsoft Outlook !",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=P0r7nhuD_yw",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DP0r7nhuD_yw%26format%3Djson"
+    },
+    {
+      "libraryId": 150103,
+      "catalogueTitle": "64 -- اكتشف أخطاء تصميمك أسرع 20 مرة | وكيل Outlook الذكي (MCP + Multi-Agents)",
+      "oEmbedTitle": "64 -- اكتشف أخطاء تصميمك أسرع 20 مرة | وكيل Outlook الذكي (MCP + Multi-Agents)",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=9g1GctJi6jQ",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9g1GctJi6jQ%26format%3Djson"
+    },
+    {
+      "libraryId": 150104,
+      "catalogueTitle": "65 -- هل n8n AI Builder الجديد يستحق التجربة فعلاً؟ 🤖🔥",
+      "oEmbedTitle": "65 -- هل n8n AI Builder الجديد يستحق التجربة فعلاً؟ 🤖🔥",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=wO277cs-WWI",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwO277cs-WWI%26format%3Djson"
+    }
+  ]
+}
