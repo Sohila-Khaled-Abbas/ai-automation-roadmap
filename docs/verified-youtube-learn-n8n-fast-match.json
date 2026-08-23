@@ -1,0 +1,13 @@
+{
+  "source": "https://www.youtube.com/watch?v=AVoeSeDpviU",
+  "verification": "Public direct-page browser verification on 2026-08-23. The displayed video title exactly matches the imported catalogue title. The visible page owner is Ryan & Matt Data Science, matching the persisted provider.",
+  "matches": [
+    {
+      "libraryId": 150139,
+      "catalogueTitle": "How to Learn n8n FAST (Do This or Keep Struggling)",
+      "publicVideoTitle": "How to Learn n8n FAST (Do This or Keep Struggling)",
+      "provider": "Ryan & Matt Data Science",
+      "directUrl": "https://www.youtube.com/watch?v=AVoeSeDpviU"
+    }
+  ]
+}
