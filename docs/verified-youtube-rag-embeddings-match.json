@@ -1,0 +1,13 @@
+{
+  "source": "https://www.youtube.com/watch?v=u0krXPPB5SU",
+  "verification": "Public direct-page browser verification on 2026-08-23. The displayed video title exactly matches the imported catalogue title. The visible page owner is Ryan & Matt Data Science, matching the persisted provider.",
+  "matches": [
+    {
+      "libraryId": 150196,
+      "catalogueTitle": "n8n RAG Embeddings with OpenAI (Small & Large)",
+      "publicVideoTitle": "n8n RAG Embeddings with OpenAI (Small & Large)",
+      "provider": "Ryan & Matt Data Science",
+      "directUrl": "https://www.youtube.com/watch?v=u0krXPPB5SU"
+    }
+  ]
+}
