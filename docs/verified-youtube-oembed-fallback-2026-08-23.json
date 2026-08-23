@@ -1,0 +1,33 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser repeatedly timed out while rendering channel attribution. Each direct YouTube URL and its public oEmbed response were checked on 2026-08-23. For each accepted record, the oEmbed `title` exactly matches the imported catalogue title and `author_name` is Ryan & Matt Data Science. This is explicitly distinct from the usual browser-visible channel verification method.",
+  "matches": [
+    {
+      "libraryId": 150204,
+      "catalogueTitle": "n8n Text Classification Tutorial: Learn AI Automation Fast!",
+      "oEmbedTitle": "n8n Text Classification Tutorial: Learn AI Automation Fast!",
+      "authorName": "Ryan & Matt Data Science",
+      "authorUrl": "https://www.youtube.com/@RyanAndMattDataScience",
+      "directUrl": "https://www.youtube.com/watch?v=7FAHn2zKVBA",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7FAHn2zKVBA%26format%3Djson"
+    },
+    {
+      "libraryId": 150205,
+      "catalogueTitle": "n8n sticky notes - Keep your Workflows Organized!",
+      "oEmbedTitle": "n8n sticky notes - Keep your Workflows Organized!",
+      "authorName": "Ryan & Matt Data Science",
+      "authorUrl": "https://www.youtube.com/@RyanAndMattDataScience",
+      "directUrl": "https://www.youtube.com/watch?v=e5f0P1lJxuo",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3De5f0P1lJxuo%26format%3Djson"
+    },
+    {
+      "libraryId": 150206,
+      "catalogueTitle": "n8n v2 Is Coming Soon — Here’s What You Absolutely Need to Know",
+      "oEmbedTitle": "n8n v2 Is Coming Soon — Here’s What You Absolutely Need to Know",
+      "authorName": "Ryan & Matt Data Science",
+      "authorUrl": "https://www.youtube.com/@RyanAndMattDataScience",
+      "directUrl": "https://www.youtube.com/watch?v=7jo3QLVTmyE",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7jo3QLVTmyE%26format%3Djson"
+    }
+  ]
+}
