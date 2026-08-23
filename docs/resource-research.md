@@ -85,10 +85,15 @@ The shared Gemini Notebook was accessible in the connected account and exposes i
 | Official `n8n with Karim` playlist — second guarded batch | 10 additional records | `docs/verified-youtube-playlist-batch-2.json` |
 | Public direct-page title-variant verification | 1 additional record | `docs/verified-youtube-title-variant-match.json` |
 | Public direct-page exact-title verification | 1 additional record | `docs/verified-youtube-ai-agents-introduction-match.json` |
-| Total collection status | 29 direct YouTube pages; 177 search fallbacks remain | Persistent-library verification query |
+| Public direct-page Ryan & Matt title-and-provider verification | 1 additional record | `docs/verified-youtube-n8n-features-match.json` |
+| Public direct-page Ryan & Matt image-workflow verification | 1 additional record | `docs/verified-youtube-ai-image-editing-match.json` |
+| Public direct-page Ryan & Matt real-estate-workflow verification | 1 additional record | `docs/verified-youtube-real-estate-outreach-match.json` |
+| Total collection status | 32 direct YouTube pages; 174 search fallbacks remain | Persistent-library verification query |
 
 The recovered entry **`016 | AI Agents Introduction | مقدمة عن وكلاء الذكاء الاصطناعي`** was checked against its public video page before replacement. Its title matched exactly and its creator metadata identified Karim Nabil; the persistent provider and description were corrected to match that evidence. The remaining 177 catalogue search links have not been guessed or bulk-replaced; each still requires an exact item-level title-and-provider match from a public playlist, direct page, or Notebook export.
 
 ### Public-only recovery constraint
 
 The user requested that no Google or Notebook sign-in be required for continued recovery. The shared Notebook is therefore treated as a non-blocking reference unless a public export or copied item-level source list is supplied. Further replacements use only publicly accessible playlist and direct-video evidence with exact title-and-provider checks; ambiguous candidates remain labelled YouTube-search fallbacks.
+
+On 23 August, a public AI Automation playlist surfaced by targeted search did not expose item-level content before the connected browser timed out. It therefore supplied no replacement evidence, and the remaining candidate link was left unchanged.

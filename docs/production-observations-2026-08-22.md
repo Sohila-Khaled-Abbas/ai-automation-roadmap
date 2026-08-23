@@ -14,3 +14,7 @@ This note records a browser check after the expanded learning-process release. I
 ## Release decision
 
 The site’s data-plane evidence is positive: the Vercel bundle points at the public catalogue bridge and the bridge returns the persisted catalogue to the Vercel origin. The UI-plane evidence remains incomplete because the managed root was in maintenance mode and the connected browser session did not expose a hydrated Vercel page. Keep the live-browser checklist items open until those conditions change.
+
+### Follow-up browser attempt
+
+The latest Vercel deployment was opened again after the connected browser successfully rendered an unrelated public YouTube page. It returned the expected document title, but no interactive elements or hydrated page content were exposed and screenshot upload again failed. This isolates neither a browser-extension limitation nor a client-hydration issue conclusively; it does reinforce that no claim of end-to-end live Vercel card rendering should be made without stronger evidence.

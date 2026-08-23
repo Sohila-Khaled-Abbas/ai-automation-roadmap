@@ -1,0 +1,13 @@
+{
+  "source": "https://www.youtube.com/watch?v=h3vi6cpOoDk",
+  "verification": "Public direct-page browser verification on 2026-08-23. The displayed video title exactly matches the imported catalogue title. The visible page owner is Ryan & Matt Data Science, matching the persisted provider.",
+  "matches": [
+    {
+      "libraryId": 150120,
+      "catalogueTitle": "AI Real Estate Outreach Made Easy with n8n, HeyGen, and Scout",
+      "publicVideoTitle": "AI Real Estate Outreach Made Easy with n8n, HeyGen, and Scout",
+      "provider": "Ryan & Matt Data Science",
+      "directUrl": "https://www.youtube.com/watch?v=h3vi6cpOoDk"
+    }
+  ]
+}

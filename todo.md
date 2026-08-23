@@ -120,3 +120,4 @@
 - [ ] Validate provenance, public learning flow, quality checks, GitHub Actions, and the managed/Vercel production release after the expansion.
 - [x] Open selected official n8n case studies individually, record their direct canonical URLs, and update the source-backed casebook entries.
 - [x] Add and verify explicit prerequisite mapping for the new template, case-study, and project additions within the nine-stage learning flow.
+- [ ] Continue public online exact-title recovery in bounded, provider-verified batches and document every accepted direct-video replacement.
