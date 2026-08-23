@@ -84,9 +84,10 @@ The shared Gemini Notebook was accessible in the connected account and exposes i
 | Official `Advanced n8n with Karim` playlist | 6 additional records | `docs/verified-advanced-youtube-playlist-matches.json` |
 | Official `n8n with Karim` playlist — second guarded batch | 10 additional records | `docs/verified-youtube-playlist-batch-2.json` |
 | Public direct-page title-variant verification | 1 additional record | `docs/verified-youtube-title-variant-match.json` |
-| Total collection status | 28 direct YouTube pages; 178 search fallbacks remain | Persistent-library verification query |
+| Public direct-page exact-title verification | 1 additional record | `docs/verified-youtube-ai-agents-introduction-match.json` |
+| Total collection status | 29 direct YouTube pages; 177 search fallbacks remain | Persistent-library verification query |
 
-One Advanced-playlist candidate has a minor title difference (`API Document` versus `API Documentation`) and remains a search fallback until independently confirmed. The remaining 189 search links have not been guessed or bulk-replaced; each still requires an exact item-level title-and-provider match from a public playlist, direct page, or Notebook export.
+The recovered entry **`016 | AI Agents Introduction | مقدمة عن وكلاء الذكاء الاصطناعي`** was checked against its public video page before replacement. Its title matched exactly and its creator metadata identified Karim Nabil; the persistent provider and description were corrected to match that evidence. The remaining 177 catalogue search links have not been guessed or bulk-replaced; each still requires an exact item-level title-and-provider match from a public playlist, direct page, or Notebook export.
 
 ### Public-only recovery constraint
 

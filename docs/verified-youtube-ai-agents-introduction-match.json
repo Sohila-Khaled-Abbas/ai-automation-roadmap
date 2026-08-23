@@ -1,0 +1,13 @@
+{
+  "source": "https://www.youtube.com/watch?v=084OP5qdAmU",
+  "verification": "Public direct-page browser verification on 2026-08-23. The YouTube title exactly matches the imported catalogue title, including lesson number, English title, and Arabic subtitle. The page identifies the creator as Karim Nabil, so the persisted provider metadata was aligned before replacing the search fallback.",
+  "matches": [
+    {
+      "libraryId": 150021,
+      "catalogueTitle": "016 | AI Agents Introduction | مقدمة عن وكلاء الذكاء الاصطناعي",
+      "publicVideoTitle": "016 | AI Agents Introduction | مقدمة عن وكلاء الذكاء الاصطناعي",
+      "provider": "n8n with Karim · Karim Nabil",
+      "directUrl": "https://www.youtube.com/watch?v=084OP5qdAmU"
+    }
+  ]
+}
