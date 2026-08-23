@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-08-23",
+  "channelUrl": "https://www.youtube.com/@AIPlus_ME/videos",
+  "browserEvidence": {
+    "initialLoad": "Only the channel title and shell elements were exposed; no hydrated video cards or URLs were available.",
+    "followUp": "The connected browser extension timed out with HTTP 504 before channel content could be inspected."
+  },
+  "affectedCatalogueResources": [150027, 150028, 150029],
+  "decision": "No direct link inferred; retain existing YouTube search fallbacks until an exact public title-and-author match is independently verified."
+}
