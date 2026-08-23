@@ -1,0 +1,13 @@
+{
+  "source": "https://www.youtube.com/watch?v=ab5aCHbIFio",
+  "verification": "Public direct-page browser verification on 2026-08-23. The displayed video title exactly matches the imported catalogue title. The visible page owner is Ryan & Matt Data Science, matching the persisted provider.",
+  "matches": [
+    {
+      "libraryId": 150187,
+      "catalogueTitle": "n8n Compare Datasets Node (Full Guide)",
+      "publicVideoTitle": "n8n Compare Datasets Node (Full Guide)",
+      "provider": "Ryan & Matt Data Science",
+      "directUrl": "https://www.youtube.com/watch?v=ab5aCHbIFio"
+    }
+  ]
+}
