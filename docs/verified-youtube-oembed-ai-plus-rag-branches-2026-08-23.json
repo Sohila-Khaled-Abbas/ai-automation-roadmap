@@ -1,0 +1,33 @@
+{
+  "verificationMethod": "Official public YouTube oEmbed metadata fallback",
+  "reason": "The connected browser remained unavailable for direct video-page and channel-attribution rendering. Each direct YouTube URL and its public oEmbed response were checked on 2026-08-23. For every accepted record, the oEmbed title exactly matches the imported catalogue title and author_name is AI Plus - محمد الشامي.",
+  "matches": [
+    {
+      "libraryId": 150058,
+      "catalogueTitle": "27 – اصنع Smart Chatbot للرد على العملاء باستخدام Grok4 و n8n بسهولة!",
+      "oEmbedTitle": "27 – اصنع Smart Chatbot للرد على العملاء باستخدام Grok4 و n8n بسهولة!",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=C8LkJfR6P8w",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DC8LkJfR6P8w%26format%3Djson"
+    },
+    {
+      "libraryId": 150062,
+      "catalogueTitle": "28 – الجزء 4: RAG ببساطة! ما هي Vector Databases وكيف تزود الـ LLM بالمعلومات بدون إعادة Training",
+      "oEmbedTitle": "28 – الجزء 4: RAG ببساطة! ما هي Vector Databases وكيف تزود الـ LLM بالمعلومات بدون إعادة Training",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=OGw023kOzR0",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DOGw023kOzR0%26format%3Djson"
+    },
+    {
+      "libraryId": 150063,
+      "catalogueTitle": "28 – الجزء 5: RAG ببساطة! أفضل Vector Databases في 2025 وكيف تدعم الـ LLM بدون إعادة Training",
+      "oEmbedTitle": "28 – الجزء 5: RAG ببساطة! أفضل Vector Databases في 2025 وكيف تدعم الـ LLM بدون إعادة Training",
+      "authorName": "AI Plus - محمد الشامي",
+      "authorUrl": "https://www.youtube.com/@AIPlus_ME",
+      "directUrl": "https://www.youtube.com/watch?v=sgRHmT896yY",
+      "oEmbedUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsgRHmT896yY%26format%3Djson"
+    }
+  ]
+}

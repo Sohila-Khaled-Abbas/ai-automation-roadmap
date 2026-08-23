@@ -166,9 +166,10 @@ The shared Gemini Notebook was accessible in the connected account and exposes i
 | Public YouTube oEmbed remaining Ryan & Matt workflow verification during connected-browser outage | 3 additional records | `docs/verified-youtube-oembed-remaining-ryan-matt-2026-08-23.json` |
 | Public YouTube oEmbed workflow-concepts and AI Plus LLM-chain verification during connected-browser outage | 3 additional records; one conflicting provider corrected | `docs/verified-youtube-oembed-ai-plus-llm-chains-2026-08-23.json` |
 | Public YouTube oEmbed AI Plus Ollama, Gemini-pricing, and Grok4 verification during connected-browser outage | 3 additional records | `docs/verified-youtube-oembed-ai-plus-gemini-grok-2026-08-23.json` |
-| Total collection status | 122 direct YouTube pages; 84 search fallbacks remain | Persistent-library verification query |
+| Public YouTube oEmbed AI Plus Grok4-chatbot and RAG vector-database verification during connected-browser outage | 3 additional records | `docs/verified-youtube-oembed-ai-plus-rag-branches-2026-08-23.json` |
+| Total collection status | 125 direct YouTube pages; 81 search fallbacks remain | Persistent-library verification query |
 
-The recovered entry **`016 | AI Agents Introduction | مقدمة عن وكلاء الذكاء الاصطناعي`** was checked against its public video page before replacement. Its title matched exactly and its creator metadata identified Karim Nabil; the persistent provider and description were corrected to match that evidence. The remaining 84 catalogue search links have not been guessed or bulk-replaced; each still requires an exact item-level title-and-provider match from a public playlist, direct page, or Notebook export.
+The recovered entry **`016 | AI Agents Introduction | مقدمة عن وكلاء الذكاء الاصطناعي`** was checked against its public video page before replacement. Its title matched exactly and its creator metadata identified Karim Nabil; the persistent provider and description were corrected to match that evidence. The remaining 81 catalogue search links have not been guessed or bulk-replaced; each still requires an exact item-level title-and-provider match from a public playlist, direct page, or Notebook export.
 
 ### Public-only recovery constraint
 
