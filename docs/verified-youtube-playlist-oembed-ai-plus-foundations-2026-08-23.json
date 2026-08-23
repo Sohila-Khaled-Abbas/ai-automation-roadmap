@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-08-23",
+  "playlistUrl": "https://www.youtube.com/playlist?list=PLZ42ZUInDWC79Bw1K_tYQhUPfFRV7fy8v",
+  "verificationMethod": "Public playlist title/direct URL plus YouTube public oEmbed title and author_name",
+  "matches": [
+    {
+      "resourceId": 150026,
+      "title": "03 ــــ جزء 1ــــ شرح Prompt Chaining: أول Workflow في أنظمة Anthropic الذكية",
+      "directUrl": "https://www.youtube.com/watch?v=KQZI6SNRsjk",
+      "authorName": "AI Plus - محمد الشامي"
+    },
+    {
+      "resourceId": 150031,
+      "title": "07 – كيف تبدأ مع OpenAI API؟ شرح التسجيل، الفوترة، وإعداد مفتاح الـ API بسهولة",
+      "directUrl": "https://www.youtube.com/watch?v=_bCylo0oKw4",
+      "authorName": "AI Plus - محمد الشامي"
+    },
+    {
+      "resourceId": 150033,
+      "title": "08 – نظره عميقه في عالم الـ AI Agents: Think-Time Compute، Function Calling، وأدوات الأتمتة",
+      "directUrl": "https://www.youtube.com/watch?v=vy1IXhdG9qA",
+      "authorName": "AI Plus - محمد الشامي"
+    }
+  ]
+}
