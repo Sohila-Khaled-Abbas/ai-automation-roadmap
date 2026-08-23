@@ -101,7 +101,7 @@
 - [x] Persist curated build challenges in a durable database table with source/provider metadata and expose them through a public tRPC query.
 - [x] Re-validate the build studio after it reads persisted project challenges rather than frontend-only constants.
 - [x] Expand the README and add GitHub-focused documentation for architecture, contribution, project-content maintenance, release verification, and issue/PR workflows.
-- [ ] Verify the current GitHub Actions run, Vercel deployment, and database-backed production endpoints; resolve any publish/configuration gap found.
+- [x] Verify the current GitHub Actions run, Vercel deployment, and database-backed production endpoints; resolve any publish/configuration gap found.
 - [x] Run the updated quality gate and publish the documented GitHub/Vercel maintenance release.
 - [x] Review relevant project guidance and implement targeted, testable enhancements that improve learner navigation, accessibility, or maintenance without adding speculative features.
 - [x] Determine whether protected Vercel production values can be accessed through an authorized configuration path; otherwise obtain secure user entry before retrying the live data release.
