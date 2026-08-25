@@ -1,0 +1,3 @@
+# Public Ryan & Matt Channel Search Observations — 2026-08-25
+
+The public YouTube channel search for **`n8n HTTP Request Node & Tool (Connect to APIs)`** displayed one video with that exact title and the creator **Ryan & Matt Data Science**. Although the dynamically rendered channel search did not expose a stable canonical watch URL in the accessible extraction, a public YouTube search result subsequently exposed the canonical page `https://www.youtube.com/watch?v=NJx4De6FSko`. Its oEmbed title and author metadata matched exactly; the accepted guarded update is documented in `docs/verified-youtube-search-oembed-ryan-matt-http-request-2026-08-25.json`.

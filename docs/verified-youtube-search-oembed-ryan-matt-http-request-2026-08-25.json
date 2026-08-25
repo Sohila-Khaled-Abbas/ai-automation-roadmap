@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-08-25",
+  "channelUrl": "https://www.youtube.com/@RyanAndMattDataScience",
+  "searchUrl": "https://www.youtube.com/results?search_query=n8n+HTTP+Request+Node+%26+Tool+Connect+to+APIs+Ryan+Matt+Data+Science",
+  "verificationMethod": "Public creator-channel search and public YouTube search exposing a direct canonical page, plus public YouTube oEmbed title and author_name with deterministic codepoint equality comparison",
+  "match": {
+    "resourceId": 150191,
+    "title": "n8n HTTP Request Node & Tool (Connect to APIs)",
+    "directUrl": "https://www.youtube.com/watch?v=NJx4De6FSko",
+    "publicOEmbedTitle": "n8n HTTP Request Node & Tool (Connect to APIs)",
+    "authorName": "Ryan & Matt Data Science",
+    "exactCodepointTitleMatch": true,
+    "oldUrl": "https://www.youtube.com/results?search_query=n8n+HTTP+Request+Node+%26+Tool+%28Connect+to+APIs%29",
+    "source": "n8n Mastery Catalogue · English Tutorials & Workflows · YouTube search",
+    "provider": "Ryan & Matt Data Science",
+    "guardedSql": "UPDATE learningResources SET url = 'https://www.youtube.com/watch?v=NJx4De6FSko' WHERE id = 150191 AND title = 'n8n HTTP Request Node & Tool (Connect to APIs)' AND provider = 'Ryan & Matt Data Science' AND source = 'n8n Mastery Catalogue · English Tutorials & Workflows · YouTube search' AND url = 'https://www.youtube.com/results?search_query=n8n+HTTP+Request+Node+%26+Tool+%28Connect+to+APIs%29';"
+  }
+}
