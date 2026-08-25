@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-08-25",
+  "resourceId": 150140,
+  "importedTitle": "How to Travel Safe - General Knowledge",
+  "provider": "Ryan & Matt Data Science",
+  "source": "n8n Mastery Catalogue · English Tutorials & Workflows · YouTube search",
+  "searchUrl": "https://www.youtube.com/results?search_query=How+to+Travel+Safe+General+Knowledge+Ryan+Matt+Data+Science",
+  "verificationMethod": "Public YouTube search and public web search cross-check",
+  "decision": "reject",
+  "reason": "The public YouTube search did not expose an exact Ryan & Matt Data Science video title. The nearest result was a different video, “Travel Smart Demo with ChatGPT and Data Science,” by DATA JARVIS. Public web queries likewise did not return an exact creator-and-title match. The stored transparent search fallback remains unchanged.",
+  "oldUrl": "https://www.youtube.com/results?search_query=How+to+Travel+Safe+-+General+Knowledge"
+}
