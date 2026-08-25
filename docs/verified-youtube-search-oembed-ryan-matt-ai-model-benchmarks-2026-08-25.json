@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-08-25",
+  "searchUrl": "https://www.youtube.com/results?search_query=The+Best+AI+Models+for+n8n+Workflows+LLM+Benchmarks+Ryan+Matt+Data+Science",
+  "verificationMethod": "Public YouTube search exposing a direct canonical page, plus public YouTube oEmbed title and author_name with deterministic codepoint equality comparison",
+  "match": {
+    "resourceId": 150178,
+    "title": "The Best AI Models for n8n Workflows (LLM Benchmarks)",
+    "directUrl": "https://www.youtube.com/watch?v=nNDCCtUZxa0",
+    "publicOEmbedTitle": "The Best AI Models for n8n Workflows (LLM Benchmarks)",
+    "authorName": "Ryan & Matt Data Science",
+    "exactCodepointTitleMatch": true,
+    "oldUrl": "https://www.youtube.com/results?search_query=The+Best+AI+Models+for+n8n+Workflows+%28LLM+Benchmarks%29",
+    "source": "n8n Mastery Catalogue · English Tutorials & Workflows · YouTube search",
+    "provider": "Ryan & Matt Data Science",
+    "guardedSql": "UPDATE learningResources SET url = 'https://www.youtube.com/watch?v=nNDCCtUZxa0' WHERE id = 150178 AND title = 'The Best AI Models for n8n Workflows (LLM Benchmarks)' AND provider = 'Ryan & Matt Data Science' AND source = 'n8n Mastery Catalogue · English Tutorials & Workflows · YouTube search' AND url = 'https://www.youtube.com/results?search_query=The+Best+AI+Models+for+n8n+Workflows+%28LLM+Benchmarks%29';"
+  }
+}
