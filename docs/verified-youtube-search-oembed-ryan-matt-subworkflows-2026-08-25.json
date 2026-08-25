@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-08-25",
+  "searchUrl": "https://www.youtube.com/results?search_query=Scale+Your+n8n+Workflows+with+Sub-Workflows+Parallel+Executions+Ryan+Matt+Data+Science",
+  "verificationMethod": "Public YouTube search exposing a direct canonical page, plus public YouTube oEmbed title and author_name with deterministic codepoint equality comparison",
+  "match": {
+    "resourceId": 150170,
+    "title": "Scale Your n8n Workflows with Sub-Workflows + Parallel Executions",
+    "directUrl": "https://www.youtube.com/watch?v=rtwJ4nUi2kA",
+    "publicOEmbedTitle": "Scale Your n8n Workflows with Sub-Workflows + Parallel Executions",
+    "authorName": "Ryan & Matt Data Science",
+    "exactCodepointTitleMatch": true,
+    "oldUrl": "https://www.youtube.com/results?search_query=Scale+Your+n8n+Workflows+with+Sub-Workflows+%2B+Parallel+Executions",
+    "source": "n8n Mastery Catalogue · English Tutorials & Workflows · YouTube search",
+    "provider": "Ryan & Matt Data Science",
+    "guardedSql": "UPDATE learningResources SET url = 'https://www.youtube.com/watch?v=rtwJ4nUi2kA' WHERE id = 150170 AND title = 'Scale Your n8n Workflows with Sub-Workflows + Parallel Executions' AND provider = 'Ryan & Matt Data Science' AND source = 'n8n Mastery Catalogue · English Tutorials & Workflows · YouTube search' AND url = 'https://www.youtube.com/results?search_query=Scale+Your+n8n+Workflows+with+Sub-Workflows+%2B+Parallel+Executions';"
+  }
+}
