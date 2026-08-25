@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-08-25",
+  "channelUrl": "https://www.youtube.com/@RyanAndMattDataScience",
+  "verificationMethod": "Public creator channel search, public direct watch URL, and YouTube public oEmbed title and author_name with deterministic codepoint equality comparison",
+  "match": {
+    "resourceId": 150203,
+    "title": "n8n Terms & Concepts for Beginners",
+    "directUrl": "https://www.youtube.com/watch?v=8s_no0yQkLo",
+    "publicOEmbedTitle": "n8n Terms & Concepts for Beginners",
+    "authorName": "Ryan & Matt Data Science",
+    "exactCodepointTitleMatch": true,
+    "oldUrl": "https://www.youtube.com/results?search_query=n8n+Terms+%26+Concepts+for+Beginners",
+    "source": "n8n Mastery Catalogue · English Tutorials & Workflows · YouTube search",
+    "provider": "Ryan & Matt Data Science",
+    "guardedSql": "UPDATE learningResources SET url = 'https://www.youtube.com/watch?v=8s_no0yQkLo' WHERE id = 150203 AND title = 'n8n Terms & Concepts for Beginners' AND provider = 'Ryan & Matt Data Science' AND source = 'n8n Mastery Catalogue · English Tutorials & Workflows · YouTube search' AND url = 'https://www.youtube.com/results?search_query=n8n+Terms+%26+Concepts+for+Beginners';"
+  }
+}
