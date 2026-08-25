@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-08-25",
+  "verificationMethod": "Public YouTube title-specific search result pages",
+  "policy": "A direct canonical page is accepted only when the public creator corresponds to the persisted provider as well as the imported title. No provider metadata was rewritten during this fallback-recovery pass.",
+  "decision": "reject",
+  "records": [
+    {
+      "resourceId": 150114,
+      "importedTitle": "024 | إزاي تشتغل في مجال الأتمتة؟",
+      "storedProvider": "Ryan & Matt Data Science",
+      "publicCreator": "Kariim Nabiil - كريم نبيل",
+      "candidateUrl": "https://www.youtube.com/watch?v=_gs-DIGfQJs",
+      "reason": "Creator does not correspond to the stored provider; retain the existing search fallback."
+    },
+    {
+      "resourceId": 150115,
+      "importedTitle": "025 | إزاي بنسعر مشاريع n8n؟",
+      "storedProvider": "Ryan & Matt Data Science",
+      "publicCreator": "Kariim Nabiil - كريم نبيل",
+      "candidateUrl": "https://www.youtube.com/watch?v=M__8C7QBT4k",
+      "reason": "Creator does not correspond to the stored provider; retain the existing search fallback."
+    },
+    {
+      "resourceId": 150116,
+      "importedTitle": "026 | إزاي بنسلم مشاريع n8n؟",
+      "storedProvider": "Ryan & Matt Data Science",
+      "publicCreator": "Kariim Nabiil - كريم نبيل",
+      "candidateUrl": "https://www.youtube.com/watch?v=2__u2NHX8D4",
+      "reason": "Creator does not correspond to the stored provider; retain the existing search fallback."
+    },
+    {
+      "resourceId": 150117,
+      "importedTitle": "38-كل نماذج Open AI المفتوحة المصدر في دقائق!",
+      "storedProvider": "Ryan & Matt Data Science",
+      "publicCreator": "AI Plus - محمد الشامي",
+      "candidateUrl": "https://www.youtube.com/watch?v=XfUWjxSSY1s",
+      "reason": "Creator does not correspond to the stored provider; retain the existing search fallback."
+    }
+  ]
+}
