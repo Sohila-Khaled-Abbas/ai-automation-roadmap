@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-08-25",
+  "channelUrl": "https://www.youtube.com/@RyanAndMattDataScience",
+  "channelSearchUrl": "https://www.youtube.com/@RyanAndMattDataScience/search",
+  "verificationMethod": "Public creator channel search exposing a direct canonical page, plus public YouTube oEmbed title and author_name with deterministic codepoint equality comparison",
+  "match": {
+    "resourceId": 150152,
+    "title": "How to use Monday.com in n8n (API, Webhook, and Workflow)",
+    "directUrl": "https://www.youtube.com/watch?v=ZLHVYp2XLEM",
+    "publicOEmbedTitle": "How to use Monday.com in n8n (API, Webhook, and Workflow)",
+    "authorName": "Ryan & Matt Data Science",
+    "exactCodepointTitleMatch": true,
+    "oldUrl": "https://www.youtube.com/results?search_query=How+to+use+Monday.com+in+n8n+%28API%2C+Webhook%2C+and+Workflow%29",
+    "source": "n8n Mastery Catalogue · English Tutorials & Workflows · YouTube search",
+    "provider": "Ryan & Matt Data Science",
+    "guardedSql": "UPDATE learningResources SET url = 'https://www.youtube.com/watch?v=ZLHVYp2XLEM' WHERE id = 150152 AND title = 'How to use Monday.com in n8n (API, Webhook, and Workflow)' AND provider = 'Ryan & Matt Data Science' AND source = 'n8n Mastery Catalogue · English Tutorials & Workflows · YouTube search' AND url = 'https://www.youtube.com/results?search_query=How+to+use+Monday.com+in+n8n+%28API%2C+Webhook%2C+and+Workflow%29';"
+  }
+}
