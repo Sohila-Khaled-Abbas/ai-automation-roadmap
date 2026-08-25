@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-08-25",
+  "resourceId": 150107,
+  "importedTitle": "007 | أنواع البيانات في n8n | JSON",
+  "storedProvider": "Ryan & Matt Data Science",
+  "source": "n8n Mastery Catalogue · English Tutorials & Workflows · YouTube search",
+  "searchUrl": "https://www.youtube.com/results?search_query=007+%D8%A3%D9%86%D9%88%D8%A7%D8%B9+%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA+%D9%81%D9%8A+n8n+JSON",
+  "verificationMethod": "Public YouTube result extraction and title-specific public web search",
+  "decision": "reject",
+  "reason": "The public YouTube result extraction attributes the Arabic data-types lesson to Karim Nabil, not the persisted Ryan & Matt Data Science provider. No direct page is accepted because author/provider correspondence is required by the strict recovery policy. The existing transparent search fallback remains unchanged.",
+  "oldUrl": "https://www.youtube.com/results?search_query=007+%7C+%D8%A3%D9%86%D9%88%D8%A7%D8%B9+%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA+%D9%81%D9%8A+n8n+%7C+JSON"
+}
