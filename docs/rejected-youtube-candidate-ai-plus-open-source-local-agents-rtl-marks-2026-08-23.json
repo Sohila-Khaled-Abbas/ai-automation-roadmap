@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-08-23",
+  "playlistUrl": "https://www.youtube.com/playlist?list=PLZ42ZUInDWC79Bw1K_tYQhUPfFRV7fy8v",
+  "verificationMethod": "Public playlist direct URL plus YouTube public oEmbed title and author_name",
+  "rejections": [
+    {
+      "resourceId": 150046,
+      "importedTitle": "18 – ما الذي يجب معرفته قبل استخدام Open‑Source LLMs مع n8n؟",
+      "candidateUrl": "https://www.youtube.com/watch?v=LuxBKSKQuFg",
+      "publicOEmbedTitle": "18 – ما الذي يجب معرفته قبل استخدام ‏Open‑Source LLMs‏ مع ‏n8n‏؟",
+      "publicAuthorName": "AI Plus - محمد الشامي",
+      "decision": "rejected_unmatched_u200f_directional_marks",
+      "result": "search_fallback_retained"
+    },
+    {
+      "resourceId": 150047,
+      "importedTitle": "19 –Free Local AI Agents على جهازك: Open‑Source LLM مع DeepSeek وOllama _ n8n Self‑Hosting",
+      "candidateUrl": "https://www.youtube.com/watch?v=AG3pq34tfqc",
+      "publicOEmbedTitle": "19 –‏Free Local AI Agents‏ على جهازك: ‏Open‑Source LLM‏ مع ‏DeepSeek‏ و‏Ollama‏ _ ‏n8n Self‑Hosting‏",
+      "publicAuthorName": "AI Plus - محمد الشامي",
+      "decision": "rejected_unmatched_u200f_directional_marks",
+      "result": "search_fallback_retained"
+    }
+  ],
+  "databaseUpdate": "none"
+}
